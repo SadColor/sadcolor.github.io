@@ -37,14 +37,19 @@ h3 {
     color:var(--ao);
 }
 
+.head {
+    margin:16px auto;
+}
+
 .post_body {
     width:80%;
     max-width:720px;
     min-width:256px;
+    margin:8px auto;
 }
 
 .post_body p {
-    background-color:var(--blue);
+    background-color:var(--ao);
     padding: 8px;
 }
 
