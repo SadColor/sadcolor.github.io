@@ -86,7 +86,7 @@ h3 {
     width:80%;
     max-width:720px;
     min-width:256px;
-    margin:8px auto;
+    margin:8px auto 96px auto;
 }
 
 .chat {
