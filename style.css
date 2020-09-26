@@ -13,7 +13,7 @@
 }
 
 body {
-	background-color: #000;
+	background-color: var(--bg);
 	font-family: "MS Gothic", "Fang Song";
 	font-size: 10pt;
 	color: var(--siro);
@@ -44,10 +44,12 @@ h3 {
 }
 
 .post_body p {
-    background-color:var(--bg);
+    background-color:var(--blue);
+    padding: 8px;
 }
 
 .reibun {
     background-color:var(--tan);
     color: var(--kuro);
+    padding: 8px;
 }
