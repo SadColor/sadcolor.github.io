@@ -1,0 +1,18 @@
+:root {
+	--bg: #181020;
+	--siro: #fff0e0;
+	--aka: #e85060;
+	--pink: #ff90e8;
+	--ao: #6070ff;
+	--midori: #18e880;
+	--ki: #ffdd40;
+	--purple: #9060c0;
+	--cyan: #a0f8ff;
+}
+
+body {
+	background-color: var(--bg);
+	font-family: "MS Gothic", "Fang Song";
+	font-size: 10pt;
+	color: var(--siro);
+}	
