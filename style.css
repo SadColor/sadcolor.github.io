@@ -1,3 +1,9 @@
+@font-face {
+	font-family:"Mona";
+	src:local("Mona"),
+	url(/mona.ttf);
+}
+
 :root {
 	--bg: #181020;
 	--siro: #fff0e0;
@@ -10,35 +16,67 @@
 	--cyan: #a0f8ff;
     --tan: #e8a878;
     --kuro: #383448;
+	--makkuro: #101040;
 }
 
 body {
 	background-color: var(--bg);
-	font-family: "MS Gothic", "Fang Song";
-	font-size: 10pt;
-	color: var(--siro);
+	font-family: "Mona","MS Gothic", sans-serif;
+	font-size: 12pt;
+	color: var(--makkuro);
+	line-height:1.5em;
 }	
 
+a:link, a:visited{
+	color: var(--siro);
+	text-decoration: underline dotted;
+}
+
+a:hover {
+	text-decoration: underline solid;
+}
+
+p {
+	margin: 0px;
+}
+
+rt {
+	font-family: "Mona","MS PGothic",sans-serif;
+	font-size:9pt;
+	line-height: 0;
+}
 h1 {
+	font-family: "MS Gothic", sans-serif;
     font-size:16pt;
     font-weight: bold;
     color:var(--ki);
+	margin:16px 0 8px 0;
 }
 
 h2 {
-    font-size:12pt;
+	font-family: "MS Gothic", sans-serif;
+    font-size:16pt;
     font-weight: bold;
     color:var(--purple);
+	margin:8px 0 16px 0;
 }
 
 h3 {
     font-size:12pt;
     font-weight: bold;
-    color:var(--ao);
+    color:var(--siro);
+	text-align:center;
+	padding:8px;
+	border:1px dashed var(--siro);
+	background-color: var(--kuro);
 }
+
 
 .head {
     margin:16px auto;
+	text-align: center;
+	display: inline-block;
+	border: 1px	
 }
 
 .post_body {
@@ -48,13 +86,30 @@ h3 {
     margin:8px auto;
 }
 
-.post_body p {
+.chat {
     background-color:var(--ao);
-    padding: 8px;
+    padding: 10px 16px 8px 16px;
+	margin: 8px 0;
+	position: relative;
 }
 
 .reibun {
-    background-color:var(--tan);
-    color: var(--kuro);
-    padding: 8px;
+    background-color:var(--tan);    
+    padding: 10px 16px 8px 16px;
+	margin: 8px 0;
+}
+
+
+
+.triR {
+	position:absolute;
+	right:-20px;
+	bottom:0;
+	fill:var(--ao);
+}
+.triL {
+	position:absolute;
+	left:-20px;
+	bottom:0;
+	fill:var(--ao);
 }
