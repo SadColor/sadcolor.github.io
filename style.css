@@ -8,10 +8,12 @@
 	--ki: #ffdd40;
 	--purple: #9060c0;
 	--cyan: #a0f8ff;
+    --tan: #e8a878;
+    --kuro: #383448;
 }
 
 body {
-	background-color: var(--bg);
+	background-color: #000;
 	font-family: "MS Gothic", "Fang Song";
 	font-size: 10pt;
 	color: var(--siro);
@@ -33,4 +35,19 @@ h3 {
     font-size:12pt;
     font-weight: bold;
     color:var(--ao);
+}
+
+.post_body {
+    width:80%;
+    max-width:720px;
+    min-width:256px;
+}
+
+.post_body p {
+    background-color:var(--bg);
+}
+
+.reibun {
+    background-color:var(--tan);
+    color: var(--kuro);
 }
