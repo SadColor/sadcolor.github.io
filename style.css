@@ -45,6 +45,7 @@ rt {
 	font-size:9pt;
 	line-height: 0;
 }
+
 h1 {
 	font-family: "MS Gothic", sans-serif;
     font-size:16pt;
@@ -76,7 +77,11 @@ h3 {
     margin:16px auto;
 	text-align: center;
 	display: inline-block;
-	border: 1px	
+	width:80%;
+    max-width:720px;
+    min-width:256px;
+    margin:8px auto;
+	border: 1px solid var(--purple);
 }
 
 .post_body {
