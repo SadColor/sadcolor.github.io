@@ -76,11 +76,9 @@ h3 {
 .head {
     margin:16px auto;
 	text-align: center;
-	display: inline-block;
 	width:80%;
     max-width:720px;
     min-width:256px;
-    margin:8px auto;
 	border: 1px solid var(--purple);
 }
 
