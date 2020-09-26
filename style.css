@@ -16,3 +16,21 @@ body {
 	font-size: 10pt;
 	color: var(--siro);
 }	
+
+h1 {
+    font-size:16pt;
+    font-weight: bold;
+    color:var(--ki);
+}
+
+h2 {
+    font-size:12pt;
+    font-weight: bold;
+    color:var(--purple);
+}
+
+h3 {
+    font-size:12pt;
+    font-weight: bold;
+    color:var(--ao);
+}
