@@ -1,7 +1,9 @@
 @font-face {
 	font-family:"Mona";
 	src:local("Mona"),
-	url(/mona.ttf);
+	url(/mona.woff2) format("woff2"),
+	url(/mona.woff) format("woff"),
+	url(/mona.ttf) format("truetype");
 }
 
 :root {
