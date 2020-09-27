@@ -3,6 +3,8 @@ layout: jp_layout
 title: forming basic sentences
 ---
 
+{% include jp-articlestuff.html %}
+
 <div class="head">
 <h1>{{ page.title }}</h1>
 <h2><ruby>文<rt>ぶん</rt></ruby>の<ruby>基<rt>き</rt>本<rt>ほん</rt></ruby></h2>
@@ -13,31 +15,47 @@ title: forming basic sentences
 Today, we're gonna be starting with some really basic sentences!</p></div class="chat">
 
 <h3>What constitutes a sentence in Japanese?</h3>
-<div class="chat"><p>In English, you may know that sentences require a subject and a verb (and object for a transitive verb), and that your clause must form a "complete thought" (with some exceptions).</p>
-{% include triangle.html dir="r" %}
+<div class="chat"><p>In English, you may know that sentences require a subject and a verb (and object for a transitive verb), and that your clause must form a "complete thought" (with some exceptions like answering a question).</p>
+{{ triR }}
 </div class="chat">
-<div class="reibun">(put some examples here)</div>
 
-<div class="chat"><p>Unlike English, Japanese is a much more context-sensitive language. You can have totally valid sentences with just one word.</p>
-{% include triangle.html dir="l" %}
+{{ reibuntop }}
+<div class="reibun">
+<table>
+	<tr>
+		<td>I cried. <b><t-b>〇</t-b></b></td>
+		<td>She is cool. <b><t-g>〇</t-g></b></td>
+		<td>Going home. <b><t-r>×</t-r></b></td>
+	</tr>
+</table>
+</div>
+
+<div class="chat"><p>Unlike English, Japanese is a much more <t-r>context-sensitive language</t-r>. You can have totally valid sentences with just one word.</p>
+{{ triL }}
 </div class="chat">
+
+{{ reibuntop }}
 <div class="reibun">(put some examples here)</div>
 
 <h3>Okay, but I wanna make sentences that are longer than one word...</h3>
 <div class="chat"><p>Japanese is considered a topic-comment language.<br/>
-A basic sentence structure is 「subjectはpredicate」, with は being the topic particle.<br/>
-＊Note that when used as a particle, は is pronounced わ.</p>
-{% include triangle.html dir="r" %}
+A basic sentence structure is 「topicはcomment」, with は being the topic particle.<br/>
+</t-y>＊Note that when used as a particle, は is pronounced わ.</t-y></p>
+{{ triR }}
 </div class="chat">
+
+{{ reibuntop }}
 <div class="reibun">(put some examples here)</div>
     
 <div class="chat"><p>
 When we use this sentence structure with a noun or adjective in the predicate, we add です to the end of the sentence (for the time being). <br/>
-You can think of it like the English word "be", but I would not recommend sticking to this conception very tightly. I'll explain more about it in a future lesson, but for now, please remember to use it.<br/>
+You can think of it like the English word "be", but I would 	not recommend sticking to this conception very tightly. I'll explain more about it in a future lesson, but for now, please remember to use it.<br/>
 It's polite.
 </p>
-{% include triangle.html dir="l" %}
+{{ triL }}
 </div class="chat">
+
+{{ reibuntop }}
 <div class="reibun">(put some examples here)</div>
 
 <div class="chat"><p>
@@ -45,6 +63,6 @@ Using this structure with a verb can be a little tricky. Depending on the verb, 
 Many intransitive verbs like <ruby>始<rt>はじ</rt></ruby>まる, <ruby>開<rt>あ</rt></ruby>く, or つく refer back to the subject of the verb, and so take the particle が.<br/>
 Again, I'll have to explain more in a future lesson, so just remember to check how your verbs are used in example sentences!
 </p>
-{% include triangle.html dir="r" %}
+{{ triR }}
 </div class="chat">
 </div>
