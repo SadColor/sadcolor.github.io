@@ -61,10 +61,10 @@ h2 {
 h3 {
     font-size:16px;
     font-weight: bold;
-    color:var(--siro);
+    color:var(--pink);
 	text-align:center;
 	padding:8px;
-	border:1px dashed var(--siro);
+	border:1px dashed var(--pink);
 	background-color: var(--kuro);
 }
 
@@ -95,13 +95,18 @@ h3 {
 
 .reibun {
     background-color:var(--cream);    
-    padding: 10px 16px 8px 16px;
+    padding: 12px 16px;
 	margin: 0;
 }
 
 .reibun table {
 	width:100%;
 	padding:0px 8px;
+}
+
+.reibun tr {
+	line-height:1;
+	vertical-align:bottom;
 }
 
 t-yaku {
@@ -122,6 +127,15 @@ t-yaku {
 	padding: 2px 0 2px 4px;
 	line-height:0.8;
 	display:inline;
+	color:var(--kuro);
+}
+
+.note {
+	border:1px dashed var(--purple);
+	color:var(--purple);
+    padding: 10px 16px 8px 16px;
+	margin: 8px 0;
+	position: relative;
 }
 
 /*
@@ -145,6 +159,9 @@ t-p {
 t-w {
 	color:var(--siro);
 }
+t-cr {
+	color:var(--cream);
+}
 t-k {
 	color:var(--kuro);
 }
@@ -156,19 +173,23 @@ t-mk {
 /*
 	triangles lol
 */
-.triR {
+.triR, 
+.triL {
 	position:absolute;
-	right:-20px;
 	bottom:0;
 	fill:var(--kuro);
 }
 .triL {
-	position:absolute;
 	left:-20px;
-	bottom:0;
-	fill:var(--kuro);
+}
+.triR {
+	right:-20px;
 }
 .triE {
 	margin:0;
 	fill:var(--cream);
+}
+.note.triR,
+.note.triL {
+	fill:var(--purple);
 }
