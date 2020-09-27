@@ -106,6 +106,7 @@ h3 {
 
 .reibun-top {
 	height:12px;
+	overflow:hidden;
 	font-size:0;
 }
 
@@ -114,7 +115,7 @@ h3 {
 	text-align:center;
 	background-color:var(--cream);
 	font-size: 9pt;
-	padding: 2px 0 0 4px;
+	padding: 2px 0 2px 4px;
 	line-height:0.8;
 	display: inline-block;
 	position:relative;
@@ -168,4 +169,6 @@ t-mk {
 .triE {
 	margin:0;
 	fill:var(--cream);
+	position:relative;
+	top:1px
 }
