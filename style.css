@@ -107,6 +107,7 @@ h3 {
 .reibun table {
 	width:100%;
 	padding:0px 8px;
+	table-layout:fixed;
 }
 
 .reibun tr {
