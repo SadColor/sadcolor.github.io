@@ -11,6 +11,7 @@
     --tan: #e8a878;
     --kuro: #383448;
 	--makkuro: #101040;
+	--cream: #ffd8b0;
 }
 
 body {
@@ -28,6 +29,7 @@ a:link, a:visited{
 
 a:hover {
 	text-decoration: underline solid;
+	background-color: rgba(255,240,224,0.25);
 }
 
 p {
@@ -92,7 +94,7 @@ h3 {
 }
 
 .reibun {
-    background-color:var(--tan);    
+    background-color:var(--cream);    
     padding: 10px 16px 8px 16px;
 	margin: 0;
 }
@@ -105,7 +107,7 @@ h3 {
 .reibun-head {
 	width:60px;
 	text-align:center;
-	background-color:var(--tan);
+	background-color:var(--cream);
 	font-size: 9pt;
 	padding: 2px 0 0 4px;
 	line-height:0.8;
@@ -134,7 +136,12 @@ t-p {
 t-w {
 	color:var(--siro);
 }
-
+t-k {
+	color:var(--kuro);
+}
+t-mk {
+	color:var(--makkuro);
+}
 
 
 /*
@@ -154,7 +161,7 @@ t-w {
 }
 .triE {
 	margin:0;
-	fill:var(--tan);
+	fill:var(--cream);
 	position: relative;
 	left: 64px;
 }
