@@ -9,6 +9,7 @@
 	--darkgreen: #089050;
 	--ki: #ffdd40;
 	--purple: #9060c0;
+	--darkpurple:#602888;
 	--cyan: #a0f8ff;
     --tan: #e8a878;
     --kuro: #383448;
@@ -66,8 +67,7 @@ h3 {
     color:var(--pink);
 	text-align:center;
 	padding:8px;
-	border:1px dashed var(--pink);
-	background-color: var(--kuro);
+	border-bottom:1px solid var(--pink);
 }
 
 
@@ -133,8 +133,8 @@ t-yaku {
 }
 
 .note {
-	border:1px dashed var(--purple);
-	color:var(--purple);
+	border:1px dashed var(--ao);
+	color:var(--ao);
     padding: 10px 16px 8px 16px;
 	margin: 8px 0;
 	position: relative;
@@ -163,6 +163,9 @@ t-y {
 }
 t-p {
 	color:var(--purple);
+}
+t-p2 {
+	color:var(--darkpurple);
 }
 t-w {
 	color:var(--siro);
@@ -197,7 +200,7 @@ t-mk {
 	margin:0;
 	fill:var(--cream);
 }
-.note.triR,
-.note.triL {
-	fill:var(--purple);
+.note .triR,
+.note .triL {
+	fill:var(--ao);
 }
