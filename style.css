@@ -115,6 +115,7 @@ h3 {
 }
 
 t-yaku {
+	font-family:"Mona","MS PGothic", sans-serif;
 	font-size:14px;
 	color:var(--kuro);
 }
