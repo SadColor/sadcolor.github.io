@@ -2,8 +2,10 @@
 	--bg: #181020;
 	--siro: #fff0e0;
 	--aka: #e85060;
+	--darkaka: #c83848;
 	--pink: #ff90e8;
 	--ao: #6070ff;
+	--darkao: #4050e0;
 	--midori: #18e880;
 	--green: #10b484;
 	--darkgreen: #089050;
@@ -146,6 +148,9 @@ t-yaku {
 t-r {
 	color:var(--aka);
 }
+t-r2 {
+	color:var(--darkaka);
+}
 t-g {
 	color:var(--midori);
 }
@@ -157,6 +162,9 @@ t-g3 {
 }
 t-b {
 	color:var(--ao);
+}
+t-b2 {
+	color:var(--darkao);
 }
 t-y {
 	color:var(--ki);
@@ -199,6 +207,12 @@ t-mk {
 .triE {
 	margin:0;
 	fill:var(--cream);
+}
+.cornerR {
+	position:absolute;
+	bottom:0;
+	right:0;
+	fill:var(--bg);
 }
 .note .triR,
 .note .triL {
