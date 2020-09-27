@@ -101,6 +101,7 @@ h3 {
     background-color:var(--cream);    
     padding: 12px 16px;
 	margin: 0;
+	position:relative;
 }
 
 .reibun table {
