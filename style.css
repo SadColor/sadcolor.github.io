@@ -5,6 +5,8 @@
 	--pink: #ff90e8;
 	--ao: #6070ff;
 	--midori: #18e880;
+	--green: #10b484;
+	--darkgreen: #089050;
 	--ki: #ffdd40;
 	--purple: #9060c0;
 	--cyan: #a0f8ff;
@@ -146,6 +148,12 @@ t-r {
 }
 t-g {
 	color:var(--midori);
+}
+t-g2 {
+	color:var(--green);
+}
+t-g3 {
+	color:var(--darkgreen);
 }
 t-b {
 	color:var(--ao);
