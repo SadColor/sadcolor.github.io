@@ -151,7 +151,8 @@ t-yaku {
 t-r {
 	color:var(--aka);
 }
-t-r2 {
+t-r2,
+.reibun t-r{
 	color:var(--darkaka);
 }
 t-g {
@@ -160,13 +161,15 @@ t-g {
 t-g2 {
 	color:var(--green);
 }
-t-g3 {
+t-g3,
+.reibun t-g {
 	color:var(--darkgreen);
 }
 t-b {
 	color:var(--ao);
 }
-t-b2 {
+t-b2,
+.reibun t-b{
 	color:var(--darkao);
 }
 t-y {
@@ -175,7 +178,8 @@ t-y {
 t-p {
 	color:var(--purple);
 }
-t-p2 {
+t-p2,
+.reibun t-p{
 	color:var(--darkpurple);
 }
 t-w {
