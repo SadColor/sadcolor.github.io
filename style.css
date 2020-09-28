@@ -86,7 +86,7 @@ h3 {
     width:80%;
     max-width:720px;
     min-width:256px;
-    margin:8px auto 96px auto;
+    margin:8px auto 160px auto;
 }
 
 .chat {
@@ -191,6 +191,21 @@ t-mk {
 	color:var(--makkuro);
 }
 
+/*
+	images
+*/
+.frogL,
+.frogR {
+	position:absolute;
+	top:0;
+}
+.frogL {
+	right:752px;
+}
+.frogR {
+	left:752px;
+	transform:scaleX(-1);
+}
 
 /*
 	triangles lol
