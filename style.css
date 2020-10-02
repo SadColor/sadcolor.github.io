@@ -125,7 +125,8 @@ h3 {
 	vertical-align:bottom;
 }
 
-t-yaku {
+tr .yaku {
+	vertical-align:top;
 	font-family:"Mona","MS PGothic", sans-serif;
 	font-size:14px;
 	color:var(--kuro);
