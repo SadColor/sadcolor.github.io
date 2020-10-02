@@ -4,10 +4,10 @@
 	<div class="pagination">
 		<span style="margin:auto"><a href="/jp">index</a></span>
 		{% if pnc contains 'p' %}
-		<span style="position:absolute;left:0"><a href="/jp/{{ page.prv }}">« prev</a></span>
+		<span style="position:absolute;left:0"><a href="/jp/p{{ page.prv }}">« prev</a></span>
 		{% endif %}
 		{% if pnc contains 'n' %}
-		<span style="position:absolute;right:0"><a href="/jp/{{ page.nxt }}">next »</a></span>
+		<span style="position:absolute;right:0"><a href="/jp/p{{ page.nxt }}">next »</a></span>
 		{% endif %}
 	</div>
 {% endcapture %}
