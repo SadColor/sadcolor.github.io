@@ -1,6 +1,16 @@
 <!--worthless-->
-{% capture pr %}{{ page.prv }}{% endcapture %}
-{% capture nx %}{{ page.nxt }}{% endcapture %}
+{% capture pnc %}{{ page.check }}{% endcapture %}
+{% capture pagination %}
+	<div class="pagination">
+		<span style="margin:auto"><a href="/jp">index</a></span>
+		{% if pnc contains 'p' %}
+		<span style="position:absolute;left:0"><a href="/jp/{{ page.prv }}">« prev</a></span>
+		{% endif %}
+		{% if pnc contains 'n' %}
+		<span style="position:absolute;right:0"><a href="/jp/{{ page.nxt }}">next »</a></span>
+		{% endif %}
+	</div>
+{% endcapture %}
 <!--page elements-->
 {% capture triL %}
 	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="triL">

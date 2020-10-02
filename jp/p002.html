@@ -2,6 +2,7 @@
 layout: jp_layout
 title: 'the copula: である'
 prv: '001'
+check: 'p'
 ---
 
 {% include jp-articlestuff.html %}
@@ -9,9 +10,7 @@ prv: '001'
 <div class="head">
 <h1>{{ page.title }}</h1>
 <h2><ruby>繋辞<rt>けいじ</rt></ruby>：である</h2>
-<div class="pagination">
-	{% include jp-pagination.html p=pr n=nx %}
-</div>
+	{{ pagination }}
 </div>
 
 <div class="post_body">
@@ -173,7 +172,7 @@ Thanks for reading, and see ya next time!
 
 <div class="head">
 <div class="pagination">
-	{% include jp-pagination.html p=pr n=nx %}
+	{{ pagination }}
 </div>
 </div>
 <div style="margin-bottom:128px"/>

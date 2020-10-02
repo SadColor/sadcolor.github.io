@@ -89,6 +89,7 @@ h3 {
 .pagination {
 	width: 95%;
 	margin: 8px auto;
+	position: relative;
 }
 
 .post_body {
