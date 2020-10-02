@@ -1,6 +1,7 @@
 ---
 layout: jp_layout
-title: forming basic sentences
+title: 'forming basic sentences'
+nxt: '002'
 ---
 
 {% include jp-articlestuff.html %}
@@ -8,6 +9,9 @@ title: forming basic sentences
 <div class="head">
 <h1>{{ page.title }}</h1>
 <h2><ruby>文<rt>ぶん</rt></ruby>の<ruby>基本<rt>きほん</rt></ruby></h2>
+<div class="pagination">
+	{% include jp-pagination.html p=pr n=nx %}
+</div>
 </div>
 
 <div class="post_body">
@@ -238,3 +242,11 @@ Thanks for reading, and see ya next time!
 </div>
 
 </div>
+
+<div class="head">
+<div class="pagination">
+	{% include jp-pagination.html p=pr n=nx %}
+</div>
+</div>
+
+<div style="margin-bottom:128px"/>

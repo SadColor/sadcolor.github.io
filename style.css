@@ -28,13 +28,17 @@ body {
 }	
 
 a:link, a:visited{
-	color: var(--siro);
+	color: var(--ki);
 	text-decoration: underline dotted;
 }
 
 a:hover {
 	text-decoration: underline solid;
 	background-color: rgba(255,240,224,0.25);
+}
+
+li {
+	list-style-type: none;
 }
 
 p {
@@ -82,11 +86,16 @@ h3 {
 	border: 1px solid var(--purple);
 }
 
+.pagination {
+	width: 95%;
+	margin: 8px auto;
+}
+
 .post_body {
     width:80%;
     max-width:720px;
     min-width:256px;
-    margin:8px auto 160px auto;
+    margin:8px auto;
 }
 
 .chat {
