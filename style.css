@@ -215,7 +215,7 @@ t-mk {
 .frogL,
 .frogR {
 	position:absolute;
-	top:0;
+	bottom:-120px;
 }
 .frogL {
 	right:752px;
