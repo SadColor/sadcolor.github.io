@@ -125,11 +125,14 @@ h3 {
 	vertical-align:bottom;
 }
 
-tr.yaku {
-	vertical-align:top;
+.yaku {
 	font-family:"Mona","MS PGothic", sans-serif;
 	font-size:14px;
 	color:var(--kuro);
+}
+
+tr.yaku {
+	vertical-align:top;
 }
 
 .reibun-top {
