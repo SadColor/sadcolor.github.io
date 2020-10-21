@@ -218,10 +218,10 @@ t-mk {
 	bottom:-120px;
 }
 .frogL {
-	right:752px;
+	right:calc(100% + 32px);
 }
 .frogR {
-	left:752px;
+	left:calc(100% + 32px);
 	transform:scaleX(-1);
 }
 
