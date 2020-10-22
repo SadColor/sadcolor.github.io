@@ -25,6 +25,7 @@ body {
 	font-size: 16px;
 	color: var(--makkuro);
 	line-height:1.5em;
+	overflow-x:hidden;
 }	
 
 a:link, a:visited{
@@ -80,7 +81,7 @@ h3 {
 .head {
     margin:16px auto;
 	text-align: center;
-	width:80%;
+	width:85%;
     max-width:720px;
     min-width:256px;
 	border: 1px solid var(--purple);
@@ -93,7 +94,7 @@ h3 {
 }
 
 .post_body {
-    width:80%;
+    width:85%;
     max-width:720px;
     min-width:256px;
     margin:8px auto;
