@@ -115,7 +115,7 @@ h3 {
 	position:relative;
 }
 
-.reibun table {
+table {
 	width:100%;
 	padding:0px 8px;
 	table-layout:fixed;
@@ -158,6 +158,15 @@ tr.yaku {
     padding: 10px 16px 8px 16px;
 	margin: 8px 0;
 	position: relative;
+}
+
+.pages {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.pages a {
+	margin: 0px 8px;
 }
 
 /*
