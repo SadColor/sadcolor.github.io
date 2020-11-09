@@ -163,6 +163,9 @@ tr.yaku {
 .pages {
 	display: flex;
 	flex-flow: row wrap;
+	padding: 8px;
+	background: var(--kuro);
+	justify-content: center;
 }
 
 .pages a {
