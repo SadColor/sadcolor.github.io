@@ -13,12 +13,14 @@ layout: kakuge_layout
 		<table>
 			<tr>
 				<td>
-					<h3>{{ topL }}Stats{{ cornerR }}</h3>
-					<b><t-g>HP</t-g> • {{ chr.stats.hp }}</b><br/>
-					<b><t-y>SP</t-y> • {{ chr.stats.sp }}</b><br/>
+					<h3>{{ nesttopL }}Stats{{ nestcornerR }}</h3>
+					<table><tr>
+					<td><b><t-g>HP</t-g> • {{ chr.stats.hp }}</b></td>
+					<td><b><t-y>SP</t-y> • {{ chr.stats.sp }}</b></td>
+					</tr></table>
 					
 					<span>Traits</span>
-					<div>
+					<div class="traits">
 						{% for trait in chr.stats.traits %}
 							<span>{{ trait.t }}<br/></span>
 						{% endfor %}

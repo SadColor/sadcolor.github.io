@@ -1,10 +1,10 @@
 {
 	"stats": {
-		"image":"/img/vi/5a.png",
+		"image":"",
 		"hp":"<t-g>１０００</t-g>",
 		"sp":"<t-g>２０</t-g>",
 		"traits": [
-			{ "t": "Vi's Hop leaves her airborne and lets her act very quickly compared to a normal Hop." }, 
+			{ "t": "Vi's Hop leaves her airborne and lets her act quickly." }, 
 			{ "t": "Vi's D gives her unique aerial mobility." },
 			{ "t": "Vi is short and always takes crouching hitstun." }
 		],
