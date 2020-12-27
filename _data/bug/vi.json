@@ -24,6 +24,19 @@
 			"attributes": {
 				"guard":"mid"
 			}
+		},
+		
+		{
+			"id":"5c",
+			"image":"https://i.imgur.com/7oLgUdn.png",
+			"name":"{{ n5 }}{{ C }}",
+			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
+			"damage":"66",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid"
+			}
 		}
 	]
 }
