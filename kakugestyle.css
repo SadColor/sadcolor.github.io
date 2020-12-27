@@ -218,16 +218,33 @@ t-cy {
 .triR {
 	right:-20px;
 }
-.triE {
-	margin:0;
-	fill:var(--cream);
-}
-.cornerR {
+
+
+.cornerR,
+.cornerL,
+.topR,
+.topL {
 	position:absolute;
-	bottom:0;
-	right:0;
 	fill:var(--bg);
 }
+
+.cornerR{
+	bottom:0;
+	right:0;
+}
+.cornerL{
+	bottom:0;
+	left:0;
+}
+.topR {
+	top:0;
+	right:0;
+}
+.topL {
+	top:0;
+	left:0;
+}
+
 .note .triR,
 .note .triL {
 	fill:var(--ao);
