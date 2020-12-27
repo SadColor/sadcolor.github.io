@@ -144,7 +144,7 @@ table {
 */
 .dirimg {
 	display: inline-block;
-	margin: auto 0;
+	vertical-align: text-top;
 }
 
 /*
