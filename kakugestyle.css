@@ -71,10 +71,11 @@ h2 {
 h3 {
     font-size:16px;
     font-weight: bold;
-    color:var(--pink);
+    color:var(--siro);
 	text-align:center;
 	padding:8px;
-	border-bottom:1px solid var(--pink);
+	background-color:var(--kuro);
+	position:relative;
 }
 
 
@@ -95,17 +96,21 @@ h3 {
 
 .post_body {
     width:85%;
-    max-width:720px;
-    min-width:256px;
+    max-width:1024px;
+    min-width:480px;
     margin:8px auto;
 }
 
-.chat {
+.chat,
+.chatS {
     background-color:var(--makkuro);
 	color:var(--siro);
-    padding: 10px 16px 8px 16px;
-	margin: 8px 0;
+    padding: 10px 16px 8px;
+	margin: 0 0 8px;
 	position: relative;
+}
+.chatS {
+	font-size:14px;
 }
 
 table {
