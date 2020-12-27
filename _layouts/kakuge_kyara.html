@@ -4,6 +4,7 @@ layout: kakuge_layout
 
 {{ content }}
 
+{% include kakugestuff.html %}
 {% for attack in site.data.bug.vi.normals %}
 	<img src={{ attack.image }} /><br/>
 	<p>{{ attack.name }}<br/>{{ attack.description }}</p>
