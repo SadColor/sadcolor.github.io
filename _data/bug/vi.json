@@ -1,6 +1,6 @@
 {
 	"stats": {
-		"image":"",
+		"image":"/img/vi/5a.png",
 		"hp":"<t-g>１０００</t-g>",
 		"sp":"<t-g>２０</t-g>",
 		"traits": [
@@ -23,7 +23,7 @@
 	"normals": [
 		{
 			"id":"5a",
-			"image":"https://i.imgur.com/T7zAJdo.png",
+			"image":"/img/vi/5a.png",
 			"name":"{{ n5 }}{{ A }}",
 			"input":"{{ d0 }}{{ A }}",
 			"description":"Backhanded needle slash.",
@@ -40,7 +40,7 @@
 		
 		{
 			"id":"5b",
-			"image":"https://i.imgur.com/BS5J6WF.png",
+			"image":"/img/vi/5b.png",
 			"name":"{{ n5 }}{{ B }}",
 			"input":"{{ d0 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
@@ -54,7 +54,7 @@
 		
 		{
 			"id":"5c",
-			"image":"https://i.imgur.com/7oLgUdn.png",
+			"image":"/img/vi/5c.png",
 			"name":"{{ n5 }}{{ C }}",
 			"input":"{{ d0 }}{{ C }}",
 			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
@@ -71,7 +71,7 @@
 		
 		{
 			"id":"2a",
-			"image":"",
+			"image":"/img/vi/2a.png",
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
 			"description":"Backhanded needle slash.",
@@ -88,7 +88,7 @@
 		
 		{
 			"id":"2b",
-			"image":"",
+			"image":"/img/vi/2b.png",
 			"name":"{{ n2 }}{{ B }}",
 			"input":"{{ d2 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
@@ -102,7 +102,7 @@
 		
 		{
 			"id":"2c",
-			"image":"",
+			"image":"/img/vi/2c.png",
 			"name":"{{ n2 }}{{ C }}",
 			"input":"{{ d2 }}{{ C }}",
 			"description":"Low needle swipe. Moves forward a little bit.",
@@ -117,7 +117,7 @@
 		
 		{
 			"id":"ja",
-			"image":"",
+			"image":"/img/vi/ja.png",
 			"name":"{{ j }}{{ A }}",
 			"input":"{{ A }} while airborne",
 			"description":"Downwards needle slash.<br/>The downwards angle lets you use it as an instant overhead with her hop.",
@@ -131,7 +131,7 @@
 		
 		{
 			"id":"jb",
-			"image":"",
+			"image":"/img/vi/jb.png",
 			"name":"{{ j }}{{ B }}",
 			"input":"{{ B }} while airborne",
 			"description":"Forward slash. Has the most horizontal range of Vi's air normals by a little bit.",
@@ -145,7 +145,7 @@
 		
 		{
 			"id":"jc",
-			"image":"",
+			"image":"/img/vi/jc.png",
 			"name":"{{ j }}{{ C }}",
 			"input":"{{ C }} while airborne",
 			"description":"Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.",
