@@ -15,7 +15,7 @@
 	--cyan: #a0f8ff;
     --tan: #e8a878;
     --kuro: #383448;
-	--makkuro: #101040;
+	--makkuro: #141420;
 	--cream: #ffd8b0;
 }
 
@@ -101,7 +101,7 @@ h3 {
 }
 
 .chat {
-    background-color:var(--kuro);
+    background-color:var(--makkuro);
 	color:var(--siro);
     padding: 10px 16px 8px 16px;
 	margin: 8px 0;
@@ -137,6 +137,14 @@ table {
 
 .hide {
 	display: none;
+}
+
+/*
+	button images
+*/
+.dirimg {
+	display: inline-block;
+	margin: auto 0;
 }
 
 /*
