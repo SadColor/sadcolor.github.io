@@ -1,6 +1,7 @@
 {
 	"normals": [
 		{
+			"id":"5a",
 			"image":"https://i.imgur.com/T7zAJdo.png",
 			"name":"{{ n5 }}{{ A }}",
 			"description":"Backhanded needle slash.",
@@ -13,6 +14,7 @@
 		},
 		
 		{
+			"id":"5b",
 			"image":"https://i.imgur.com/BS5J6WF.png",
 			"name":"{{ n5 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
