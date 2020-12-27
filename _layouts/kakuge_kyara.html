@@ -5,11 +5,34 @@ layout: kakuge_layout
 {{ content }}
 
 {% include kakugestuff.html %}
+
+{% assign chr = site.data.bug.[page.kyara] %}
 <div class="post_body">
+	<h3>Stats</h3>
+	<table>
+		<tr>
+			<td>
+				<div style="border:1px solid var(--midori)">Stats</div>
+				<b><t-g>HP</t-g>: {{ chr.stats.hp }}</b><br/>
+				<b><t-y>SP</t-y>: {{ chr.stats.sp }}</b><br/>
+			</td>
+			<td>
+				<span>image</span>
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2">
+				<!-- pros/cons -->
+			</td>
+		</tr>
+	</table>
+
+	<h3>Normals</h3>
 	<div class="chat">
-		{% for attack in site.data.bug.vi.normals %}
+		{% for attack in chr.normals %}
 			<img src={{ attack.image }} /><br/>
 			<p>{{ attack.name | liquify }}<br/>{{ attack.description }}</p>
 		{% endfor %}
+		{{ cornerR }}
 	</div>
 </div>

@@ -1,15 +1,40 @@
 {
+	"stats": {
+		"image":"",
+		"hp":"<t-g>１０００</t-g>",
+		"sp":"<t-g>２０</t-g>",
+		"traits": [
+			{ "t": "Vi's Hop leaves her airborne and lets her act very quickly compared to a normal Hop." }, 
+			{ "t": "Vi's D gives her unique aerial mobility." },
+			{ "t": "Vi is short and always takes crouching hitstun." }
+		],
+		"pros": [
+			{ "p": "High mobility with fast movement speed and flight." },
+			{ "p": "Unique hop gives access to strong instant overheads." },
+			{ "p": "Decent combination of speed, range, and disjoint." }
+		],
+		"cons": [
+			{ "c": "Eats up SP with high-cost Skills." },
+			{ "c": "No meterless reversal." },
+			{ "c": "Always takes crouching hitstun, so everyone can do longer combos on her." }
+		]
+	},
+	
 	"normals": [
 		{
 			"id":"5a",
 			"image":"https://i.imgur.com/T7zAJdo.png",
 			"name":"{{ n5 }}{{ A }}",
+			"input":"{{ d0 }}{{ A }}",
 			"description":"Backhanded needle slash.",
 			"damage":"22",
 			"ip":"20",
 			"cp":"3",
 			"attributes": {
-				"guard":"mid"
+				"guard":"mid",
+				"green": [
+					{ "g":"rapid" }
+				]
 			}
 		},
 		
@@ -17,6 +42,7 @@
 			"id":"5b",
 			"image":"https://i.imgur.com/BS5J6WF.png",
 			"name":"{{ n5 }}{{ B }}",
+			"input":"{{ d0 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
 			"damage":"44",
 			"ip":"10",
@@ -30,12 +56,107 @@
 			"id":"5c",
 			"image":"https://i.imgur.com/7oLgUdn.png",
 			"name":"{{ n5 }}{{ C }}",
+			"input":"{{ d0 }}{{ C }}",
 			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
 			"damage":"66",
+			"ip":"5",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"charge ok" }
+				]
+			}
+		},
+		
+		{
+			"id":"2a",
+			"image":"",
+			"name":"{{ n2 }}{{ A }}",
+			"input":"{{ d2 }}{{ A }}",
+			"description":"Backhanded needle slash.",
+			"damage":"22",
+			"ip":"25",
+			"cp":"3",
+			"attributes": {
+				"guard":"low",
+				"green": [
+					{ "g":"rapid" }
+				]
+			}
+		},
+		
+		{
+			"id":"2b",
+			"image":"",
+			"name":"{{ n2 }}{{ B }}",
+			"input":"{{ d2 }}{{ B }}",
+			"description":"Leans forward and slashes downwards.",
+			"damage":"44",
+			"ip":"15",
+			"cp":"3",
+			"attributes": {
+				"guard":"low"
+			}
+		},
+		
+		{
+			"id":"2c",
+			"image":"",
+			"name":"{{ n2 }}{{ C }}",
+			"input":"{{ d2 }}{{ C }}",
+			"description":"Low needle swipe. Moves forward a little bit.",
+			"damage":"60",
 			"ip":"10",
 			"cp":"3",
 			"attributes": {
-				"guard":"mid"
+				"guard":"low",
+				"red":"knockdown"
+			}
+		},
+		
+		{
+			"id":"ja",
+			"image":"",
+			"name":"{{ j }}{{ A }}",
+			"input":"{{ A }} while airborne",
+			"description":"Downwards needle slash.<br/>The downwards angle lets you use it as an instant overhead with her hop.",
+			"damage":"30",
+			"ip":"20",
+			"cp":"3",
+			"attributes": {
+				"guard":"low"
+			}
+		},
+		
+		{
+			"id":"jb",
+			"image":"",
+			"name":"{{ j }}{{ B }}",
+			"input":"{{ B }} while airborne",
+			"description":"Forward slash. Has the most horizontal range of Vi's air normals by a little bit.",
+			"damage":"44",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"low"
+			}
+		},
+		
+		{
+			"id":"jc",
+			"image":"",
+			"name":"{{ j }}{{ C }}",
+			"input":"{{ C }} while airborne",
+			"description":"Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.",
+			"damage":"60",
+			"ip":"5",
+			"cp":"3",
+			"attributes": {
+				"guard":"low",
+				"red": [
+					{ "r":"down" }
+				]
 			}
 		}
 	]
