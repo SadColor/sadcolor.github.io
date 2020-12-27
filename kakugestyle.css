@@ -76,6 +76,7 @@ h3 {
 	padding:8px;
 	background-color:var(--kuro);
 	position:relative;
+	margin:0;
 }
 
 
@@ -106,7 +107,7 @@ h3 {
     background-color:var(--makkuro);
 	color:var(--siro);
     padding: 10px 16px 8px;
-	margin: 0 0 8px;
+	margin: 0 0 16px;
 	position: relative;
 }
 .chatS {
@@ -224,13 +225,15 @@ t-cy {
 	right:-20px;
 }
 
-
 .cornerR,
 .cornerL,
 .topR,
 .topL {
 	position:absolute;
 	fill:var(--bg);
+}
+.nest {
+	fill:var(--makkuro);
 }
 
 .cornerR{
