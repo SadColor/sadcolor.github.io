@@ -114,6 +114,12 @@ h3 {
 	font-size:14px;
 }
 
+.traits {
+	background-color:var(--kuro);
+	color:var(--ao);
+	position:relative;
+}
+
 table {
 	width:100%;
 	padding:0px 8px;
