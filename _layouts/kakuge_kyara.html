@@ -8,14 +8,43 @@ layout: kakuge_layout
 {% assign chr = site.data.bug.[page.kyara] %}
 {% capture attackinfo %}{% raw %}	<tr>
 		<td class="atkimg">
-			<div style="font-size:16px">{{ attack.name | liquify }}</div>
-			<div>{{ attack.input | liquify }}</div>
-			{% for img in attack.images %}
-				<div style = "width:max-content;margin: 0 auto"><img src={{ img.i }} /></div>
-			{% endfor %}
-			<div class="comment">{{ attack.comment }}</div>
+			<div class="atkname">
+				{{ nesttopL }}
+				<div style="font-size:16px">{{ attack.name | liquify }}</div>
+				<div>{{ attack.input | liquify }}</div>
+				{{ cornerR }}
+			</div>
+		</td>
+		<td></td>
+	</tr>
+	<tr>
+		<td class="atkimg">
+			{% if attack.images %}
+				{% for img in attack.images %}
+					<div><img src={{ img.i }} /></div>
+				{% endfor %}
+			{% endif %}
+			{% if attack.comment %}
+				<div class="comment">{{ attack.comment | liquify }}</div>
+			{% endif %}
 		</td>
 		<td class="atkinfo">
+			{% if attack.damage %}
+				<div class="atkprop">
+					<table>
+						<tr>
+							<td><div class="atkname"><b><t-r>Damage</t-r></b></div></td>
+							<td><div class="atkname"><b>Guard</b></div></td>
+						</tr>
+						<tr>
+							<td>
+								<t-r><b>{{ attack.damage }}</b></t-r>
+								<t-r><b>{{ attack.attributes.guard }}</b></t-r>
+							</td>
+						</tr>
+					</table>
+				</div>
+			{% endif %}
 			<p>{{ attack.description | liquify }}</p>
 		</td>
 	</tr>{% endraw %}{% endcapture %}
@@ -43,7 +72,7 @@ layout: kakuge_layout
 					</div>
 				</td>
 				<td>
-					<img src={{ chr.stats.image }} style="float:center" />
+					<div style = "width:max-content;margin: 0 auto"><img src={{ chr.stats.image }}/></div>
 				</td>
 			</tr>
 			<tr>
@@ -78,7 +107,7 @@ layout: kakuge_layout
 			{% for attack in chr.normals %}
 				{{ attackinfo | liquify }}
 			{% endfor %}
-		<table>
+		</table>
 		{{ cornerR }}
 	</div>
 
@@ -88,7 +117,7 @@ layout: kakuge_layout
 			{% for attack in chr.commands %}
 				{{ attackinfo | liquify }}
 			{% endfor %}
-		<table>
+		</table>
 		{{ cornerR }}
 	</div>
 	
@@ -98,7 +127,7 @@ layout: kakuge_layout
 			{% for attack in chr.throws %}
 				{{ attackinfo | liquify }}
 			{% endfor %}
-		<table>
+		</table>
 		{{ cornerR }}
 	</div>
 	
@@ -108,7 +137,7 @@ layout: kakuge_layout
 			{% for attack in chr.skills %}
 				{{ attackinfo | liquify }}
 			{% endfor %}
-		<table>
+		</table>
 		{{ cornerR }}
 	</div>
 	
@@ -118,7 +147,7 @@ layout: kakuge_layout
 			{% for attack in chr.exs %}
 				{{ attackinfo | liquify }}
 			{% endfor %}
-		<table>
+		</table>
 		{{ cornerR }}
 	</div>
 	

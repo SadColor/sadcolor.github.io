@@ -225,7 +225,7 @@
 		{
 			"id":"dc",
 			"images": [
-				{ "i":"/img/vi/dc.png" }
+				{ "i":"/img/vi/5c.png" }
 			],
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
