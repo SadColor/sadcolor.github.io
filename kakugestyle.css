@@ -14,6 +14,7 @@
 	--darkpurple:#602888;
 	--cyan: #a0f8ff;
     --tan: #e8a878;
+	--grey: #7a7090;
     --kuro: #383448;
 	--makkuro: #141420;
 	--cream: #ffd8b0;
@@ -141,20 +142,19 @@ h3 {
 }
 .atkname {
 	background-color:var(--bg);
-	padding:8px 16px;
+	padding:4px 12px;
 	position:relative;
 	text-align:center;
 }
 .atkimg {
 	text-align:center;
-	padding-bottom:16px;
 	width:35%;
 }
 .atkimg img {
 	max-width:100%;
 }
 .atkinfo {
-	line-height:1.1em;
+	line-height:1.2em;
 	padding-left:8px;
 }
 .atkinfo p {
@@ -162,6 +162,7 @@ h3 {
 }
 .atkprop {
 	text-align: center;
+	margin-bottom: 6px;
 }
 .atkprop table {
 	padding: 0;
@@ -185,7 +186,7 @@ tr {
 	position: relative;
 }
 .comment {
-	
+	color:var(--grey);
 }
 
 .pages {
