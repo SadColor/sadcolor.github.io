@@ -141,6 +141,7 @@ h3 {
 	line-height:1.1em;
 }
 .atkcont {
+	overflow:hidden;
 	margin-bottom:24px;
 }
 .atkname {
