@@ -140,7 +140,11 @@ h3 {
 .movelist {
 	line-height:1.1em;
 }
+.atkcont {
+	margin-bottom:24px;
+}
 .atkname {
+	box-sizing:border-box;
 	background-color:var(--bg);
 	padding:4px 12px;
 	position:relative;
@@ -148,6 +152,7 @@ h3 {
 }
 .atkimg {
 	text-align:center;
+	float:left;
 	width:35%;
 }
 .atkimg img {
@@ -155,10 +160,11 @@ h3 {
 }
 .atkinfo {
 	line-height:1.2em;
-	padding-left:8px;
+	margin-left:35%;
+	padding-left:16px;
 }
 .atkinfo p {
-	margin-left:2px;
+	margin-left:3px;
 }
 .atkprop {
 	text-align: center;

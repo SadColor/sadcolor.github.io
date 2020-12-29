@@ -230,7 +230,7 @@
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
 			"description":"Wide horizontal slash.<br/>Same animation as {{ n5 }}{{ C }}, but hits twice.",
-			"damage":"37×2",
+			"damage":"37<t-w>×</t-w>2",
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
