@@ -5,25 +5,41 @@ layout: kakuge_layout
 {{ content }}
 
 {% include kakugestuff.html %}
-
 {% assign chr = site.data.bug.[page.kyara] %}
+{% capture attackinfo %}{% raw %}	<tr>
+		<td class="atkimg">
+			<div style="font-size:16px">{{ attack.name | liquify }}</div>
+			<div>{{ attack.input | liquify }}</div>
+			{% for img in attack.images %}
+				<div><img src={{ img }} /></div>
+			{% endfor %}
+			<div class="comment">{{ attack.comment }}</div>
+		</td>
+		<td class="atkinfo">
+			<p>{{ attack.description | liquify }}</p>
+		</td>
+	</tr>{% endraw %}{% endcapture %}
+
 <div class="post_body">
+	<!-- stats -->
 	<div class="chatS">
-		
+		{{ topL }}
 		<table>
 			<tr>
 				<td>
 					<h3>{{ nesttopL }}Stats{{ nestcornerR }}</h3>
-					<table><tr>
-					<td><b><t-g>HP</t-g> • {{ chr.stats.hp }}</b></td>
-					<td><b><t-y>SP</t-y> • {{ chr.stats.sp }}</b></td>
+					<table style="text-align:center"><tr>
+					<td><b><t-g>ＨＰ</t-g> • {{ chr.stats.hp }}</b></td>
+					<td><b><t-y>ＳＰ</t-y> • {{ chr.stats.sp }}</b></td>
 					</tr></table>
-					
-					<span>Traits</span>
+					<div style="padding:8px"></div>
 					<div class="traits">
+						{{ nesttopL }}
+						<span style="float:center;font-size:16px"><b>Traits</b></span>
 						{% for trait in chr.stats.traits %}
 							<span>{{ trait.t }}<br/></span>
 						{% endfor %}
+						{{ nestcornerR }}
 					</div>
 				</td>
 				<td>
@@ -31,19 +47,79 @@ layout: kakuge_layout
 				</td>
 			</tr>
 			<tr>
-				<td colspan="2">
-					<!-- pros/cons -->
+				<td>
+					<div class="pros">
+						{{ nesttopL }}
+						<span style="float:center;font-size:16px"><b>Strengths</b></span>
+						{% for pro in chr.stats.pros %}
+							<span>{{ pro.p }}<br/></span>
+						{% endfor %}
+						{{ nestcornerR }}
+					</div>
+				</td>
+				<td>
+					<div class="cons">
+						{{ nesttopL }}
+						<span style="float:center;font-size:16px"><b>Weaknesses</b></span>
+						{% for con in chr.stats.cons %}
+							<span>{{ con.c }}<br/></span>
+						{% endfor %}
+						{{ nestcornerR }}
+					</div>
 				</td>
 			</tr>
 		</table>
-	</div>
-
-	<h3>Normals</h3>
-	<div class="chatS">
-		{% for attack in chr.normals %}
-			<img src={{ attack.image }} /><br/>
-			<p>{{ attack.name | liquify }}<br/>{{ attack.description }}</p>
-		{% endfor %}
 		{{ cornerR }}
 	</div>
+
+	<h3>{{ topL }}Normals</h3>
+	<div class="chatS movelist">
+		<table>
+			{% for attack in chr.normals %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+		<table>
+		{{ cornerR }}
+	</div>
+	<!--
+	<h3>{{ topL }}Command Normals</h3>
+	<div class="chatS movelist">
+		<table>
+			{% for attack in chr.commands %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+		<table>
+		{{ cornerR }}
+	</div>
+	
+	<h3>{{ topL }}Throws</h3>
+	<div class="chatS movelist">
+		<table>
+			{% for attack in chr.throws %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+		<table>
+		{{ cornerR }}
+	</div>
+	
+	<h3>{{ topL }}Skills</h3>
+	<div class="chatS movelist">
+		<table>
+			{% for attack in chr.skills %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+		<table>
+		{{ cornerR }}
+	</div>
+	
+	<h3>{{ topL }}EX Skills</h3>
+	<div class="chatS movelist">
+		<table>
+			{% for attack in chr.exs %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+		<table>
+		{{ cornerR }}
+	</div>
+	-->
 </div>

@@ -5,11 +5,12 @@
 		"sp":"<t-g>２０</t-g>",
 		"traits": [
 			{ "t": "Vi's Hop leaves her airborne and lets her act quickly." }, 
-			{ "t": "Vi's D gives her unique aerial mobility." },
+			{ "t": "Vi's Beeline gives her unique aerial mobility and cancel options." },
+			{ "t": "Vi can also airdash downwards and diagonally downwards." },
 			{ "t": "Vi is short and always takes crouching hitstun." }
 		],
 		"pros": [
-			{ "p": "High mobility with fast movement speed and flight." },
+			{ "p": "High mobility with fast movement speed, extra airdash directions, and Beeline." },
 			{ "p": "Unique hop gives access to strong instant overheads." },
 			{ "p": "Decent combination of speed, range, and disjoint." }
 		],
@@ -23,12 +24,14 @@
 	"normals": [
 		{
 			"id":"5a",
-			"image":"/img/vi/5a.png",
+			"images": [
+				{ "i":"/img/vi/5a.png" }
+			],
 			"name":"{{ n5 }}{{ A }}",
 			"input":"{{ d0 }}{{ A }}",
 			"description":"Backhanded needle slash.",
 			"damage":"22",
-			"ip":"20",
+			"ip":"25",
 			"cp":"3",
 			"attributes": {
 				"guard":"mid",
@@ -40,12 +43,14 @@
 		
 		{
 			"id":"5b",
-			"image":"/img/vi/5b.png",
+			"images": [
+				{ "i":"/img/vi/5b.png" }
+			],
 			"name":"{{ n5 }}{{ B }}",
 			"input":"{{ d0 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
 			"damage":"44",
-			"ip":"10",
+			"ip":"15",
 			"cp":"3",
 			"attributes": {
 				"guard":"mid"
@@ -54,24 +59,28 @@
 		
 		{
 			"id":"5c",
-			"image":"/img/vi/5c.png",
+			"images": [
+				{ "i":"/img/vi/5c.png" }
+			],
 			"name":"{{ n5 }}{{ C }}",
 			"input":"{{ d0 }}{{ C }}",
 			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
 			"damage":"66",
-			"ip":"5",
+			"ip":"10",
 			"cp":"3",
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"charge ok" }
+					{ "g":"charge OK" }
 				]
 			}
 		},
 		
 		{
 			"id":"2a",
-			"image":"/img/vi/2a.png",
+			"images": [
+				{ "i":"/img/vi/2a.png" }
+			],
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
 			"description":"Backhanded needle slash.",
@@ -88,7 +97,9 @@
 		
 		{
 			"id":"2b",
-			"image":"/img/vi/2b.png",
+			"images": [
+				{ "i":"/img/vi/2b.png" }
+			],
 			"name":"{{ n2 }}{{ B }}",
 			"input":"{{ d2 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
@@ -102,7 +113,9 @@
 		
 		{
 			"id":"2c",
-			"image":"/img/vi/2c.png",
+			"images": [
+				{ "i":"/img/vi/2c.png" }
+			],
 			"name":"{{ n2 }}{{ C }}",
 			"input":"{{ d2 }}{{ C }}",
 			"description":"Low needle swipe. Moves forward a little bit.",
@@ -117,45 +130,360 @@
 		
 		{
 			"id":"ja",
-			"image":"/img/vi/ja.png",
+			"images": [
+				{ "i":"/img/vi/ja.png" }
+			],
 			"name":"{{ j }}{{ A }}",
-			"input":"{{ A }} while airborne",
+			"input":"{{ d0 }}{{ A }} while airborne",
 			"description":"Downwards needle slash.<br/>The downwards angle lets you use it as an instant overhead with her hop.",
 			"damage":"30",
-			"ip":"20",
+			"ip":"25",
 			"cp":"3",
 			"attributes": {
-				"guard":"low"
+				"guard":"high"
 			}
 		},
 		
 		{
 			"id":"jb",
-			"image":"/img/vi/jb.png",
+			"images": [
+				{ "i":"/img/vi/jb.png" }
+			],
 			"name":"{{ j }}{{ B }}",
-			"input":"{{ B }} while airborne",
+			"input":"{{ d0 }}{{ B }} while airborne",
 			"description":"Forward slash. Has the most horizontal range of Vi's air normals by a little bit.",
 			"damage":"44",
-			"ip":"10",
+			"ip":"15",
 			"cp":"3",
 			"attributes": {
-				"guard":"low"
+				"guard":"high"
 			}
 		},
 		
 		{
 			"id":"jc",
-			"image":"/img/vi/jc.png",
+			"images": [
+				{ "i":"/img/vi/jc.png" }
+			],
 			"name":"{{ j }}{{ C }}",
-			"input":"{{ C }} while airborne",
+			"input":"{{ d0 }}{{ C }} while airborne",
 			"description":"Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.",
 			"damage":"60",
-			"ip":"5",
+			"ip":"10",
 			"cp":"3",
 			"attributes": {
-				"guard":"low",
+				"guard":"high",
+				"green": [
+					{ "g":"charge OK" }
+				]
+			}
+		}
+	],
+	
+	"commands": [
+		{
+			"id":"3c",
+			"images": [
+				{ "i":"/img/vi/3c.png" }
+			],
+			"name":"{{ n3 }}{{ C }}",
+			"input":"{{ d3 }}{{ C }}",
+			"description":"Vi kicks upwards while standing on her hands.<br/>Little horizontal range, but good vertical range.",
+			"damage":"58",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
 				"red": [
-					{ "r":"down" }
+					{ "r":"launch" }
+				]
+			}
+		},
+		
+		{
+			"id":"db",
+			"images": [
+				{ "i":"/img/vi/db.png" }
+			],
+			"name":"{{ d }}{{ B }}",
+			"input":"{{ d6 }}{{ B }} while dashing",
+			"description":"A leaping knee attack.",
+			"damage":"48",
+			"ip":"15",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"airborne" }
+				],
+				"red": [
+					{ "r":"launch" }
+				]
+			}
+		},
+		
+		{
+			"id":"dc",
+			"images": [
+				{ "i":"/img/vi/dc.png" }
+			],
+			"name":"{{ d }}{{ C }}",
+			"input":"{{ d6 }}{{ C }} while dashing",
+			"description":"Wide horizontal slash.<br/>Same animation as {{ n5 }}{{ C }}, but hits twice.",
+			"damage":"37×2",
+			"ip":"15",
+			"cp":"2",
+			"attributes": {
+				"guard":"mid",
+				"red": [
+					{ "r":"launch" }
+				]
+			}
+		}
+	],
+	
+	"throws": [
+		{
+			"id":"5ad",
+			"image":"",
+			"name":"Ground throw",
+			"input":"{{ d0 }}{{ A }}+{{ D }}",
+			"description":"Hops onto the opponent and kicks off of them.<br/>Can’t combo without ===.",
+			"damage":"144",
+			"ip":"40",
+			"cp":"0",
+			"attributes": {
+				"guard":"grab",
+				"red": [
+					{ "r":"groundslide" }
+				]
+			}
+		},
+		
+		{
+			"id":"jad",
+			"image":"",
+			"name":"Air throw",
+			"input":"{{ d0 }}{{ A }}+{{ D }} while airborne",
+			"description":"Grabs the opponent and izuna drops them.",
+			"damage":"160",
+			"ip":"35",
+			"cp":"5",
+			"attributes": {
+				"guard":"grab",
+				"green": [
+					{ "g":"ender" }
+				],
+				"red": [
+					{ "r":"groundslide" }
+				]
+			}
+		}
+		
+	],
+	
+	"skills": [
+		{
+			"id":"s",
+			"image":"",
+			"name":"Beeline",
+			"input":"{{ d0 }}{{ S }}",
+			"description":"Vi readies herself then launches herself towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction before launching.<br/>You can do aerial attacks right after the launch.<br/>The launch can be steered to go higher, lower, shorter, or farther depending on your directional input during the dive.<br/>You can cancel Skills into Beeline for an additional <t-y><b>3</b> SP</t-y>.",
+			"cost":"2"
+		},
+		
+		{
+			"id":"236a",
+			"images": [
+				{ "i":"/img/vi/236a.png" }
+			],
+			"name":"Beemerang Toss",
+			"input":"{{ d236 }}{{ A }}",
+			"description":"Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input 236A again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.",
+			"damage":"51",
+			"ip":"20",
+			"cp":"2",
+			"attributes": {
+				"guard":"mid"
+			}
+		},
+		
+		{
+			"id":"236b",
+			"images": [
+				{ "i":"/img/vi/236b.png" }
+			],
+			"name":"{{ n236 }}{{ B }}",
+			"input":"{{ d236 }}{{ B }}",
+			"description":"Vi slashes at the opponent's feet with both needles while doing a cool flip.<br/>Decently fast startup, but not safe on block.<br/>Critical Counter on counterhit.",
+			"damage":"80",
+			"ip":"15",
+			"cp":"3",
+			"cost":"3",
+			"attributes": {
+				"guard":"low",
+				"green": [
+					{ "g":"charge OK" }
+				],
+				"red": [
+					{ "r":"knockdown" }
+				]
+			}
+		},
+		
+		{
+			"id":"236c",
+			"images": [
+				{ "i":"/img/vi/236c.png" }
+			],
+			"name":"Blue Stinger",
+			"input":"{{ d236 }}{{ C }}",
+			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>NUMB</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
+			"damage":"111",
+			"ip":"15",
+			"cp":"3",
+			"cost":"5",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"charge OK" }
+				],
+				"red": [
+					{ "r":"knockdown" }
+				],
+				"blue": [
+					{ "b":"numb" }
+				]
+			}
+		},
+		
+		{
+			"id":"j236x",
+			"images": [
+				{ "i":"/img/vi/j236x.png" }
+			],
+			"name":"Needle Toss",
+			"input":"{{ d236 }}{{ A }} or {{ d236 }}{{ B }} while airborne",
+			"description":"Vi tosses a needle diagonally downwards.<br/>{{ A }} version bounces you backwards, while {{ B }} version makes you fall forwards. {{ B }} version throws the needle at a shallower angle.<br/>Both versions are slightly plus on block when done as low as possible.<br/>The {{ A }} version is more plus, but leaves you further away.",
+			"damage":"60",
+			"ip":"15",
+			"cp":"2",
+			"cost":"2"
+		},
+		
+		{
+			"id":"214a",
+			"images": [
+				{ "i":"/img/vi/214a.png" },
+				{ "i":"/img/vi/214aa.png" },
+				{ "i":"/img/vi/214aaa.png" }
+			],
+			"comment":"Fissuring Slash!",
+			"name":"Needle Pincer",
+			"input":"{{ d214 }}{{ A }}",
+			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press { d4 }}{{ B }}, { d4 }}{{ C }}, or { d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
+			"damage":"30",
+			"ip":"10",
+			"cp":"1",
+			"cost":"1",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"air OK" }
+				]
+			}
+		},
+		
+		{
+			"id":"214b",
+			"images": [
+				{ "i":"/img/vi/214b.png" }
+			],
+			"name":"{{ n214 }}{{ B }}",
+			"input":"{{ d214 }}{{ B }}",
+			"description":"Vi hops forwards and slashes downwards with both needles. Has faster startup when doing the aerial version.<br/>Forces crouch on hit.<br/>Counterhit has enough hitstun to link heavy normals, otherwise you have to use a light normal on hit.",
+			"damage":"71",
+			"ip":"15",
+			"cp":"3",
+			"cost":"3",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"air OK" },
+					{ "g":"airborne" }
+				],
+				"red": [
+					{ "r":"spike" }
+				]
+			}
+		},
+		
+		{
+			"id":"214c",
+			"images": [
+				{ "i":"/img/vi/214c.png" }
+			],
+			"name":"{{ n214 }}{{ C }}",
+			"input":"{{ d214 }}{{ C }}",
+			"description":"Vi slashes while retreating. You can dash-cancel, even on block, but dash-canceling on block leaves you slightly minus.<br/>Midscreen, you can cancel {{ d214 }}{{ C }} into a forward airdash and continue to juggle.<br/>Being in the corner also allows you to land multiple {{ d214 }}{{ C }}s in the same combo, which is a very damaging route.",
+			"damage":"104",
+			"ip":"10",
+			"cp":"3",
+			"cost":"5",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"air OK" },
+					{ "g":"dash OK" },
+					{ "g":"airborne" }
+				],
+				"red": [
+					{ "r":"wallbounce" }
+				]
+			}
+		}
+	],
+	
+	"exs": [
+		{
+			"id":"236ab",
+			"image":"",
+			"name":"Poison Pincer",
+			"input":"{{ d236 }}{{ A }}+{{ B }}",
+			"description":"Vi rapidly stabs with needles before ending with a final hit that poisons the opponent.<br/>The last hit doesn’t occur if the previous hits are blocked.",
+			"damage":"209",
+			"ip":"30",
+			"cp":"1",
+			"cost":"100",
+			"attributes": {
+				"guard":"grab",
+				"green": [
+					{ "g":"ender" }
+				],
+				"red": [
+					{ "r":"groundslide" }
+				],
+				"blue": "poison"
+			}
+		},
+		
+		{
+			"id":"214ab",
+			"image":"",
+			"name":"{{ n214 }}{{ A }}{{ B }}",
+			"input":"{{ d214 }}{{ A }}+{{ B }}",
+			"description":"Vi flips forward and does a downwards slash with both needles, similar to her {{ n214 }}{{ B }}. <br/>Launches the opponent high up in the air with a guaranteed knockdown, allowing combo extensions at any point.",
+			"damage":"160",
+			"ip":"10",
+			"cp":"1",
+			"cost":"100",
+			"attributes": {
+				"guard":"grab",
+				"green": [
+					{ "g":"ender" }
+				],
+				"red": [
+					{ "r":"groundslide" }
 				]
 			}
 		}
