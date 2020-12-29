@@ -11,7 +11,7 @@ layout: kakuge_layout
 			<div style="font-size:16px">{{ attack.name | liquify }}</div>
 			<div>{{ attack.input | liquify }}</div>
 			{% for img in attack.images %}
-				<div><img src={{ img }} /></div>
+				<div style = "width:max-content;margin: 0 auto"><img src={{ img.i }} /></div>
 			{% endfor %}
 			<div class="comment">{{ attack.comment }}</div>
 		</td>
@@ -33,9 +33,9 @@ layout: kakuge_layout
 					<td><b><t-y>ＳＰ</t-y> • {{ chr.stats.sp }}</b></td>
 					</tr></table>
 					<div style="padding:8px"></div>
+					<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
 					<div class="traits">
 						{{ nesttopL }}
-						<span style="float:center;font-size:16px"><b>Traits</b></span>
 						{% for trait in chr.stats.traits %}
 							<span>{{ trait.t }}<br/></span>
 						{% endfor %}
@@ -43,14 +43,14 @@ layout: kakuge_layout
 					</div>
 				</td>
 				<td>
-					<img src={{ chr.stats.image }} />
+					<img src={{ chr.stats.image }} style="float:center" />
 				</td>
 			</tr>
 			<tr>
 				<td>
+					<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
 					<div class="pros">
 						{{ nesttopL }}
-						<span style="float:center;font-size:16px"><b>Strengths</b></span>
 						{% for pro in chr.stats.pros %}
 							<span>{{ pro.p }}<br/></span>
 						{% endfor %}
@@ -58,9 +58,9 @@ layout: kakuge_layout
 					</div>
 				</td>
 				<td>
+					<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
 					<div class="cons">
 						{{ nesttopL }}
-						<span style="float:center;font-size:16px"><b>Weaknesses</b></span>
 						{% for con in chr.stats.cons %}
 							<span>{{ con.c }}<br/></span>
 						{% endfor %}
@@ -81,7 +81,7 @@ layout: kakuge_layout
 		<table>
 		{{ cornerR }}
 	</div>
-	<!--
+
 	<h3>{{ topL }}Command Normals</h3>
 	<div class="chatS movelist">
 		<table>
@@ -121,5 +121,5 @@ layout: kakuge_layout
 		<table>
 		{{ cornerR }}
 	</div>
-	-->
+	
 </div>
