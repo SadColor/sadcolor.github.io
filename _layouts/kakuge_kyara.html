@@ -12,7 +12,7 @@ layout: kakuge_layout
 				{{ nesttopL }}
 				<div style="font-size:16px">{{ attack.name | liquify }}</div>
 				<div>{{ attack.input | liquify }}</div>
-				{{ cornerR }}
+				{{ nestcornerR }}
 			</div>
 		</td>
 		<td></td>
@@ -27,20 +27,19 @@ layout: kakuge_layout
 			{% if attack.comment %}
 				<div class="comment">{{ attack.comment | liquify }}</div>
 			{% endif %}
+			<div style="padding:12px"></div>
 		</td>
 		<td class="atkinfo">
 			{% if attack.damage %}
 				<div class="atkprop">
 					<table>
 						<tr>
-							<td><div class="atkname"><b><t-r>Damage</t-r></b></div></td>
-							<td><div class="atkname"><b>Guard</b></div></td>
+							<td><div class="atkname">{{ nesttopL }}<b><t-r>Damage</t-r></b>{{ nestcornerR }}</div></td>
+							<td><div class="atkname">{{ nesttopL }}<b>Guard{{ nestcornerR }}</b></div></td>
 						</tr>
 						<tr>
-							<td>
-								<t-r><b>{{ attack.damage }}</b></t-r>
-								<t-r><b>{{ attack.attributes.guard }}</b></t-r>
-							</td>
+							<td><t-r><b>{{ attack.damage }}</b></t-r></td>
+							<td><b>{{ attack.attributes.guard }}</b></td>
 						</tr>
 					</table>
 				</div>

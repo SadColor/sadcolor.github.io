@@ -102,7 +102,7 @@
 			],
 			"name":"{{ n2 }}{{ B }}",
 			"input":"{{ d2 }}{{ B }}",
-			"description":"Leans forward and slashes downwards.",
+			"description":"A sliding kick.<br/>Technically Vi's longest ranged move, going by travel distance.<br/>It's also the move that puts her lowest to the ground, so you can use it to avoid some projectiles or high-aiming attacks.",
 			"damage":"44",
 			"ip":"15",
 			"cp":"3",
@@ -286,7 +286,7 @@
 		{
 			"id":"s",
 			"image":"",
-			"name":"Beeline",
+			"name":"<b>Beeline</b>",
 			"input":"{{ d0 }}{{ S }}",
 			"description":"Vi readies herself then launches herself towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction before launching.<br/>You can do aerial attacks right after the launch.<br/>The launch can be steered to go higher, lower, shorter, or farther depending on your directional input during the dive.<br/>You can cancel Skills into Beeline for an additional <t-y><b>3</b> SP</t-y>.",
 			"cost":"2"
@@ -297,7 +297,7 @@
 			"images": [
 				{ "i":"/img/vi/236a.png" }
 			],
-			"name":"Beemerang Toss",
+			"name":"<b>Beemerang Toss</b>",
 			"input":"{{ d236 }}{{ A }}",
 			"description":"Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input 236A again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.",
 			"damage":"51",
@@ -336,7 +336,7 @@
 			"images": [
 				{ "i":"/img/vi/236c.png" }
 			],
-			"name":"Blue Stinger",
+			"name":"<b>Blue Stinger</b>",
 			"input":"{{ d236 }}{{ C }}",
 			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>NUMB</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
 			"damage":"111",
@@ -362,13 +362,16 @@
 			"images": [
 				{ "i":"/img/vi/j236x.png" }
 			],
-			"name":"Needle Toss",
+			"name":"<b>Needle Toss</b>",
 			"input":"{{ d236 }}{{ A }} or {{ d236 }}{{ B }} while airborne",
 			"description":"Vi tosses a needle diagonally downwards.<br/>{{ A }} version bounces you backwards, while {{ B }} version makes you fall forwards. {{ B }} version throws the needle at a shallower angle.<br/>Both versions are slightly plus on block when done as low as possible.<br/>The {{ A }} version is more plus, but leaves you further away.",
 			"damage":"60",
 			"ip":"15",
 			"cp":"2",
-			"cost":"2"
+			"cost":"2",
+			"attributes": {
+				"guard":"mid"
+			}
 		},
 		
 		{
@@ -379,9 +382,9 @@
 				{ "i":"/img/vi/214aaa.png" }
 			],
 			"comment":"Fissuring Slash!",
-			"name":"Needle Pincer",
+			"name":"<b>Needle Pincer</b>",
 			"input":"{{ d214 }}{{ A }}",
-			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press { d4 }}{{ B }}, { d4 }}{{ C }}, or { d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
+			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press {{ d4 }}{{ B }}, {{ d4 }}{{ C }}, or {{ d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
 			"damage":"30",
 			"ip":"10",
 			"cp":"1",
