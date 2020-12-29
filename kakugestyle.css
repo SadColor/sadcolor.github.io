@@ -144,20 +144,28 @@ h3 {
 	padding:8px 16px;
 	margin-bottom:8px;
 	position:relative;
+	text-align:center;
 }
 .atkimg {
 	text-align:center;
+	padding-bottom:16px;
 	width:35%;
-}
-.atkinfo {
-	line-height:1.1em;
-	width:75%;
 }
 .atkimg img {
 	max-width:100%;
 }
+.atkinfo {
+	line-height:1.1em;
+	padding-left:8px;
+}
+.atkinfo p {
+	margin-left:2px;
+}
 .atkprop {
 	text-align: center;
+}
+.atkprop table {
+	padding: 0;
 }
 
 
@@ -168,9 +176,6 @@ table {
 }
 tr {
 	vertical-align:top;
-}
-.movelist tr {
-	margin-bottom: 8px;
 }
 
 .note {
