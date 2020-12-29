@@ -139,12 +139,27 @@ h3 {
 .movelist {
 	line-height:1.1em;
 }
+.atkname {
+	background-color:var(--kuro);
+	padding:8px 16px;
+	margin-bottom:8px;
+	position:relative;
+}
 .atkimg {
 	text-align:center;
+	width:35%;
 }
 .atkinfo {
 	line-height:1.1em;
+	width:75%;
 }
+.atkimg img {
+	max-width:100%;
+}
+.atkprop {
+	text-align: center;
+}
+
 
 table {
 	width:100%;
@@ -154,7 +169,7 @@ table {
 tr {
 	vertical-align:top;
 }
-.atkinfo tr {
+.movelist tr {
 	margin-bottom: 8px;
 }
 
@@ -166,9 +181,7 @@ tr {
 	position: relative;
 }
 .comment {
-	font-family:"MS PGothic",sans-serif;
-	font-size:12px;
-	color:var(--purple);
+	
 }
 
 .pages {
