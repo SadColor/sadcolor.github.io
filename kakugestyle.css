@@ -154,6 +154,9 @@ table {
 tr {
 	vertical-align:top;
 }
+.atkinfo tr {
+	margin-bottom: 8px;
+}
 
 .note {
 	border:1px dashed var(--ao);
