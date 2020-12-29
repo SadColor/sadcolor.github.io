@@ -17,6 +17,8 @@
     --kuro: #383448;
 	--makkuro: #141420;
 	--cream: #ffd8b0;
+	--maxw: 1024px;
+	--minw: 480px;
 }
 
 body {
@@ -84,8 +86,8 @@ h3 {
     margin:16px auto;
 	text-align: center;
 	width:85%;
-    max-width:720px;
-    min-width:256px;
+    max-width:var(--maxw);
+    min-width:var(--minw);
 	border: 1px solid var(--purple);
 }
 
@@ -97,8 +99,8 @@ h3 {
 
 .post_body {
     width:85%;
-    max-width:1024px;
-    min-width:480px;
+    max-width:var(--maxw);
+    min-width:var(--minw);
     margin:8px auto;
 }
 
@@ -114,10 +116,34 @@ h3 {
 	font-size:14px;
 }
 
-.traits {
-	background-color:var(--kuro);
-	color:var(--ao);
+.traits,
+.pros,
+.cons {
+	background-color:var(--bg);
 	position:relative;
+	padding: 4px 16px 8px;
+}
+
+.traits {
+	color:var(--ao);
+}
+.pros {
+	color:var(--midori);
+}
+.cons {
+	color:var(--aka);
+}
+
+
+
+.movelist {
+	line-height:1.1em;
+}
+.atkimg {
+	text-align:center;
+}
+.atkinfo {
+	line-height:1.1em;
 }
 
 table {
@@ -132,6 +158,11 @@ table {
     padding: 10px 16px 8px 16px;
 	margin: 8px 0;
 	position: relative;
+}
+.comment {
+	font-family:"MS PGothic",sans-serif;
+	font-size:12px;
+	color:var(--purple);
 }
 
 .pages {
