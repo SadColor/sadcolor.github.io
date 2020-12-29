@@ -140,6 +140,9 @@ h3 {
 .movelist {
 	line-height:1.1em;
 }
+.atkcont {
+	margin-bottom:12px;
+}
 .atkname {
 	background-color:var(--bg);
 	padding:4px 12px;
@@ -148,6 +151,7 @@ h3 {
 }
 .atkimg {
 	text-align:center;
+	float:left;
 	width:35%;
 }
 .atkimg img {
