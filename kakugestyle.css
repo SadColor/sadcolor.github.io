@@ -83,6 +83,7 @@ h3 {
 	background-color:var(--kuro);
 	position:relative;
 	margin:0;
+	z-index:1;
 }
 
 
@@ -116,10 +117,16 @@ h3 {
 	margin: 0 0 16px;
 	position: relative;
 	overflow: hidden;
-	transition: max-height 0.5s ease-out, padding-top 0.5s ease-out, padding-bottom 0.5s ease-out;
+	top: 0;
+	transition: max-height 0.5s ease-out, padding-top 0.5s ease-out, padding-bottom 0.5s ease-out, top 0.5s ease-out;
 }
 .chatS {
 	font-size:14px;
+}
+
+.kyaranav {
+	float:left;
+	width: 160px;
 }
 
 .traits,
@@ -128,6 +135,14 @@ h3 {
 	background-color:var(--bg);
 	position:relative;
 	padding: 8px 16px;
+}
+.traits>div,
+.pros>div,
+.cons>div {
+	line-height: 1.1em;
+	margin: 4px 0;
+	padding-left: 12px;
+	text-indent: -12px;
 }
 
 .traits {
@@ -222,9 +237,10 @@ tr {
 }
 
 .hide {
-	max-height: 0px !important;
+	max-height: 16px !important;
 	padding-top: 0px;
 	padding-bottom: 0px;
+	top: -16px;
 }
 
 /*
@@ -320,6 +336,9 @@ t-gr {
 .cornerR {
 	bottom:0;
 	right:0;
+}
+.movelist>.cornerR {
+	z-index:1;
 }
 .cornerL {
 	bottom:0;
