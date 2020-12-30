@@ -189,12 +189,10 @@ tr {
 	vertical-align:top;
 }
 .cost {
-	box-sizing:content-box;
-	width:64px;
+	width:80px;
 }
 .icp {
-	box-sizing:content-box;
-	width:32px;
+	width:56px;
 }
 
 .note {
@@ -224,7 +222,7 @@ tr {
 
 .hide {
 	overflow: hidden;
-	max-height: 0px;
+	height: 0px;
 }
 
 /*
