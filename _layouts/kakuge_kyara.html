@@ -11,7 +11,7 @@ layout: kakuge_layout
 			<div class="atkname" style="width:35%">
 				{{ nesttopL }}
 				<div style="font-size:16px">{{ attack.name | liquify }}</div>
-				<div>{{ attack.input | liquify }}</div>
+				<div><t-gr>{{ attack.input | liquify }}</t-gr></div>
 				{{ nestcornerR }}
 			</div>
 		</div>
@@ -19,7 +19,7 @@ layout: kakuge_layout
 		<div class="atkimg">
 			{% if attack.images %}
 				{% for img in attack.images %}
-					<div><img src={{ img.i }} /></div>
+					<img src={{ img.i }} />
 				{% endfor %}
 			{% endif %}
 			{% if attack.comment %}
@@ -32,12 +32,22 @@ layout: kakuge_layout
 				<div class="atkprop">
 					<table>
 						<tr>
+							{% if attack.cost %}
+								<td class="cost"><div class="atkname">{{ nesttopL }}<b><t-y>Cost</t-y></b>{{ nestcornerR }}</div></td>
+							{% endif %}
 							<td><div class="atkname">{{ nesttopL }}<b><t-r>Damage</t-r></b>{{ nestcornerR }}</div></td>
-							<td><div class="atkname">{{ nesttopL }}<b>Guard{{ nestcornerR }}</b></div></td>
+							<td><div class="atkname">{{ nesttopL }}<b>Guard</b>{{ nestcornerR }}</div></td>
+							<td class="icp"><div class="atkname">{{ nesttopL }}<b><t-b>IP</t-b></b>{{ nestcornerR }}</div></td>
+							<td class="icp"><div class="atkname">{{ nesttopL }}<b><t-b>CP</t-b></b>{{ nestcornerR }}</div></td>
 						</tr>
 						<tr>
+							{% if attack.cost %}
+								<td><t-y>{{ attack.cost }}</t-y></td>
+							{% endif %}
 							<td><t-r><b>{{ attack.damage }}</b></t-r></td>
 							<td><b>{{ attack.attributes.guard }}</b></td>
+							<td><t-b><b>{{ attack.ip }}</b></t-b></td>
+							<td><t-b><b>{{ attack.cp }}</b></t-b></td>
 						</tr>
 					</table>
 				</div>
@@ -47,58 +57,76 @@ layout: kakuge_layout
 	</div>{% endraw %}{% endcapture %}
 
 <div class="post_body">
-	<!-- stats -->
-	<div class="chatS">
-		{{ topL }}
-		<table>
-			<tr>
-				<td>
-					<h3>{{ nesttopL }}Stats{{ nestcornerR }}</h3>
-					<table style="text-align:center"><tr>
-					<td><b><t-g>ＨＰ</t-g> • {{ chr.stats.hp }}</b></td>
-					<td><b><t-y>ＳＰ</t-y> • {{ chr.stats.sp }}</b></td>
-					</tr></table>
-					<div style="padding:8px"></div>
-					<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
-					<div class="traits">
-						{{ nesttopL }}
-						{% for trait in chr.stats.traits %}
-							<span>{{ trait.t }}<br/></span>
-						{% endfor %}
-						{{ nestcornerR }}
-					</div>
-				</td>
-				<td>
-					<div style = "width:max-content;margin: 0 auto"><img src={{ chr.stats.image }}/></div>
-				</td>
-			</tr>
-			<tr>
-				<td>
-					<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
-					<div class="pros">
-						{{ nesttopL }}
-						{% for pro in chr.stats.pros %}
-							<span>{{ pro.p }}<br/></span>
-						{% endfor %}
-						{{ nestcornerR }}
-					</div>
-				</td>
-				<td>
-					<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
-					<div class="cons">
-						{{ nesttopL }}
-						{% for con in chr.stats.cons %}
-							<span>{{ con.c }}<br/></span>
-						{% endfor %}
-						{{ nestcornerR }}
-					</div>
-				</td>
-			</tr>
-		</table>
-		{{ cornerR }}
+	<div class="kyaratop">
+		<!-- page nav -->
+		<div class="kyaranav">
+			<h3>{{ topL }}Contents</h3>
+			<div class="chatS">
+				<div class="kyaratabs">
+					<a href="#stats">Stats</a>
+					<a href="#normals">Normals</a>
+					<a href="#commands">Command Normals</a>
+					<a href="#throws">Throws</a>
+					<a href="#skills">Skills</a>
+					<a href="#exs">EX Skills</a>
+				</div>
+				{{ cornerR }}
+			</div>
+		</div>
+		<!-- stats -->
+		<div class="chatS" style="flex:1 1 480px">
+			{{ topL }}
+			<table>
+				<tr>
+					<td>
+						<h3 id="stats">{{ nesttopL }}Stats{{ nestcornerR }}</h3>
+						<table style="text-align:center"><tr>
+						<td><b><t-g>ＨＰ</t-g> • {{ chr.stats.hp }}</b></td>
+						<td><b><t-y>ＳＰ</t-y> • {{ chr.stats.sp }}</b></td>
+						</tr></table>
+						<div style="padding:8px"></div>
+						<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
+						<div class="traits">
+							{{ nesttopL }}
+							{% for trait in chr.stats.traits %}
+								<div>{{ trait.t }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
+					</td>
+					<td>
+						<div style = "width:max-content;margin: 0 auto"><img src={{ chr.stats.image }}/></div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
+						<div class="pros">
+							{{ nesttopL }}
+							{% for pro in chr.stats.pros %}
+								<div>{{ pro.p }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
+					</td>
+					<td>
+						<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
+						<div class="cons">
+							{{ nesttopL }}
+							{% for con in chr.stats.cons %}
+								<div>{{ con.c }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
+					</td>
+				</tr>
+			</table>
+			{{ cornerR }}
+		</div>
 	</div>
 
-	<h3>{{ topL }}Normals</h3>
+	<!-- moves -->
+	<h3 id="normals">{{ topL }}<a class="collapse" role="button">Normals</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.normals %}
 			{{ attackinfo | liquify }}
@@ -106,7 +134,7 @@ layout: kakuge_layout
 		{{ cornerR }}
 	</div>
 
-	<h3>{{ topL }}Command Normals</h3>
+	<h3 id="commands">{{ topL }}<a class="collapse" role="button">Command Normals</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.commands %}
 			{{ attackinfo | liquify }}
@@ -114,7 +142,7 @@ layout: kakuge_layout
 		{{ cornerR }}
 	</div>
 	
-	<h3>{{ topL }}Throws</h3>
+	<h3 id="throws">{{ topL }}<a class="collapse" role="button">Throws</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.throws %}
 			{{ attackinfo | liquify }}
@@ -122,7 +150,7 @@ layout: kakuge_layout
 		{{ cornerR }}
 	</div>
 	
-	<h3>{{ topL }}Skills</h3>
+	<h3 id="skills">{{ topL }}<a class="collapse" role="button">Skills</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.skills %}
 			{{ attackinfo | liquify }}
@@ -130,7 +158,7 @@ layout: kakuge_layout
 		{{ cornerR }}
 	</div>
 	
-	<h3>{{ topL }}EX Skills</h3>
+	<h3  id="exs">{{ topL }}<a class="collapse" role="button">EX Skills</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.exs %}
 			{{ attackinfo | liquify }}
@@ -139,3 +167,5 @@ layout: kakuge_layout
 	</div>
 	
 </div>
+
+<script src="/bug/kyara/page.js"></script>

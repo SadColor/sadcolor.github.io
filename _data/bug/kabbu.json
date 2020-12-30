@@ -1,23 +1,16 @@
 {
 	"stats": {
 		"image":"",
-		"hp":"<t-g>１０００</t-g>",
+		"hp":"<t-g>１１００</t-g>",
 		"sp":"<t-g>２０</t-g>",
 		"traits": [
-			{ "t": "Vi's Hop leaves her airborne and lets her act quickly." }, 
-			{ "t": "Vi's Beeline gives her unique aerial mobility and cancel options." },
-			{ "t": "Vi can also airdash downwards and diagonally downwards." },
-			{ "t": "Vi is short and always takes crouching hitstun." }
+			{ "t": "not special :(" }
 		],
 		"pros": [
-			{ "p": "High mobility with fast movement, more airdash directions, and Beeline." },
-			{ "p": "Unique hop gives access to strong instant overheads." },
-			{ "p": "Decent combination of speed, range, and disjoint." }
+			{ "p": "High damage from both single hits and combos." }
 		],
 		"cons": [
-			{ "c": "Eats up SP with high-cost Skills." },
-			{ "c": "No meterless reversal." },
-			{ "c": "Always takes crouching hitstun, so everyone can do longer combos on her." }
+			{ "c": "Poor range." }
 		]
 	},
 	
@@ -25,12 +18,12 @@
 		{
 			"id":"5a",
 			"images": [
-				{ "i":"/img/vi/5a.png" }
+				{ "i":"/img/kabbu/5a.png" }
 			],
 			"name":"{{ n5 }}{{ A }}",
 			"input":"{{ d0 }}{{ A }}",
-			"description":"Backhanded needle slash.",
-			"damage":"22",
+			"description":"Jab.",
+			"damage":"23",
 			"ip":"25",
 			"cp":"3",
 			"attributes": {
@@ -44,12 +37,12 @@
 		{
 			"id":"5b",
 			"images": [
-				{ "i":"/img/vi/5b.png" }
+				{ "i":"/img/kabbu/5b.png" }
 			],
 			"name":"{{ n5 }}{{ B }}",
 			"input":"{{ d0 }}{{ B }}",
-			"description":"Leans forward and slashes downwards.",
-			"damage":"44",
+			"description":"Kabbu steps forward with a backfist.",
+			"damage":"50",
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
@@ -60,12 +53,12 @@
 		{
 			"id":"5c",
 			"images": [
-				{ "i":"/img/vi/5c.png" }
+				{ "i":"/img/kabbu/5c.png" }
 			],
 			"name":"{{ n5 }}{{ C }}",
 			"input":"{{ d0 }}{{ C }}",
-			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
-			"damage":"66",
+			"description":"Kabbu slashes his horn inwards.<br/>Charged version vacuums the opponent in.",
+			"damage":"80",
 			"ip":"10",
 			"cp":"3",
 			"attributes": {
@@ -79,7 +72,7 @@
 		{
 			"id":"2a",
 			"images": [
-				{ "i":"/img/vi/2a.png" }
+				{ "i":"/img/kabbu/2a.png" }
 			],
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
@@ -98,7 +91,7 @@
 		{
 			"id":"2b",
 			"images": [
-				{ "i":"/img/vi/2b.png" }
+				{ "i":"/img/kabbu/2b.png" }
 			],
 			"name":"{{ n2 }}{{ B }}",
 			"input":"{{ d2 }}{{ B }}",
@@ -114,7 +107,7 @@
 		{
 			"id":"2c",
 			"images": [
-				{ "i":"/img/vi/2c.png" }
+				{ "i":"/img/kabbu/2c.png" }
 			],
 			"name":"{{ n2 }}{{ C }}",
 			"input":"{{ d2 }}{{ C }}",
@@ -131,7 +124,7 @@
 		{
 			"id":"ja",
 			"images": [
-				{ "i":"/img/vi/ja.png" }
+				{ "i":"/img/kabbu/ja.png" }
 			],
 			"name":"{{ j }}{{ A }}",
 			"input":"{{ d0 }}{{ A }} while airborne",
@@ -147,7 +140,7 @@
 		{
 			"id":"jb",
 			"images": [
-				{ "i":"/img/vi/jb.png" }
+				{ "i":"/img/kabbu/jb.png" }
 			],
 			"name":"{{ j }}{{ B }}",
 			"input":"{{ d0 }}{{ B }} while airborne",
@@ -163,7 +156,7 @@
 		{
 			"id":"jc",
 			"images": [
-				{ "i":"/img/vi/jc.png" }
+				{ "i":"/img/kabbu/jc.png" }
 			],
 			"name":"{{ j }}{{ C }}",
 			"input":"{{ d0 }}{{ C }} while airborne",
@@ -184,7 +177,7 @@
 		{
 			"id":"3c",
 			"images": [
-				{ "i":"/img/vi/3c.png" }
+				{ "i":"/img/kabbu/3c.png" }
 			],
 			"name":"{{ n3 }}{{ C }}",
 			"input":"{{ d3 }}{{ C }}",
@@ -203,7 +196,7 @@
 		{
 			"id":"db",
 			"images": [
-				{ "i":"/img/vi/db.png" }
+				{ "i":"/img/kabbu/db.png" }
 			],
 			"name":"{{ d }}{{ B }}",
 			"input":"{{ d6 }}{{ B }} while dashing",
@@ -225,7 +218,7 @@
 		{
 			"id":"dc",
 			"images": [
-				{ "i":"/img/vi/5c.png" }
+				{ "i":"/img/kabbu/5c.png" }
 			],
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
@@ -296,7 +289,7 @@
 		{
 			"id":"236a",
 			"images": [
-				{ "i":"/img/vi/236a.png" }
+				{ "i":"/img/kabbu/236a.png" }
 			],
 			"name":"<b>Beemerang Toss</b>",
 			"input":"{{ d236 }}{{ A }}",
@@ -313,7 +306,7 @@
 		{
 			"id":"236b",
 			"images": [
-				{ "i":"/img/vi/236b.png" }
+				{ "i":"/img/kabbu/236b.png" }
 			],
 			"name":"{{ n236 }}{{ B }}",
 			"input":"{{ d236 }}{{ B }}",
@@ -336,7 +329,7 @@
 		{
 			"id":"236c",
 			"images": [
-				{ "i":"/img/vi/236c.png" }
+				{ "i":"/img/kabbu/236c.png" }
 			],
 			"name":"<b>Blue Stinger</b>",
 			"input":"{{ d236 }}{{ C }}",
@@ -362,7 +355,7 @@
 		{
 			"id":"j236x",
 			"images": [
-				{ "i":"/img/vi/j236x.png" }
+				{ "i":"/img/kabbu/j236x.png" }
 			],
 			"name":"<b>Needle Toss</b>",
 			"input":"{{ d236 }}{{ A }} or {{ d236 }}{{ B }} while airborne",
@@ -379,9 +372,9 @@
 		{
 			"id":"214a",
 			"images": [
-				{ "i":"/img/vi/214a.png" },
-				{ "i":"/img/vi/214aa.png" },
-				{ "i":"/img/vi/214aaa.png" }
+				{ "i":"/img/kabbu/214a.png" },
+				{ "i":"/img/kabbu/214aa.png" },
+				{ "i":"/img/kabbu/214aaa.png" }
 			],
 			"comment":"Fissuring Slash!",
 			"name":"<b>Needle Pincer</b>",
@@ -402,7 +395,7 @@
 		{
 			"id":"214b",
 			"images": [
-				{ "i":"/img/vi/214b.png" }
+				{ "i":"/img/kabbu/214b.png" }
 			],
 			"name":"{{ n214 }}{{ B }}",
 			"input":"{{ d214 }}{{ B }}",
@@ -426,7 +419,7 @@
 		{
 			"id":"214c",
 			"images": [
-				{ "i":"/img/vi/214c.png" }
+				{ "i":"/img/kabbu/214c.png" }
 			],
 			"name":"{{ n214 }}{{ C }}",
 			"input":"{{ d214 }}{{ C }}",
