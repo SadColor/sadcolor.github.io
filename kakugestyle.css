@@ -31,9 +31,12 @@ body {
 	overflow-x:hidden;
 }	
 
-a:link, a:visited{
+a {
 	color: var(--ki);
 	text-decoration: underline dotted;
+}
+h3 a {
+	color: var(--siro);
 }
 
 a:hover {
@@ -112,6 +115,7 @@ h3 {
     padding: 10px 16px 8px;
 	margin: 0 0 16px;
 	position: relative;
+	transition: height 1s;
 }
 .chatS {
 	font-size:14px;
@@ -216,7 +220,8 @@ tr {
 }
 
 .hide {
-	display: none;
+	overflow: hidden;
+	height: 0px;
 }
 
 /*
