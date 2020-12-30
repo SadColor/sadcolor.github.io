@@ -129,13 +129,29 @@ h3 {
 	flex-flow:row wrap;
 }
 .kyaranav {
-	min-width:144px;
+	width:144px;
+	margin-right: 16px;
+	flex: 0 0 144px;
 }
 .kyaratabs {
 	display:flex;
 	flex-flow:column wrap;
 	align-items:center;
 	margin-bottom: 6px;
+}
+@media only screen and (max-width: 824px) {
+	.kyaranav {
+		width: 100%
+		margin: 0;
+		flex: 1 0 100%;
+	}
+	.kyaratabs {
+		flex-flow:row wrap;
+		justify-content:center;
+	}
+	.kyaratabs>a {
+		margin: 0 8px;
+	}
 }
 
 .traits,
