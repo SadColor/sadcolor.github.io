@@ -35,7 +35,7 @@ a {
 	color: var(--ki);
 	text-decoration: underline dotted;
 }
-h3 a {
+h3>a {
 	color: var(--siro);
 }
 
@@ -115,7 +115,7 @@ h3 {
     padding: 10px 16px 8px;
 	margin: 0 0 16px;
 	position: relative;
-	transition: height 1s;
+	transition: max-height 1s;
 }
 .chatS {
 	font-size:14px;
@@ -160,7 +160,7 @@ h3 {
 	float:left;
 	width:35%;
 }
-.atkimg img {
+.atkimg>img {
 	max-width:100%;
 }
 .atkinfo {
@@ -168,14 +168,14 @@ h3 {
 	margin-left:35%;
 	padding-left:16px;
 }
-.atkinfo p {
+.atkinfo>p {
 	margin-left:3px;
 }
 .atkprop {
 	text-align: center;
 	margin-bottom: 6px;
 }
-.atkprop table {
+.atkprop>table {
 	padding: 0;
 }
 
@@ -189,9 +189,11 @@ tr {
 	vertical-align:top;
 }
 .cost {
+	box-sizing:content-box;
 	width:64px;
 }
 .icp {
+	box-sizing:content-box;
 	width:32px;
 }
 
@@ -202,6 +204,7 @@ tr {
 	margin: 8px 0;
 	position: relative;
 }
+
 .comment {
 	color:var(--grey);
 }
@@ -215,13 +218,13 @@ tr {
 	justify-content: center;
 }
 
-.pages a {
+.pages>a {
 	margin: 0px 8px;
 }
 
 .hide {
 	overflow: hidden;
-	height: 0px;
+	max-height: 0px;
 }
 
 /*
@@ -247,13 +250,13 @@ t-g {
 t-g2 {
 	color:var(--green);
 }
-t-g3{
+t-g3 {
 	color:var(--darkgreen);
 }
 t-b {
 	color:var(--ao);
 }
-t-b2{
+t-b2 {
 	color:var(--darkao);
 }
 t-y {
@@ -262,7 +265,7 @@ t-y {
 t-p {
 	color:var(--purple);
 }
-t-p2{
+t-p2 {
 	color:var(--darkpurple);
 }
 t-w {
@@ -314,11 +317,11 @@ t-gr {
 	fill:var(--makkuro);
 }
 
-.cornerR{
+.cornerR {
 	bottom:0;
 	right:0;
 }
-.cornerL{
+.cornerL {
 	bottom:0;
 	left:0;
 }
@@ -329,9 +332,4 @@ t-gr {
 .topL {
 	top:0;
 	left:0;
-}
-
-.note .triR,
-.note .triL {
-	fill:var(--ao);
 }
