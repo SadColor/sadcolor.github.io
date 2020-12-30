@@ -115,7 +115,8 @@ h3 {
     padding: 10px 16px 8px;
 	margin: 0 0 16px;
 	position: relative;
-	transition: max-height 1s;
+	overflow: hidden;
+	transition: max-height 1s ease-out, padding-top 1s ease-out, padding-bottom 1s ease-out;
 }
 .chatS {
 	font-size:14px;
@@ -221,8 +222,9 @@ tr {
 }
 
 .hide {
-	overflow: hidden;
-	height: 0px;
+	max-height: 0px !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
 }
 
 /*
