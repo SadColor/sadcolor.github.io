@@ -189,10 +189,10 @@ tr {
 	vertical-align:top;
 }
 .cost {
-	max-width:64px;
+	width:64px;
 }
 .icp {
-	max-width:32px;
+	width:32px;
 }
 
 .note {
