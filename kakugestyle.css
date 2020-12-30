@@ -184,6 +184,12 @@ table {
 tr {
 	vertical-align:top;
 }
+.cost {
+	max-width:64px;
+}
+.icp {
+	max-width:32px;
+}
 
 .note {
 	border:1px dashed var(--ao);
@@ -227,8 +233,7 @@ tr {
 t-r {
 	color:var(--aka);
 }
-t-r2,
-.reibun t-r{
+t-r2 {
 	color:var(--darkaka);
 }
 t-g {
@@ -237,15 +242,13 @@ t-g {
 t-g2 {
 	color:var(--green);
 }
-t-g3,
-.reibun t-g {
+t-g3{
 	color:var(--darkgreen);
 }
 t-b {
 	color:var(--ao);
 }
-t-b2,
-.reibun t-b{
+t-b2{
 	color:var(--darkao);
 }
 t-y {
@@ -254,8 +257,7 @@ t-y {
 t-p {
 	color:var(--purple);
 }
-t-p2,
-.reibun t-p{
+t-p2{
 	color:var(--darkpurple);
 }
 t-w {
@@ -275,6 +277,9 @@ t-pi {
 }
 t-cy {
 	color:var(--cyan);
+}
+t-gr {
+	color:var(--grey);
 }
 
 /*
