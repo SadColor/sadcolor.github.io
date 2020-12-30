@@ -126,7 +126,12 @@ h3 {
 
 .kyaranav {
 	float:left;
-	width: 160px;
+	width:160px;
+}
+.kyaratabs {
+	display:flex;
+	flex-flow:row wrap;
+	align-items:flex-start;
 }
 
 .traits,
