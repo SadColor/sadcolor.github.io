@@ -124,14 +124,18 @@ h3 {
 	font-size:14px;
 }
 
+.kyaratop {
+	display:flex;
+	flex-flow:row wrap;
+}
 .kyaranav {
-	float:left;
-	width:160px;
+	min-width:144px;
 }
 .kyaratabs {
 	display:flex;
-	flex-flow:row wrap;
-	align-items:flex-start;
+	flex-flow:column wrap;
+	align-items:center;
+	margin-bottom: 6px;
 }
 
 .traits,
