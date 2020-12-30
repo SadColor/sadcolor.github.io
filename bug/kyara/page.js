@@ -6,7 +6,7 @@ function collapse() {
 }
 
 for (var i = 0; i < divs.length; i++) {
-	divs[i].style.maxHeight = divs[i].offsetHeight + "px";
+	divs[i].style.maxHeight = divs[i].scrollHeight + "px";
 }
 for (var i = 0; i < btns.length; i++) {
 	btns[i].addEventListener("click", collapse);
