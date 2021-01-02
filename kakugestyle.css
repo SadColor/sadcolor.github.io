@@ -154,11 +154,19 @@ h3 {
 	.kyaratabs>a {
 		margin: 0 8px;
 	}
-	
-	.attrcont {
+	.hasspc>.grdcont {
+		flex:1 1 auto;
+	}
+	.hasspc>.attrcont {
 		display:flex;
-		flex-order:24;
+		order:24;
 		flex-flow:row nowrap;
+	}
+	.hasspc .attr {
+		margin-right:2px;
+	}
+	.hasspc .onhit {
+		margin-left:2px;
 	}
 }
 
@@ -273,16 +281,17 @@ h3 {
 	display:flex;
 	flex-flow:row wrap;
 	justify-content:space-evenly;
+	margin: 0 -6px;
 }
 .attrbox>div {
 	font-weight:bold;
-	margin:2px 0 4px;
+	margin:2px 8px 4px;
 }
 
 .attr,
-.onhit,
-.spc {
+.onhit {
 	font-weight:bold;
+	flex: 1 1;
 }
 .attr {
 	color:var(--midori);
@@ -291,6 +300,7 @@ h3 {
 	color:var(--aka);
 }
 .spc {
+	font-weight:bold;
 	width:96px;
 	margin-left:4px;
 	flex:0 0 auto;
