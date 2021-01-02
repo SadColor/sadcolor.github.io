@@ -36,7 +36,7 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"rapid" }
+					{ "g":"Rapid" }
 				]
 			}
 		},
@@ -71,7 +71,7 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"charge OK" }
+					{ "g":"Charge OK" }
 				]
 			}
 		},
@@ -83,14 +83,14 @@
 			],
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
-			"description":"Backhanded needle slash.",
+			"description":"Crouching kick.<br/>A little less range than {{ n5 }}{{ A }}.",
 			"damage":"22",
 			"ip":"25",
 			"cp":"3",
 			"attributes": {
 				"guard":"low",
 				"green": [
-					{ "g":"rapid" }
+					{ "g":"Rapid" }
 				]
 			}
 		},
@@ -124,7 +124,7 @@
 			"cp":"3",
 			"attributes": {
 				"guard":"low",
-				"red":"knockdown"
+				"red":"Knockdown"
 			}
 		},
 		
@@ -174,7 +174,7 @@
 			"attributes": {
 				"guard":"high",
 				"green": [
-					{ "g":"charge OK" }
+					{ "g":"Charge OK" }
 				]
 			}
 		}
@@ -195,7 +195,7 @@
 			"attributes": {
 				"guard":"mid",
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Launch" }
 				]
 			}
 		},
@@ -214,10 +214,10 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"airborne" }
+					{ "g":"Airborne" }
 				],
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Launch" }
 				]
 			}
 		},
@@ -236,7 +236,7 @@
 			"attributes": {
 				"guard":"mid",
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Launch" }
 				]
 			}
 		}
@@ -255,7 +255,7 @@
 			"attributes": {
 				"guard":"grab",
 				"red": [
-					{ "r":"groundslide" }
+					{ "r":"Groundslide" }
 				]
 			}
 		},
@@ -269,14 +269,16 @@
 			"damage":"160",
 			"ip":"35",
 			"cp":"5",
-			"min":"15%",
 			"attributes": {
 				"guard":"grab",
 				"green": [
-					{ "g":"ender" }
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"groundslide" }
+					{ "r":"Groundslide" }
+				],
+				"blue": [
+					{ "b":"15% min." }
 				]
 			}
 		}
@@ -300,7 +302,7 @@
 			],
 			"name":"<b>Beemerang Toss</b>",
 			"input":"{{ d236 }}{{ A }}",
-			"description":"Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input 236A again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.",
+			"description":"Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input {{ d236 }}{{ A }} again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.",
 			"damage":"51",
 			"ip":"20",
 			"cp":"2",
@@ -325,10 +327,10 @@
 			"attributes": {
 				"guard":"low",
 				"green": [
-					{ "g":"charge OK" }
+					{ "g":"Charge OK" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
 				]
 			}
 		},
@@ -340,7 +342,7 @@
 			],
 			"name":"<b>Blue Stinger</b>",
 			"input":"{{ d236 }}{{ C }}",
-			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>NUMB</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
+			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>Numb</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
 			"damage":"111",
 			"ip":"15",
 			"cp":"3",
@@ -348,13 +350,13 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"charge OK" }
+					{ "g":"Charge OK" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
 				],
 				"blue": [
-					{ "b":"numb" }
+					{ "b":"Numb" }
 				]
 			}
 		},
@@ -394,7 +396,7 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"air OK" }
+					{ "g":"Air OK" }
 				]
 			}
 		},
@@ -414,11 +416,11 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"air OK" },
-					{ "g":"airborne" }
+					{ "g":"Air OK" },
+					{ "g":"Airborne" }
 				],
 				"red": [
-					{ "r":"spike" }
+					{ "r":"Spike" }
 				]
 			}
 		},
@@ -438,12 +440,12 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"air OK" },
-					{ "g":"dash OK" },
-					{ "g":"airborne" }
+					{ "g":"Air OK" },
+					{ "g":"Dash OK" },
+					{ "g":"Airborne" }
 				],
 				"red": [
-					{ "r":"wallbounce" }
+					{ "r":"Wallbounce" }
 				]
 			}
 		}
@@ -459,17 +461,19 @@
 			"damage":"209",
 			"ip":"30",
 			"cp":"1",
-			"min":"20%",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"ender" }
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"groundslide" }
+					{ "r":"Groundslide" }
 				],
-				"blue": "poison"
+				"blue": [
+					{ "b":"20% min." },
+					{ "b":"Poison" }
+				]
 			}
 		},
 		
@@ -482,15 +486,17 @@
 			"damage":"160",
 			"ip":"10",
 			"cp":"1",
-			"min":"20%",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"high",
 				"green": [
-					{ "g":"airborne" }
+					{ "g":"Airborne" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"20% min." }
 				]
 			}
 		},
@@ -504,15 +510,17 @@
 			"damage":"160",
 			"ip":"10",
 			"cp":"1",
-			"min":"35%",
 			"cost":"<b>200</b> EX",
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"ender" }
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"35% min." }
 				]
 			}
 		}
