@@ -220,11 +220,10 @@ h3 {
 	margin-left:3px;
 }
 .atkprop {
+	display:flex;
+	flex-flow:row wrap;
 	text-align: center;
 	margin-bottom: 6px;
-}
-.atkprop>div {
-	display:inline-block;
 }
 .atkval {
 	margin: 2px 0 4px;
@@ -239,11 +238,13 @@ h3 {
 	color:var(--ao);
 	margin-right:4px;
 }
-.costcont {
+.costcont{
 	width:104px;
+	flex:0 0 auto;
 }
 .icpcont {
 	width:56px;
+	flex:0 0 auto;
 }
 
 .dmg {
@@ -256,10 +257,11 @@ h3 {
 }
 .grdcont {
 	min-width:100px;
+	flex:0 0 auto;
 }
 
 .attrcont {
-	
+	flex:1 1;
 }
 .attrbox {
 	display:flex;
@@ -286,6 +288,7 @@ h3 {
 .spc {
 	width:96px;
 	margin-left:4px;
+	flex:0 0 auto;
 	color:var(--ao);
 }
 
