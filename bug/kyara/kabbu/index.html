@@ -231,97 +231,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>25</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>23</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>rapid</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Jab.</p>
 		</div>
@@ -357,97 +367,105 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>50</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Kabbu steps forward with a backfist.</p>
 		</div>
@@ -483,97 +501,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>80</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>charge OK</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Kabbu slashes his horn inwards.<br/>Charged version vacuums the opponent in.</p>
 		</div>
@@ -609,97 +637,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>25</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>low</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>22</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>rapid</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Crouching jab.</p>
 		</div>
@@ -735,97 +773,105 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>low</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>44</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Crouching kick. Moves Kabbu forwards slightly.</p>
 		</div>
@@ -861,97 +907,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>low</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>78</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div></div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Sweeps with horn.</p>
 		</div>
@@ -987,97 +1043,105 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>25</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>high</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>30</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Downwards needle slash.<br/>The downwards angle lets you use it as an instant overhead with her hop.</p>
 		</div>
@@ -1113,97 +1177,105 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>high</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>44</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Forward slash. Has the most horizontal range of Vi's air normals by a little bit.</p>
 		</div>
@@ -1239,97 +1311,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>high</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>60</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>charge OK</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.</p>
 		</div>
@@ -1379,97 +1461,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>58</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>launch</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi kicks upwards while standing on her hands.<br/>Little horizontal range, but good vertical range.</p>
 		</div>
@@ -1505,97 +1597,109 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>48</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>airborne</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>launch</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>A leaping knee attack.</p>
 		</div>
@@ -1631,97 +1735,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>37<t-w>×</t-w>2</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>launch</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Wide horizontal slash.<br/>Same animation as <b>5</b><t-r><b>C</b></t-r>, but hits twice.</p>
 		</div>
@@ -1767,97 +1881,107 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>40</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>0</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>grab</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>144</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>groundslide</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Hops onto the opponent and kicks off of them.<br/>Can’t combo without ===.</p>
 		</div>
@@ -1889,97 +2013,109 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
+								
+					
 						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
+						
 							<div class="icpcont">
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>35</b></div>
 								</div>
 								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>5</b></div>
 								</div>
 							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>grab</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>160</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>ender</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>groundslide</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Grabs the opponent and izuna drops them.</p>
 		</div>
@@ -2025,97 +2161,7 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
-						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
-						<!-- guard/damage -->
-						<div class="grdcont">
-							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
-							</div>
-							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
-							</div>
-						</div>
-						<!-- red/green attr -->
-						<div class="attrcont">
-							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
-								</div>
-							</div>
-							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
-								</div>
-							</div>
-						</div>
-						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
-					</div>
-				{% endif %}
+								
 			
 			<p>Vi readies herself then flies speedily towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction while readying.<br/>You can do aerial attacks during the dive, and it can be steered to go higher, lower, shorter, or farther depending on your directional input.<br/>You can cancel Skills into Beeline for an additional <t-y><b>3</b> SP</t-y>.</p>
 		</div>
@@ -2151,97 +2197,117 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>20</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>51</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input 236A again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.</p>
 		</div>
@@ -2277,97 +2343,121 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>low</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>80</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>charge OK</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>knockdown</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi slashes at the opponent's feet with both needles while doing a cool flip.<br/>Decently fast startup, but not safe on block.<br/>Critical Counter on counterhit.</p>
 		</div>
@@ -2403,97 +2493,140 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
+								
+					
+						
 							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+						
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>5</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>111</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>charge OK</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>knockdown</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
+						
 							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Special
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
+									
+										<div>numb</div>
+									
 								</div>
 							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi stings the opponent with her stinger. Inflicts <t-b><b>NUMB</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.</p>
 		</div>
@@ -2529,97 +2662,117 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>60</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi tosses a needle diagonally downwards.<br/><t-g><b>A</b></t-g> version bounces you backwards, while <t-y><b>B</b></t-y> version makes you fall forwards. <t-y><b>B</b></t-y> version throws the needle at a shallower angle.<br/>Both versions are slightly plus on block when done as low as possible.<br/>The <t-g><b>A</b></t-g> version is more plus, but leaves you further away.</p>
 		</div>
@@ -2661,97 +2814,119 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>2</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>1</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>30</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>air OK</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
+									
 										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi slashes with a needle while advancing.<br/>An additional slash can be performed with <img class="dirimg l" alt="4" src="/img/d4.png" /><t-g><b>A</b></t-g>, which can lead one last followup.<br/>Pressing <img class="dirimg l" alt="4" src="/img/d4.png" /><t-g><b>A</b></t-g> again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press <img class="dirimg l" alt="4" src="/img/d4.png" /><t-y><b>B</b></t-y>, <img class="dirimg l" alt="4" src="/img/d4.png" /><t-r><b>C</b></t-r>, or <img class="dirimg r" alt="6" src="/img/d6.png" /><t-y><b>B</b></t-y> to go into <img class="dirimg l" alt="214" src="/img/d214.png" /><t-y><b>B</b></t-y>, <img class="dirimg l" alt="214" src="/img/d214.png" /><t-r><b>C</b></t-r>, or <img class="dirimg r" alt="236" src="/img/d236.png" /><t-y><b>B</b></t-y>, respectively.<br/>On counterhit, you can combo into the <img class="dirimg l" alt="4" src="/img/d4.png" /><t-y><b>B</b></t-y> finisher and get a crouching combo afterwards.<br/>The <img class="dirimg r" alt="6" src="/img/d6.png" /><t-y><b>B</b></t-y> finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.</p>
 		</div>
@@ -2787,97 +2962,123 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>15</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>71</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>air OK</div>
+										
+											<div>airborne</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>spike</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi hops forwards and slashes downwards with both needles. Has faster startup when doing the aerial version.<br/>Forces crouch on hit.<br/>Counterhit has enough hitstun to link heavy normals, otherwise you have to use a light normal on hit.</p>
 		</div>
@@ -2913,97 +3114,125 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>5</b> SP</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>3</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>104</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>air OK</div>
+										
+											<div>dash OK</div>
+										
+											<div>airborne</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>wallbounce</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi slashes while retreating. You can dash-cancel, even on block, but dash-canceling on block leaves you slightly minus.<br/>Midscreen, you can cancel <img class="dirimg l" alt="214" src="/img/d214.png" /><t-r><b>C</b></t-r> into a forward airdash and continue to juggle.<br/>Being in the corner also allows you to land multiple <img class="dirimg l" alt="214" src="/img/d214.png" /><t-r><b>C</b></t-r>s in the same combo, which is a very damaging route.</p>
 		</div>
@@ -3049,97 +3278,140 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
+								
+					
+						
 							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+						
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>100</b> EX</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>30</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>1</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>209</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>ender</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>groundslide</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
+						
 							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Special
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
+									
+										<div></div>
+									
 								</div>
 							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi rapidly stabs with needles before ending with a final hit that poisons the opponent.<br/>The last hit doesn't occur if the previous hits are blocked or whiff.</p>
 		</div>
@@ -3171,97 +3443,121 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>100</b> EX</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>1</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>high</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>160</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>airborne</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>knockdown</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>Vi flips forward and does a downwards slash with both needles, similar to her <b>214</b><t-y><b>B</b></t-y>. <br/>Launches the opponent high up in the air with a guaranteed knockdown, allowing combo extensions at any point.</p>
 		</div>
@@ -3293,97 +3589,121 @@ Stats
 		<!-- the entire right side -->
 		<div class="atkinfo">
 			
-								{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
+								
+					
 						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
+					
 						<!-- cost/prorate -->
-						{% if attack.cost %}
+						
 							<div class="costcont">
 								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Cost
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>200</b> EX</div>
 								</div>
 								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+IP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>10</b></div>
 								</div>
 								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
+									<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+CP
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+									<div class="atkval"><b>1</b></div>
 								</div>
 							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
+						
 						<!-- guard/damage -->
 						<div class="grdcont">
 							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Guard
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>mid</b></div>
 							</div>
 							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Damage
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
+								<div class="atkval"><b>160</b></div>
 							</div>
 						</div>
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+Attributes
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>ender</div>
+										
+									
 								</div>
 							</div>
 							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="atkname">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+On hit
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+</div>
 								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
+									
+										
+											<div>knockdown</div>
+										
+									
 								</div>
 							</div>
 						</div>
 						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
+						
 					</div>
-				{% endif %}
+				
 			
 			<p>-</p>
 		</div>
