@@ -186,7 +186,7 @@ h3 {
 	text-align:center;
 }
 .atkinput {
-	font-style:normal;
+	font-weight:normal;
 	color:var(--grey);
 }
 .atkimg {
@@ -330,12 +330,13 @@ tr {
 /* also wrap with cost */
 @media only screen and (max-width: 752px) {
 	.hascost>.grdcont {
-		min-width:76px;
+		min-width:72px;
 		flex:1 1 auto;
 	}
 	.hascost .dmg,
 	.hascost .grd {
 		min-width:72px;
+		margin-right:0;
 	}
 	.hascost>.attrcont {
 		display:flex;
@@ -352,21 +353,15 @@ tr {
 	}
 	.cost {
 		width:92px;
-		color:var(--ki);
-		margin-right:4px;
 	}
 	.icp {
 		width:44px;
-		color:var(--ao);
-		margin-right:4px;
 	}
 	.costcont{
 		width:96px;
-		flex:0 0 auto;
 	}
 	.icpcont {
 		width:48px;
-		flex:0 0 auto;
 	}
 	.spc {
 		width:80px;
@@ -376,12 +371,13 @@ tr {
 /* wrap with only special*/
 @media only screen and (max-width: 800px) {
 	.hasspc>.grdcont {
-		min-width:76px;
+		min-width:72px;
 		flex:1 1 auto;
 	}
 	.hasspc .dmg,
 	.hasspc .grd {
 		min-width:72px;
+		margin-right: 0;
 	}
 	.hasspc>.attrcont {
 		display:flex;
@@ -416,12 +412,13 @@ tr {
 /* wrap only with both cost and special */
 @media only screen and (max-width: 900px) {
 	.hasspc.hascost>.grdcont {
-		min-width:76px;
+		min-width:72px;
 		flex:1 1 auto;
 	}
 	.hasspc.hascost .dmg,
 	.hasspc.hascost .grd {
 		min-width:72px;
+		margin-right:0;
 	}
 	.hasspc.hascost>.attrcont {
 		display:flex;
