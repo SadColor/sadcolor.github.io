@@ -215,13 +215,42 @@ h3 {
 	margin-left:3px;
 }
 .atkprop {
+	display:flex;
 	text-align: center;
 	margin-bottom: 6px;
 }
-.atkprop>table {
-	padding: 0;
+.cost {
+	width:80px;
+	color:var(--ki);
 }
-
+.icp {
+	width:48px;
+	color:var(--ao);
+}
+.icpcont {
+	width:100px;
+	flex: 1 1 100px;
+}
+.dmg {
+	color:var(--aka);
+}
+.dmg,
+.grd {
+	flex: 1 1 96px;
+}
+.attrbox {
+	display:flex;
+	flex-flow:row wrap;
+}
+.attr>.attrbox {
+	color:var(--midori);
+}
+.onhit>.attrbox {
+	color:var(--aka);
+}
+.spc>.attrbox {
+	color:var(--ao);
+}
 
 table {
 	width:100%;
@@ -230,12 +259,6 @@ table {
 }
 tr {
 	vertical-align:top;
-}
-.cost {
-	width:80px;
-}
-.icp {
-	width:56px;
 }
 
 .note {
