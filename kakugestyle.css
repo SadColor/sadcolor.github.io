@@ -154,6 +154,12 @@ h3 {
 	.kyaratabs>a {
 		margin: 0 8px;
 	}
+	
+	.attrcont {
+		display:flex;
+		flex-order:24;
+		flex-flow:row nowrap;
+	}
 }
 
 .traits,
@@ -243,7 +249,7 @@ h3 {
 	flex:0 0 auto;
 }
 .icpcont {
-	width:56px;
+	width:52px;
 	flex:0 0 auto;
 }
 
@@ -270,7 +276,6 @@ h3 {
 }
 .attrbox>div {
 	font-weight:bold;
-	flex:0 0;
 	margin:2px 0 4px;
 }
 
