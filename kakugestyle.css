@@ -268,7 +268,7 @@ h3 {
 	flex-flow:row wrap;
 	justify-content:space-evenly;
 }
-.attrbox>span {
+.attrbox>div {
 	font-weight:bold;
 	flex:0 0;
 	margin:2px 0 4px;
