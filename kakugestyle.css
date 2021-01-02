@@ -280,6 +280,22 @@ h3 {
 	color:var(--ao);
 }
 
+.vercont {
+	display: flex;
+	flex-flow: row nowrap;
+}
+.vercont>atkinput {
+	font-family:"MS PGothic", sans-serif;
+	font-size:12px;
+}
+.vername {
+	background-color:var(--bg);
+	position:relative;
+	text-align:center;
+	width:72px;
+	flex:0 0 auto;
+}
+
 table {
 	width:100%;
 	padding:0px 8px;
@@ -446,6 +462,13 @@ tr {
 .dirimg {
 	display: inline-block;
 	vertical-align: text-top;
+}
+.dirimg.l {
+	margin-left: 1px;
+	margin-right: -1px;
+}
+.dirimg.r {
+	margin: 0 1px;
 }
 
 /*
