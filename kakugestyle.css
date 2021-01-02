@@ -141,34 +141,6 @@ h3 {
 	align-items:center;
 	margin-bottom: 6px;
 }
-@media only screen and (max-width: 824px) {
-	.kyaranav {
-		width: 100%
-		margin: 0;
-		flex: 1 0 100%;
-	}
-	.kyaratabs {
-		flex-flow:row wrap;
-		justify-content:center;
-	}
-	.kyaratabs>a {
-		margin: 0 8px;
-	}
-	.hasspc>.grdcont {
-		flex:1 1 auto;
-	}
-	.hasspc>.attrcont {
-		display:flex;
-		order:24;
-		flex-flow:row nowrap;
-	}
-	.hasspc .attr {
-		margin-right:2px;
-	}
-	.hasspc .onhit {
-		margin-left:2px;
-	}
-}
 
 .traits,
 .pros,
@@ -244,6 +216,7 @@ h3 {
 }
 
 .cost {
+	width:100px;
 	color:var(--ki);
 	margin-right:4px;
 }
@@ -347,6 +320,125 @@ tr {
 	padding-bottom: 0px;
 	top: -16px;
 }
+
+
+/*
+	screen size adjustments
+*/
+
+
+/* also wrap with cost */
+@media only screen and (max-width: 752px) {
+	.hascost>.grdcont {
+		min-width:76px;
+		flex:1 1 auto;
+	}
+	.hascost .dmg,
+	.hascost .grd {
+		min-width:72px;
+	}
+	.hascost>.attrcont {
+		display:flex;
+		order:24;
+		flex-flow:row nowrap;
+	}
+	.hascost .attr {
+		margin-right:2px;
+		max-width:50%;
+	}
+	.hascost .onhit {
+		margin-left:2px;
+		max-width:50%;
+	}
+	.cost {
+		width:92px;
+		color:var(--ki);
+		margin-right:4px;
+	}
+	.icp {
+		width:44px;
+		color:var(--ao);
+		margin-right:4px;
+	}
+	.costcont{
+		width:96px;
+		flex:0 0 auto;
+	}
+	.icpcont {
+		width:48px;
+		flex:0 0 auto;
+	}
+	.spc {
+		width:80px;
+	}
+}
+
+/* wrap with only special*/
+@media only screen and (max-width: 800px) {
+	.hasspc>.grdcont {
+		min-width:76px;
+		flex:1 1 auto;
+	}
+	.hasspc .dmg,
+	.hasspc .grd {
+		min-width:72px;
+	}
+	.hasspc>.attrcont {
+		display:flex;
+		order:24;
+		flex-flow:row nowrap;
+	}
+	.hasspc .attr {
+		margin-right:2px;
+		max-width:50%;
+	}
+	.hasspc .onhit {
+		margin-left:2px;
+		max-width:50%;
+	}
+}
+
+@media only screen and (max-width: 824px) {
+	.kyaranav {
+		width: 100%;
+		margin: 0;
+		flex: 1 0 100%;
+	}
+	.kyaratabs {
+		flex-flow:row wrap;
+		justify-content:center;
+	}
+	.kyaratabs>a {
+		margin: 0 8px;
+	}
+}
+
+/* wrap only with both cost and special */
+@media only screen and (max-width: 900px) {
+	.hasspc.hascost>.grdcont {
+		min-width:76px;
+		flex:1 1 auto;
+	}
+	.hasspc.hascost .dmg,
+	.hasspc.hascost .grd {
+		min-width:72px;
+	}
+	.hasspc.hascost>.attrcont {
+		display:flex;
+		order:24;
+		flex-flow:row nowrap;
+	}
+	.hasspc.hascost .attr {
+		margin-right:2px;
+		max-width:50%;
+	}
+	.hasspc.hascost .onhit {
+		margin-left:2px;
+		max-width:50%;
+	}
+}
+
+
 
 /*
 	button images
