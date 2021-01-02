@@ -239,10 +239,13 @@ h3 {
 	color:var(--ao);
 	margin-right:4px;
 }
-.icpcont {
-	width:100px;
-	flex: 1 1 100px;
+.costcont {
+	width:104px;
 }
+.icpcont {
+	width:56px;
+}
+
 .dmg {
 	color:var(--aka);
 }
@@ -250,6 +253,13 @@ h3 {
 .grd {
 	min-width:96px;
 	margin-right: 4px;
+}
+.grdcont {
+	min-width:100px;
+}
+
+.attrcont {
+	
 }
 .attrbox {
 	display:flex;
