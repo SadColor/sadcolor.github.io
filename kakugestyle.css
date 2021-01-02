@@ -342,6 +342,7 @@ tr {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
+		min-width:256px;
 	}
 	.hascost .attr {
 		margin-right:2px;
@@ -383,6 +384,7 @@ tr {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
+		min-width:288px;
 	}
 	.hasspc .attr {
 		margin-right:2px;
@@ -424,6 +426,7 @@ tr {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
+		min-width:352px;
 	}
 	.hasspc.hascost .attr {
 		margin-right:2px;
