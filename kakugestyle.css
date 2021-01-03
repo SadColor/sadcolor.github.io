@@ -372,6 +372,8 @@ tr {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
+	}
+	.hasspc.hascost>.attrcont {
 		min-width:352px;
 	}
 	.vercont .attrcont {
@@ -426,6 +428,8 @@ tr {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
+	}
+	.hasspc>.attrcont {
 		min-width:288px;
 	}
 	.vercont .attrcont {
