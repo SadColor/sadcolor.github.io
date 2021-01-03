@@ -375,7 +375,7 @@ tr {
 		min-width:352px;
 	}
 	.vercont .attrcont {
-		min-width:200px;
+		min-width:144px;
 	}
 	
 	.hasspc.hascost .attr,
@@ -429,7 +429,7 @@ tr {
 		min-width:288px;
 	}
 	.vercont .attrcont {
-		min-width:160px;
+		min-width:200px;
 	}
 	.hasspc .attr,
 	.vercont .attr {
@@ -460,6 +460,10 @@ tr {
 		flex-flow:row nowrap;
 		min-width:256px;
 	}
+	.vercont .attrcont {
+		min-width:180px;
+	}
+	
 	.hascost .attr {
 		margin-right:2px;
 		max-width:50%;
