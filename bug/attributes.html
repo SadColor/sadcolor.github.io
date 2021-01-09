@@ -16,7 +16,7 @@
 			<div style="margin: 8px 0 16px"></div>
 			<div class="pagination">
 				<span style="position:absolute;left:0">
-					<a href="..">« back</a>
+					<a href=.>« back</a>
 				</span>
 				<span style="margin:auto">
 					<a href="/bug">index</a>
@@ -88,19 +88,18 @@
 
 			<div><t-y><b>Cost</b><br/>
 			The resource that the move costs (whether it's <b>SP</b>, <b>EX meter</b>, or a character-specific one).</t-y></div>
-			<div><t-w><b>Mid</b><br/>
-			<b>Mid</b> attacks can be blocked standing or crouching.<br/>
-			The vast majority of moves are mids.</t-w></div>
-			<div><t-w><b>Low</b><br/>
-			<b>Low</b> attacks can only be blocked crouching.</t-w></div>
-			<div><t-w><b>High</b><br/>
-			<b>High</b> attacks can only be blocked standing.<br/>
-			Every air normal is a high.</t-w></div>
+			<div><t-w><b>Blocking direction</b><br/>
+			Attacks are classified as <b>lows</b>, <b>mids</b>, or <b>highs</b>.
+			Most attacks are <b>mid</b> attacks, which can be blocked standing or crouching.<br/>
+			<b>Low</b> attacks can only be blocked crouching.<br/>
+			<b>High</b> attacks can only be blocked standing. Every air normal is a high.</t-w></div>
 			<div><t-w><b>Grab</b><br/>
 			<b>Grabs</b> can't be blocked, but can be broken by inputting a grab at close to the same time you were grabbed.</t-w></div>
 			<div><t-w><b>Crush</b><br/>
 			Attacks that <b>guard crush</b> can't be blocked normally.<br/>
 			If they are, the opponent is put into a special vulnerable recoil state.</t-w></div>
+			<div><t-w><b>Super Block</b><br/>
+			Some attacks can only be blocked by <b>Super Blocking</b> them (abbreviated <b>SB</b>), in addition to their normal blocking direction.</t-w></div>
 		
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -201,6 +200,8 @@
 			<b>Tumble</b> knock the opponent backwards off their feet. If you hit them during the tumble, they're considered crouching.</div>
 			<div><b>Capture</b><br/>
 			<b>Capture</b> attacks lock the opponent in place momentarily. Afterwards, they will <b>Crumple</b> on the ground or just fall straight down in the air.</div>
+			<div><b>Vacuum</b><br/>
+			<b>Vacuum</b> attacks move the opponent towards you rather than away.</div>
 		
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
