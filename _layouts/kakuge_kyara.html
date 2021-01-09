@@ -7,6 +7,7 @@ layout: kakuge_layout
 {% include kakugestuff.html %}
 {% assign chr = site.data.bug.[page.kyara] %}
 {% capture attackinfo %}{% raw %}	<div class="atkcont">
+		<!-- name -->
 		<div style="margin-bottom:4px">
 			<div class="atkname" style="width:35%">
 				{{ nesttopL }}
@@ -15,7 +16,7 @@ layout: kakuge_layout
 				{{ nestcornerR }}
 			</div>
 		</div>
-		
+		<!-- image -->
 		<div class="atkimg">
 			{% if attack.images %}
 				{% for img in attack.images %}
@@ -26,102 +27,125 @@ layout: kakuge_layout
 				<div class="comment">{{ attack.comment | liquify }}</div>
 			{% endif %}
 		</div>
-		
+		<!-- the entire right side -->
 		<div class="atkinfo">
-			{% if attack.damage %}
-				{% if attack.attributes.blue %}
-					{% if attack.cost %}
-						<div class="atkprop hasspc hascost">
-					{% else %}
-						<div class="atkprop hasspc">
-					{% endif %}
-				{% elsif attack.cost %}
-					<div class="atkprop hascost">
-				{% else %}
-					<div class="atkprop">
-				{% endif %}
-					<!-- cost/prorate -->
-					{% if attack.cost %}
-						<div class="costcont">
-							<div class="cost" style="flex:0 0 100px">
-								<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-								<div class="atkval">{{ attack.cost }}</div>
+			{% if attack.versions %}
+				{% for attack in attack.versions %}
+					<div class="vercont">
+							<div class="vername">
+								{{ nesttopL }}
+								<div style="line-height:1.1em">
+									<div>
+										{{ attack.name | liquify }}
+									</div>
+									<div class="atkinput">
+										{{ attack.label | liquify }}
+									</div>
+								</div>
+								{{ nestcornerR }}
 							</div>
-							<div class="icp" style="float:left">
-								<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.ip }}</b></div>
-							</div>
-							<div class="icp" style="float:right">
-								<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.cp }}</b></div>
-							</div>
-						</div>
-					{% else %}
-						<div class="icpcont">
-							<div class="icp">
-								<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.ip }}</b></div>
-							</div>
-							<div class="icp">
-								<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.cp }}</b></div>
-							</div>
-						</div>
-					{% endif %}
-					<!-- guard/damage -->
-					<div class="grdcont">
-						<div class="grd">
-							<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-							<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
-						</div>
-						<div class="dmg">
-							<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-							<div class="atkval"><b>{{ attack.damage }}</b></div>
-						</div>
+							{{ attacktable | liquify }}
 					</div>
-					<!-- red/green attr -->
-					<div class="attrcont">
-						<div class="attr">
-							<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
-							<div class="attrbox">
-								{% if attack.attributes.green %}
-									{% for attr in attack.attributes.green %}
-										<div>{{ attr.g }}</div>
-									{% endfor %}
-								{% else %}
-									<div><t-gr>-</t-gr></div>
-								{% endif %}
-							</div>
-						</div>
-						<div class="onhit">
-							<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
-							<div class="attrbox">
-								{% if attack.attributes.red %}
-									{% for attr in attack.attributes.red %}
-										<div>{{ attr.r }}</div>
-									{% endfor %}
-								{% else %}
-									<div><t-gr>-</t-gr></div>
-								{% endif %}
-							</div>
-						</div>
-					</div>
-					<!-- blue attr -->
-					{% if attack.attributes.blue %}
-						<div class="spc">
-							<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-							<div class="attrbox">
-								{% for attr in attack.attributes.blue %}
-									<div>{{ attr.b }}</div>
-								{% endfor %}
-							</div>
-						</div>
-					{% endif %}
-				</div>
+				{% endfor %}
+			{% else %}
+				{{ attacktable | liquify }}
 			{% endif %}
 			<p>{{ attack.description | liquify }}</p>
 		</div>
 	</div>{% endraw %}{% endcapture %}
+
+{% capture attacktable %}{% raw %}				{% if attack.damage %}
+					{% if attack.attributes.blue %}
+						{% if attack.cost %}
+							<div class="atkprop hasspc hascost">
+						{% else %}
+							<div class="atkprop hasspc">
+						{% endif %}
+					{% elsif attack.cost %}
+						<div class="atkprop hascost">
+					{% else %}
+						<div class="atkprop">
+					{% endif %}
+						<!-- cost/prorate -->
+						{% if attack.cost %}
+							<div class="costcont">
+								<div class="cost" style="flex:0 0 100px">
+									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
+									<div class="atkval">{{ attack.cost }}</div>
+								</div>
+								<div class="icp" style="float:left">
+									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
+									<div class="atkval"><b>{{ attack.ip }}</b></div>
+								</div>
+								<div class="icp" style="float:right">
+									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
+									<div class="atkval"><b>{{ attack.cp }}</b></div>
+								</div>
+							</div>
+						{% else %}
+							<div class="icpcont">
+								<div class="icp">
+									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
+									<div class="atkval"><b>{{ attack.ip }}</b></div>
+								</div>
+								<div class="icp">
+									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
+									<div class="atkval"><b>{{ attack.cp }}</b></div>
+								</div>
+							</div>
+						{% endif %}
+						<!-- guard/damage -->
+						<div class="grdcont">
+							<div class="grd">
+								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
+								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
+							</div>
+							<div class="dmg">
+								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
+								<div class="atkval"><b>{{ attack.damage }}</b></div>
+							</div>
+						</div>
+						<!-- red/green attr -->
+						<div class="attrcont">
+							<div class="attr">
+								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
+								<div class="attrbox">
+									{% if attack.attributes.green %}
+										{% for attr in attack.attributes.green %}
+											<div>{{ attr.g }}</div>
+										{% endfor %}
+									{% else %}
+										<div><t-gr>-</t-gr></div>
+									{% endif %}
+								</div>
+							</div>
+							<div class="onhit">
+								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
+								<div class="attrbox">
+									{% if attack.attributes.red %}
+										{% for attr in attack.attributes.red %}
+											<div>{{ attr.r }}</div>
+										{% endfor %}
+									{% else %}
+										<div><t-gr>-</t-gr></div>
+									{% endif %}
+								</div>
+							</div>
+						</div>
+						<!-- blue attr -->
+						{% if attack.attributes.blue %}
+							<div class="spc">
+								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
+								<div class="attrbox">
+									{% for attr in attack.attributes.blue %}
+										<div>{{ attr.b }}</div>
+									{% endfor %}
+								</div>
+							</div>
+						{% endif %}
+					</div>
+				{% endif %}{% endraw %}{% endcapture %}
+
 
 <div class="post_body">
 	<div class="kyaratop">

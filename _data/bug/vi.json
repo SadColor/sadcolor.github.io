@@ -28,7 +28,7 @@
 				{ "i":"/img/vi/5a.png" }
 			],
 			"name":"{{ n5 }}{{ A }}",
-			"input":"{{ d0 }}{{ A }}",
+			"input":"{{ d5 }}{{ A }}",
 			"description":"Backhanded needle slash.",
 			"damage":"22",
 			"ip":"25",
@@ -47,7 +47,7 @@
 				{ "i":"/img/vi/5b.png" }
 			],
 			"name":"{{ n5 }}{{ B }}",
-			"input":"{{ d0 }}{{ B }}",
+			"input":"{{ d5 }}{{ B }}",
 			"description":"Leans forward and slashes downwards.",
 			"damage":"44",
 			"ip":"15",
@@ -63,17 +63,34 @@
 				{ "i":"/img/vi/5c.png" }
 			],
 			"name":"{{ n5 }}{{ C }}",
-			"input":"{{ d0 }}{{ C }}",
+			"input":"{{ d5 }}{{ C }}",
 			"description":"Wide backhanded slash.<br/>Charged version grants extra hitstun and damage, and Critical Counters on counterhit.",
-			"damage":"66",
-			"ip":"10",
-			"cp":"3",
-			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"Charge OK" }
-				]
-			}
+			"versions": [
+				{
+					"name":"{{ n5 }}{{ C }}",
+					"label":"normal",
+					"damage":"66",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n5 }}[{{ C }}]",
+					"label":"charged",
+					"damage":"78",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid"
+					}
+				}
+			]
 		},
 		
 		{
@@ -152,7 +169,7 @@
 			"name":"{{ j }}{{ B }}",
 			"input":"{{ d0 }}{{ B }} while airborne",
 			"description":"Forward slash. Has the most horizontal range of Vi's air normals by a little bit.",
-			"damage":"44",
+			"damage":"47",
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
@@ -168,15 +185,32 @@
 			"name":"{{ j }}{{ C }}",
 			"input":"{{ d0 }}{{ C }} while airborne",
 			"description":"Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.",
-			"damage":"60",
-			"ip":"10",
-			"cp":"3",
-			"attributes": {
-				"guard":"high",
-				"green": [
-					{ "g":"Charge OK" }
-				]
-			}
+			"versions": [
+				{
+					"name":"{{ j }}{{ C }}",
+					"label":"normal",
+					"damage":"66",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ j }}[{{ C }}]",
+					"label":"charged",
+					"damage":"77",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high"
+					}
+				}
+			]
 		}
 	],
 	
@@ -248,7 +282,7 @@
 			"image":"",
 			"name":"Ground throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
-			"description":"Hops onto the opponent and kicks off of them.<br/>Can’t combo without ===.",
+			"description":"Hops onto the opponent and kicks off of them.<br/>Can’t combo without Active Shift.",
 			"damage":"144",
 			"ip":"40",
 			"cp":"0",
@@ -388,17 +422,57 @@
 			"comment":"Fissuring Slash!",
 			"name":"<b>Needle Pincer</b>",
 			"input":"{{ d214 }}{{ A }}",
-			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press {{ d4 }}{{ B }}, {{ d4 }}{{ C }}, or {{ d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
-			"damage":"30",
-			"ip":"10",
-			"cp":"1",
-			"cost":"<b>2</b> SP",
-			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"Air OK" }
-				]
-			}
+			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead into one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press {{ d4 }}{{ B }}, {{ d4 }}{{ C }}, or {{ d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
+			"versions": [
+				{
+					"name":"{{ n214 }}{{ A }}",
+					"label":"first",
+					"damage":"30",
+					"ip":"10",
+					"cp":"1",
+					"cost":"<b>2</b> SP",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Air OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n214 }}{{ A }}{{ A }}",
+					"label":"second",
+					"damage":"40",
+					"ip":"10",
+					"cp":"1",
+					"cost":"<b>1</b> SP",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Air OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n214 }}{{ A }}{{ A }}{{ A }}",
+					"label":"third",
+					"damage":"88",
+					"ip":"10",
+					"cp":"3",
+					"cost":"<b>1</b> SP",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Air OK" },
+							{ "g":"Airborne" }
+						],
+						"red": [
+							{ "r":"Wallbounce" }
+						]
+					}
+				}
+			]
 		},
 		
 		{

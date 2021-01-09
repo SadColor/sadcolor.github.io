@@ -1,7 +1,7 @@
 {
 	"stats": {
 		"image":"",
-		"hp":"<t-g>１１００</t-g>",
+		"hp":"<t-pi>１１００</t-pi>",
 		"sp":"<t-g>２０</t-g>",
 		"traits": [
 			{ "t": "not special :(" }
@@ -29,7 +29,7 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"rapid" }
+					{ "g":"Rapid" }
 				]
 			}
 		},
@@ -57,16 +57,36 @@
 			],
 			"name":"{{ n5 }}{{ C }}",
 			"input":"{{ d0 }}{{ C }}",
-			"description":"Kabbu slashes his horn inwards.<br/>Charged version vacuums the opponent in.",
-			"damage":"80",
-			"ip":"10",
-			"cp":"3",
-			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"charge OK" }
-				]
-			}
+			"description":"Kabbu slashes his horn inwards.",
+			"versions": [
+				{
+					"name":"{{ n5 }}{{ C }}",
+					"label":"normal",
+					"damage":"80",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n5 }}[{{ C }}]",
+					"label":"charged",
+					"damage":"88",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"red": [
+							{ "r":"Vacuum" }
+						]
+					}
+				}
+			]
 		},
 		
 		{
@@ -83,7 +103,7 @@
 			"attributes": {
 				"guard":"low",
 				"green": [
-					{ "g":"rapid" }
+					{ "g":"Rapid" }
 				]
 			}
 		},
@@ -96,7 +116,7 @@
 			"name":"{{ n2 }}{{ B }}",
 			"input":"{{ d2 }}{{ B }}",
 			"description":"Crouching kick. Moves Kabbu forwards slightly.",
-			"damage":"44",
+			"damage":"48",
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
@@ -117,7 +137,9 @@
 			"cp":"3",
 			"attributes": {
 				"guard":"low",
-				"red":"knockdown"
+				"red": [
+					{ "r":"knockdown" }
+				]
 			}
 		},
 		
@@ -128,8 +150,8 @@
 			],
 			"name":"{{ j }}{{ A }}",
 			"input":"{{ d0 }}{{ A }} while airborne",
-			"description":"Downwards needle slash.<br/>The downwards angle lets you use it as an instant overhead with her hop.",
-			"damage":"30",
+			"description":"Jumping knee.<br/>Active until landing.",
+			"damage":"40",
 			"ip":"25",
 			"cp":"3",
 			"attributes": {
@@ -144,8 +166,8 @@
 			],
 			"name":"{{ j }}{{ B }}",
 			"input":"{{ d0 }}{{ B }} while airborne",
-			"description":"Forward slash. Has the most horizontal range of Vi's air normals by a little bit.",
-			"damage":"44",
+			"description":"Forward jump kick.",
+			"damage":"46",
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
@@ -160,20 +182,56 @@
 			],
 			"name":"{{ j }}{{ C }}",
 			"input":"{{ d0 }}{{ C }} while airborne",
-			"description":"Spins upside down and slashes.<br/>Has a wide range and hits on both sides, but kinda slow to start.<br/>Charged version has extra damage and hitstun.",
-			"damage":"60",
-			"ip":"10",
-			"cp":"3",
-			"attributes": {
-				"guard":"high",
-				"green": [
-					{ "g":"charge OK" }
-				]
-			}
+			"description":"Slashes horn upwards.<br/>Charged version floats Kabbu upwards a little.",
+			"versions": [
+				{
+					"name":"{{ j }}{{ C }}",
+					"label":"normal",
+					"damage":"79",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ j }}[{{ C }}]",
+					"label":"charged",
+					"damage":"88",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high",
+						"red": [
+							{ "r":"Vacuum" }
+						]
+					}
+				}
+			]
 		}
 	],
 	
 	"commands": [
+		{
+			"id":"6a",
+			"images": [
+				{ "i":"/img/kabbu/6a.png" }
+			],
+			"name":"{{ n6 }}{{ A }}",
+			"input":"{{ d6 }}{{ A }}",
+			"description":"Advances forward with a kick. Doesn't chain into any other normals.<br/>Always plus on block, but hitting it later will make it more plus (of course).<br/>Retracts hurtbox near the feet, so sometimes it can go over low-aimed attacks.<br/><t-r><b>Tumble</b></t-r>s on counter hit.",
+			"damage":"37",
+			"ip":"15",
+			"cp":"2",
+			"attributes": {
+				"guard":"mid",
+			}
+		},
+	
 		{
 			"id":"3c",
 			"images": [
@@ -181,14 +239,15 @@
 			],
 			"name":"{{ n3 }}{{ C }}",
 			"input":"{{ d3 }}{{ C }}",
-			"description":"Vi kicks upwards while standing on her hands.<br/>Little horizontal range, but good vertical range.",
-			"damage":"58",
+			"description":"Kabbu steps forward and uses his horn to lift the opponent up and towards himself.<br/>The startup is slow, so its use in combos is restricted to crouching opponents or juggles.<br/>You can use it to restart block pressure since it's plus on block and pulls the opponent in.<br/>Can also be used as an anti-air due to the angle it covers, but it is a little slow.",
+			"damage":"100",
 			"ip":"10",
 			"cp":"3",
 			"attributes": {
 				"guard":"mid",
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Launch" },
+					{ "r":"Vacuum" }
 				]
 			}
 		},
@@ -196,21 +255,18 @@
 		{
 			"id":"db",
 			"images": [
-				{ "i":"/img/kabbu/db.png" }
+				{ "i":"" }
 			],
 			"name":"{{ d }}{{ B }}",
 			"input":"{{ d6 }}{{ B }} while dashing",
-			"description":"A leaping knee attack.",
-			"damage":"48",
+			"description":"Kabbu shoulder tackles forward.<br/>Useful for closing in or during corner combos.",
+			"damage":"55",
 			"ip":"15",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"mid",
-				"green": [
-					{ "g":"airborne" }
-				],
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Wallsplat" }
 				]
 			}
 		},
@@ -218,18 +274,22 @@
 		{
 			"id":"dc",
 			"images": [
-				{ "i":"/img/kabbu/5c.png" }
+				{ "i":"" }
 			],
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
-			"description":"Wide horizontal slash.<br/>Same animation as {{ n5 }}{{ C }}, but hits twice.",
-			"damage":"37<t-w>×</t-w>2",
+			"description":"Kabbu leaps into the air, trying to grab the opponent (not actually a grab).<br/>If the move connects, he'll slam the opponent into the ground head first.",
+			"damage":"120",
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
-				"guard":"mid",
+				"guard":"SB",
+				"green": [
+					{ "g":"Ender" },
+					{ "g":"Airborne" }
+				],
 				"red": [
-					{ "r":"launch" }
+					{ "r":"Groundslide" }
 				]
 			}
 		}
@@ -238,38 +298,40 @@
 	"throws": [
 		{
 			"id":"5ad",
-			"image":"",
+			"images": [
+				{ "i":"" }
+			],
 			"name":"Ground throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
-			"description":"Hops onto the opponent and kicks off of them.<br/>Can’t combo without ===.",
-			"damage":"144",
+			"description":"Kabbu shoulder checks the opponent, crumpling them.",
+			"damage":"120",
 			"ip":"40",
 			"cp":"0",
 			"attributes": {
 				"guard":"grab",
 				"red": [
-					{ "r":"groundslide" }
+					{ "r":"Crumple" }
 				]
 			}
 		},
 		
 		{
 			"id":"jad",
-			"image":"",
+			"images": [
+				{ "i":"" }
+			],
 			"name":"Air throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }} while airborne",
-			"description":"Grabs the opponent and izuna drops them.",
-			"damage":"160",
+			"description":"Kabbu catches the opponent on his horn and slings them away.<br/>Unlike other throws, you can actually combo after this one for free when used mid-combo.",
+			"damage":"108",
 			"ip":"35",
 			"cp":"5",
-			"min":"15%",
+			"min":"25%",
 			"attributes": {
 				"guard":"grab",
-				"green": [
-					{ "g":"ender" }
-				],
 				"red": [
-					{ "r":"groundslide" }
+					{ "r":"Wallbounce" },
+					{ "r":"Groundslide" }
 				]
 			}
 		}
@@ -279,11 +341,46 @@
 	"skills": [
 		{
 			"id":"s",
-			"image":"",
-			"name":"<b>Beeline</b>",
-			"input":"{{ d0 }}{{ S }}",
-			"description":"Vi readies herself then flies speedily towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction while readying.<br/>You can do aerial attacks during the dive, and it can be steered to go higher, lower, shorter, or farther depending on your directional input.<br/>You can cancel Skills into Beeline for an additional <t-y><b>3</b> SP</t-y>.",
-			"cost":"<b>2</b> SP"
+			"images": [
+				{ "i":"/img/kabbu/s.png" }
+			],
+			"name":"{{ n5 }}{{ S }}",
+			"input":"{{ d5 }}{{ S }}",
+			"description":"Kabbu braces himself, then slashes forward with his horn when you release {{ S }}.<br/>Has one hit of guard point during the charging portion only. At full charge, the guard point persists even during the attack.<br/>You can dash cancel either during the charge or once the attack connects.",
+			"cost":"<b>1</b> SP",
+			"versions": [
+				{
+					"name":"{{ n5 }}{{ S }}",
+					"label":"normal",
+					"damage":"77",
+					"ip":"15",
+					"cp":"2",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Charge OK" },
+							{ "g":"Dash OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n5 }}[{{ S }}]",
+					"label":"charged",
+					"damage":"120",
+					"ip":"50",
+					"cp":"3",
+					"attributes": {
+						"guard":"crush",
+						"green": [
+							{ "g":"Dash OK" }
+						],
+						"red": [
+							{ "r":"Crumple" }
+						]
+					}
+				}
+			]
 		},
 		
 		{
@@ -291,37 +388,41 @@
 			"images": [
 				{ "i":"/img/kabbu/236a.png" }
 			],
-			"name":"<b>Beemerang Toss</b>",
+			"name":"<b>Horn Dash</b>",
 			"input":"{{ d236 }}{{ A }}",
-			"description":"Vi tosses her Beemerang at the opponent.<br/>You can steer the Beemerang vertically while throwing.<br/>Once it reaches its maximum distance, the Beemerang will spin in place, until you input 236A again to call it back.<br/>The recall has no SP cost.<br/>The return speed is much faster than the initial throw speed.",
-			"damage":"51",
+			"description":"Kabbu leaps forward with his horn out.<br/>If you hit with the early portion of the move, Kabbu will bounce backwards.<br/>It's usually safe but you can be punished by some faster long-ranged moves.<br/>Alternatively, you can Active Shift right as you bounce to go for an overhead/low mixup.",
+			"damage":"130",
 			"ip":"20",
 			"cp":"2",
-			"cost":"<b>2</b> SP",
+			"cost":"<b>3</b> SP",
 			"attributes": {
-				"guard":"mid"
+				"guard":"mid",
+				"green": [
+					{ "g":"Air OK" },
+					{ "g":"Airborne" }
+				],
+				"red": [
+					{ "r":"Wallsplat" }
+				]
 			}
 		},
 		
 		{
 			"id":"236b",
 			"images": [
-				{ "i":"/img/kabbu/236b.png" }
+				{ "i":"" }
 			],
-			"name":"{{ n236 }}{{ B }}",
+			"name":"<b>Under Strike</b>",
 			"input":"{{ d236 }}{{ B }}",
-			"description":"Vi slashes at the opponent's feet with both needles while doing a cool flip.<br/>Decently fast startup, but not safe on block.<br/>Critical Counter on counterhit.",
-			"damage":"80",
+			"description":"Kabbu charges forward, digging through the ground before ending with a horn uppercut.<br/>Can go under a lot of physical attacks and has projectile invincibility.<br/>You can hold {{ B }} to travel a longer distance.<br/>It has slow startup and is very unsafe on block, but leads to great damage anywhere on screen.<br/>Used in high-damage counterhit confirms.",
+			"damage":"123",
 			"ip":"15",
-			"cp":"3",
-			"cost":"<b>3</b> SP",
+			"cp":"6",
+			"cost":"<b>4</b> SP",
 			"attributes": {
 				"guard":"low",
-				"green": [
-					{ "g":"charge OK" }
-				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
 				]
 			}
 		},
@@ -329,65 +430,40 @@
 		{
 			"id":"236c",
 			"images": [
-				{ "i":"/img/kabbu/236c.png" }
+				{ "i":"" }
 			],
-			"name":"<b>Blue Stinger</b>",
+			"name":"{{ n236 }}{{ C }}",
 			"input":"{{ d236 }}{{ C }}",
-			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>NUMB</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
-			"damage":"111",
-			"ip":"15",
-			"cp":"3",
-			"cost":"<b>5</b> SP",
+			"description":"Kabbu tries to grab the opponent.<br/>If it connects, he tosses the opponent up and skewers them on his horn before dropping them to the ground beside him.<br/>Midscreen, you can combo using Active Shift. In the corner, you can followup meterlessly with a light normal.",
+			"damage":"200",
+			"ip":"35",
+			"cp":"0",
+			"cost":"<b>4</b> SP",
 			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"charge OK" }
-				],
+				"guard":"grab",
 				"red": [
 					{ "r":"knockdown" }
 				],
-				"blue": [
-					{ "b":"numb" }
-				]
-			}
-		},
-		
-		{
-			"id":"j236x",
-			"images": [
-				{ "i":"/img/kabbu/j236x.png" }
-			],
-			"name":"<b>Needle Toss</b>",
-			"input":"{{ d236 }}{{ A }} or {{ d236 }}{{ B }} while airborne",
-			"description":"Vi tosses a needle diagonally downwards.<br/>{{ A }} version bounces you backwards, while {{ B }} version makes you fall forwards. {{ B }} version throws the needle at a shallower angle.<br/>Both versions are slightly plus on block when done as low as possible.<br/>The {{ A }} version is more plus, but leaves you further away.",
-			"damage":"60",
-			"ip":"15",
-			"cp":"2",
-			"cost":"<b>2</b> SP",
-			"attributes": {
-				"guard":"mid"
 			}
 		},
 		
 		{
 			"id":"214a",
 			"images": [
-				{ "i":"/img/kabbu/214a.png" },
-				{ "i":"/img/kabbu/214aa.png" },
-				{ "i":"/img/kabbu/214aaa.png" }
+				{ "i":"" }
 			],
-			"comment":"Fissuring Slash!",
-			"name":"<b>Needle Pincer</b>",
+			"name":"<b>Pebble Toss</b>",
 			"input":"{{ d214 }}{{ A }}",
-			"description":"Vi slashes with a needle while advancing.<br/>An additional slash can be performed with {{ d4 }}{{ A }}, which can lead one last followup.<br/>Pressing {{ d4 }}{{ A }} again has Vi leap and slash with both needles. It's fast and knocks the opponent far away. In the corner, it gives a wallbounce.<br/>You can also press {{ d4 }}{{ B }}, {{ d4 }}{{ C }}, or {{ d6 }}{{ B }} to go into {{ d214 }}{{ B }}, {{ d214 }}{{ C }}, or {{ d236 }}{{ B }}, respectively.<br/>On counterhit, you can combo into the {{ d4 }}{{ B }} finisher and get a crouching combo afterwards.<br/>The {{ d6 }}{{ B }} finisher is always a low, even when done in the air. However, you have to land first before the slash will come out.",
-			"damage":"30",
+			"description":"Kabbu hops up and tosses a pebble in an arc that tracks to the opponent's location.<br/>Not very strong, but can be used as a meaty setup or to harass a projectile-happy opponent since it goes over most projectiles.<br/>You can air dash or air attack before you land from the hop.",
+			"damage":"20",
 			"ip":"10",
 			"cp":"1",
 			"cost":"<b>2</b> SP",
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"air OK" }
+					{ "g":"Air OK" },
+					{ "g":"Airborne" }
 				]
 			}
 		},
@@ -395,48 +471,72 @@
 		{
 			"id":"214b",
 			"images": [
-				{ "i":"/img/kabbu/214b.png" }
+				{ "i":"" }
 			],
 			"name":"{{ n214 }}{{ B }}",
 			"input":"{{ d214 }}{{ B }}",
-			"description":"Vi hops forwards and slashes downwards with both needles. Has faster startup when doing the aerial version.<br/>Forces crouch on hit.<br/>Counterhit has enough hitstun to link heavy normals, otherwise you have to use a light normal on hit.",
-			"damage":"71",
-			"ip":"15",
-			"cp":"3",
-			"cost":"<b>3</b> SP",
-			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"air OK" },
-					{ "g":"airborne" }
-				],
-				"red": [
-					{ "r":"spike" }
-				]
-			}
+			"description":"Kabbu chops downwards. In the air, Kabbu's forward momentum stops and he dives nearly straight down.<br/>The uncharged version is a very fast overhead, but you can't combo meterlessly, it scales as hard as a throw, and is unsafe on block.<br/>The charged version is slower, but you can combo from it with lights (heavies if you counterhit) and it's safe on block.<br/>The air version is good as an instant overhead and scales less harshly than the uncharged grounded version, but there are fewer opportunities to land it raw.<br/>Air version can’t be charged.<br/>In a juggle, all versions <t-r><b>GROUNDSLIDE</b></t-r>, allowing combo followups.",
+			"versions": [
+				{
+					"name":"{{ n214 }}{{ B }}",
+					"label":"normal",
+					"damage":"105",
+					"ip":"40",
+					"cp":"3",
+					"cost":"<b>3</b> SP",
+					"attributes": {
+						"guard":"high",
+						"green": [
+							{ "g":"Charge OK " }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n214 }}[{{ B }}]",
+					"label":"normal",
+					"damage":"119",
+					"ip":"15",
+					"cp":"3",
+					"cost":"<b>3</b> SP",
+					"attributes": {
+						"guard":"high"
+					}
+				},
+				
+				{
+					"name":"{{ j }}{{ n214 }}{{ B }}",
+					"label":"aerial",
+					"damage":"105",
+					"ip":"20",
+					"cp":"3",
+					"cost":"<b>3</b> SP",
+					"attributes": {
+						"guard":"high"
+					}
+				}
+			]
 		},
 		
 		{
 			"id":"214c",
 			"images": [
-				{ "i":"/img/kabbu/214c.png" }
+				{ "i":"" }
 			],
-			"name":"{{ n214 }}{{ C }}",
+			"name":"<b>Taunt</b>",
 			"input":"{{ d214 }}{{ C }}",
-			"description":"Vi slashes while retreating. You can dash-cancel, even on block, but dash-canceling on block leaves you slightly minus.<br/>Midscreen, you can cancel {{ d214 }}{{ C }} into a forward airdash and continue to juggle.<br/>Being in the corner also allows you to land multiple {{ d214 }}{{ C }}s in the same combo, which is a very damaging route.",
-			"damage":"104",
-			"ip":"10",
-			"cp":"3",
-			"cost":"<b>5</b> SP",
+			"description":"Kabbu taunts the opponent. If the opponent hits him within a certain time, Kabbu catches the attack with his horn and counters.<br/>The counterattack knocks the opponent up and behind Kabbu, allowing you to get a followup combo.",
+			"damage":"101",
+			"ip":"40",
+			"cp":"0",
+			"cost":"<b>3</b> SP",
 			"attributes": {
-				"guard":"mid",
+				"guard":"-",
 				"green": [
-					{ "g":"air OK" },
-					{ "g":"dash OK" },
-					{ "g":"airborne" }
+					{ "g":"Invincible" }
 				],
 				"red": [
-					{ "r":"wallbounce" }
+					{ "r":"Knockdown" }
 				]
 			}
 		}
@@ -445,34 +545,38 @@
 	"exs": [
 		{
 			"id":"236ab",
-			"image":"",
-			"name":"<b>Poison Pincer</b>",
+			"images": [
+				{ "i":"" }
+			],
+			"name":"<b>Dash Through</b>",
 			"input":"{{ d236 }}{{ A }}+{{ B }}",
-			"description":"Vi rapidly stabs with needles before ending with a final hit that poisons the opponent.<br/>The last hit doesn't occur if the previous hits are blocked or whiff.",
-			"damage":"209",
-			"ip":"30",
+			"description":"Kabbu charges fullscreen in almost an instant, running straight through the opponent and any projectiles.",
+			"damage":"250",
+			"ip":"40",
 			"cp":"1",
 			"min":"20%",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"ender" }
+					{ "g":"Invincible" },
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"groundslide" }
-				],
-				"blue": "poison"
+					{ "r":"Knockdown" }
+				]
 			}
 		},
 		
 		{
 			"id":"214ab",
-			"image":"",
+			"images": [
+				{ "i":"" }
+			],
 			"name":"{{ n214 }}{{ A }}{{ B }}",
 			"input":"{{ d214 }}{{ A }}+{{ B }}",
-			"description":"Vi flips forward and does a downwards slash with both needles, similar to her {{ n214 }}{{ B }}. <br/>Launches the opponent high up in the air with a guaranteed knockdown, allowing combo extensions at any point.",
-			"damage":"160",
+			"description":"-",
+			"damage":"-",
 			"ip":"10",
 			"cp":"1",
 			"min":"20%",
@@ -480,17 +584,20 @@
 			"attributes": {
 				"guard":"high",
 				"green": [
-					{ "g":"airborne" }
+					{ "g":"Invincible" },
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
 				]
 			}
 		},
 		
 		{
 			"id":"41236bc",
-			"image":"",
+			"images": [
+				{ "i":"" }
+			],
 			"name":"{{ n41236 }}{{ B }}{{ C }}",
 			"input":"{{ d41236 }}{{ B }}+{{ C }}",
 			"description":"-",
@@ -502,10 +609,11 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"ender" }
+					{ "g":"Invincible" },
+					{ "g":"Ender" }
 				],
 				"red": [
-					{ "r":"knockdown" }
+					{ "r":"Knockdown" }
 				]
 			}
 		}

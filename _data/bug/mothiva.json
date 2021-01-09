@@ -1,0 +1,674 @@
+{
+	"stats": {
+		"image":"",
+		"hp":"<t-y>９００</t-y>",
+		"sp":"<t-g>２０</t-g>",
+		"traits": [
+			{ "t": "trait(s) pending" }
+		],
+		"pros": [
+			{ "p": "Meterless throw combos in the corner." },
+			{ "p": "Zasp provides safe ways to attack and pressure opponents." },
+			{ "p": "Meterless conversions off her reversal." }
+		],
+		"cons": [
+			{ "c": "she's kinda mean tho :(" }
+		]
+	},
+	
+	"normals": [
+		{
+			"id":"5a",
+			"images": [
+				{ "i":"/img/mothiva/5a.png" }
+			],
+			"name":"{{ n5 }}{{ A }}",
+			"input":"{{ d5 }}{{ A }}",
+			"description":"Stomps at your feet. A standing low.",
+			"damage":"25",
+			"ip":"25",
+			"cp":"3",
+			"attributes": {
+				"guard":"low",
+				"green": [
+					{ "g":"Rapid" }
+				]
+			}
+		},
+		
+		{
+			"id":"5b",
+			"images": [
+				{ "i":"/img/mothiva/5b.png" }
+			],
+			"name":"{{ n5 }}{{ B }}",
+			"input":"{{ d5 }}{{ B }}",
+			"description":"Straight kick forwards. Good for poking over low-aiming moves.",
+			"damage":"44",
+			"ip":"15",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid"
+			}
+		},
+		
+		{
+			"id":"5c",
+			"images": [
+				{ "i":"/img/mothiva/5c.png" }
+			],
+			"name":"{{ n5 }}{{ C }}",
+			"input":"{{ d5 }}{{ C }}",
+			"description":"Steps forward with a roundhouse kick.",
+			"versions": [
+				{
+					"name":"{{ n5 }}{{ C }}",
+					"label":"normal",
+					"damage":"67",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n5 }}[{{ C }}]",
+					"label":"charged",
+					"damage":"77",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"red": [
+							{ "r":"Launch" }
+						]
+					}
+				}
+			]
+		},
+		
+		{
+			"id":"2a",
+			"images": [
+				{ "i":"/img/mothiva/2a.png" }
+			],
+			"name":"{{ n2 }}{{ A }}",
+			"input":"{{ d2 }}{{ A }}",
+			"description":"Quick low kick.<br/>More range than {{ n5 }}{{ A }}.",
+			"damage":"22",
+			"ip":"25",
+			"cp":"3",
+			"attributes": {
+				"guard":"low",
+				"green": [
+					{ "g":"Rapid" }
+				]
+			}
+		},
+		
+		{
+			"id":"2b",
+			"images": [
+				{ "i":"/img/mothiva/2b.png" }
+			],
+			"name":"{{ n2 }}{{ B }}",
+			"input":"{{ d2 }}{{ B }}",
+			"description":"A longer low kick.",
+			"damage":"44",
+			"ip":"15",
+			"cp":"3",
+			"attributes": {
+				"guard":"low"
+			}
+		},
+		
+		{
+			"id":"2c",
+			"images": [
+				{ "i":"/img/mothiva/2c.png" }
+			],
+			"name":"{{ n2 }}{{ C }}",
+			"input":"{{ d2 }}{{ C }}",
+			"description":"A sweep with both legs.",
+			"damage":"60",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"low",
+				"red":"Knockdown"
+			}
+		},
+		
+		{
+			"id":"ja",
+			"images": [
+				{ "i":"/img/mothiva/ja.png" }
+			],
+			"name":"{{ j }}{{ A }}",
+			"input":"{{ d0 }}{{ A }} while airborne",
+			"description":"Knee attack.<br/>Active until landing.",
+			"damage":"32",
+			"ip":"25",
+			"cp":"3",
+			"attributes": {
+				"guard":"high"
+			}
+		},
+		
+		{
+			"id":"jb",
+			"images": [
+				{ "i":"/img/mothiva/jb.png" }
+			],
+			"name":"{{ j }}{{ B }}",
+			"input":"{{ d0 }}{{ B }} while airborne",
+			"description":"Upwards kick.",
+			"damage":"46",
+			"ip":"15",
+			"cp":"3",
+			"attributes": {
+				"guard":"high"
+			}
+		},
+		
+		{
+			"id":"jc",
+			"images": [
+				{ "i":"/img/mothiva/jc.png" }
+			],
+			"name":"{{ j }}{{ C }}",
+			"input":"{{ d0 }}{{ C }} while airborne",
+			"description":"Aerial somersault kick.<br/>Charged version floats you upwards slightly and <t-r><b>Launch</b></t-r>es the opponent much higher.",
+			"versions": [
+				{
+					"name":"{{ j }}{{ C }}",
+					"label":"normal",
+					"damage":"66",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high",
+						"green": [
+							{ "g":"Charge OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ j }}[{{ C }}]",
+					"label":"charged",
+					"damage":"77",
+					"ip":"10",
+					"cp":"3",
+					"attributes": {
+						"guard":"high",
+						"red": [
+							{ "r":"Launch" }
+						]
+					}
+				}
+			]
+		}
+	],
+	
+	"commands": [
+		{
+			"id":"4b",
+			"images": [
+				{ "i":"/img/mothiva/4b.png" }
+			],
+			"name":"{{ n4 }}{{ B }}",
+			"input":"{{ d4 }}{{ B }}",
+			"description":"Kicks straight upwards.",
+			"damage":"41",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
+				"red": [
+					{ "r":"Launch" }
+				]
+			}
+		},
+		
+		{
+			"id":"4bb",
+			"images": [
+				{ "i":"/img/mothiva/4bb.png" },
+				{ "i":"/img/mothiva/4bb-hold.png" }
+			],
+			"name":"{{ n4 }}{{ B }}{{ B }}",
+			"input":"{{ d4 }}{{ B }} after {{ n4 }}{{ B }}",
+			"description":"After {{ n4 }}{{ B }}, Mothiva drops her leg on the opponent in an axe kick.<br/>If you hold {{ B }}, she'll fake out the opponent and trip them up instead.<br/>Can be done even if {{ n4 }}{{ B }} whiffs.",
+			"versions": [
+				{
+					"name":"{{ 4 }}{{ B }}{{ B }}",
+					"label":"normal",
+					"damage":"44",
+					"ip":"25",
+					"cp":"2",
+					"attributes": {
+						"guard":"high",
+						"red": [
+							{ "r":"Spike" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ 4 }}{{ B }}[{{ B }}]",
+					"label":"low",
+					"damage":"51",
+					"ip":"25",
+					"cp":"2",
+					"attributes": {
+						"guard":"low",
+						"red": [
+							{ "r":"Launch" }
+						]
+					}
+				}
+			]
+		},
+		
+		{
+			"id":"3c",
+			"images": [
+				{ "i":"/img/mothiva/3c.png" }
+			],
+			"name":"{{ n3 }}{{ C }}",
+			"input":"{{ d3 }}{{ C }}",
+			"description":"Hops slightly and kicks. Goes over low-aiming moves.<br/>Doesn't chain into other normals. Cancels into Skills only on hit.",
+			"damage":"63",
+			"ip":"10",
+			"cp":"2",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Airborne" }
+				],
+				"red": [
+					{ "r":"Tumble" }
+				]
+			}
+		},
+		
+		{
+			"id":"j2c",
+			"images": [
+				{ "i":"/img/mothiva/j2c.png" }
+			],
+			"name":"{{ j }}{{ n2 }}{{ C }}",
+			"input":"{{ d2 }}{{ C }} while airborne",
+			"description":"Downwards axe kick.<br/>Stops your upwards momentum.",
+			"damage":"66",
+			"ip":"10",
+			"cp":"2",
+			"attributes": {
+				"guard":"high",
+				"red": [
+					{ "r":"Spike" }
+				]
+			}
+		},
+		
+		{
+			"id":"db",
+			"images": [
+				{ "i":"/img/mothiva/db.png" }
+			],
+			"name":"{{ d }}{{ B }}",
+			"input":"{{ d6 }}{{ B }} while dashing",
+			"description":"A knee. Safe on block.",
+			"damage":"50",
+			"ip":"10",
+			"cp":"2",
+			"attributes": {
+				"guard":"mid"
+			}
+		},
+		
+		{
+			"id":"dc",
+			"images": [
+				{ "i":"/img/mothiva/6c.png" }
+			],
+			"name":"{{ d }}{{ C }}",
+			"input":"{{ d6 }}{{ C }} while dashing",
+			"description":"Hops forward and kicks.",
+			"damage":"70",
+			"ip":"10",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
+				"red": [
+					{ "r":"Wallbounce" }
+				]
+			}
+		}
+	],
+	
+	"throws": [
+		{
+			"id":"5ad",
+			"image":"",
+			"name":"Ground throw",
+			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
+			"description":"Knees the opponent in the gut and then punts them away.<br/>In the corner, the <t-r><b>Wallbounce</b></t-r> lets you combo for free.",
+			"damage":"113",
+			"ip":"40",
+			"cp":"0",
+			"attributes": {
+				"guard":"grab",
+				"red": [
+					{ "r":"Wallbounce" }
+				]
+			}
+		},
+		
+		{
+			"id":"jad",
+			"image":"",
+			"name":"Air throw",
+			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }} while airborne",
+			"description":"Grabs the opponent and gives 'em a good slapping.<br/>You can take advantage of the <t-r><b>Groundslide</t-r></b> in the corner for a free combo.",
+			"damage":"120",
+			"ip":"35",
+			"cp":"5",
+			"attributes": {
+				"guard":"grab",
+				"green": [
+					{ "g":"Ender" }
+				],
+				"red": [
+					{ "r":"Groundslide" }
+				],
+				"blue": [
+					{ "b":"20% min." }
+				]
+			}
+		}
+		
+	],
+	
+	"skills": [
+		{
+			"id":"s",
+			"image":"",
+			"name":"<b>Get 'em, Zasp!</b>",
+			"input":"{{ d0 }}{{ S }}",
+			"description":"Mothiva calls on Zasp to attack. You can Active Shift very early in the startup and Zasp will still appear.<br/>{{ d5 }}{{ S }}: Zasp does a moonsault kick that arcs downwards. It tracks to the opponent's position to some extent. In the air, Zasp always spawns at Mothiva's location.<br/>{{ d6 }}{{ S }} or {{ d4 }}{{ S }}: Zasp darts in with a flying kick that travels fullscreen. The direction Zasp enters the screen and knocks the opponent is the same as the direction you press. <br/>{{ d2 }}{{ S }}: Zasp appears behind the opponent and tries to grab them. On a successful grab, Zasp kicks the opponent across the ground towards Mothiva. When done in a combo, the startup is much faster and aerial opponents can also be grabbed.<br/>Other Skills can be canceled into a Zasp call.<br/>Zasp will stop attacking if Mothiva is hit before Zasp can land a hit, or if Zasp himself is hit by an attack or projectile.",
+			"cost":"<b>3</b> SP",
+			"versions": [
+				{
+					"name":"{{ n5 }}{{ S }}",
+					"label":"moonsault",
+					"damage":"99",
+					"ip":"20",
+					"cp":"2",
+					"attributes": {
+						"guard":"mid",
+						"red": [
+							{ "r":"Groundslide" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n6 }}{{ S }} • {{ n4 }}{{ S }}",
+					"label":"kick",
+					"damage":"77",
+					"ip":"20",
+					"cp":"2",
+					"attributes": {
+						"guard":"mid",
+						"red": [
+							{ "r":"Launch" },
+							{ "r":"Wallbounce" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n2 }}{{ S }}",
+					"label":"grab",
+					"damage":"111",
+					"ip":"20",
+					"cp":"2",
+					"attributes": {
+						"guard":"grab",
+						"red": [
+							{ "r":"Groundslide" }
+						]
+					}
+				}
+			]
+		},
+		
+		{
+			"id":"236a",
+			"images": [
+				{ "i":"" }
+			],
+			"name":"<b>Melody</b>",
+			"input":"{{ d236 }}{{ A }}",
+			"description":"Mothiva sings out a music note.<br/>Uncharged, the music note slowly accelerates forwards and slightly tracks to the vertical location of the opponent. In the air, it'll start off aiming diagonally downwards.<br/>Charged, the note expands and drops to the ground near Mothiva and bursts.",
+			"versions": [
+				{
+					"name":"{{ n236 }}{{ A }}",
+					"label":"normal",
+					"damage":"23<t-w>×</t-w>3",
+					"ip":"15",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid"
+					}
+				},
+				
+				{
+					"name":"{{ n236 }}{{ A }}",
+					"label":"charged",
+					"damage":"100",
+					"ip":"15",
+					"cp":"3",
+					"attributes": {
+						"guard":"mid",
+						"red": [
+							{ "r":"Launch" }
+						]
+					}
+				}
+			]
+		},
+		
+		{
+			"id":"236b",
+			"images": [
+				{ "i":"" }
+			],
+			"name":"{{ n236 }}{{ B }}",
+			"input":"{{ d236 }}{{ B }}",
+			"description":"-",
+			"damage":"80",
+			"ip":"15",
+			"cp":"3",
+			"cost":"<b>2</b> SP",
+			"attributes": {
+				"guard":"mid",
+			}
+		},
+		
+		{
+			"id":"236c",
+			"images": [
+				{ "i":"/img/mothiva/236c.png" }
+			],
+			"name":"{{ n236 }}{{ C }}",
+			"input":"{{ d236 }}{{ C }}",
+			"description":"Mothiva does a rising somersault kick.<br/>On hit, she does an additional kick that knocks the opponent down.<br/>Unlike other Skills, this only cancels to {{ S }} (Get 'em, Zasp!) on hit, so you can't try to save yourself for (mostly) free by doing that.",
+			"damage":"90<t-w>+</t-w>60",
+			"ip":"40",
+			"cp":"4",
+			"cost":"<b>4</b> SP",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Air OK" },
+					{ "g":"Airborne" },
+					{ "g":"Invincible" }
+				],
+				"red": [
+					{ "r":"Knockdown" }
+				]
+			}
+		},
+		
+		{
+			"id":"214a",
+			"images": [
+				{ "i":"" }
+			],
+			"name":"<b>-</b>",
+			"input":"{{ d214 }}{{ A }} • {{ d214 }}{{ B }}",
+			"description":"{{ d214 }}{{ A }}: A hopping knee. It's always safe on block, and can be spaced to be plus. It can be canceled into {{ n214 }}{{ C }} by pressing {{ d4 }}{{ C }}.<br/>You can combo afterwards with a counterhit or in juggle.<br/>{{ d214 }}{{ B }} version is a flying knee, kick, then axe kick. It's projectile invincible, and the last hit is a <b>high</b>. It's safe on block unless Super Blocked.
+",
+			"versions": [
+				{
+					"name":"{{ n214 }}{{ A }}",
+					"label":"1-hit",
+					"damage":"-",
+					"ip":"15",
+					"cp":"2",
+					"cost":"<b>2</b> SP",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Air OK" }
+						]
+					}
+				},
+				
+				{
+					"name":"{{ n214 }}{{ A }}{{ A }}",
+					"label":"3-hit",
+					"damage":"-",
+					"ip":"20",
+					"cp":"4",
+					"cost":"<b>3</b> SP",
+					"attributes": {
+						"guard":"mid",
+						"green": [
+							{ "g":"Air OK" }
+						]
+					}
+				}
+			]
+		},
+		
+		{
+			"id":"214c",
+			"images": [
+				{ "i":"" }
+			],
+			"name":"{{ n214 }}{{ C }}",
+			"input":"{{ d214 }}{{ C }}",
+			"description":"Mothiva leaps about 3/4-screen with a flying kick. It's minus up close, but you can space it to be plus on block. It's a useful tool for getting in, especially with a Zasp call.<br/>
+			Critical Counter on counterhit.",
+			"damage":"100",
+			"ip":"10",
+			"cp":"3",
+			"cost":"<b>4</b> SP",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Airborne" }
+				],
+				"red": [
+					{ "r":"Knockdown" },
+					{ "r":"Wallbounce" }
+				]
+			}
+		}
+	],
+	
+	"exs": [
+		{
+			"id":"236ab",
+			"image":"",
+			"name":"<b>-</b>",
+			"input":"{{ d236 }}{{ A }}+{{ B }}",
+			"description":"Mothiva does a large upwards spinning kick that hits multiple times. On hit, ends with the usual downwards kick to spike the opponent back to the ground.<br/>
+			Can be canceled into a Zasp call before the last hit.",
+			"damage":"200",
+			"ip":"30",
+			"cp":"1",
+			"cost":"<b>100</b> EX",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Air OK" },
+					{ "g":"Invincible" },
+					{ "g":"Ender" }
+				],
+				"red": [
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"20% min." }
+				]
+			}
+		},
+		
+		{
+			"id":"214ab",
+			"image":"",
+			"name":"{{ n214 }}{{ A }}{{ B }}",
+			"input":"{{ d214 }}{{ A }}+{{ B }}",
+			"description":"Zasp appears and does three attacks in succession.<br/>The first attack is ---.<br/>The attacks happen in a more staggered fashion on block than on hit.",
+			"damage":"-",
+			"ip":"10",
+			"cp":"1",
+			"cost":"<b>100</b> EX",
+			"attributes": {
+				"guard":"high",
+				"green": [
+					{ "g":"Air OK" }
+				],
+				"red": [
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"20% min." }
+				]
+			}
+		},
+		
+		{
+			"id":"41236bc",
+			"image":"",
+			"name":"{{ n41236 }}{{ B }}{{ C }}",
+			"input":"{{ d41236 }}{{ B }}+{{ C }}",
+			"description":"-",
+			"damage":"160",
+			"ip":"10",
+			"cp":"1",
+			"cost":"<b>200</b> EX",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Ender" }
+				],
+				"red": [
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"35% min." }
+				]
+			}
+		}
+	]
+}
