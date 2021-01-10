@@ -1,15 +1,14 @@
 {
 	"stats": {
-		"image":"",
-		"hp":"<t-y>９００</t-y>",
-		"sp":"<t-g>２０</t-g>",
+		"image":"/img/mothiva/art.png",
+		"hp":"９００",
+		"sp":"２０",
 		"traits": [
 			{ "t": "trait(s) pending" }
 		],
 		"pros": [
-			{ "p": "Meterless throw combos in the corner." },
-			{ "p": "Zasp provides safe ways to attack and pressure opponents." },
-			{ "p": "Meterless conversions off her reversal." }
+			{ "p": "Meterless combos off of her reversal and corner throw." },
+			{ "p": "Zasp provides safe ways to attack and pressure opponents." }
 		],
 		"cons": [
 			{ "c": "she's kinda mean tho :(" }
@@ -242,7 +241,7 @@
 				{ "i":"/img/mothiva/4bb-hold.png" }
 			],
 			"name":"{{ n4 }}{{ B }}{{ B }}",
-			"input":"{{ d4 }}{{ B }} after {{ n4 }}{{ B }}",
+			"input":"{{ d4 }}{{ B }} after <b>4B</b>",
 			"description":"After {{ n4 }}{{ B }}, Mothiva drops her leg on the opponent in an axe kick.<br/>If you hold {{ B }}, she'll fake out the opponent and trip them up instead.<br/>Can be done even if {{ n4 }}{{ B }} whiffs.",
 			"versions": [
 				{
@@ -355,7 +354,7 @@
 	"throws": [
 		{
 			"id":"5ad",
-			"image":"",
+			
 			"name":"Ground throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
 			"description":"Knees the opponent in the gut and then punts them away.<br/>In the corner, the <t-r><b>Wallbounce</b></t-r> lets you combo for free.",
@@ -372,7 +371,7 @@
 		
 		{
 			"id":"jad",
-			"image":"",
+			
 			"name":"Air throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }} while airborne",
 			"description":"Grabs the opponent and gives 'em a good slapping.<br/>You can take advantage of the <t-r><b>Groundslide</t-r></b> in the corner for a free combo.",
@@ -398,7 +397,7 @@
 	"skills": [
 		{
 			"id":"s",
-			"image":"",
+			
 			"name":"<b>Get 'em, Zasp!</b>",
 			"input":"{{ d0 }}{{ S }}",
 			"description":"Mothiva calls on Zasp to attack. You can Active Shift very early in the startup and Zasp will still appear.<br/>{{ d5 }}{{ S }}: Zasp does a moonsault kick that arcs downwards. It tracks to the opponent's position to some extent. In the air, Zasp always spawns at Mothiva's location.<br/>{{ d6 }}{{ S }} or {{ d4 }}{{ S }}: Zasp darts in with a flying kick that travels fullscreen. The direction Zasp enters the screen and knocks the opponent is the same as the direction you press. <br/>{{ d2 }}{{ S }}: Zasp appears behind the opponent and tries to grab them. On a successful grab, Zasp kicks the opponent across the ground towards Mothiva. When done in a combo, the startup is much faster and aerial opponents can also be grabbed.<br/>Other Skills can be canceled into a Zasp call.<br/>Zasp will stop attacking if Mothiva is hit before Zasp can land a hit, or if Zasp himself is hit by an attack or projectile.",
@@ -451,12 +450,10 @@
 		
 		{
 			"id":"236a",
-			"images": [
-				{ "i":"" }
-			],
-			"name":"<b>Melody</b>",
+			
+			"name":"<b>Siren Song</b>",
 			"input":"{{ d236 }}{{ A }}",
-			"description":"Mothiva sings out a music note.<br/>Uncharged, the music note slowly accelerates forwards and slightly tracks to the vertical location of the opponent. In the air, it'll start off aiming diagonally downwards.<br/>Charged, the note expands and drops to the ground near Mothiva and bursts.",
+			"description":"Mothiva sings out a music note.<br/>Uncharged, the music note slowly accelerates forwards and slightly tracks the vertical location of the opponent. In the air, it'll start off aiming diagonally downwards.<br/>Charged, the note expands and drops to the ground near Mothiva and bursts.",
 			"versions": [
 				{
 					"name":"{{ n236 }}{{ A }}",
@@ -487,9 +484,7 @@
 		
 		{
 			"id":"236b",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n236 }}{{ B }}",
 			"input":"{{ d236 }}{{ B }}",
 			"description":"-",
@@ -504,9 +499,7 @@
 		
 		{
 			"id":"236c",
-			"images": [
-				{ "i":"/img/mothiva/236c.png" }
-			],
+			
 			"name":"{{ n236 }}{{ C }}",
 			"input":"{{ d236 }}{{ C }}",
 			"description":"Mothiva does a rising somersault kick.<br/>On hit, she does an additional kick that knocks the opponent down.<br/>Unlike other Skills, this only cancels to {{ S }} (Get 'em, Zasp!) on hit, so you can't try to save yourself for (mostly) free by doing that.",
@@ -529,9 +522,7 @@
 		
 		{
 			"id":"214a",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"<b>-</b>",
 			"input":"{{ d214 }}{{ A }} • {{ d214 }}{{ B }}",
 			"description":"{{ d214 }}{{ A }}: A hopping knee. It's always safe on block, and can be spaced to be plus. It can be canceled into {{ n214 }}{{ C }} by pressing {{ d4 }}{{ C }}.<br/>You can combo afterwards with a counterhit or in juggle.<br/>{{ d214 }}{{ B }} version is a flying knee, kick, then axe kick. It's projectile invincible, and the last hit is a <b>high</b>. It's safe on block unless Super Blocked.
@@ -571,9 +562,7 @@
 		
 		{
 			"id":"214c",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n214 }}{{ C }}",
 			"input":"{{ d214 }}{{ C }}",
 			"description":"Mothiva leaps about 3/4-screen with a flying kick. It's minus up close, but you can space it to be plus on block. It's a useful tool for getting in, especially with a Zasp call.<br/>
@@ -598,7 +587,7 @@
 	"exs": [
 		{
 			"id":"236ab",
-			"image":"",
+			
 			"name":"<b>-</b>",
 			"input":"{{ d236 }}{{ A }}+{{ B }}",
 			"description":"Mothiva does a large upwards spinning kick that hits multiple times. On hit, ends with the usual downwards kick to spike the opponent back to the ground.<br/>
@@ -625,7 +614,7 @@
 		
 		{
 			"id":"214ab",
-			"image":"",
+			
 			"name":"{{ n214 }}{{ A }}{{ B }}",
 			"input":"{{ d214 }}{{ A }}+{{ B }}",
 			"description":"Zasp appears and does three attacks in succession.<br/>The first attack is ---.<br/>The attacks happen in a more staggered fashion on block than on hit.",
@@ -649,7 +638,7 @@
 		
 		{
 			"id":"41236bc",
-			"image":"",
+			
 			"name":"{{ n41236 }}{{ B }}{{ C }}",
 			"input":"{{ d41236 }}{{ B }}+{{ C }}",
 			"description":"-",

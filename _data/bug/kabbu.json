@@ -1,8 +1,8 @@
 {
 	"stats": {
-		"image":"",
-		"hp":"<t-pi>１１００</t-pi>",
-		"sp":"<t-g>２０</t-g>",
+		"image":"/img/kabbu/art.png",
+		"hp":"１１００",
+		"sp":"２０",
 		"traits": [
 			{ "t": "not special :(" }
 		],
@@ -298,9 +298,7 @@
 	"throws": [
 		{
 			"id":"5ad",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"Ground throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
 			"description":"Kabbu shoulder checks the opponent, crumpling them.",
@@ -317,9 +315,7 @@
 		
 		{
 			"id":"jad",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"Air throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }} while airborne",
 			"description":"Kabbu catches the opponent on his horn and slings them away.<br/>Unlike other throws, you can actually combo after this one for free when used mid-combo.",
@@ -449,9 +445,7 @@
 		
 		{
 			"id":"214a",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"<b>Pebble Toss</b>",
 			"input":"{{ d214 }}{{ A }}",
 			"description":"Kabbu hops up and tosses a pebble in an arc that tracks to the opponent's location.<br/>Not very strong, but can be used as a meaty setup or to harass a projectile-happy opponent since it goes over most projectiles.<br/>You can air dash or air attack before you land from the hop.",
@@ -470,9 +464,7 @@
 		
 		{
 			"id":"214b",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n214 }}{{ B }}",
 			"input":"{{ d214 }}{{ B }}",
 			"description":"Kabbu chops downwards. In the air, Kabbu's forward momentum stops and he dives nearly straight down.<br/>The uncharged version is a very fast overhead, but you can't combo meterlessly, it scales as hard as a throw, and is unsafe on block.<br/>The charged version is slower, but you can combo from it with lights (heavies if you counterhit) and it's safe on block.<br/>The air version is good as an instant overhead and scales less harshly than the uncharged grounded version, but there are fewer opportunities to land it raw.<br/>Air version can’t be charged.<br/>In a juggle, all versions <t-r><b>GROUNDSLIDE</b></t-r>, allowing combo followups.",
@@ -494,7 +486,7 @@
 				
 				{
 					"name":"{{ n214 }}[{{ B }}]",
-					"label":"normal",
+					"label":"charged",
 					"damage":"119",
 					"ip":"15",
 					"cp":"3",
@@ -520,9 +512,7 @@
 		
 		{
 			"id":"214c",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"<b>Taunt</b>",
 			"input":"{{ d214 }}{{ C }}",
 			"description":"Kabbu taunts the opponent. If the opponent hits him within a certain time, Kabbu catches the attack with his horn and counters.<br/>The counterattack knocks the opponent up and behind Kabbu, allowing you to get a followup combo.",
@@ -545,9 +535,7 @@
 	"exs": [
 		{
 			"id":"236ab",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"<b>Dash Through</b>",
 			"input":"{{ d236 }}{{ A }}+{{ B }}",
 			"description":"Kabbu charges fullscreen in almost an instant, running straight through the opponent and any projectiles.",
@@ -570,9 +558,7 @@
 		
 		{
 			"id":"214ab",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n214 }}{{ A }}{{ B }}",
 			"input":"{{ d214 }}{{ A }}+{{ B }}",
 			"description":"-",
@@ -595,9 +581,7 @@
 		
 		{
 			"id":"41236bc",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n41236 }}{{ B }}{{ C }}",
 			"input":"{{ d41236 }}{{ B }}+{{ C }}",
 			"description":"-",
