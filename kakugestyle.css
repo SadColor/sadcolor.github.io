@@ -181,6 +181,12 @@ h3 {
 	color:var(--aka);
 }
 
+statbox .traits,
+statbox .pros,
+statbox .cons {
+	margin-bottom:16px;
+}
+
 
 
 .movelist {
