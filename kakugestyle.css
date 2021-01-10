@@ -181,9 +181,9 @@ h3 {
 	color:var(--aka);
 }
 
-statbox .traits,
-statbox .pros,
-statbox .cons {
+.statbox .traits,
+.statbox .pros,
+.statbox .cons {
 	margin-bottom:16px;
 }
 
@@ -448,7 +448,8 @@ tr {
 		order:24;
 		flex-flow:row nowrap;
 	}
-	.hasspc>.attrcont {
+	.hasspc>.attrcont,
+	.hasspc.hascost>.attrcont {
 		min-width:288px;
 	}
 	.vercont .attrcont {
@@ -477,7 +478,8 @@ tr {
 		min-width:72px;
 		margin-right:0;
 	}
-	.hascost>.attrcont {
+	.hascost>.attrcont,
+	.hasspc.hascost>.attrcont {
 		display:flex;
 		order:24;
 		flex-flow:row nowrap;
