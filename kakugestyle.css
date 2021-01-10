@@ -142,6 +142,19 @@ h3 {
 	margin-bottom: 6px;
 }
 
+.statbox {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+}
+.kyaraimg {
+	flex:1 1 0;
+	padding-left:16px;
+}
+.kyaraimg>img {
+	width:100%;
+}
+
 .traits,
 .pros,
 .cons {
