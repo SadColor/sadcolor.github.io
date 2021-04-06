@@ -1,13 +1,15 @@
 {
 	"stats": {
 		"image":"/img/kabbu/art.png",
+		"album":"https://imgur.com/a/Ay555Jf",
 		"hp":"１１００",
 		"sp":"２０",
 		"traits": [
 			{ "t": "not special :(" }
 		],
 		"pros": [
-			{ "p": "High damage from both single hits and combos." }
+			{ "p": "High damage from both single hits and combos." },
+			{ "p": "Strong throw presence with comboable throws and a devastating command grab." }
 		],
 		"cons": [
 			{ "c": "Poor range." }
@@ -254,9 +256,7 @@
 		
 		{
 			"id":"db",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ d }}{{ B }}",
 			"input":"{{ d6 }}{{ B }} while dashing",
 			"description":"Kabbu shoulder tackles forward.<br/>Useful for closing in or during corner combos.",
@@ -273,9 +273,7 @@
 		
 		{
 			"id":"dc",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
 			"description":"Kabbu leaps into the air, trying to grab the opponent (not actually a grab).<br/>If the move connects, he'll slam the opponent into the ground head first.",
@@ -343,7 +341,6 @@
 			"name":"{{ n5 }}{{ S }}",
 			"input":"{{ d5 }}{{ S }}",
 			"description":"Kabbu braces himself, then slashes forward with his horn when you release {{ S }}.<br/>Has one hit of guard point during the charging portion only. At full charge, the guard point persists even during the attack.<br/>You can dash cancel either during the charge or once the attack connects.",
-			"cost":"<b>1</b> SP",
 			"versions": [
 				{
 					"name":"{{ n5 }}{{ S }}",
@@ -351,6 +348,7 @@
 					"damage":"77",
 					"ip":"15",
 					"cp":"2",
+					"cost":"<b>1</b> SP",
 					"attributes": {
 						"guard":"mid",
 						"green": [
@@ -366,6 +364,7 @@
 					"damage":"120",
 					"ip":"50",
 					"cp":"3",
+					"cost":"<b>1</b> SP",
 					"attributes": {
 						"guard":"crush",
 						"green": [
@@ -381,33 +380,52 @@
 		
 		{
 			"id":"236a",
-			"images": [
-				{ "i":"/img/kabbu/236a.png" }
-			],
+			
 			"name":"<b>Horn Dash</b>",
 			"input":"{{ d236 }}{{ A }}",
-			"description":"Kabbu leaps forward with his horn out.<br/>If you hit with the early portion of the move, Kabbu will bounce backwards.<br/>It's usually safe but you can be punished by some faster long-ranged moves.<br/>Alternatively, you can Active Shift right as you bounce to go for an overhead/low mixup.",
-			"damage":"130",
-			"ip":"20",
-			"cp":"2",
-			"cost":"<b>3</b> SP",
-			"attributes": {
-				"guard":"mid",
-				"green": [
-					{ "g":"Air OK" },
-					{ "g":"Airborne" }
-				],
-				"red": [
-					{ "r":"Wallsplat" }
-				]
-			}
+			"description":"Kabbu does a short shoulder tackle forwards. You can press {{ d6 }}{{ A }} to do a larger horn dash afterwards that knocks down. It's super unsafe, but Critical Counters on counterhit.<br/>If you space the first tackle, it can be plus.<br/>In the air, Kabbu only does a single horn dash and will bounce off the opponent on hit.",
+			"versions": [
+				{
+					"name":"{{ n236 }}{{ A }}",
+					"label":"1st hit",
+					"guard":"mid",
+					"damage":"60",
+					"ip":"20",
+					"cp":"2",
+					"cost":"<b>2</b> SP"
+				},
+				
+				{
+					"name":"{{ n236 }}{{ A }}{{ A }}",
+					"label":"2nd hit",
+					"guard":"mid",
+					"damage":"60",
+					"ip":"20",
+					"cp":"1",
+					"cost":"<b>1</b> SP",
+					"red": [
+						{ "r":"Wallsplat" }
+					]
+				},
+				
+				{
+					"name":"{{ j }}{{ n236 }}{{ A }}",
+					"label":"aerial",
+					"guard":"mid",
+					"damage":"130",
+					"ip":"20",
+					"cp":"3",
+					"cost":"<b>3</b> SP",
+					"red": [
+						{ "r":"Wallsplat" }
+					]
+				}
+			]
 		},
 		
 		{
 			"id":"236b",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"<b>Under Strike</b>",
 			"input":"{{ d236 }}{{ B }}",
 			"description":"Kabbu charges forward, digging through the ground before ending with a horn uppercut.<br/>Can go under a lot of physical attacks and has projectile invincibility.<br/>You can hold {{ B }} to travel a longer distance.<br/>It has slow startup and is very unsafe on block, but leads to great damage anywhere on screen.<br/>Used in high-damage counterhit confirms.",
@@ -425,9 +443,7 @@
 		
 		{
 			"id":"236c",
-			"images": [
-				{ "i":"" }
-			],
+			
 			"name":"{{ n236 }}{{ C }}",
 			"input":"{{ d236 }}{{ C }}",
 			"description":"Kabbu tries to grab the opponent.<br/>If it connects, he tosses the opponent up and skewers them on his horn before dropping them to the ground beside him.<br/>Midscreen, you can combo using Active Shift. In the corner, you can followup meterlessly with a light normal.",
@@ -542,7 +558,6 @@
 			"damage":"250",
 			"ip":"40",
 			"cp":"1",
-			"min":"20%",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"mid",
@@ -552,6 +567,9 @@
 				],
 				"red": [
 					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"25% min." }
 				]
 			}
 		},
@@ -565,7 +583,6 @@
 			"damage":"-",
 			"ip":"10",
 			"cp":"1",
-			"min":"20%",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"high",
@@ -575,6 +592,9 @@
 				],
 				"red": [
 					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"20% min." }
 				]
 			}
 		},
@@ -588,7 +608,6 @@
 			"damage":"160",
 			"ip":"10",
 			"cp":"1",
-			"min":"35%",
 			"cost":"<b>200</b> EX",
 			"attributes": {
 				"guard":"mid",
@@ -598,6 +617,9 @@
 				],
 				"red": [
 					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"35% min." }
 				]
 			}
 		}

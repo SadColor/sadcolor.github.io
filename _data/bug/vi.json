@@ -1,6 +1,7 @@
 {
 	"stats": {
 		"image":"/img/vi/art.png",
+		"album":"https://imgur.com/a/vlWdkHT",
 		"hp":"１０００",
 		"sp":"２０",
 		"traits": [
@@ -279,10 +280,12 @@
 	"throws": [
 		{
 			"id":"5ad",
-			
+			"images": [
+				{ "i":"/img/vi/5ad.png" }
+			],
 			"name":"Ground throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
-			"description":"Hops onto the opponent and kicks off of them.<br/>Can’t combo without Active Shift.",
+			"description":"Hops onto the opponent and kicks off of them.<br/>Can't combo without Active Shift.",
 			"damage":"144",
 			"ip":"40",
 			"cp":"0",
@@ -296,7 +299,9 @@
 		
 		{
 			"id":"jad",
-			
+			"images": [
+				{ "i":"/img/vi/jad.png" }
+			],
 			"name":"Air throw",
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }} while airborne",
 			"description":"Grabs the opponent and izuna drops them.",
@@ -322,11 +327,13 @@
 	"skills": [
 		{
 			"id":"s",
-			
+			"images": [
+				{ "i":"/img/vi/s.png" }
+			],
 			"name":"<b>Beeline</b>",
 			"input":"{{ d0 }}{{ S }}",
-			"description":"Vi readies herself then flies speedily towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction while readying.<br/>You can do aerial attacks during the dive, and it can be steered to go higher, lower, shorter, or farther depending on your directional input.<br/>You can cancel Skills into Beeline for an additional <t-y><b>3</b> SP</t-y>.",
-			"cost":"<b>2</b> SP"
+			"description":"Vi readies herself then flies speedily towards the opponent.<br/>When done with a backwards or vertical input, she will move slightly in that direction while readying.<br/>You can do aerial attacks during the dive, and it can be steered to go higher, lower, shorter, or farther depending on your directional input.<br/>You can cancel other Skills into Beeline, but it costs <t-y><b>4</b> SP</t-y> instead.",
+			"cost":"<b>3</b> SP"
 		},
 		
 		{
@@ -376,7 +383,7 @@
 			],
 			"name":"<b>Blue Stinger</b>",
 			"input":"{{ d236 }}{{ C }}",
-			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>Numb</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It’s useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent’s not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
+			"description":"Vi stings the opponent with her stinger. Inflicts <t-b><b>Numb</b></t-b> if it hits.<br/>Uncharged, it's pretty fast but rather unsafe. It's useful as a high risk, decent reward frametrap.<br/>Charged version is a lot slower but very plus on block. If your opponent's not ready, using this move every so often is a good way to reset pressure. It also crumples a little longer if you need that, I guess.<br/>Only crumples once in a combo. You can use it to restand aerial opponents.",
 			"damage":"111",
 			"ip":"15",
 			"cp":"3",
@@ -528,13 +535,34 @@
 	"exs": [
 		{
 			"id":"236ab",
+			
+			"name":"{{ n214 }}{{ A }}{{ B }}",
+			"input":"{{ d214 }}{{ A }}+{{ B }}",
+			"description":"Vi throws her boomerang in front of her, spinning it fast enough to create a small hurricane.<br/>Knocks the opponent high into the air, and you can always pick up a combo afterwards.<br/>Also useful in block pressure, since it leaves you at advantage.",
+			"damage":"180",
+			"ip":"20",
+			"cp":"2<t-w>×</t-w>4",
+			"cost":"<b>100</b> EX",
+			"attributes": {
+				"guard":"mid",
+				"red": [
+					{ "r":"Knockdown" }
+				],
+				"blue": [
+					{ "b":"20% min." }
+				]
+			}
+		},
+	
+		{
+			"id":"214ab",
 
 			"name":"<b>Poison Pincer</b>",
 			"input":"{{ d236 }}{{ A }}+{{ B }}",
 			"description":"Vi rapidly stabs with needles before ending with a final hit that poisons the opponent.<br/>The last hit doesn't occur if the previous hits are blocked or whiff.",
-			"damage":"209",
+			"damage":"210",
 			"ip":"30",
-			"cp":"1",
+			"cp":"1<t-w>×</t-w>20",
 			"cost":"<b>100</b> EX",
 			"attributes": {
 				"guard":"mid",
@@ -545,32 +573,8 @@
 					{ "r":"Groundslide" }
 				],
 				"blue": [
-					{ "b":"20% min." },
+					{ "b":"25% min." },
 					{ "b":"Poison" }
-				]
-			}
-		},
-		
-		{
-			"id":"214ab",
-			
-			"name":"{{ n214 }}{{ A }}{{ B }}",
-			"input":"{{ d214 }}{{ A }}+{{ B }}",
-			"description":"Vi flips forward and does a downwards slash with both needles, similar to her {{ n214 }}{{ B }}. <br/>Launches the opponent high up in the air with a guaranteed knockdown, allowing combo extensions at any point.",
-			"damage":"160",
-			"ip":"10",
-			"cp":"1",
-			"cost":"<b>100</b> EX",
-			"attributes": {
-				"guard":"high",
-				"green": [
-					{ "g":"Airborne" }
-				],
-				"red": [
-					{ "r":"Knockdown" }
-				],
-				"blue": [
-					{ "b":"20% min." }
 				]
 			}
 		},

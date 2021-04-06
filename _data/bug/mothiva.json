@@ -1,10 +1,11 @@
 {
 	"stats": {
 		"image":"/img/mothiva/art.png",
+		"album":"https://imgur.com/a/zxwJkaF",
 		"hp":"９００",
 		"sp":"２０",
 		"traits": [
-			{ "t": "trait(s) pending" }
+			{ "t": "Mothiva can call upon Zasp to perform attacks independently." }
 		],
 		"pros": [
 			{ "p": "Meterless combos off of her reversal and corner throw." },
@@ -400,7 +401,7 @@
 			
 			"name":"<b>Get 'em, Zasp!</b>",
 			"input":"{{ d0 }}{{ S }}",
-			"description":"Mothiva calls on Zasp to attack. You can Active Shift very early in the startup and Zasp will still appear.<br/>{{ d5 }}{{ S }}: Zasp does a moonsault kick that arcs downwards. It tracks to the opponent's position to some extent. In the air, Zasp always spawns at Mothiva's location.<br/>{{ d6 }}{{ S }} or {{ d4 }}{{ S }}: Zasp darts in with a flying kick that travels fullscreen. The direction Zasp enters the screen and knocks the opponent is the same as the direction you press. <br/>{{ d2 }}{{ S }}: Zasp appears behind the opponent and tries to grab them. On a successful grab, Zasp kicks the opponent across the ground towards Mothiva. When done in a combo, the startup is much faster and aerial opponents can also be grabbed.<br/>Other Skills can be canceled into a Zasp call.<br/>Zasp will stop attacking if Mothiva is hit before Zasp can land a hit, or if Zasp himself is hit by an attack or projectile.",
+			"description":"Mothiva calls on Zasp to attack. You can Chain Cancel very early in the startup and Zasp will still appear.<br/>{{ d5 }}{{ S }}: Zasp does a moonsault kick that arcs downwards. It tracks to the opponent's position to some extent. In the air, Zasp always spawns at Mothiva's location.<br/>{{ d6 }}{{ S }} or {{ d4 }}{{ S }}: Zasp darts in with a flying kick that travels fullscreen. The direction Zasp enters the screen and knocks the opponent is the same as the direction you press.<br/>Other Skills can be canceled into a Zasp call.<br/>Zasp will stop attacking if Mothiva is hit before Zasp can land a hit, or if Zasp himself is hit by an attack or projectile.",
 			"cost":"<b>3</b> SP",
 			"versions": [
 				{
@@ -430,13 +431,23 @@
 							{ "r":"Wallbounce" }
 						]
 					}
-				},
-				
+				}
+			]
+		},
+		
+		{
+			"id":"214s",
+			
+			"name":"<b>Backstage Pass</b>",
+			"input":"{{ d0 }}{{ S }}",
+			"description":"Zasp appears behind the opponent and tries to grab them. On a successful grab, Zasp kicks the opponent across the ground towards Mothiva.<br/>When done in a combo, the startup is much faster and aerial opponents can also be grabbed.<br/>Unlike the other Zasp specials, this one can’t be chain Canceled on startup, so whiffing it leaves you very vulnerable.",
+			"cost":"<b>3</b> SP",
+			"versions": [
 				{
-					"name":"{{ n2 }}{{ S }}",
+					"name":"{{ n214 }}{{ S }}",
 					"label":"grab",
 					"damage":"111",
-					"ip":"20",
+					"ip":"30",
 					"cp":"2",
 					"attributes": {
 						"guard":"grab",
@@ -487,13 +498,16 @@
 			
 			"name":"{{ n236 }}{{ B }}",
 			"input":"{{ d236 }}{{ B }}",
-			"description":"-",
+			"description":"Mothiva screeches into a mic. Pretty fast startup.<br/>Has long hitstun and blockstun and hits in a radius around Mothiva.<br/>Safe on block, and can be plus when done meaty.<br/>Also a useful tool in some combos.",
 			"damage":"80",
 			"ip":"15",
 			"cp":"3",
 			"cost":"<b>2</b> SP",
 			"attributes": {
 				"guard":"mid",
+				"red": [
+					{ "r":"Snare" }
+				]
 			}
 		},
 		
@@ -592,7 +606,7 @@
 			"input":"{{ d236 }}{{ A }}+{{ B }}",
 			"description":"Mothiva does a large upwards spinning kick that hits multiple times. On hit, ends with the usual downwards kick to spike the opponent back to the ground.<br/>
 			Can be canceled into a Zasp call before the last hit.",
-			"damage":"200",
+			"damage":"220",
 			"ip":"30",
 			"cp":"1",
 			"cost":"<b>100</b> EX",
@@ -607,7 +621,7 @@
 					{ "r":"Knockdown" }
 				],
 				"blue": [
-					{ "b":"20% min." }
+					{ "b":"25% min." }
 				]
 			}
 		},
