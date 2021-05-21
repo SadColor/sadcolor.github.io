@@ -3,35 +3,23 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }} • sadcolor's stuff</title>
-		{% include kakuge-head.html %}
+		{% include devlog-head.html %}
 	</head>
 	<body>
 		<div class="head">
 			<h1>{{ page.header }}</h1>
 			<div style="margin: 8px 0 16px"></div>
-			
-			{% if page.sections %}
-				<div class="kyaratabs">
-					{% for sec in page.sections %}
-					<a href={{ sec[1] }}>{{ sec[0] }}</a>
-					{% endfor %}
-				</div>
-			{% endif %}
-			
 			<div class="pagination">
 				<span style="position:absolute;left:0">
 					<a href={{ page.prv }}>« back</a>
 				</span>
 				<span style="margin:auto">
-					<a href="/bug">index</a>
+					<a href="/log">index</a>
 				</span>
 			</div>
 		</div>
 
 		{{ content }}
-		
-		{% include kakugepages.html %}
 		<div style="margin-bottom:128px"></div>
 	</body>
 </html>
-

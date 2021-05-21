@@ -1,5 +1,5 @@
 ---
-layout: kakuge_layout
+layout: kakuge_layout_kyara
 ---
 
 {{ content }}
@@ -105,6 +105,17 @@ layout: kakuge_layout
 								<div class="atkval"><b>{{ attack.damage }}</b></div>
 							</div>
 						</div>
+						<!-- blue attr -->
+						{% if attack.attributes.blue %}
+							<div class="spc">
+								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
+								<div class="attrbox">
+									{% for attr in attack.attributes.blue %}
+										<div>{{ attr.b }}</div>
+									{% endfor %}
+								</div>
+							</div>
+						{% endif %}
 						<!-- red/green attr -->
 						<div class="attrcont">
 							<div class="attr">
@@ -132,87 +143,63 @@ layout: kakuge_layout
 								</div>
 							</div>
 						</div>
-						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
 					</div>
 				{% endif %}{% endraw %}{% endcapture %}
 
 
 <div class="post_body">
 	<div class="kyaratop">
-		<!-- page nav -->
-		<div class="kyaranav">
-			<h3>{{ topL }}Contents</h3>
-			<div class="chatS">
-				<div class="kyaratabs">
-					<a href="#stats">Stats</a>
-					<a href="#normals">Normals</a>
-					<a href="#commands">Command Normals</a>
-					<a href="#throws">Throws</a>
-					<a href="#skills">Skills</a>
-					<a href="#exs">EX Skills</a>
-				</div>
-				{{ cornerR }}
-			</div>
-		</div>
 		<!-- stats -->
 		<div class="chatS" style="flex:1 1 480px">
 			{{ topL }}
 			<div class="statbox">
-				<div style="flex:1 1 0">
-					<h3 id="stats">{{ nesttopL }}Stats{{ nestcornerR }}</h3>
-					<table style="text-align:center"><tr>
-						<td><b><t-r>ＨＰ • </t-r>{{ chr.stats.hp }}</b></td>
-						<td><b><t-y>ＳＰ • </t-y>{{ chr.stats.sp }}</b></td>
-					</tr></table>
-					<div style="padding:8px"></div>
-					<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
-					<div class="traits">
-						{{ nesttopL }}
-						{% for trait in chr.stats.traits %}
-							<div>{{ trait.t }}</div>
-						{% endfor %}
-						{{ nestcornerR }}
+				<div class="procont">
+					<div>
+						<h3 id="stats">{{ nesttopL }}Stats{{ nestcornerR }}</h3>
+						<table style="text-align:center"><tr>
+							<td><b><t-r>ＨＰ • </t-r>{{ chr.stats.hp }}</b></td>
+							<td><b><t-y>ＳＰ • </t-y>{{ chr.stats.sp }}</b></td>
+						</tr></table>
+					</div>
+						<div style="padding:8px;flex:0 0;"></div>
+					<div>
+						<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
+						<div class="traits">
+							{{ nesttopL }}
+							{% for trait in chr.stats.traits %}
+								<div>{{ trait.t }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
+					</div>
+
+					<div>
+						<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
+						<div class="pros">
+							{{ nesttopL }}
+							{% for pro in chr.stats.pros %}
+								<div>{{ pro.p }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
+					</div>
+						<div style="padding:0 4px;flex:0 0;"></div>
+					<div>
+						<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
+						<div class="cons">
+							{{ nesttopL }}
+							{% for con in chr.stats.cons %}
+								<div>{{ con.c }}</div>
+							{% endfor %}
+							{{ nestcornerR }}
+						</div>
 					</div>
 					
-					<div class="procont">
+					{% if chr.stats.album %}
 						<div>
-							<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
-							<div class="pros">
-								{{ nesttopL }}
-								{% for pro in chr.stats.pros %}
-									<div>{{ pro.p }}</div>
-								{% endfor %}
-								{{ nestcornerR }}
-							</div>
-						</div>
-						
-						<div>
-							<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
-							<div class="cons">
-								{{ nesttopL }}
-								{% for con in chr.stats.cons %}
-									<div>{{ con.c }}</div>
-								{% endfor %}
-								{{ nestcornerR }}
-							</div>
-						</div>
-						{% if chr.stats.album %}
-						<div style="flex:0 0 100%">
 							<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
 						</div>
-						{% endif %}
-					</div>
-					
+					{% endif %}
 				</div>
 				<div class="kyaraimg"><img src="{{ chr.stats.image }}"/></div>
 			</div>
@@ -229,7 +216,7 @@ layout: kakuge_layout
 		{{ cornerR }}
 	</div>
 
-	<h3 id="commands">{{ topL }}<a class="collapse" role="button">Command Normals</a></h3>
+	<h3 id="cmds">{{ topL }}<a class="collapse" role="button">Command Normals</a></h3>
 	<div class="chatS movelist">
 		{% for attack in chr.commands %}
 			{{ attackinfo | liquify }}

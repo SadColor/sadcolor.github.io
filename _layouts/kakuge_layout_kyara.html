@@ -9,15 +9,6 @@
 		<div class="head">
 			<h1>{{ page.header }}</h1>
 			<div style="margin: 8px 0 16px"></div>
-			
-			{% if page.sections %}
-				<div class="kyaratabs">
-					{% for sec in page.sections %}
-					<a href={{ sec[1] }}>{{ sec[0] }}</a>
-					{% endfor %}
-				</div>
-			{% endif %}
-			
 			<div class="pagination">
 				<span style="position:absolute;left:0">
 					<a href={{ page.prv }}>« back</a>

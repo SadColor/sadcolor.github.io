@@ -94,7 +94,9 @@
 		
 		{
 			"id":"2a",
-			
+			"images": [
+				{ "i":"/img/leif/2a.png" }
+			],
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
 			"description":"A low kick.<br/>Less range than {{ n5 }}{{ A }}, but faster.",
@@ -488,7 +490,9 @@
 		
 		{
 			"id":"214b",
-			
+			"images": [
+				{ "i":"/img/leif/214b.png" }
+			],
 			"name":"{{ n214 }}{{ B }}",
 			"input":"{{ d214 }}{{ B }}",
 			"description":"Leif reaches upwards with an icy hand.<br/>On hit, the opponent will be hit with a flurry of ice and dropped to the ground. If used outside of a combo, this will <t-b><b>Freeze</b></t-b> the opponent.<br/>You can press {{ d4 }}{{ B }} again to add a final hit which adds a lot of extra damage for <t-y><b>1</b> SP</t-y> but sends the opponent far away (and unfreezes them).",
