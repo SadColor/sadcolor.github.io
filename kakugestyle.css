@@ -88,14 +88,25 @@ h3 {
 	z-index:1;
 }
 
-
+.headcont {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1;
+	width:100%;
+	background-color:var(--bg);
+	padding-bottom:4px;
+}
 .head {
-    margin:16px auto;
+    margin:4px auto;
 	text-align: center;
 	width:85%;
     max-width:var(--maxw);
     min-width:var(--minw);
 	border: 1px solid var(--purple);
+}
+#headspace {
+	padding-bottom:144px;
 }
 
 .pagination {
@@ -155,6 +166,7 @@ h3 {
 	max-height: max-content;
 }
 
+.stats,
 .traits,
 .pros,
 .cons {
@@ -162,6 +174,7 @@ h3 {
 	position:relative;
 	padding: 8px 16px;
 }
+.stats>div,
 .traits>div,
 .pros>div,
 .cons>div {

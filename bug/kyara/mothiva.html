@@ -11,31 +11,33 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	</head>
 	<body>
-		<div class="head">
-			<h1>mothiva</h1>
-			<div style="margin: 8px 0 16px"></div>
-			
-			
-				<div class="kyaratabs">
-					<a href="#stats">Stats</a>
-					<a href="#normals">Normals</a>
-					<a href="#cmds">Command Normals</a>
-					<a href="#throws">Throws</a>
-					<a href="#skills">Skills</a>
-					<a href="#exs">EX Skills</a>
+		<div id="headcont">
+			<div class="head">
+				<h1>mothiva</h1>
+				<div style="margin: 8px 0 16px"></div>
+				
+				
+					<div class="kyaratabs">
+						<a href="#stats">Stats</a>
+						<a href="#normals">Normals</a>
+						<a href="#cmds">Command Normals</a>
+						<a href="#throws">Throws</a>
+						<a href="#skills">Skills</a>
+						<a href="#exs">EX Skills</a>
+					</div>
+				
+				
+				<div class="pagination">
+					<span style="position:absolute;left:0">
+						<a href=.>« back</a>
+					</span>
+					<span style="margin:auto">
+						<a href="/bug">index</a>
+					</span>
 				</div>
-			
-			
-			<div class="pagination">
-				<span style="position:absolute;left:0">
-					<a href=.>« back</a>
-				</span>
-				<span style="margin:auto">
-					<a href="/bug">index</a>
-				</span>
 			</div>
 		</div>
-
+		<div id="headspace"></div>
 		
 
 <!--page elements-->
@@ -100,21 +102,25 @@
 			<div class="statbox">
 				<div class="procont">
 					<div>
-						<h3 id="stats">
+						<div style="text-align:center;font-size:16px;" id="stats"><b>Stats</b></div>
+						<div class="stats">
+						
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
 		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
-Stats
+
+							<table style="text-align:center"><tr>
+								<td><b><t-r>ＨＰ • </t-r>９００</b></td>
+								<td><b><t-y>ＳＰ • </t-y>２０</b></td>
+							</tr></table>
+						
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
-</h3>
-						<table style="text-align:center"><tr>
-							<td><b><t-r>ＨＰ • </t-r>９００</b></td>
-							<td><b><t-y>ＳＰ • </t-y>２０</b></td>
-						</tr></table>
+
+						</div>
 					</div>
-						<div style="padding:8px;flex:0 0;"></div>
+						<div style="padding:0 4px;flex:0 0;"></div>
 					<div>
 						<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
 						<div class="traits">
@@ -173,11 +179,10 @@ Stats
 
 						</div>
 					</div>
-				</div>
-				
-				
-					<div>
-						<h3 id="stats">
+					
+					
+						<div style="max-width:100%">
+							<h3 id="stats">
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest">
 		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
@@ -186,8 +191,9 @@ Stats
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 </h3>
-					</div>
-				
+						</div>
+					
+				</div>
 				<div class="kyaraimg"><img src="/img/mothiva/art.png"/></div>
 			</div>
 			
@@ -1176,7 +1182,7 @@ On hit
 	</svg>
 
 				<div style="font-size:16px"><b>j.</b><t-g><b>A</b></t-g></div>
-				<div class="atkinput"><img class="dirimg l" src="/img/d0.png" /><t-g><b>A</b></t-g> while airborne</div>
+				<div class="atkinput"><img class="dirimg l" alt="" src="/img/d0.png" /><t-g><b>A</b></t-g> while airborne</div>
 				
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -1310,7 +1316,7 @@ On hit
 	</svg>
 
 				<div style="font-size:16px"><b>j.</b><t-y><b>B</b></t-y></div>
-				<div class="atkinput"><img class="dirimg l" src="/img/d0.png" /><t-y><b>B</b></t-y> while airborne</div>
+				<div class="atkinput"><img class="dirimg l" alt="" src="/img/d0.png" /><t-y><b>B</b></t-y> while airborne</div>
 				
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -1444,7 +1450,7 @@ On hit
 	</svg>
 
 				<div style="font-size:16px"><b>j.</b><t-r><b>C</b></t-r></div>
-				<div class="atkinput"><img class="dirimg l" src="/img/d0.png" /><t-r><b>C</b></t-r> while airborne</div>
+				<div class="atkinput"><img class="dirimg l" alt="" src="/img/d0.png" /><t-r><b>C</b></t-r> while airborne</div>
 				
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -3021,7 +3027,7 @@ On hit
 	</svg>
 
 				<div style="font-size:16px"><b>Get 'em, Zasp!</b></div>
-				<div class="atkinput"><img class="dirimg l" src="/img/d0.png" /><t-b><b>S</b></t-b></div>
+				<div class="atkinput"><img class="dirimg l" alt="" src="/img/d0.png" /><t-b><b>S</b></t-b></div>
 				
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -3303,7 +3309,7 @@ On hit
 	</svg>
 
 				<div style="font-size:16px"><b>Backstage Pass</b></div>
-				<div class="atkinput"><img class="dirimg l" src="/img/d0.png" /><t-b><b>S</b></t-b></div>
+				<div class="atkinput"><img class="dirimg l" alt="" src="/img/d0.png" /><t-b><b>S</b></t-b></div>
 				
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
@@ -4994,10 +5000,8 @@ On hit
 	</div>
 	
 </div>
-
-<script src="/bug/kyara/page.js"></script>
 		
-		<div style="margin-bottom:64px"/>
+		<div style="margin-bottom:64px">
 	<div class="head">
 	<div class="pagination">
 		<div><span style="margin:auto"><a href="/bug" style="color:var(--siro)"><b>index</b></a></span></div>
@@ -5028,7 +5032,9 @@ On hit
 	</div>
 	<div style="margin: 8px 0 16px"></div>
 	</div>
-		<div style="margin-bottom:128px"></div>
+</div>
 	</body>
+	
+	<script src="/bug/page.js"></script>
 </html>
 

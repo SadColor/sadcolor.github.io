@@ -11,22 +11,24 @@
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 	</head>
 	<body>
-		<div class="head">
-			<h1>move attributes</h1>
-			<div style="margin: 8px 0 16px"></div>
-			
-			
-			
-			<div class="pagination">
-				<span style="position:absolute;left:0">
-					<a href=.>« back</a>
-				</span>
-				<span style="margin:auto">
-					<a href="/bug">index</a>
-				</span>
+		<div id="headcont">
+			<div class="head">
+				<h1>move attributes</h1>
+				<div style="margin: 8px 0 16px"></div>
+				
+				
+				
+				<div class="pagination">
+					<span style="position:absolute;left:0">
+						<a href=.>« back</a>
+					</span>
+					<span style="margin:auto">
+						<a href="/bug">index</a>
+					</span>
+				</div>
 			</div>
 		</div>
-
+		<div id="headspace"></div>
 		<!--page elements-->
 
 
@@ -95,7 +97,7 @@
 			Attacks are classified as <b>lows</b>, <b>mids</b>, or <b>highs</b>.
 			Most attacks are <b>mid</b> attacks, which can be blocked standing or crouching.<br/>
 			<b>Low</b> attacks can only be blocked crouching.<br/>
-			<b>High</b> attacks can only be blocked standing. Every air normal is a high.</t-w></div>
+			<b>High</b> attacks can only be blocked standing. Nearly every air normal is a high.</t-w></div>
 			<div><t-w><b>Grab</b><br/>
 			<b>Grabs</b> can't be blocked, but can be broken by inputting a grab at close to the same time you were grabbed.</t-w></div>
 			<div><t-w><b>Crush</b><br/>
@@ -146,7 +148,7 @@
 			<b>Cross-up</b> attacks can switch sides with the opponent while correcting your facing direction.<br/>
 			<b>Cross-up</b> attacks must be blocked in the correct direction.</div>
 			<div><b>Ender</b><br/>
-			<b>Ender</b>s force a combo to end when they hit, unless you use === or an EX Skill.<br/>
+			<b>Ender</b>s force a combo to end when they hit, unless you use Chain Cancel or an EX Skill.<br/>
 			Note that almost every air throw is listed as an <b>Ender</b>, but you can still combo from them as long as they are the first move in a combo.</div>
 		
 	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest">
@@ -195,7 +197,7 @@
 			Once the splat runs out, the opponent can aerial recover.</div>
 			<div><b>Crumple</b><br/>
 			During a <b>Crumple</b>, the opponent slowly falls to their knees then collapses to the floor.<br/>
-			While they're on their knees, they're considered grounded and even grabs (which normally can't combo) can connect.<br/>
+			While they're falling to their knees, they're considered grounded and even grabs (which normally can't combo) can connect.<br/>
 			After that, they're considered airborne.</div>
 			<div><b>Popup</b><br/>
 			<b>Popup</b> attacks cause the opponent to be briefly airborne, before landing and becoming grounded again.</div>
@@ -263,7 +265,7 @@
 	</div>
 </div>
 		
-		<div style="margin-bottom:64px"/>
+		<div style="margin-bottom:64px">
 	<div class="head">
 	<div class="pagination">
 		<div><span style="margin:auto"><a href="/bug" style="color:var(--siro)"><b>index</b></a></span></div>
@@ -294,7 +296,9 @@
 	</div>
 	<div style="margin: 8px 0 16px"></div>
 	</div>
-		<div style="margin-bottom:128px"></div>
+</div>
 	</body>
+	
+	<script src="/bug/page.js"></script>
 </html>
 

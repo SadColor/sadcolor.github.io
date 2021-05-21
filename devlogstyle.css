@@ -18,8 +18,8 @@
     --kuro: #383448;
 	--makkuro: #141420;
 	--cream: #ffd8b0;
-	--maxw: 1024px;
-	--minw: 480px;
+	--maxw: 1280px;
+	--minw: 512px;
 }
 
 body {
@@ -88,16 +88,36 @@ h3 {
 	z-index:1;
 }
 
-
+#headcont {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 1;
+	width:100%;
+	background-color:var(--bg);
+	padding-bottom:4px;
+}
 .head {
-    margin:16px auto;
+    margin:4px auto;
 	text-align: center;
 	width:85%;
     max-width:var(--maxw);
     min-width:var(--minw);
 	border: 1px solid var(--purple);
 }
+#headspace {
+	padding-bottom:144px;
+}
 
+.kyaratabs {
+	display:flex;
+	flex-flow:row wrap;
+	justify-content:center;
+	margin-bottom: 8px;
+}
+.kyaratabs>a {
+	margin: 0 8px;
+}
 .pagination {
 	width: 95%;
 	margin: 8px auto;
