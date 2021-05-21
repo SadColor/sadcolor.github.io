@@ -11,7 +11,7 @@ function measure() {
 function loadCollapse() {
 	var divs = document.querySelectorAll(".movelist");
 	var headSp = document.querySelector("#headspace");
-	var headC = document.querySelector.("#headcont");
+	var headC = document.querySelector("#headcont");
 	measure();
 	var btns = document.querySelectorAll(".collapse");
 
