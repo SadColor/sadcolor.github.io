@@ -295,7 +295,7 @@ h3 {
 .spc {
 	font-weight:bold;
 	width:96px;
-	margin-left:4px;
+	margin-right:4px;
 	flex:0 0 auto;
 	color:var(--ao);
 }
@@ -381,7 +381,7 @@ tr {
 		flex-flow: row wrap;
 	}
 	.procont>div{
-		flex: 1 1;
+		flex: 1 1 40%;
 		max-width:50%;
 	}
 	
