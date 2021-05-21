@@ -1,5 +1,12 @@
 ---
-layout: kakuge_layout_kyara
+layout: kakuge_layout
+sections: 
+- ["Stats", "#stats"]
+- ["Normals", "#normals"]
+- ["Command Normals", "#cmds"]
+- ["Throws", "#throws"]
+- ["Skills", "#skills"]
+- ["EX Skills", "#exs"]
 ---
 
 {{ content }}
@@ -194,13 +201,13 @@ layout: kakuge_layout_kyara
 							{{ nestcornerR }}
 						</div>
 					</div>
-					
-					{% if chr.stats.album %}
-						<div>
-							<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
-						</div>
-					{% endif %}
 				</div>
+				
+				{% if chr.stats.album %}
+					<div>
+						<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
+					</div>
+				{% endif %}
 				<div class="kyaraimg"><img src="{{ chr.stats.image }}"/></div>
 			</div>
 			{{ cornerR }}
