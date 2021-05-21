@@ -470,7 +470,7 @@
 			"images": [
 				{ "i":"/img/leif/214a.png" }
 			],
-			"name":"<b>Icefall</b>",
+			"name":"{{ n214 }}{{ A }}",
 			"input":"{{ d214 }}{{ A }}",
 			"description":"Leif advances slightly with an icy drill.<br/>Safe on block if spaced.<br/>Can be fortified with a Frost ({{ S }}) cloud, which adds an extra unscaled hit and gives frame advantage on block. On hit, it launches the opponent higher allowing for a juggle.",
 			"damage":"19<t-w>×</t-w>3",

@@ -162,13 +162,17 @@ sections:
 			<div class="statbox">
 				<div class="procont">
 					<div>
-						<h3 id="stats">{{ nesttopL }}Stats{{ nestcornerR }}</h3>
-						<table style="text-align:center"><tr>
-							<td><b><t-r>ＨＰ • </t-r>{{ chr.stats.hp }}</b></td>
-							<td><b><t-y>ＳＰ • </t-y>{{ chr.stats.sp }}</b></td>
-						</tr></table>
+						<div style="text-align:center;font-size:16px;" id="stats"><b>Stats</b></div>
+						<div class="stats">
+						{{ nesttopL }}
+							<table style="text-align:center"><tr>
+								<td><b><t-r>ＨＰ • </t-r>{{ chr.stats.hp }}</b></td>
+								<td><b><t-y>ＳＰ • </t-y>{{ chr.stats.sp }}</b></td>
+							</tr></table>
+						{{ nestcornerR }}
+						</div>
 					</div>
-						<div style="padding:8px;flex:0 0;"></div>
+						<div style="padding:0 4px;flex:0 0;"></div>
 					<div>
 						<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
 						<div class="traits">
@@ -201,13 +205,13 @@ sections:
 							{{ nestcornerR }}
 						</div>
 					</div>
+					
+					{% if chr.stats.album %}
+						<div style="max-width:100%">
+							<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
+						</div>
+					{% endif %}
 				</div>
-				
-				{% if chr.stats.album %}
-					<div>
-						<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
-					</div>
-				{% endif %}
 				<div class="kyaraimg"><img src="{{ chr.stats.image }}"/></div>
 			</div>
 			{{ cornerR }}
@@ -256,5 +260,3 @@ sections:
 	</div>
 	
 </div>
-
-<script src="/bug/kyara/page.js"></script>

@@ -6,34 +6,37 @@
 		{% include kakuge-head.html %}
 	</head>
 	<body>
-		<div class="head">
-			<h1>{{ page.header }}</h1>
-			<div style="margin: 8px 0 16px"></div>
-			
-			{% if page.secOverride %}
-				<div class="kyaratabs">
-					{% for sec in page.secOverride %}<a href="{{ sec[1] }}">{{ sec[0] }}</a>{% endfor %}
+		<div id="headcont">
+			<div class="head">
+				<h1>{{ page.header }}</h1>
+				<div style="margin: 8px 0 16px"></div>
+				
+				{% if page.secOverride %}
+					<div class="kyaratabs">{% for sec in page.secOverride %}
+						<a href="{{ sec[1] }}">{{ sec[0] }}</a>{% endfor %}
+					</div>
+				{% elsif layout.sections %}
+					<div class="kyaratabs">{% for sec in layout.sections %}
+						<a href="{{ sec[1] }}">{{ sec[0] }}</a>{% endfor %}
+					</div>
+				{% endif %}
+				
+				<div class="pagination">
+					<span style="position:absolute;left:0">
+						<a href={{ page.prv }}>« back</a>
+					</span>
+					<span style="margin:auto">
+						<a href="/bug">index</a>
+					</span>
 				</div>
-			{% elsif layout.sections %}
-				<div class="kyaratabs">
-					{% for sec in layout.sections %}<a href="{{ sec[1] }}">{{ sec[0] }}</a>{% endfor %}
-				</div>
-			{% endif %}
-			
-			<div class="pagination">
-				<span style="position:absolute;left:0">
-					<a href={{ page.prv }}>« back</a>
-				</span>
-				<span style="margin:auto">
-					<a href="/bug">index</a>
-				</span>
 			</div>
 		</div>
-
+		<div id="headspace"></div>
 		{{ content }}
 		
 		{% include kakugepages.html %}
-		<div style="margin-bottom:128px"></div>
 	</body>
+	
+	<script src="/bug/page.js"></script>
 </html>
 
