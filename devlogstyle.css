@@ -86,6 +86,7 @@ h3 {
 	position:relative;
 	margin:0;
 	z-index:1;
+	scroll-margin-top: 144px;
 }
 
 #headcont {
