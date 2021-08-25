@@ -25,9 +25,9 @@
 			"name":"{{ n5 }}{{ A }}",
 			"input":"{{ d0 }}{{ A }}",
 			"description":"Jab.",
-			"damage":"23",
+			"damage":"25",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"mid",
 				"green": [
@@ -99,9 +99,9 @@
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
 			"description":"Crouching jab.",
-			"damage":"22",
+			"damage":"25",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"low",
 				"green": [
@@ -155,7 +155,7 @@
 			"description":"Jumping knee.<br/>Active until landing.",
 			"damage":"40",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"high"
 			}
@@ -250,6 +250,25 @@
 				"red": [
 					{ "r":"Launch" },
 					{ "r":"Vacuum" }
+				]
+			}
+		},
+		
+		
+			"id":"4c",
+			"images": [
+				{ "i":"/img/kabbu/4c.png" }
+			],
+			"name":"{{ n4 }}{{ C }}",
+			"input":"{{ d4 }}{{ C }}",
+			"description":"Kabbu does an uppercut to the gut.<br/>If the initial connect whiffs, he'll continue to uppercut, which makes it a decent anti-air.<br/>Plus on block.",
+			"damage":"77",
+			"ip":"5",
+			"cp":"3",
+			"attributes": {
+				"guard":"mid",
+				"red": [
+					{ "r":"Popup" }
 				]
 			}
 		},
@@ -379,64 +398,40 @@
 		},
 		
 		{
-			"id":"236a",
+			"id":"214s",
 			
-			"name":"<b>Horn Dash</b>",
-			"input":"{{ d236 }}{{ A }}",
-			"description":"Kabbu does a short shoulder tackle forwards. You can press {{ d6 }}{{ A }} to do a larger horn dash afterwards that knocks down. It's super unsafe, but Critical Counters on counterhit.<br/>If you space the first tackle, it can be plus.<br/>In the air, Kabbu only does a single horn dash and will bounce off the opponent on hit.",
-			"versions": [
-				{
-					"name":"{{ n236 }}{{ A }}",
-					"label":"1st hit",
-					"guard":"mid",
-					"damage":"60",
-					"ip":"20",
-					"cp":"2",
-					"cost":"<b>2</b> SP"
-				},
-				
-				{
-					"name":"{{ n236 }}{{ A }}{{ A }}",
-					"label":"2nd hit",
-					"guard":"mid",
-					"damage":"60",
-					"ip":"20",
-					"cp":"1",
-					"cost":"<b>1</b> SP",
-					"red": [
-						{ "r":"Wallsplat" }
-					]
-				},
-				
-				{
-					"name":"{{ j }}{{ n236 }}{{ A }}",
-					"label":"aerial",
-					"guard":"mid",
-					"damage":"130",
-					"ip":"20",
-					"cp":"3",
-					"cost":"<b>3</b> SP",
-					"red": [
-						{ "r":"Wallsplat" }
-					]
-				}
-			]
+			"name":"<b>Taunt</b>",
+			"input":"{{ d214 }}{{ S }}",
+			"description":"Kabbu taunts the opponent. If the opponent hits him within a certain time, Kabbu catches the attack with his horn and counters.<br/>The counterattack knocks the opponent up and behind Kabbu, allowing you to get a followup combo.",
+			"damage":"101",
+			"ip":"40",
+			"cp":"0",
+			"cost":"<b>3</b> SP",
+			"attributes": {
+				"guard":"-",
+				"green": [
+					{ "g":"Invincible" }
+				],
+				"red": [
+					{ "r":"Knockdown" }
+				]
+			}
 		},
 		
 		{
 			"id":"236b",
 			
-			"name":"<b>Under Strike</b>",
+			"name":"<b>Horn Dash</b>",
 			"input":"{{ d236 }}{{ B }}",
-			"description":"Kabbu charges forward, digging through the ground before ending with a horn uppercut.<br/>Can go under a lot of physical attacks and has projectile invincibility.<br/>You can hold {{ B }} to travel a longer distance.<br/>It has slow startup and is very unsafe on block, but leads to great damage anywhere on screen.<br/>Used in high-damage counterhit confirms.",
-			"damage":"123",
-			"ip":"15",
-			"cp":"6",
-			"cost":"<b>4</b> SP",
+			"description":"Kabbu does a short shoulder tackle forwards. You can press {{ d6 }}{{ A }} to do a larger horn dash afterwards that knocks down. It's super unsafe, but Critical Counters on counterhit.<br/>If you space the first tackle, it can be plus.<br/>In the air, Kabbu only does a single horn dash and will bounce off the opponent on hit.",
+			"damage":"60",
+			"ip":"20",
+			"cp":"2",
+			"cost":"<b>3</b> SP",
 			"attributes": {
-				"guard":"low",
+				"guard":"mid",
 				"red": [
-					{ "r":"Knockdown" }
+					{ "r":"Wallsplat" }
 				]
 			}
 		},
@@ -446,7 +441,7 @@
 			
 			"name":"{{ n236 }}{{ C }}",
 			"input":"{{ d236 }}{{ C }}",
-			"description":"Kabbu tries to grab the opponent.<br/>If it connects, he tosses the opponent up and skewers them on his horn before dropping them to the ground beside him.<br/>Midscreen, you can combo using Active Shift. In the corner, you can followup meterlessly with a light normal.",
+			"description":"Kabbu tries to grab the opponent.<br/>If it connects, he tosses the opponent up and skewers them on his horn before dropping them to the ground beside him.<br/>Midscreen, you can combo using Chain Cancel. In the corner, you can followup meterlessly with a light normal.",
 			"damage":"200",
 			"ip":"35",
 			"cp":"0",
@@ -483,7 +478,7 @@
 			
 			"name":"{{ n214 }}{{ B }}",
 			"input":"{{ d214 }}{{ B }}",
-			"description":"Kabbu chops downwards. In the air, Kabbu's forward momentum stops and he dives nearly straight down.<br/>The uncharged version is a very fast overhead, but you can't combo meterlessly, it scales as hard as a throw, and is unsafe on block.<br/>The charged version is slower, but you can combo from it with lights (heavies if you counterhit) and it's safe on block.<br/>The air version is good as an instant overhead and scales less harshly than the uncharged grounded version, but there are fewer opportunities to land it raw.<br/>Air version can’t be charged.<br/>In a juggle, all versions <t-r><b>GROUNDSLIDE</b></t-r>, allowing combo followups.",
+			"description":"Kabbu chops downwards. In the air, Kabbu's forward momentum stops and he dives nearly straight down.<br/>The uncharged version is a very fast overhead, but you can't combo meterlessly, it scales as hard as a throw, and is unsafe on block.<br/>The charged version is slower, but you can combo from it with lights (heavies if you counterhit) and it's safe on block.<br/>The air version is good as an instant overhead and scales less harshly than the uncharged grounded version, but there are fewer opportunities to land it raw.<br/>Air version can’t be charged.<br/>In a juggle, all versions <t-r><b>Groundslide</b></t-r>, allowing combo followups.",
 			"versions": [
 				{
 					"name":"{{ n214 }}{{ B }}",
@@ -529,18 +524,15 @@
 		{
 			"id":"214c",
 			
-			"name":"<b>Taunt</b>",
-			"input":"{{ d214 }}{{ C }}",
-			"description":"Kabbu taunts the opponent. If the opponent hits him within a certain time, Kabbu catches the attack with his horn and counters.<br/>The counterattack knocks the opponent up and behind Kabbu, allowing you to get a followup combo.",
-			"damage":"101",
-			"ip":"40",
-			"cp":"0",
-			"cost":"<b>3</b> SP",
+			"name":"<b>Under Strike</b>",
+			"input":"{{ d214C }}{{ C }}",
+			"description":"Kabbu charges forward, digging through the ground before ending with a horn uppercut.<br/>Can go under a lot of physical attacks and has projectile invincibility.<br/>You can hold {{ B }} to travel a longer distance.<br/>It has slow startup and is very unsafe on block, but leads to great damage anywhere on screen.<br/>Used in high-damage counterhit confirms.",
+			"damage":"123",
+			"ip":"15",
+			"cp":"6",
+			"cost":"<b>4</b> SP",
 			"attributes": {
-				"guard":"-",
-				"green": [
-					{ "g":"Invincible" }
-				],
+				"guard":"low",
 				"red": [
 					{ "r":"Knockdown" }
 				]

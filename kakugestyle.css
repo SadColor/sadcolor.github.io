@@ -379,10 +379,10 @@ tr {
 
 /*
 	screen size adjustments
-*/
+	*/
 
 /* change layout for thinner window size */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px), (max-aspect-ratio: 9/16) {
 	/* character stats section */
 	.statbox {
 		flex-flow: column-reverse nowrap;

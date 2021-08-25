@@ -28,9 +28,9 @@
 			"name":"{{ n5 }}{{ A }}",
 			"input":"{{ d0 }}{{ A }}",
 			"description":"Icicly swipe.<br/>Far range for a light normal, but also one of the slowest.<br/>Whiffs on crouchers unless they’re tall (like Leif himself).",
-			"damage":"40",
+			"damage":"26",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"mid",
 				"green": [
@@ -102,7 +102,7 @@
 			"description":"A low kick.<br/>Less range than {{ n5 }}{{ A }}, but faster.",
 			"damage":"21",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"low",
 				"green": [
@@ -150,7 +150,7 @@
 			"description":"An upwards kick.",
 			"damage":"32",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"high"
 			}
@@ -403,6 +403,30 @@
 		},
 		
 		{
+			"id":"214s",
+			
+			"name":"<b>Glacial Gem</b>",
+			"input":"{{ d214 }}{{ S }}",
+			"description":"Leif creates an icy sigil that detonates after a few seconds. Can nullify a 2-hit projectile. If you hit it with an Ice Shard ({{ d236 }}{{ A }}) or q ({{ d214 }}{{ A }}), it will detonate instantly.",
+			"damage":"100",
+			"ip":"25",
+			"cp":"2",
+			"cost":"<b>4</b> SP",
+			"attributes": {
+				"guard":"mid",
+				"green": [
+					{ "g":"Air OK" }
+				],
+				"red": [
+					{ "r":"Launch" }
+				],
+				"blue": [
+					{ "b":"Freeze" }
+				]
+			}
+		},
+		
+		{
 			"id":"236a",
 			
 			"name":"<b>Ice Shard</b>",
@@ -415,7 +439,7 @@
 			"attributes": {
 				"guard":"mid",
 				"green": [
-					{ "g":"Air OK" },
+					{ "g":"Air OK" }
 				]
 			}
 		},
@@ -493,7 +517,7 @@
 			"images": [
 				{ "i":"/img/leif/214b.png" }
 			],
-			"name":"{{ n214 }}{{ B }}",
+			"name":"<b>Frostbite</b>",
 			"input":"{{ d214 }}{{ B }}",
 			"description":"Leif reaches upwards with an icy hand.<br/>On hit, the opponent will be hit with a flurry of ice and dropped to the ground. If used outside of a combo, this will <t-b><b>Freeze</b></t-b> the opponent.<br/>You can press {{ d4 }}{{ B }} again to add a final hit which adds a lot of extra damage for <t-y><b>1</b> SP</t-y> but sends the opponent far away (and unfreezes them).",
 			"versions": [

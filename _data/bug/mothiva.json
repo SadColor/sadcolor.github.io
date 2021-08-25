@@ -27,7 +27,7 @@
 			"description":"Stomps at your feet. A standing low.",
 			"damage":"25",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"low",
 				"green": [
@@ -99,9 +99,9 @@
 			"name":"{{ n2 }}{{ A }}",
 			"input":"{{ d2 }}{{ A }}",
 			"description":"Quick low kick.<br/>More range than {{ n5 }}{{ A }}.",
-			"damage":"22",
+			"damage":"23",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"low",
 				"green": [
@@ -153,7 +153,7 @@
 			"description":"Knee attack.<br/>Active until landing.",
 			"damage":"32",
 			"ip":"25",
-			"cp":"3",
+			"cp":"2",
 			"attributes": {
 				"guard":"high"
 			}

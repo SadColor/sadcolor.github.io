@@ -13,7 +13,7 @@ sections:
 
 {% include kakugestuff.html %}
 {% assign chr = site.data.bug.[page.kyara] %}
-{% capture attackinfo %}{% raw %}	<div class="atkcont">
+{% capture attackinfo %}{% raw %}	<div class="atkcont" id="{{ attack.id }}">
 		<!-- name -->
 		<div style="margin-bottom:4px">
 			<div class="atkname" style="width:35%">
