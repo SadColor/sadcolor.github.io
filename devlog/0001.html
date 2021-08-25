@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>#0001 • prototype the first • sadcolor's stuff</title>
+		<link rel="stylesheet" href="/devlogstyle.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" sizes="192x192" type="image/png" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" type="image/png" href="/favicon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	</head>
+	<body>
+		<div id="headcont">
+			<div class="head">
+				<h1>#0001 • prototype the first</h1>
+				<div style="margin: 8px 0 16px"></div>
+				<div class="pagination">
+					
+					
+					<span style="position:absolute;left:0">
+						<a href=.>« back</a>
+					</span>
+					<span style="margin:auto">
+						<a href="/log">index</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="headspace"></div>
+		
+		<!--page elements-->
+
+
+
+
+
+
+
+
+
+<!--buttons-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post_body">
+	<h3 id="sec1">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">First prototype, some surface details</a></h3>
+	<div class="chat movelist">
+		<p>Um, so I think it was about when I was getting out of high school that I started working on coding my fighting game. Up to that point, I think I had coded just one tiny game, which was based on the Super Gravitron from VVVVVV. It's not half bad, though because I was coding it in probably under a week to meet a deadline while still trying to figure things out, it could definitely be better. If you want to mess with it for like a minute, [here's a link](). It's basically random with not much in the way of fine-tuning, so especially at higher difficulties it can be basically impossible to avoid anything. At least, I think so, I'm not very good at the Super Gravitron as it stands anyhow.</p>
+		<p>Oops, I took a small detour there. Anyways, the point is that I had barely coded anything and I said "eh, fuck it, I won't learn if I don't try" and dove head-first into trying to program a fighting game. I'll talk about more of the details in a second, but here's some of the less interesting stuff first.</p>
+		<p>The resolution is a cool 960×560. Not sure why I picked that number, honestly. I guess I figured I didn't want to draw stuff that was too big, Also, the placeholder character is Amingo from Marvel vs. Capcom 2. He's a pretty cool guy; I like his design a lot. Shame he's not in anything else, though. Oh, and it's programmed in GameMaker Studio. Also for some reason my prototype seems to be in a really crash-y and nothing-is-working-y state, like I was in the middle of updating code or something. I remember it being not that way, so maybe somehow I lost a more complete version, or I just very briefly tried updating code before I stopped working on the first protoype... no clue. In any case...</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec2">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Action handling</a></h3>
+	<div class="chat movelist">
+		<p>So, the biggest thing I had to think of right away to get anything playable was how I was going to handle character states. And I picked a method that was pretty convenient, but also kind of terrible and would require a lot of rewriting under certain circumstances. As of the current version, I've come up with a solution that's still convenient for me but is probably way less awful, but that's a story for later.</p>
+		<p>Anyways, the solution I implemented was this: the character's current state is stored as a string, like "stand", "jumpf", or "5b". Then, a function will append the necessary information to construct a string that is the name of the corresponding script. So, the character is Amingo, who has an internal code "amg" that all sprites and scripts related to him are prefixed with. All scripts are also prefixed with "sc", so as not to overlap with sprite names or anything like that. So the final string becomes like "amg_sc_stand", which GameMaker can use to find the resource that has the same name (which is the script that handles the standing action).</p>
+		<p>It works well for readability (obviously, I know what state is being referred to in code if I can see it in plain words), but I'm pretty sure it would be pretty slow (relatively speaking) from all the string operations...</p>
+		<p>Also, here's a thing that I'm not sure if it's good or bad, but it seems like it could be a headache later on.<br/>
+		The actions you can make are determined by a "priority" system. In other words, walking is the lowest priority action, followed by crouching, followed by jumping, followed by light attacks, and so on. If a light attack is priority 10, when you're in the "light attack" action you can't perform any action that's below priority 10 internally. but as long as you were "actionable" and you input an action that's above priority 10, you would immediately start doing it.<br/>
+		I think that most games in the modern day probably have a lot of flags for what kinds of actions you can take at a given time, so that's what I impemented in my current version. The version that exists in this prototype (and the next one) leads to an oddity where "actionable" means that if you input something, it will happen (if it's high enough priority, as I just mentioned). This means that, for example, during the short pause when you hit an enemy, you're "not actionable", and consequently every command has to check if you are "actionable". If you are, it will come out immediately, but if you're not, it will get set as a "buffer action" to come out as soon as you become actionable.<br/>
+		Gameplay-wise, it doesn't mean anything really. But I just think it's an odd quirk of this system that you're "not actionable" internally even though you can input a move and have it be buffered. I'll explain it in more detail in a future article, but I streamlined the process and made it (in my opinion) a little more sensible in the current prototype I'm working on.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec3">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Animation handling</a></h3>
+	<div class="chat movelist">
+		<p>This isn't going to be a super long section, but I just want to mention it.<br/>
+		In this prototype, I don't really have any kind of functions to finely control animations. Instead, to make sprites animate at the correct speed, I just have tons of duplicate frames.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec4">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Collision handling</a></h3>
+	<div class="chat movelist">
+		<p>This is kind of a thing that I can't believe I would ever do, ahahah. It's so bad...<br/>
+		Anyways, pushbox collision is just handled with GameMaker's usual mask system. I have to edit each sprite's mask (because otherwise it'll be precise collision or a box that takes up the entire size of the sprite), but I think it's an acceptable trade-off for not having to do it manually with some kind of code or something (though, maybe I'll actually end up doing it anyways for flexibility's sake). Anyways, if your character is in collision with the opponent then you both get pushed out half of the distance according to which side you're both on <br/>Pretty easy, pretty sensible, though it does mean that you lose speed if you're walking into the opponent when they're standing still.</p>
+		<p>The actual tragedy is the hitbox system, though. For starters, it's based on constantly recreating and destroying the hitbox objects, which hurts me inside to think about now because it's probably terrible for performance (and I wanted to put rollback netcode in the game eventually...). Also, I think for some reason the hitboxes wouldn't self-destroy after one frame properly so I had to make sure to add code for every hitbox spawned to have code that's amounts to "delete yourself for real". Also, hitboxes and hurtboxes are separate objects for some reason, and didn't have a parent, which means that any code that applied to both hitboxes and hurtboxes (which is like... most code) had to be duplicated between the two.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec5">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">In conclusion...</a></h3>
+	<div class="chat movelist">
+		<p>Dang, I really wanted to just upload an .exe of the prototype for 10 seconds of enjoyment but it seems to be in a worse state than I remember it. I remember having jumping and special move motions too, and maybe even like some rudimentary form of hitstun. I don't seem to have any GIFs or videos of it either, as far as I can tell. That really made covering this way less interesting. Oh well...</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+</div>
+
+<!--
+(page 88 of my imgur album)
+https://i.imgur.com/uaM2LMx.gif
+https://i.imgur.com/ENVXWHI.mp4
+https://i.imgur.com/s9veSfU.mp4
+https://i.imgur.com/C21SEyi.mp4
+https://i.imgur.com/42ocget.mp4
+-->
+	</body>
+	
+	<script src="/bug/page.js"></script>
+</html>

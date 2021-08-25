@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" shape-rendering="crispEdges">
+  <circle cx="7.5" cy="7.5" color="#000" fill="#383448" r="5.25"/>
+  <ellipse cx="7.5" cy="7.5" fill="none" stroke="#101018" stroke-linejoin="bevel" stroke-width=".8" rx="3.05" ry="3.05"/>
+  <path d="M11.025 5c-.0661 0-.1.051-.1.1V7H8c-.28 0-.45.1029-.45.3 0 .2195.45.45.45.45l2.35 1.125c.1542.0666.262.125.35.125h4.175c.0504 0 .125-.0809.125-.1453 0-.0648-.0514-.1266-.125-.2047l-3.7-3.55c-.0481-.0481-.1117-.0987-.15-.1z" fill="#fff0e0"/>
+</svg>

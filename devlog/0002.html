@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>#0002 • prototype the second • sadcolor's stuff</title>
+		<link rel="stylesheet" href="/devlogstyle.css">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" sizes="192x192" type="image/png" href="/favicon-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" type="image/png" href="/favicon-180x180.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	</head>
+	<body>
+		<div id="headcont">
+			<div class="head">
+				<h1>#0002 • prototype the second</h1>
+				<div style="margin: 8px 0 16px"></div>
+				<div class="pagination">
+					
+					
+					<span style="position:absolute;left:0">
+						<a href=.>« back</a>
+					</span>
+					<span style="margin:auto">
+						<a href="/log">index</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		
+		<div id="headspace"></div>
+		
+		<!--page elements-->
+
+
+
+
+
+
+
+
+
+<!--buttons-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="post_body">
+	<h3 id="sec1">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Second prototype, more surface stuff</a></h3>
+	<div class="chat movelist">
+		<p>So I had a decently long break from programming the first prototype. I programmed a couple Ludum Dare entries, and at some point I switched over to GMS2. By the way, it's so much nicer to work in than GMS1, for real. Anyways, armed with newfound programming insight, I made a lot of improvements. Or maybe I didn't. Let's find out together!</p>
+		<p>Well, before that, let's get some easy stuff out of the way. The resolution of the game is now 1024×756. Again, another odd 16:9 resolution. I still have no clue why I didn't just go 720p. Also, the HUD is basically totally complete. I had the idea of what I wanted to do and I figured it would be pretty easy, so I just knocked it out early on. Also, this time I was drawing placeholder sketches instead of using a placeholder character. I guess I thought it might motivate my dev process somewhat since I could operate on a draw→implement move→draw→implement move cycle. Looks like it didn't work. Oops.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec2">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">General improvements</a></h3>
+	<div class="chat movelist">
+		<p>So, one thing that improved over the previous prototype is that I started making use of GMS's "Begin Step" and "End Step" events. "Steps" in GameMaker are just frames, basically. So using code that triggers on these events is useful for guaranteeing execution order. For example, it would be kind of silly if the HUD displayed to you on a certain frame took data from the beginning of a frame (before all the changes to your stats happen from execution of the game loop) rather than from the end of a frame. I mean, if the HUD was always one frame behind it might not really be a big deal in the long run (as silly as it may be), but you get the idea.</p>
+		<p>Another thing that improved is that I started using macros and enums way more. I still haven't really decided how much familiarity I'm assuming on the part of the reader when it comes to programming or GameMaker, so I guess I'll (poorly) explain what those are just in case. Uh, I guess I can put it in a collapsible thing so you can skip it more easily if you want.</p>
+		<div class="dropdown">
+			<p>Often times, when programming there are values that you want to use, but you don't necessarily want to explicitly define everywhere. Let's take a really simple example, like the max HP value of characters. Right now, the "average" HP amount is 1000, and other characters vary from that in multiples of 50. But maybe when I've made a few characters, it turns out that everyone's damage is way too high, and I actually want the average to be like, 1250 or 1500 (because no matter what approach I take, it would certainly be much easier to tweak everyone's HP values than the damage of every attack or how the damage scaling system works). If I just wrote a line like "maxHP = 1000" for everyone, I'd have to go in and change every character's HP value manually. However, if I just use a macro called like AVG_HP, then I can just change the value of the macro and, since character's max HP is AVG_HP, their max HP values will all change too.</p>
+			<p>It's different than a variable because it doesn't take up any space in memory, so it can't really be changed. Instead, it's basically "baked in" to the code during the compilation process. You can kind of think of it like, well, a webpage vs. a screenshot of a webpage. The screenshot represents a fixed point in time, so it will always be the same. But if you visit a webpage, its contents can be changed at any time. This is the simplest use case of macros, but since they're effectively like "find-and-replace" functions, you can actually write macros that work almost exactly like a function. I haven't done that yet, though.</p>
+		</div>
+		<p>Like I said, also super useful are <b>enums</b>, which are kind of like a multiple-choice macro. Part of the reason these are useful is because (like I said in the explanation) they're changed into hard-coded values, so they don't eat up any space in memory once the final program is made. And another part is because of that, you can use them in places where you would want hard-coded values.</p>
+		<p>If you think about a boolean (true-false) value, you can represent it with just a 0 or 1 since there are only two options. To me, it seems really wasteful to have a ton of separate 32-bit or 64-bit variables for stuff like which actions a character can take, so I like to condense it down into one big number where each digit means something different. Without enums, the problem becomes that I have a bunch of "magic numbers" all over my code that don't make any sense and become impossible to read quickly without referencing somewhere else that tells you what every digit means. Enums solve that problem because they have names, obviously. I use this stuff all the time so it really made it way easier to program and scan over my code later.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec2">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Action handling</a></h3>
+	<div class="chat movelist">
+		<p>Action handling is basically the same as the first prototype. </p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec3">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Animation handling</a></h3>
+	<div class="chat movelist">
+		<p>q</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec4">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">Collision handling</a></h3>
+	<div class="chat movelist">
+		<p>Collision handling is basically the same as the first prototype. There are some minor improvements to the internal structure of the hit/hurtbox objects themselves, but they're still based around recreating/destroying objects over and over and hitboxes and hurtboxes are still completely separate without even a parent object.</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+	
+	<h3 id="sec5">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+<a class="collapse" role="button">In conclusion...</a></h3>
+	<div class="chat movelist">
+		<p>q</p>
+		
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
+	</svg>
+
+	</div>
+</div>
+
+
+	</body>
+	
+	<script src="/bug/page.js"></script>
+</html>
