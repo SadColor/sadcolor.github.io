@@ -230,7 +230,7 @@
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
-				"guard":"mid",
+				"guard":"mid"
 			}
 		},
 	
@@ -254,7 +254,7 @@
 			}
 		},
 		
-		
+		{
 			"id":"4c",
 			"images": [
 				{ "i":"/img/kabbu/4c.png" }
@@ -450,7 +450,7 @@
 				"guard":"grab",
 				"red": [
 					{ "r":"knockdown" }
-				],
+				]
 			}
 		},
 		
