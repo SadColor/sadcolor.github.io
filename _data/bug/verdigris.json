@@ -2,23 +2,19 @@
 	"stats": {
 		"image":"/img/verdigris/art.png",
 		"album":"https://imgur.com/a/vlWdkHT",
-		"hp":"１０００",
+		"hp":"１２００",
 		"sp":"２０",
 		"traits": [
-			{ "t": "Vi's Hop leaves her airborne and lets her act quickly." }, 
-			{ "t": "Vi's Beeline gives her unique aerial mobility and cancel options." },
-			{ "t": "Vi can also airdash downwards and diagonally downwards." },
-			{ "t": "Vi is short and always takes crouching hitstun." }
+			{ "t": "cool" }
 		],
 		"pros": [
-			{ "p": "High mobility with fast movement, more airdash directions, and Beeline." },
-			{ "p": "Unique hop gives access to strong instant overheads." },
-			{ "p": "Decent combination of speed, range, and disjoint." }
+			{ "p": "awesome" }
 		],
 		"cons": [
-			{ "c": "Eats up SP with high-cost Skills." },
-			{ "c": "No meterless reversal." },
-			{ "c": "Always takes crouching hitstun, so everyone can do longer combos on her." }
+			{ "c": "is green" }
+		],
+		"flows": [
+			{ "f": "gets greener" }
 		]
 	},
 	

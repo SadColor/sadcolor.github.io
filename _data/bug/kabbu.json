@@ -2,10 +2,10 @@
 	"stats": {
 		"image":"/img/kabbu/art.png",
 		"album":"https://imgur.com/a/Ay555Jf",
-		"hp":"１１００",
+		"hp":"１３００",
 		"sp":"２０",
 		"traits": [
-			{ "t": "not special :(" }
+			{ "t": "<b>Spiky Bod</b>: deals chip damage to the opponent upon a successful Super Block of a strike." }
 		],
 		"pros": [
 			{ "p": "High damage from both single hits and combos." },
@@ -13,6 +13,10 @@
 		],
 		"cons": [
 			{ "c": "Poor range." }
+		],
+		"flows": [
+			{ "f": "Uncharged <b>S</b> always inflicts crumple (shorter than full charge)." },
+			{ "f" : "Less time required for charged q." }
 		]
 	},
 	
@@ -29,7 +33,7 @@
 			"ip":"25",
 			"cp":"2",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"green": [
 					{ "g":"Rapid" }
 				]
@@ -48,7 +52,7 @@
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
-				"guard":"mid"
+				"guard":"LH"
 			}
 		},
 		
@@ -59,7 +63,7 @@
 			],
 			"name":"{{ n5 }}{{ C }}",
 			"input":"{{ d0 }}{{ C }}",
-			"description":"Kabbu slashes his horn inwards.",
+			"description":"Kabbu slashes his horn inwards.<br>Charged version pulls the opponent in and is plus on block.",
 			"versions": [
 				{
 					"name":"{{ n5 }}{{ C }}",
@@ -68,7 +72,7 @@
 					"ip":"10",
 					"cp":"3",
 					"attributes": {
-						"guard":"mid",
+						"guard":"LH",
 						"green": [
 							{ "g":"Charge OK" }
 						]
@@ -82,7 +86,7 @@
 					"ip":"10",
 					"cp":"3",
 					"attributes": {
-						"guard":"mid",
+						"guard":"LH",
 						"red": [
 							{ "r":"Vacuum" }
 						]
@@ -103,7 +107,7 @@
 			"ip":"25",
 			"cp":"2",
 			"attributes": {
-				"guard":"low",
+				"guard":"L",
 				"green": [
 					{ "g":"Rapid" }
 				]
@@ -122,7 +126,7 @@
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
-				"guard":"low"
+				"guard":"L"
 			}
 		},
 		
@@ -138,7 +142,7 @@
 			"ip":"10",
 			"cp":"3",
 			"attributes": {
-				"guard":"low",
+				"guard":"L",
 				"red": [
 					{ "r":"knockdown" }
 				]
@@ -157,7 +161,7 @@
 			"ip":"25",
 			"cp":"2",
 			"attributes": {
-				"guard":"high"
+				"guard":"HA"
 			}
 		},
 		
@@ -173,7 +177,7 @@
 			"ip":"15",
 			"cp":"3",
 			"attributes": {
-				"guard":"high"
+				"guard":"HA"
 			}
 		},
 		
@@ -193,7 +197,7 @@
 					"ip":"10",
 					"cp":"3",
 					"attributes": {
-						"guard":"high",
+						"guard":"HA",
 						"green": [
 							{ "g":"Charge OK" }
 						]
@@ -207,7 +211,7 @@
 					"ip":"10",
 					"cp":"3",
 					"attributes": {
-						"guard":"high",
+						"guard":"HA",
 						"red": [
 							{ "r":"Vacuum" }
 						]
@@ -230,7 +234,7 @@
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
-				"guard":"mid"
+				"guard":"LH"
 			}
 		},
 	
@@ -246,7 +250,7 @@
 			"ip":"10",
 			"cp":"3",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"red": [
 					{ "r":"Launch" },
 					{ "r":"Vacuum" }
@@ -266,7 +270,7 @@
 			"ip":"5",
 			"cp":"3",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"red": [
 					{ "r":"Popup" }
 				]
@@ -278,14 +282,14 @@
 			
 			"name":"{{ d }}{{ B }}",
 			"input":"{{ d6 }}{{ B }} while dashing",
-			"description":"Kabbu shoulder tackles forward.<br/>Useful for closing in or during corner combos.",
-			"damage":"55",
+			"description":"A spinning haymaker punch.",
+			"damage":"68",
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"red": [
-					{ "r":"Wallsplat" }
+					{ "r":"Knockdown" }
 				]
 			}
 		},
@@ -295,18 +299,19 @@
 			
 			"name":"{{ d }}{{ C }}",
 			"input":"{{ d6 }}{{ C }} while dashing",
-			"description":"Kabbu leaps into the air, trying to grab the opponent (not actually a grab).<br/>If the move connects, he'll slam the opponent into the ground head first.",
+			"description":"Kabbu handsprings forward with a kick.<br>Upper-body invincible and cancelable into air specials.",
 			"damage":"120",
 			"ip":"15",
 			"cp":"2",
 			"attributes": {
-				"guard":"SB",
+				"guard":"LH",
 				"green": [
-					{ "g":"Ender" },
 					{ "g":"Airborne" }
 				],
 				"red": [
-					{ "r":"Groundslide" }
+					{ "r":"Launch" },
+					{ "r":"Groundbounce" },
+					{ "r":"Wallbounce" }
 				]
 			}
 		}
@@ -320,8 +325,8 @@
 			"input":"{{ d4 }}{{ A }}+{{ D }} or {{ d6 }}{{ A }}+{{ D }}",
 			"description":"Kabbu shoulder checks the opponent, crumpling them.",
 			"damage":"120",
-			"ip":"40",
-			"cp":"0",
+			"ip":"35",
+			"cp":"5",
 			"attributes": {
 				"guard":"grab",
 				"red": [
@@ -369,7 +374,7 @@
 					"cp":"2",
 					"cost":"<b>1</b> SP",
 					"attributes": {
-						"guard":"mid",
+						"guard":"LH",
 						"green": [
 							{ "g":"Charge OK" },
 							{ "g":"Dash OK" }
@@ -429,7 +434,7 @@
 			"cp":"2",
 			"cost":"<b>3</b> SP",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"red": [
 					{ "r":"Wallsplat" }
 				]
@@ -465,7 +470,7 @@
 			"cp":"1",
 			"cost":"<b>2</b> SP",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"green": [
 					{ "g":"Air OK" },
 					{ "g":"Airborne" }
@@ -552,7 +557,7 @@
 			"cp":"1",
 			"cost":"<b>100</b> EX",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"green": [
 					{ "g":"Invincible" },
 					{ "g":"Ender" }
@@ -602,7 +607,7 @@
 			"cp":"1",
 			"cost":"<b>200</b> EX",
 			"attributes": {
-				"guard":"mid",
+				"guard":"LH",
 				"green": [
 					{ "g":"Invincible" },
 					{ "g":"Ender" }
