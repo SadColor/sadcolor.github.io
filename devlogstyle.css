@@ -46,6 +46,11 @@ a[role="button"] {
 	cursor:default;
 }
 
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+
 li {
 	list-style-type: none;
 }
@@ -155,6 +160,7 @@ table {
 	width:100%;
 	padding:0px 8px;
 	table-layout:fixed;
+	text-align:center;
 }
 tr {
 	vertical-align:top;

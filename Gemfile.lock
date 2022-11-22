@@ -29,6 +29,7 @@ GEM
       rouge (~> 3.0)
       safe_yaml (~> 1.0)
       terminal-table (~> 1.8)
+    jekyll-datapage-generator (1.4.0)
     jekyll-liquify-alt (0.1.2)
       jekyll (~> 4)
     jekyll-sass-converter (2.1.0)
@@ -70,6 +71,7 @@ PLATFORMS
 
 DEPENDENCIES
   jekyll (~> 4.1.1)
+  jekyll-datapage-generator
   jekyll-liquify-alt (~> 0.1.2)
   tzinfo (~> 1.2)
   tzinfo-data

@@ -1,0 +1,136 @@
+---
+layout: artfight_layout
+---
+{% include normalstuff.html %}
+
+{% assign list = site.data.af[page.imagelist] %}
+<div class="post_body">
+	{% for image in list %}
+		{% if image.for %}
+			{% assign artist = image.for %}
+			{% assign artsites = site.data.af.sakka[artist][0] %}
+		{% elsif image.by %}
+			{% assign artist = image.by %}
+			{% assign artsites = site.data.af.sakka[artist][0] %}
+		{% endif %}
+		<h3><a href="#{{ image.id }}" class="pinklink">{{ image.title }}</a></h3>
+		<div class="chat">
+			<div id="{{ image.id }}" class="secid"></div>
+			{{ topL }}
+			<div class="aflink">
+				{% if forloop.index0 > 0 %}
+					{% assign prevnum = forloop.index | minus: 1 | prepend: '00' | slice: -2, 2 %}
+					<a href="#{{ prevnum }}" class="pinklink" style="position:absolute;left:0">« prev</a>
+				{% endif %}
+				<a href="{{ image.link }}" class="pinklink">view on Art Fight</a>
+				{% if forloop.rindex0 > 0 %}
+					{% assign nextnum = forloop.index | plus: 1 | prepend: '00' | slice: -2, 2 %}
+					<a href="#{{ nextnum }}" class="pinklink" style="position:absolute;right:0">next »</a>
+				{% endif %}
+			</div>
+			<a href="/img/af/{{ page.year }}/{{ image.img }}" style="display:block" target="_blank" rel="noopener noreferrer">
+				<img src="/img/af/{{ page.year }}/{{ image.img }}" />
+			</a>
+			{% if image.desc %}
+				<div style="text-align:center">{{ image.desc }}</div>
+			{% endif %}
+			
+			<hr>
+			
+			<table>
+				<tr>
+					<td class="infoleft">
+						{% if image.for %}
+							<b>For</b>
+						{% elsif image.by %}
+							<b>By</b> 
+						{% endif %}
+						<div class="linklist">
+							{{ nesttopL }}
+							<ul>
+							<b><a href="{{ artsites.af }}">{{ artist }}</a></b>
+							{% if artsites.sites %}
+								{% for site in artsites.sites %}
+									<li>•<a href="{{ site.link }}" class="pinklink">{{ site.name }}</a></li>
+								{% endfor %}
+							{% endif %}
+							</ul>
+							{{ nestcornerR }}
+						</div>
+					</td>
+					<td class="inforight">
+						<b>Characters</b>
+						<div class="linklist">
+							{{ nesttopL }}
+							<ul>
+							{% for chr in image.kyara %}
+								<li><b><a href="{{ chr.link }}">{{ chr.name }}</a></b></li>
+							{% endfor %}
+							</ul>
+							{{ nestcornerR }}
+						</div>
+					</td>
+				</tr>
+			</table>
+			{% if image.kome %}
+				<hr>
+				<div style="text-align:center">
+					<span><b>Doodle Response</b><br></span>
+					<a href="/img/af/{{ page.year }}/{{ image.kome }}" target="_blank" rel="noopener noreferrer">
+						<img src="/img/af/{{ page.year }}/{{ image.kome }}" />
+					</a>
+				</div>
+			{% endif %}
+
+			{% if image.next or image.prev %}
+				<hr>
+				<span style="position:absolute;left:50%;transform:translateX(-50%)"><b>Revenge Chain</b><br></span>
+				<table>
+					<tr>
+						<td class="chainprev">
+							{% if image.prev %}
+								{% if image.by %}
+									{% assign other = "atk" | append: page.year %}
+								{% else if image.for %}
+									{% assign other = "def" | append: page.year %}
+								{% endif %}
+								{% assign otherlist = site.data.af[other] %}
+								{% assign otherid = image.prev | minus: 1 %}
+								<a href="./{{ other }}#{{ image.prev }}" class="pinklink">
+									<span>« prev chain<br>
+										<b>{{ otherlist[otherid].title }}</b><br></span>
+									{% if otherlist[otherid].thumb %}
+										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].thumb }}" />
+									{% else %}
+										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].img }}" />
+									{% endif %}
+								</a>
+							{% endif %}
+						</td>
+						<td class="chainnext">
+							{% if image.next %}
+								{% if image.by %}
+									{% assign other = "atk" | append: page.year %}
+								{% else if image.for %}
+									{% assign other = "def" | append: page.year %}
+								{% endif %}
+								{% assign otherlist = site.data.af[other] %}
+								{% assign otherid = image.next | minus: 1 %}
+								<a href="./{{ other }}#{{ image.next }}" class="pinklink">
+									<span>next chain »<br>
+										<b>{{ otherlist[otherid].title }}</b><br></span>
+									{% if otherlist[otherid].thumb %}
+										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].thumb }}" />
+									{% else %}
+										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].img }}" />
+									{% endif %}
+								</a>
+							{% endif %}
+						</td>
+					</tr>
+				</table>
+			{% endif %}
+			{{ cornerR }}
+		</div>
+	{% endfor %}
+</div>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.title }} • sadcolor's stuff</title>
+		{% include artfight-head.html %}
+	</head>
+	<body>
+		<div id="headcont">
+			<div class="head">
+				<h1>{{ page.header }}</h1>
+				<div style="margin: 8px 0 16px"></div>
+				
+				{% if page.imagelist %}
+					<div class="kyaratabs">
+						{% for image in site.data.af[page.imagelist] %}
+							{% assign pnum = forloop.index | prepend: '00' | slice: -2, 2 %}
+							<a href="#{{ pnum }}">{{ pnum }}</a>
+						{% endfor %}
+					</div>
+				{% endif %}
+				
+				<div class="pagination">
+					{% if page.prv %}
+						<span style="position:absolute;left:0">
+							{% if page.prvlabel %}
+								<a href="{{ page.prv }}">« {{ page.prvlabel }}</a>
+							{% else %}
+								<a href="{{ page.prv }}">« back</a>
+							{% endif %}
+						</span>
+					{% endif %}
+					{% if page.imagelist %}
+						<span style="margin:auto">
+							<a href="/af">index</a>
+						</span>
+					{% else %}
+						<span style="margin:auto">
+							<a href="/">top page</a>
+						</span>
+					{% endif %}
+					{% if page.nxt %}
+						<span style="position:absolute;right:0">
+							{% if page.nxtlabel %}
+								<a href="{{ page.nxt }}">{{ page.nxtlabel }} »</a>
+							{% else %}
+								<a href="{{ page.nxt }}">next »</a>
+							{% endif %}
+						</span>
+					{% endif %}
+				</div>
+			</div>
+		</div>
+		{{ content }}
+	</body>
+</html>
+

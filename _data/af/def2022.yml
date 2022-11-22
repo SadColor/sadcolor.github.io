@@ -1,0 +1,465 @@
+- id: "01"
+  title: "Head Ball"
+  img: "def01.png"
+  link: "https://artfight.net/attack/2772703.head-ball"
+  by: ladybird44
+  kyara: 
+    - name: Arcana
+      link: "https://artfight.net/character/2374715.arcana"
+  kome: "kome01.png"
+
+- id: "02"
+  title: "Kyra! ❤️"
+  img: "def02.png"
+  link: "https://artfight.net/attack/2829413.kyra"
+  by: XenoUmbre
+  kyara: 
+    - name: Kyra
+      link: "https://artfight.net/character/2368718.kyra"
+  kome: "kome02.png"
+
+- id: "03"
+  title: "G in a flower field"
+  img: "def03.png"
+  link: "https://artfight.net/attack/2952711.g-in-a-flower-field"
+  by: Battlecatman
+  kyara: 
+    - name: G
+      link: "https://artfight.net/character/2364617.g"
+  kome: "kome03.png"
+
+- id: "04"
+  title: "balls"
+  img: "def04.png"
+  link: "https://artfight.net/attack/3090023.balls"
+  by: Vizzbgit
+  kyara: 
+    - name: Vice
+      link: "https://artfight.net/character/2375312.vice"
+  kome: "kome04.png"
+  next: 09
+
+- id: "05"
+  title: "Lei-Lei for SadColor"
+  img: "def05.png"
+  link: "https://artfight.net/attack/3100845.lei-lei-for-sadcolor"
+  by: Morpherence
+  kyara: 
+    - name: Lei-Lei
+      link: "https://artfight.net/character/2372557.lei-lei"
+  kome: "kome05.png"
+
+- id: "06"
+  title: "Dramor"
+  img: "def06.png"
+  link: "https://artfight.net/attack/3125865.dramor"
+  by: Bittheidiot
+  kyara:
+    - name: Dramor
+      link: "https://artfight.net/attack/3728145.dramor"
+  kome: "kome06.png"
+  prev: 01
+  next: 10
+
+- id: "07"
+  title: "hiyoco!"
+  img: "def07.png"
+  link: "https://artfight.net/attack/3162475.hiyoco"
+  by: S8ku
+  kyara:
+    - name: Hiyoco
+      link: "https://artfight.net/character/2363935.hiyoco"
+  kome: "kome07.png"
+
+- id: "08"
+  title: "Hot Gas"
+  desc: "Hot gas girl yeaaaaaaa"
+  img: "def08.jpg"
+  thumb: "def08.png"
+  link: "https://artfight.net/attack/3166467.hot-gas"
+  by: Venidrizz
+  kyara:
+    - name: Arcana
+      link: "https://artfight.net/character/2374715.arcana"
+  kome: "kome08.png"
+
+- id: "09"
+  title: "gf (great frog)"
+  desc: "just hangin' out"
+  img: "def09.png"
+  link: "https://artfight.net/attack/3252451.gf-great-frog"
+  by: adorabug
+  kyara:
+    - name: Ribbiro
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome09.png"
+  prev: 03
+
+- id: "10"
+  title: "The attack"
+  img: "def10.png"
+  link: "https://artfight.net/attack/3274765.the-attack"
+  by: LilotheCookie
+  kyara:
+    - name: Phial
+      link: "https://artfight.net/character/2462411.phial"
+  kome: "kome10.png"
+
+- id: "11"
+  title: "Kanpunk for SadColor"
+  img: "def11.png"
+  link: "https://artfight.net/attack/3279251.kanpunk-for-sadcolor"
+  by: Morpherence
+  kyara:
+    - name: Kanpunk
+      link: "https://artfight.net/character/2693196.kanpunk"
+  kome: "kome11.png"
+
+- id: "12"
+  title: "dopple gangr"
+  img: "def12.png"
+  link: "https://artfight.net/attack/3279439.dopple-gangr"
+  by: boxzilla
+  kyara:
+    - name: Doppel
+      link: "https://artfight.net/character/2361622.doppel"
+  kome: "kome12.png"
+
+- id: "13"
+  title: "hii"
+  img: "def13.jpeg"
+  thumb: "def13.png"
+  link: "https://artfight.net/attack/3335957.hii"
+  by: slimekatz
+  kyara:
+    - name: Kanpunk
+      link: "https://artfight.net/character/2693196.kanpunk"
+  kome: "kome13.png"
+
+- id: "14"
+  title: "SpotLight!"
+  desc: ">:D ribbit"
+  img: "def14.gif"
+  thumb: "def14.png"
+  link: "https://artfight.net/attack/3341234.spotlight"
+  by: JamJuce
+  kyara:
+    - name: Ribbiro
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome14.png"
+  prev: 12
+
+- id: "15"
+  title: "Doppel!"
+  img: "def15.png"
+  link: "https://artfight.net/attack/3411396.doppel"
+  by: creepincrawl
+  kyara:
+    - name: Doppel
+      link: "https://artfight.net/character/2361622.doppel"
+  kome: "kome15.png"
+  next: 15
+
+- id: "16"
+  title: "Keeping watch."
+  desc: "Looking all cool, watching for intruders."
+  img: "def16.png"
+  link: "https://artfight.net/attack/3463333.keeping-watch"
+  by: PlasmaPower
+  kyara:
+    - name: Kanpunk
+      link: "https://artfight.net/character/2693196.kanpunk"
+  kome: "kome16.png"
+
+- id: "17"
+  title: "Io"
+  img: "def17.png"
+  link: "https://artfight.net/attack/3513590.lo"
+  by: animeshowfan
+  kyara:
+    - name: Io
+      link: "https://artfight.net/character/2376100.io"
+  kome: "kome17.png"
+
+- id: "18"
+  title: "SQUID GAMES !!"
+  desc: "!!!!!!"
+  img: "def18.png"
+  link: "https://artfight.net/attack/3531796.squid-games"
+  by: aazzuurree
+  kyara:
+    - name: Marin
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome18.png"
+  next: 18
+
+- id: "19"
+  title: "he makes an offering"
+  img: "def19.gif"
+  thumb: "def19.png"
+  link: "https://artfight.net/attack/3551607.he-makes-an-offering"
+  by: BagelBoyy
+  kyara:
+    - name: Donut Vendor
+      link: "https://artfight.net/character/2363176.donut-vendor"
+  kome: "kome19.png"
+
+- id: "20"
+  title: "Io"
+  desc: "very weird sunglasses"
+  img: "def20.png"
+  link: "https://artfight.net/attack/3560410.io"
+  by: Chespien
+  kyara:
+    - name: Io
+      link: "https://artfight.net/character/2376100.io"
+  kome: "kome20.png"
+  prev: 16
+  next: 19
+
+- id: "21"
+  title: "Froggo"
+  desc: "They vibin"
+  img: "def21.png"
+  link: "https://artfight.net/attack/3563764.froggo"
+  by: CATERPILLZ
+  kyara:
+    - name: Ribbiro
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome21.gif"
+
+- id: "22"
+  title: "Frog Your One Way"
+  desc: "The specific pose and beltbuckle is a nod to Sol Badguy from Guilty Gear, a fighting game I personally play."
+  img: "def22.png"
+  link: "https://artfight.net/attack/3598693.frog-your-one-way"
+  by: GoobyDroog
+  kyara:
+    - name: Kanpunk
+      link: "https://artfight.net/character/2693196.kanpunk"
+  kome: "kome22.png"
+  next: 24
+
+- id: "23"
+  title: "Phial"
+  img: "def23.png"
+  link: "https://artfight.net/attack/3608537.phial"
+  by: AnaNini
+  kyara:
+    - name: Phial
+      link: "https://artfight.net/character/2462411.phial"
+  kome: "kome23.png"
+  prev: 17
+  next: 22
+
+- id: "24"
+  title: "At the beach"
+  img: "def24.png"
+  link: "https://artfight.net/attack/3621567.at-the-beach"
+  by: HoneyHive
+  kyara:
+    - name: Ceru
+      link: "https://artfight.net/character/2376676.ceru"
+  kome: "kome24.png"
+  prev: 21
+  next: 23
+
+- id: "25"
+  title: "Froggy!"
+  img: "def25.gif"
+  thumb: "def25.png"
+  link: "https://artfight.net/attack/3628559.froggy"
+  by: Rockfish
+  kyara:
+    - name: Ribbiro
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome25.png"
+  prev: 20
+
+- id: "26"
+  title: "lollololoolololollollolollol"
+  img: "def26.png"
+  link: "https://artfight.net/attack/3649353.lollololoolololollollolollol"
+  by: glob_glump
+  kyara:
+    - name: Io
+      link: "https://artfight.net/character/2376100.io"
+  kome: "kome26.png"
+
+- id: "27"
+  title: "Starry Knight"
+  desc: "Kinda went for a \"protector of the kingdom\" theme because he gave me that vibe, also looped <a href=\"https://www.youtube.com/watch?v=Y0c3TAh3rOc\">the song in his bio</a> while drawing this lol"
+  img: "def27.png"
+  link: "https://artfight.net/attack/3655443.starry-knight"
+  by: skarpetky
+  kyara:
+    - name: G
+      link: "https://artfight.net/character/2364617.g"
+  kome: "kome27.png"
+  prev: 04
+
+- id: "28"
+  title: "Cool oc"
+  img: "def28.png"
+  link: "https://artfight.net/attack/3698454.cool-oc"
+  by: Narwall
+  kyara:
+    - name: Verdigris
+      link: "https://artfight.net/character/2801229.verdigris"
+  kome: "kome28.png"
+
+- id: "29"
+  title: "Arcana"
+  img: "def29.png"
+  link: "https://artfight.net/attack/3710922.arcana"
+  by: Pigsy
+  kyara:
+    - name: Arcana
+      link: "https://artfight.net/character/2374715.arcana"
+  kome: "kome29.png"
+  prev: 07
+
+- id: "30"
+  title: "Dramor"
+  desc: "Dual daggers/shortswords are a top tier weapon change my mind >:3"
+  img: "def30.png"
+  link: "https://artfight.net/attack/3728145.dramor"
+  by: AceNil
+  kyara:
+    - name: Dramor
+      link: "https://artfight.net/character/2367434.dramor"
+  kome: "kome30.png"
+  next: 28
+
+- id: "31"
+  title: "MOTH!"
+  img: "def31.png"
+  link: "https://artfight.net/attack/3736686.moth"
+  by: ProfCarrot
+  kyara:
+    - name: Verdigris
+      link: "https://artfight.net/character/2801229.verdigris"
+  kome: "kome31.png"
+  prev: 08
+
+- id: "32"
+  title: "Doppel"
+  img: "def32.png"
+  link: "https://artfight.net/attack/3738121.doppel"
+  by: Avia
+  kyara:
+    - name: Doppel
+      link: "https://artfight.net/character/2361622.doppel"
+  kome: "kome32.png"
+
+- id: "33"
+  title: "Tam !!"
+  img: "def33.jpeg"
+  link: "https://artfight.net/attack/3739287.tam"
+  by: ScreamsAgainst
+  kyara:
+    - name: Tam
+      link: "https://artfight.net/character/2368334.tam"
+  kome: "kome33.png"
+
+- id: "34"
+  title: "the sun rises again (Verdigris)"
+  img: "def34.png"
+  link: "https://artfight.net/attack/3745959.the-sun-rises-again-verdigris"
+  by: CosmosMoonie
+  kyara:
+    - name: Verdigris
+      link: "https://artfight.net/character/2801229.verdigris"
+  kome: "kome34.png"
+
+- id: "35"
+  title: "Phial - 2022"
+  img: "def35.png"
+  link: "https://artfight.net/attack/3844141.phial-2022"
+  by: cosmodotpng
+  kyara:
+    - name: Phial
+      link: "https://artfight.net/character/2462411.phial"
+  kome: "kome35.png"
+  prev: 26
+
+- id: "36"
+  title: "Ribbiro!"
+  img: "def36.png"
+  link: "https://artfight.net/attack/3906286.ribbiro"
+  by: Huntertallonian
+  kyara:
+    - name: Ribbiro
+      link: "https://artfight.net/character/2362001.ribbiro"
+  kome: "kome36.png"
+  prev: 13
+
+- id: "37"
+  title: "I like G."
+  img: "def37.jpg"
+  thumb: "def37.png"
+  link: "https://artfight.net/attack/3929183.i-like-g"
+  by: Someguyiguess
+  kyara:
+    - name: G
+      link: "https://artfight.net/character/2364617.g"
+  kome: "kome37.png"
+  next: 32
+
+- id: "38"
+  title: "Lei-Lei!"
+  desc: ":D"
+  img: "def38.png"
+  link: "https://artfight.net/attack/3968823.lei-lei"
+  by: TheMemeBoiUwU
+  kyara:
+    - name: "Lei-Lei"
+      link: "https://artfight.net/character/2372557.lei-lei"
+  kome: "kome38.png"
+  prev: 29
+
+- id: "39"
+  title: "Cat Attack!!"
+  img: "def39.png"
+  link: "https://artfight.net/attack/4004897.cat-attack"
+  by: maximous_
+  kyara:
+    - name: G
+      link: "https://artfight.net/character/2364617.g"
+  kome: "kome39.png"
+
+- id: "40"
+  title: "IN THE BUSINESS OF HELL"
+  img: "def40.jpeg"
+  thumb: "def40.png"
+  link: "https://artfight.net/attack/4011967.in-the-business-of-hell"
+  by: TVcity
+  kyara:
+    - name: Match
+      link: "https://artfight.net/character/2451897.match"
+  kome: "kome40.png"
+  prev: 33
+
+- id: "41"
+  title: "Phial Idle!"
+  desc: "could probably send a chill up your spine o__o'"
+  img: "def41.gif"
+  thumb: "def41.png"
+  link: "https://artfight.net/attack/4061789.phial-idle"
+  by: Tankakuka
+  kyara: 
+    - name: Phial
+      link: "https://artfight.net/character/2462411.phial"
+  kome: "kome41.png"
+  prev: 29
+
+- id: "42"
+  title: "Verdigris!"
+  img: "def42.png"
+  link: "https://artfight.net/attack/4065499.verdigris"
+  by: "tired-t-rex"
+  kome: "kome42.png"
+  kyara: 
+    - name: Verdigris
+      link: "https://artfight.net/character/2801229.verdigris"
+  prev: 25
