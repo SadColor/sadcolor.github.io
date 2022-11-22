@@ -431,8 +431,6 @@ tr {
 	}
 }
 
-
-
 /*
 	button images
 */
@@ -550,4 +548,81 @@ t-gr {
 .topL {
 	top:0;
 	left:0;
+}
+
+/* 
+	mobile text size fix 
+*/
+
+@media only screen and (min-resolution: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2) {
+	@media (pointer:coarse) and (hover:none) and (orientation:portrait), 
+	not all and (pointer:coarse) and (hover:none) {
+		body {
+			-webkit-text-size-adjust: 100%;
+			text-size-adjust: 100%;
+			font-size: 24px;
+		}
+
+		.chatS {
+			font-size: 20px;
+		}
+
+		.vercont>atkinput {
+			font-size:16px;	
+		}
+
+		h1, 
+		h2 {
+			font-size: 32px;
+		}
+
+		h3 {
+			font-size: 30px;
+		}
+
+		.post_body {
+			width:95%;
+			max-width:1440px;
+		}
+		.head {
+			width:95%;
+			max-width:1440px;
+		}
+
+		.dirimg {
+			transform: scale(2);
+		}
+		.dirimg.l {
+			margin: 0 4px;
+		}
+		.dirimg.r {
+			margin: 0 6px 0 4px;
+		}
+
+		.triL,
+		.triR,
+		.cornerR,
+		.cornerL,
+		.topR,
+		.topL {
+			transform:scale(1.5);
+		}
+		.cornerL {
+			bottom:2.5px;
+			left:2.5px;
+		}
+		.cornerR {
+			bottom:2.5px;
+			right:2.5px;
+		}
+		.topL {
+			top:2.5px;
+			left:2.5px;
+		}
+		.topR {
+			top:2.5px;
+			right:2.5px;
+		}
+	}
 }
