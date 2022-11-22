@@ -271,3 +271,53 @@ t-pi {
 .note .triL {
 	fill:var(--ao);
 }
+
+/*
+	mobile text size fix
+*/
+
+@media only screen and (min-resolution: 2),
+only screen and (-webkit-min-device-pixel-ratio: 2) {
+	@media (pointer:coarse) and (hover:none) and (orientation:portrait), 
+	not all and (pointer:coarse) and (hover:none) {
+		body {
+			-webkit-text-size-adjust: 100%;
+			text-size-adjust: 100%;
+			font-size: 24px;
+		}
+
+		h1, 
+		h2 {
+			font-size: 32px;
+		}
+
+		h3 {
+			font-size: 30px;
+		}
+
+		.post_body {
+			width:95%;
+			max-width:1440px;
+		}
+		.head {
+			width:95%;
+			max-width:1440px;
+		}
+
+		.triL,
+		.triR,
+		.triE,
+		.cornerR,
+		.topL {
+			transform:scale(1.5);
+		}
+		.cornerR {
+			bottom:2.5px;
+			right:2.5px;
+		}
+		.topL {
+			top:2.5px;
+			left:2.5px;
+		}
+	}
+}
