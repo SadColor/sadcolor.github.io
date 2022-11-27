@@ -27,7 +27,9 @@ sections:
 		<div class="atkimg">
 			{% if attack.images %}
 				{% for img in attack.images %}
+				<a href="{{ img.i }}" target="_blank" rel="noopener noreferrer">
 					<img src={{ img.i }} />
+				</a>
 				{% endfor %}
 			{% endif %}
 			{% if attack.comment %}
@@ -212,51 +214,74 @@ sections:
 						</div>
 					{% endif %}
 				</div>
-				<div class="kyaraimg"><img src="{{ chr.stats.image }}"/></div>
+				<div class="kyaraimg">
+					<a href="{{ chr.stats.image }}" target="_blank" rel="noopener noreferrer">
+						<img src="{{ chr.stats.image }}"/>
+					</a>
+				</div>
 			</div>
 			{{ cornerR }}
 		</div>
 	</div>
 
 	<!-- moves -->
-	<h3 id="normals">{{ topL }}<a class="collapse" role="button">Normals</a></h3>
-	<div class="chatS movelist">
-		{% for attack in chr.normals %}
-			{{ attackinfo | liquify }}
-		{% endfor %}
-		{{ cornerR }}
+	<div class="collapse-cont">
+		<h3 id="normals">{{ topL }}<a href="#normals">Normals</a></h3>
+		<input id="collapse-nrm" class="collapse-btn" type="checkbox" checked>
+		<label for="collapse-nrm" class="collapse-label"></label>
+		<div class="chatS movelist collapse">
+			{% for attack in chr.normals %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+			{{ cornerR }}
+		</div>
 	</div>
 
-	<h3 id="cmds">{{ topL }}<a class="collapse" role="button">Command Normals</a></h3>
-	<div class="chatS movelist">
-		{% for attack in chr.commands %}
-			{{ attackinfo | liquify }}
-		{% endfor %}
-		{{ cornerR }}
+	<div class="collapse-cont">
+		<h3 id="cmds">{{ topL }}<a href="#cmds">Command Normals</a></h3>
+		<input id="collapse-cmd" class="collapse-btn" type="checkbox" checked>
+		<label for="collapse-cmd" class="collapse-label"></label>
+		<div class="chatS movelist collapse">
+			{% for attack in chr.commands %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+			{{ cornerR }}
+		</div>
+	</div>
+
+	<div class="collapse-cont">
+		<h3 id="throws">{{ topL }}<a href="#throws">Throws</a></h3>
+		<input id="collapse-nage" class="collapse-btn" type="checkbox" checked>
+		<label for="collapse-nage" class="collapse-label"></label>
+		<div class="chatS movelist collapse">
+			{% for attack in chr.throws %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+			{{ cornerR }}
+		</div>
 	</div>
 	
-	<h3 id="throws">{{ topL }}<a class="collapse" role="button">Throws</a></h3>
-	<div class="chatS movelist">
-		{% for attack in chr.throws %}
-			{{ attackinfo | liquify }}
-		{% endfor %}
-		{{ cornerR }}
+	<div class="collapse-cont">
+		<h3 id="skills">{{ topL }}<a href="#skills">Skills</a></h3>
+		<input id="collapse-spc" class="collapse-btn" type="checkbox" checked>
+		<label for="collapse-spc" class="collapse-label"></label>
+		<div class="chatS movelist collapse">
+			{% for attack in chr.skills %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+			{{ cornerR }}
+		</div>
 	</div>
 	
-	<h3 id="skills">{{ topL }}<a class="collapse" role="button">Skills</a></h3>
-	<div class="chatS movelist">
-		{% for attack in chr.skills %}
-			{{ attackinfo | liquify }}
-		{% endfor %}
-		{{ cornerR }}
+	<div class="collapse-cont">
+		<h3 id="exs">{{ topL }}<a href="#exs">EX Skills</a></h3>
+		<input id="collapse-exs" class="collapse-btn" type="checkbox" checked>
+		<label for="collapse-exs" class="collapse-label"></label>
+		<div class="chatS movelist collapse">
+			{% for attack in chr.exs %}
+				{{ attackinfo | liquify }}
+			{% endfor %}
+			{{ cornerR }}
+		</div>
 	</div>
-	
-	<h3  id="exs">{{ topL }}<a class="collapse" role="button">EX Skills</a></h3>
-	<div class="chatS movelist">
-		{% for attack in chr.exs %}
-			{{ attackinfo | liquify }}
-		{% endfor %}
-		{{ cornerR }}
-	</div>
-	
 </div>

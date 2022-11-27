@@ -13,9 +13,11 @@ layout: artfight_layout
 			{% assign artist = image.by %}
 			{% assign artsites = site.data.af.sakka[artist][0] %}
 		{% endif %}
-		<h3><a href="#{{ image.id }}" class="pinklink">{{ image.title }}</a></h3>
+		<h3 id="{{ image.id }}"><a href="#{{ image.id }}" class="pinklink">
+			<span class="artnum">[{{ image.id }}]<br></span>
+			<span>{{ image.title }}</span></a>
+		</h3>
 		<div class="chat">
-			<div id="{{ image.id }}" class="secid"></div>
 			{{ topL }}
 			<div class="aflink">
 				{% if forloop.index0 > 0 %}
@@ -28,9 +30,11 @@ layout: artfight_layout
 					<a href="#{{ nextnum }}" class="pinklink" style="position:absolute;right:0">next »</a>
 				{% endif %}
 			</div>
-			<a href="/img/af/{{ page.year }}/{{ image.img }}" style="display:block" target="_blank" rel="noopener noreferrer">
-				<img src="/img/af/{{ page.year }}/{{ image.img }}" />
-			</a>
+			<div class="mainimg">
+				<a href="/img/af/{{ page.year }}/{{ image.img }}" target="_blank" rel="noopener noreferrer">
+					<img src="/img/af/{{ page.year }}/{{ image.img }}" />
+				</a>
+			</div>
 			{% if image.desc %}
 				<div style="text-align:center">{{ image.desc }}</div>
 			{% endif %}
@@ -76,9 +80,11 @@ layout: artfight_layout
 				<hr>
 				<div style="text-align:center">
 					<span><b>Doodle Response</b><br></span>
-					<a href="/img/af/{{ page.year }}/{{ image.kome }}" target="_blank" rel="noopener noreferrer">
-						<img src="/img/af/{{ page.year }}/{{ image.kome }}" />
-					</a>
+					<div class="mainimg">
+						<a href="/img/af/{{ page.year }}/{{ image.kome }}" target="_blank" rel="noopener noreferrer">
+							<img src="/img/af/{{ page.year }}/{{ image.kome }}" />
+						</a>
+					</div>
 				</div>
 			{% endif %}
 
