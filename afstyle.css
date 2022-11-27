@@ -18,6 +18,7 @@
 	--midkuro: #241c30;
 	--makkuro: #101040;
 	--cream: #ffd8b0;
+	--hover: rgba(255,240,224,0.25);
 }
 
 body {
@@ -26,7 +27,7 @@ body {
 	font-family: "Mona","MS Gothic", sans-serif;
 	font-size: 16px;
 	color: var(--makkuro);
-	line-height:1.5em;
+	line-height:1.25em;
 	overflow-x:hidden;
 	margin: 0;
 	padding: 8px;
@@ -41,6 +42,10 @@ a:link, a:visited{
 	position: relative;
 	text-align: center;
 	font-size: 14px;
+	margin-top: -4px;
+}
+.aflink>a{
+	display:inline-block;
 }
 
 a:link.pinklink,
@@ -55,26 +60,12 @@ h3>a:visited {
 
 a:hover {
 	text-decoration: underline solid;
-	background-color: rgba(255,240,224,0.25);
+	background-color: var(--hover);
 }
 
-.kyaratabs {
-	display:flex;
-	flex-flow:row wrap;
-	justify-content:center;
-	margin-bottom: 8px;
-}
-.kyaratabs>a {
-	margin: 0 8px;
-}
-
-.secid {
-	display:block;
-	visibility:hidden;
-	position:absolute;
-	top:-256px;
-	height:4px;
-	width:4px;
+.mainimg>a {
+	display:inline-block;
+	line-height: 0;
 }
 
 li {
@@ -124,6 +115,9 @@ h3 {
 	text-align:center;
 	padding:8px;
 	border-bottom:1px solid var(--pink);
+	margin: 24px 0 8px;
+	scroll-margin-top: 256px;
+	line-height:1.05em;
 }
 
 #headcont {
@@ -217,6 +211,10 @@ ul {
 	margin: 0;
 }
 
+.artnum {
+	font-size:14px;
+	line-height:1em;
+}
 .afentry {
 	display: flex;
 	flex-flow: row nowrap;
@@ -354,7 +352,8 @@ only screen and (-webkit-min-device-pixel-ratio: 2) {
 			font-size: 24px;
 		}
 
-		.aflink {
+		.aflink,
+		.artnum {
 			font-size: 20px;
 		}
 
