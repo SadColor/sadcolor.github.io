@@ -229,6 +229,9 @@ Pigsy:
 
 AceNil:
 - af: "https://artfight.net/~AceNil"
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/Nil_Ace"
 
 ProfCarrot:
 - af: "https://artfight.net/~ProfCarrot"
