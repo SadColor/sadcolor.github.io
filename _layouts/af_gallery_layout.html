@@ -60,7 +60,7 @@
 				{% endfor %}
 				</section>
 			</nav>
-			<div id="post_body">
+			<main id="post_body">
 				{% for s in pg.content %}
 				{% assign zeroIndex = forloop.index | prepend: '00' | slice: -2, 2 %}
 				{% assign team = s.for | default: s.by %}
@@ -118,7 +118,7 @@
 								<div class="af_for tri_topC">Character{% if s.kyara.size > 1 %}s{% endif %}</div>
 								<div class="af_user_info tri9 tri13">
 									{% for chr in s.kyara %}
-									<div class="af_user"><a href="{{ kyara[chr].link }}" {% if kyara[chr].mine %}class="PI"{% endif %}>{{ kyara[chr].name }}</a></div>
+									<div class="af_user"><a href="{{ kyara[chr].link }}"{% if kyara[chr].mine %} class="PI"{% endif %}>{{ kyara[chr].name }}</a></div>
 									{% endfor %}
 								</div>
 							</div>
@@ -167,26 +167,9 @@
 					</div>
 				</section>
 				{% endfor %}
-			{% assign lastupdate = pg.lastupdated | default: page.lastupdated %}
-			{% if lastupdate %}<footer id="site_date">last updated: {{ site.lastupdated }}</footer>{% endif %}
+			
+				{% include last_updated.html date=pg.lastupdated %}
+			</main>
 		</div>
-
-		{% if pg.navi.bottom %}
-		<div id="bottom_bar_outer">
-		<div id="bottom_bar">
-			{% assign bnavi = site.data.navilists[pg.navi.bottom] %}
-			{% for navsec in bnavi %}
-			<div class="bottom_bar_sec">
-				<div class="bottom_bar_cat">{{ navsec.category | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</div>
-				<div class="bottom_bar_link_cont">
-				{% for item in navsec.items %}
-				<span class="bottom_bar_link">{{ item | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</span>
-				{% endfor %}
-				</div>
-			</div>
-			{% endfor %}
-		</div>
-		</div>
-		{% endif %}
 	</body>
 </html>

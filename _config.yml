@@ -1,5 +1,6 @@
 repository: sadcolor/sadcolor.github.io
 lastupdated: "2024.03.06"
+url: "https://sadcolor.github.io"
 
 flexible_include:
   die_on_file_error: true
