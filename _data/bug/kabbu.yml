@@ -1,0 +1,362 @@
+lastupdated: "2024.03.06"
+navi:
+  prev:
+    title: "vi"
+    link: "../vi"
+  next:
+    title: "leif"
+    link: "../leif"
+
+stats:
+  name: "kabbu"
+  hp: 1300
+  sp: 20 
+  album: "https://imgur.com/a/Ay555Jf"
+  traits:
+  - "<span class='b'>Spiky Bod</span>: deal chip damage to the opponent upon a successful Super Block of a strike."
+  flows:
+  - "Uncharged q ({{ S }}) always inflicts crumple (shorter than full charge)."
+  - "Less time required for charged q ({{ S }})."
+  pros:
+  - "high damage from both single hits and combos"
+  - "lots of plus frames"
+  cons:
+  - "poor range"
+
+movelist:
+- id: normals
+  title: normals
+  moves: 
+  - base: "cmn_5a"
+    damage:
+      total: '25'
+    desc: |-
+      A quick chop.
+  - base: "cmn_5b"
+    damage:
+      total: '50'
+    desc: |-
+      Kabbu steps forward with a backfist.
+  - base: "cmn_5c"
+    damage:
+      total: '80'
+    desc: |-
+      Kabbu slashes his horn downwards.
+  - base: "cmn_2a"
+    damage:
+      total: '25'
+    desc: |-
+      Crouching chop.
+  - base: "cmn_2b"
+    damage:
+      total: '48'
+    desc: |-
+      Crouching kick.  
+      Moves Kabbu forwards slightly.
+  - base: "cmn_2c"
+    damage:
+      total: '78'
+    desc: |-
+      Sweeps with horn.
+  - base: "cmn_ja"
+    damage:
+      total: '48'
+    desc: |-
+      Forward jump kick.
+  - base: "cmn_jb"
+    damage:
+      total: '74'
+    desc: |-
+      Elbow!  
+      Charged version {{ GROUNDSLIDE }}s.
+  - base: "cmn_jc"
+    damage:
+      total: '79'
+    desc: |-
+      Slashes horn upwards.  
+      Charged version {{ LAUNCH }}es the opponent towards Kabbu.
+
+- id: cmds
+  title: command normals
+  moves: 
+  - base: "cmn_5aa"
+    damage:
+      total: '33'
+    desc: |-
+      -
+  - base: "cmn_5aaa"
+    damage:
+      total: '37'
+    desc: |-
+      -
+  - base: "cmn_5bb"
+    damage:
+      total: '77'
+    desc: |-
+      Kabbu does an uppercut.
+  - base: "cmn_5cc"
+    desc: |-
+      Kabbu slashes his horn inwards.  
+      Knocks the opponent towards Kabbu, with charging making the effect stronger and increasing hitstun/blockstun.
+  - base: "cmn_3b"
+    damage:
+      total: '37'
+    guard: 
+    - low: true
+    - high: true
+    lv: '3'
+    desc: |-
+      Advances forward with a kick.  
+      Slightly minus on block, but can be very plus depending on spacing.  
+      Kabbu’s lower body is {{ FOOT }}-invulnerable for a portion of the attack.
+  - base: "cmn_3c"
+    damage:
+      total: '58'
+    desc: |-
+     Kabbu swings upwards with both fists.  
+     Can {{ JUMP-CANCEL }} even on block when charged.  
+     {{ antiair }}
+  - base: "cmn_66b"
+    desc: |-
+      Kabbu digs his horn into the ground and lifts it up, bringing the opponent towards himself. {{ JUMP-CANCEL }} on hit only.  
+      Can also be used as an anti-air due to the angle it covers, but it is a little slow.
+  - base: "cmn_66c"
+    desc: |-
+      Kabbu hornsprings forward with a kick.  
+      Cancelable into air specials on hit or guard.  
+      {{ antiair }}
+
+- id: throws
+  title: throws
+  moves: 
+  - base: "cmn_grab"
+    damage:
+      total: '120'
+    desc: |-
+      Kabbu shoulder checks the opponent, crumpling them.
+  - base: "cmn_air_grab"
+    damage:
+      total: '108'
+    desc: |-
+      Kabbu catches the opponent on his horn and slings them away.  
+      Unlike other air throws, you can actually combo after this one when used mid-combo.  
+      Landing a raw air throw will make Kabbu throw the opponent upwards instead, making it easy to get a combo anywhere.
+
+
+- id: skills
+  title: skills
+  moves: 
+  - base: "cmn_5s"
+    damage:
+      total: '70'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '1'
+    desc: |-
+      Kabbu braces himself, then slashes forward with his horn when you release {{ S }}. Fully charged version is unblockable.  
+      Has one hit of guard point. The guard point goes away once you release {{ S }} unless you’re at full charge.  
+      Guarding a move makes the release faster.  
+      You can dash cancel during startup, or once the attack connects.  
+      Also cancelable into other Skills on hit or block.
+  - base: "cmn_22s"
+    name: "<span class='b'>Taunt</span>"
+    plain_name: "Taunt"
+    damage:
+      total: '101'
+    attr:
+      body: true
+    cost:
+      sp: '4'
+    desc: |-
+      Kabbu taunts the opponent. If the opponent hits him within a certain time, Kabbu catches the attack with his horn and counters.  
+      The counterattack launches the opponent behind Kabbu, allowing you to get a followup combo.
+  - base: "cmn_46s"
+    name: "<span class='b'>Under Strike</span>"
+    plain_name: "Under Strike"
+    damage:
+      total: '122'
+    guard:
+      low:  true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Kabbu dives into the ground, furiously digging his way forwards and traveling under most attacks.  
+      The initial portion of the attack can only be hit by {{ BODY }}, {{ FOOT }}, and {{ DIVE }} attacks.  
+      While Kabbu is digging, he can only be hit by {{ FOOT }} and {{ DIVE }} attacks.  
+      Very useful for going under projectiles and pokes.
+  - base: "cmn_236a"
+    name: "<span class='b'>Iron Side</span>"
+    plain_name: "Iron Side"
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Kabbu shoulder charges forward a small distance.  
+      Punishable point-blank, but you can space it to be plus on block.  
+      If the first hit connects at max range, you can combo meterlessly off the tumble for a higher-damage route.  
+      {{ d6A }} followup is a spinning haymaker that knocks down. It’s slightly unsafe, but not very rewarding either. Useful mostly as a combo ender, since it’s the fastest followup.  
+      {{ d6C }} followup is a second shoulder attack that is {{ JUMP-CANCEL }} able only on hit, and is more unsafe than the {{ d6A }} followup. Mostly useful in combos.  
+      And finally, you can also cancel the first hit into <span class="b">Horn Dash</span> (shortcut: {{ d6B }}).
+  - base: "cmn_236b"
+    name: "<span class='b'>Horn Dash</span>"
+    plain_name: "Horn Dash"
+    damage:
+      total: '130'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '1'
+    desc: |-
+      Kabbu dashes forward with his horn out. It’s super unsafe, but Fatal Counters on counterhit.  
+      The damage is reduced when canceled from <span class="b">Iron Side</span> ({{ 236A }}).  
+      In the air, Kabbu bounces off the opponent.
+
+  - base: "cmn_214a"
+    damage:
+      total: '105'
+    guard:
+      high: true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Kabbu chops downwards. In the air, Kabbu’s forward momentum stops and he plummets to the ground.  
+      The uncharged version is a very fast overhead, but you can’t combo meterlessly and it scales as hard as a throw. It’s also not safe.  
+      The charged version is slower, but you can combo from it with lights (heavies if you counterhit) and it’s safer.  
+      The air version is good as an instant overhead and scales less harshly than the uncharged grounded version, but there are fewer opportunities to land it raw.  
+      Air version can’t be charged.  
+      In a juggle, all versions GROUNDSLIDE, allowing combo followups.
+  - base: "cmn_214b"
+    damage:
+      total: '200'
+    guard:
+      grab: true
+    attr:
+      body: true
+    cost:
+      sp: '5'
+    desc: |-
+      Kabbu tries to grab the opponent. If it connects, he tosses the opponent up and skewers them on his horn before dropping them to the ground beside him.  
+      Midscreen, you can combo using Chain Cancel. In the corner, you can followup meterlessly with a light normal.
+  - base: "cmn_j214b"
+    damage:
+      total: '190'
+    guard:
+      grab: true
+    attr:
+      dive: true
+    cost:
+      sp: '4'
+    desc: |-
+      Kabbu tries to grab the opponent.  
+      Both versions will connecton standing or airborne opponent in a combo.  
+      Outside of a combo, only the charged version can hit standing opponents.  
+      On a successful grab, he will slam the opponent to the ground.  
+      If you charged the grab, this causes a comboable {{ GROUNDBOUNCE }}.
+  - base: "cmn_22a"
+    name: "<span class='b'>Earth Shaking</span>"
+    plain_name: "Earth Shaking"
+    damage:
+      total: '51'
+    guard:
+      low:  true
+    attr:
+      foot: true
+    cost:
+      sp: '2'
+    desc: |-
+      Kabbu pounds the ground and sends a shockwave that travels a short distance and spikes a rock pillar if it passes under the opponent.
+      Charged version has longer startup, but is slightly plus on block.
+  - base: "cmn_22b"
+    name: "<span class='b'>Boulder Toss</span>"
+    plain_name: "Boulder Toss"
+    damage:
+      total: '70'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Kabbu digs up a boulder from the ground, tossing it into the air for it to land slightly in front of him.  
+      You can hit the boulder with different normals to launch it at different angles. Hitting a boulder with normals allows you to cancel into other Skills.  
+      The boulder can absorb three hits of projectiles.  
+      Plus on block even if the rock hits immediately, making it a powerful pressure and okizeme tool. It’s even a good combo tool. It does it all!
+
+- id: exs
+  title: ex skills
+  moves: 
+  - base: "cmn_236c"
+    name: "<span class='b'>Dash Through</span>"
+    plain_name: "Dash Through"
+    damage:
+      total: '250'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Kabbu charges fullscreen in almost an instant, running straight through any opponents.  
+      You can link another EX Skill afterwards, or use Chain Cancel to continue the combo.  
+      Recovers {{ 5SP }} on hit.
+  - base: "cmn_214c"
+    name: "<span class='b'>Divebomb Cross</span>"
+    plain_name: "Divebomb Cross"
+    damage:
+      total: '300'
+    guard:
+      guard: true
+    attr:
+      body: true
+    desc: |-
+      Kabbu tries to grab the opponent.  
+      If the grab connects, he’ll do a spinning jump high into the air before landing on the opponent with both arms crossed.  
+      Highly damaging combo ender if you can land it.  
+      Also good as a mixup tool, since you can’t jump out after the super freeze.  
+      Recovers {{ 5SP }} on hit.
+  - base: "cmn_22c"
+    name: "<span class='b'>Seismic Lift</span>"
+    plain_name: "Seismic Lift"
+    damage:
+      total: '192'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    desc: |-
+      Kabbu stomps the ground, creating a shockwave of pillars of rocks.
+      Massively plus on block, allowing you time for a few mixups.
+      Recovers {{ 8SP }} on hit.
+  - base: "cmn_ex2"
+    name: "<span class='b'>Deadly Double Combination</span>"
+    plain_name: "Deadly Double Combination"
+    damage:
+      total: '430'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Kabbu punches the opponent in the gut, then spikes them so hard that they groundbounce off the top of the screen.  
+      Second hit doesn’t happen if the first is blocked or whiffs.  
+      Deals ridiculous damage and you can still combo afterwards!  
+      Recovers {{ 3SP }} on hit.

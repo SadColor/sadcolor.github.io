@@ -1,0 +1,1040 @@
+# define reused values
+
+p1_a: &P1_A '25'
+p1_b: &P1_B '15'
+p1_c: &P1_C '10'
+p1_grab: &P1_GRAB '40'
+p1_inv: &P1_INV '50'
+
+p2_a: &P2_A '2'
+p2_b: &P2_B '3'
+p2_c: &P2_C '3'
+p2_grab: &P2_GRAB '5'
+
+min_grab: &MIN_GRAB '20%'
+min_ex_l: &MIN_EX_L '25%'
+min_ex_m: &MIN_EX_M '30%'
+min_ex_h: &MIN_EX_H '35%'
+min_ex2: &MIN_EX2 '40%'
+
+cancel_r: &CANCEL_RAPID
+  jump: true
+  dash: false
+  self: true
+  normal: true
+  command: true
+  skill: true
+  unique: false
+  EX: true
+  CC: true
+cancel_n: &CANCEL_NORMAL
+  jump: true
+  dash: true
+  self: true
+  normal: true
+  command: true
+  skill: true
+  unique: false
+  EX: true
+  CC: true
+cancel_dash: &CANCEL_DASH_N
+  jump: false
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: true
+  unique: false
+  EX: true
+  CC: true
+cancel_air: &CANCEL_AIR_N 
+  jump: true
+  dash: true
+  self: false
+  normal: true
+  command: true
+  skill: true
+  unique: false
+  EX: true
+  CC: true
+cancel_air_rapid: &CANCEL_AIR_RAPID
+  jump: true
+  dash: true
+  self: true
+  normal: true
+  command: true
+  skill: true
+  unique: false
+  EX: true
+  CC: true
+cancel_grab: &CANCEL_GRAB
+  jump: false
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: true
+  CC: true
+cancel_grab_air: &CANCEL_GRAB_AIR
+  jump: true
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: true
+  CC: true
+
+cancel_skl: &CANCEL_SKILL
+  jump: false
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: true
+  CC: true
+
+cancel_skl_dash: &CANCEL_SKILL_DASH 
+  jump: false
+  dash: true
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: true
+  CC: true
+cancel_skl_jump: &CANCEL_SKILL_JUMP 
+  jump: true
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: true
+  CC: true
+cancel_ex: &CANCEL_EX 
+  jump: false
+  dash: false
+  self: false
+  normal: false
+  command: false
+  skill: false
+  unique: false
+  EX: false
+  CC: true
+
+guard_mid: &GUARD_MID
+  low: true
+  high: true
+  air: false
+guard_low: &GUARD_LOW
+  low: true
+  high: false
+  air: false
+guard_high: &GUARD_HIGH
+  low: false
+  high: true
+  air: false
+guard_air: &GUARD_AIR
+  low: false
+  high: true
+  air: true
+guard_air_mid: &GUARD_AIR_MID 
+  low: true
+  high: true
+  air: true
+guard_proj: &GUARD_PROJ 
+  low: true
+  high: true
+  air: true
+guard_grab: &GUARD_GRAB 
+  grab: true
+
+attr_dive: &ATTR_DIVE
+  dive: true
+attr_head: &ATTR_HEAD
+  head: true
+attr_chest: &ATTR_CHEST 
+  chest: true
+attr_body: &ATTR_BODY
+  body: true
+attr_foot: &ATTR_FOOT
+  foot: true
+
+lv_0: &LV_0 '0'
+lv_1: &LV_1 '1'
+lv_2: &LV_2 '2'
+lv_3: &LV_3 '3'
+lv_4: &LV_4 '4'
+lv_5: &LV_5 '5'
+
+lv_a:   &LV_A '0'
+lv_aa: &LV_AA '1'
+lv_b:   &LV_B '2'
+lv_bb:  &LV_B '3'
+lv_c:   &LV_C '4'
+lv_cc: &LV_CC '5'
+
+# defining reused "headers"
+head_s: &HEAD_S
+  id: s
+  images:
+  - "s.png"
+  name: "{{ S }}"
+  plain_name: "5S"
+  input: "{{ d0S }}"
+
+head_236s: &HEAD_236S
+  id: 236s
+  images:
+  - "236s.png"
+  name: "{{ 236S }}"
+  plain_name: "236S"
+  input: "{{ d236S }}"
+
+head_214s: &HEAD_214S
+  id: 214s
+  images:
+  - "214s.png"
+  name: "{{ 214S }}"
+  plain_name: "214S"
+  input: "{{ d214S }}"
+
+head_22s: &HEAD_22S
+  id: 22s
+  images:
+  - "22s.png"
+  name: "{{ 22S }}"
+  plain_name: "22S"
+  input: "{{ d22S }}"
+
+head_j236s: &HEAD_j236S
+  id: j236s
+  images:
+  - "j236s.png"
+  name: "{{ j236S }}"
+  plain_name: "j.236S"
+  input: "{{ d236S }} while airborne"
+
+head_j214s: &HEAD_j214S
+  id: j214s
+  images:
+  - "j214s.png"
+  name: "{{ j214S }}"
+  plain_name: "j.214S"
+  input: "{{ d214S }} while airborne"
+
+head_46s: &HEAD_46S
+  id: 46s
+  images:
+  - "46s.png"
+  name: "{{ 46S }}"
+  plain_name: "[4]6S"
+  input: "hold {{ d4 }}, {{ d6S }}"
+
+head_236a: &HEAD_236A
+  id: 236a
+  images:
+  - "236a.png"
+  name: "{{ 236A }}"
+  plain_name: "236A"
+  input: "{{ d236 }}{{ A }}"
+
+head_236b: &HEAD_236B
+  id: 236b
+  images:
+  - "236b.png"
+  name: "{{ 236B }}"
+  plain_name: "236B"
+  input: "{{ d236 }}{{ B }}"
+
+head_236ab: &HEAD_236AB
+  id: 236x
+  images:
+  - "236x.png"
+  name: "{{ 236A }}/{{ B }}"
+  plain_name: "236X"
+  input: "{{ d236A }} or {{ d236B }}"
+
+head_236c: &HEAD_236C
+  id: 236c
+  images:
+  - "236c.png"
+  name: "{{ 236C }}"
+  plain_name: "236C"
+  input: "{{ d236 }}{{ C }}"
+
+head_214a: &HEAD_214A
+  id: 214a
+  images:
+  - "214a.png"
+  name: "{{ 214A }}"
+  plain_name: "214A"
+  input: "{{ d214 }}{{ A }}"
+
+head_214b: &HEAD_214B
+  id: 214b
+  images:
+  - "214b.png"
+  name: "{{ 214B }}"
+  plain_name: "214B"
+  input: "{{ d214 }}{{ B }}"
+
+head_214ab: &HEAD_214AB
+  id: 214x
+  images:
+  - "214x.png"
+  name: "{{ 214A }}/{{ B }}"
+  plain_name: "214X"
+  input: "{{ d214A }} or {{ d214B }}"
+
+head_214c: &HEAD_214C
+  id: 214c
+  images:
+  - "214c.png"
+  name: "{{ 214C }}"
+  plain_name: "214C"
+  input: "{{ d214 }}{{ C }}"
+
+head_22a: &HEAD_22A
+  id: 22a
+  images:
+  - "22a.png"
+  name: "{{ 22A }}"
+  plain_name: "22A"
+  input: "{{ d22A }}"
+
+head_22b: &HEAD_22B
+  id: 22b
+  images:
+  - "22b.png"
+  name: "{{ 22B }}"
+  plain_name: "22B"
+  input: "{{ d22B }}"
+
+head_22c: &HEAD_22C
+  id: 22c
+  images:
+  - "22c.png"
+  name: "{{ 22C }}"
+  plain_name: "22C"
+  input: "{{ d22C }}"
+
+head_46a: &HEAD_46A
+  id: 46a
+  images:
+  - "46a.png"
+  name: "{{ 46A }}"
+  plain_name: "[4]6A"
+  input: "hold {{ d4 }}, {{ d6A }}"
+
+head_46b: &HEAD_46B
+  id: 46b
+  images:
+  - "46b.png"
+  name: "{{ 46B }}"
+  plain_name: "[4]6B"
+  input: "hold {{ d4 }}, {{ d6B }}"
+
+head_46c: &HEAD_46C
+  id: 46c
+  images:
+  - "46c.png"
+  name: "{{ 46C }}"
+  plain_name: "[4]6C"
+  input: "hold {{ d4 }}, {{ d6C }}"
+
+head_j236a: &HEAD_J236A
+  id: 236a
+  images:
+  - "j236a.png"
+  name: "{{ j236A }}"
+  plain_name: "j.236A"
+  input: "{{ d236 }}{{ A }} while airborne"
+
+head_j236b: &HEAD_J236B
+  id: 236b
+  images:
+  - "j236b.png"
+  name: "{{ j236B }}"
+  plain_name: "j.236B"
+  input: "{{ d236 }}{{ B }} while airborne"
+
+head_j236c: &HEAD_J236C
+  id: 236c
+  images:
+  - "j236c.png"
+  name: "{{ j236C }}"
+  plain_name: "j.236C"
+  input: "{{ d236 }}{{ C }} while airborne"
+
+head_j214a: &HEAD_J214A
+  id: j214a
+  images:
+  - "j214a.png"
+  name: "{{ j214A }}"
+  plain_name: "j.214A"
+  input: "{{ d214 }}{{ A }} while airborne"
+
+head_j214b: &HEAD_J214B
+  id: j214b
+  images:
+  - "j214b.png"
+  name: "{{ j214B }}"
+  plain_name: "j.214A"
+  input: "{{ d214 }}{{ B }} while airborne"
+
+head_j214c: &HEAD_J214C
+  id: j214c
+  images:
+  - "j214c.png"
+  name: "{{ j214C }}"
+  plain_name: "j.214C"
+  input: "{{ d214 }}{{ C }} while airborne"
+
+# defining reused moves
+
+cmn_5a: &CMN_5A
+  id: 5a
+  images: 
+  - "5a.png"
+  name: "{{ 5A }}"
+  plain_name: "5A"
+  input: "{{ d0 }}{{ A }}"
+  damage:
+    total: '30'
+  scaling:
+    p1: *P1_A
+    p2: *P2_A
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_A
+  cancel: *CANCEL_NORMAL
+
+cmn_5a_rapid: &CMN_5A_RAPID
+  <<: *CMN_5A
+  damage:
+    total: '25'
+  cancel: *CANCEL_RAPID
+
+cmn_5aa: &CMN_5AA
+  id: 5aa
+  images: 
+  - "5aa.png"
+  name: "{{ 5A }}{{ A }}"
+  plain_name: "5AA"
+  input: "{{ d0 }}{{ A }} after {{ 5A }}"
+  damage:
+    total: '40'
+  scaling:
+    p1: *P1_A
+    p2: *P2_A
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_AA
+  cancel: *CANCEL_NORMAL
+
+cmn_5aaa: &CMN_5AAA
+  id: 5aaa
+  images: 
+  - "5aaa.png"
+  name: "{{ 5A }}{{ A }}{{ A }}"
+  plain_name: "5AAA"
+  input: "{{ d0 }}{{ A }} after {{ 5A }}{{ A }}"
+  damage:
+    total: '50'
+  scaling:
+    p1: *P1_A
+    p2: *P2_A
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_B
+  cancel: *CANCEL_NORMAL
+
+cmn_2a: &CMN_2A
+  id: 2a
+  images:
+  - "2a.png"
+  name: "{{ 2A }}"
+  plain_name: "2A"
+  input: "{{ d2 }}{{ A }}"
+  damage:
+    total: '30'
+  scaling: 
+    p1: *P1_A
+    p2: *P2_A
+  guard: *GUARD_LOW
+  attr: *ATTR_FOOT
+  lv: *LV_A
+  cancel: *CANCEL_NORMAL
+
+cmn_2a_rapid: &CMN_2A_RAPID
+  <<: *CMN_2A
+  damage:
+    total: '25'
+  cancel: *CANCEL_RAPID
+
+
+cmn_5b: &CMN_5B
+  id: 5b
+  images:
+  - "5b.png"
+  name: "{{ 5B }}"
+  plain_name: "5B"
+  input: "{{ d0 }}{{ B }}"
+  damage:
+    total: '50'
+  scaling: 
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_B
+  cancel: *CANCEL_NORMAL
+ 
+cmn_5bb: &CMN_5BB
+  id: 5bb
+  images:
+  - "5bb.png"
+  name: "{{ 5B }}{{ B }}"
+  plain_name: "5BB"
+  input: "{{ d0 }}{{ B }} after {{ 5B }}"
+  damage:
+    total: '50'
+  scaling: 
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_BB
+  cancel: *CANCEL_NORMAL
+
+cmn_2b: &CMN_2B
+  id: 2b
+  images:
+  - "2b.png"
+  name: "{{ 2B }}"
+  plain_name: "2B"
+  input: "{{ d2 }}{{ B }}"
+  damage:
+    total: '50'
+  scaling: 
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_LOW
+  attr: *ATTR_FOOT
+  lv: *LV_B
+  cancel: *CANCEL_NORMAL
+
+
+cmn_5c: &CMN_5C
+  id: 5c
+  images:
+  - "5c.png"
+  name: "{{ 5C }}"
+  plain_name: "5C"
+  input: "{{ d0 }}{{ C }}"
+  damage:
+    total: '80'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_C
+  cancel: *CANCEL_NORMAL
+
+cmn_5c_c: &CMN_5_C
+  id: 5[c]
+  images:
+  - "5[c].png"
+  name: "{{ 5_C }}"
+  plain_name: "5[C]"
+  input: "{{ d0 }}[{{ C }}]"
+  damage:
+    total: '90'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_CC
+  cancel: *CANCEL_NORMAL
+
+cmn_5c_charge: &CMN_5C_CHARGE
+  id: 5c
+  images:
+  - "5c.png"
+  name: "{{ 5C }}"
+  plain_name: "5C"
+  input: "{{ d0 }}{{ C }}"
+  versions:
+  - <<: *CMN_5C
+    label: normal
+  - <<: *CMN_5_C
+    label: charged
+
+cmn_5cc: &CMN_5CC
+  id: 5cc
+  images:
+  - "5cc.png"
+  name: "{{ 5CC }}"
+  plain_name: "5CC"
+  input: "{{ d0 }}{{ C }} after {{ 5C }}"
+  damage:
+    total: '80'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_C
+  cancel: *CANCEL_NORMAL
+
+cmn_2c: &CMN_2C
+  id: 2c
+  images:
+  - "2c.png"
+  name: "{{ 2C }}"
+  plain_name: "2C"
+  input: "{{ d2 }}{{ C }}"
+  damage:
+    total: '80'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_LOW
+  attr: *ATTR_FOOT
+  lv: *LV_C
+  cancel: *CANCEL_NORMAL
+  prop:
+    - hkd: 1
+
+
+cmn_ja: &CMN_JA
+  id: ja
+  images: 
+  - "ja.png"
+  name: "{{ jA }}"
+  plain_name: "j.A"
+  input: "{{ d0 }}{{ A }} while airborne"
+  damage:
+    total: '30'
+  scaling:
+    p1: *P1_A
+    p2: *P2_A
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_AA
+  cancel: *CANCEL_AIR_N
+
+cmn_ja_rapid: &CMN_JA_RAPID
+  <<: *CMN_JA
+  damage:
+    total: '25'
+  cancel: *CANCEL_AIR_RAPID
+
+cmn_jb: &CMN_JB
+  id: jb
+  images: 
+  - "jb.png"
+  name: "{{ jB }}"
+  plain_name: "j.B"
+  input: "{{ d0 }}{{ B }} while airborne"
+  damage:
+    total: '50'
+  scaling:
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_B
+  cancel: *CANCEL_AIR_N
+
+cmn_jc: &CMN_JC
+  id: jc
+  images: 
+  - "jc.png"
+  name: "{{ jC }}"
+  plain_name: "j.C"
+  input: "{{ d0 }}{{ C }} while airborne"
+  damage:
+    total: '80'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_C
+  cancel: *CANCEL_AIR_N
+
+cmn_j_c: &CMN_J_C
+  id: j[c]
+  images: 
+  - "j[c].png"
+  name: "{{ j_C }}"
+  plain_name: "j.[C]"
+  input: "{{ d0 }}[{{ C }}] while airborne"
+  damage:
+    total: '90'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_CC
+  cancel: *CANCEL_AIR_N
+
+cmn_jc_charge: &CMN_JC_CHARGE
+  id: jc
+  images: 
+  - "jc.png"
+  name: "{{ jC }}"
+  plain_name: "j.C"
+  input: "{{ d0 }}{{ C }} while airborne"
+  versions:
+  - <<: *CMN_JC
+    label: normal
+  - <<: *CMN_J_C
+    label: charged
+
+cmn_6b: &CMN_6B
+  id: 6b
+  images:
+  - "6b.png"
+  name: "{{ 6B }}"
+  plain_name: "6B"
+  input: "{{ d6B }}"
+  damage:
+    total: '60'
+  scaling:
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_BB
+  cancel: *CANCEL_NORMAL
+  prop:
+  - launch: 1
+
+cmn_3b: &CMN_3B
+  id: 3b
+  images:
+  - "3b.png"
+  name: "{{ 3B }}"
+  plain_name: "3B"
+  input: "{{ d3B }}"
+  damage:
+    total: '60'
+  scaling:
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_BB
+  cancel: *CANCEL_NORMAL
+  prop:
+  - launch: 1
+
+cmn_3c: &CMN_3C
+  id: 3c
+  images:
+  - "3c.png"
+  name: "{{ 3C }}"
+  plain_name: "3C"
+  input: "{{ d3C }}"
+  damage:
+    total: '70'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_BB
+  cancel: *CANCEL_NORMAL
+  prop:
+  - launch: 1
+
+cmn_j2b: &CMN_J2B
+  id: j2b
+  images: 
+  - "j2b.png"
+  name: "{{ j2b }}"
+  plain_name: "j.2B"
+  input: "{{ d2B }} while airborne"
+  damage:
+    total: '60'
+  scaling:
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_BB
+  cancel: *CANCEL_AIR_N
+
+cmn_j2c: &CMN_J2C
+  id: j2c
+  images: 
+  - "j2c.png"
+  name: "{{ j2C }}"
+  plain_name: "j.2C"
+  input: "{{ d2C }} while airborne"
+  damage:
+    total: '80'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_AIR
+  attr: *ATTR_DIVE
+  lv: *LV_C
+  cancel: *CANCEL_AIR_N
+
+cmn_66b: &CMN_66B
+  id: 66b
+  images:
+  - "66b.png"
+  name: "{{ 66B }}"
+  plain_name: "66B"
+  input: "{{ d6B }} while dashing"
+  damage:
+    total: '50'
+  scaling:
+    p1: *P1_B
+    p2: *P2_B
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_BB
+  cancel: *CANCEL_DASH_N
+  prop:
+  - launch: 1
+
+cmn_66c: &CMN_66C
+  id: 66c
+  images:
+  - "66c.png"
+  name: "{{ 66C }}"
+  plain_name: "66C"
+  input: "{{ d6C }} while dashing"
+  damage:
+    total: '70'
+  scaling:
+    p1: *P1_C
+    p2: *P2_C
+  guard: *GUARD_MID
+  attr: *ATTR_BODY
+  lv: *LV_C
+  cancel: *CANCEL_DASH_N
+  prop:
+  - launch: 1
+
+
+cmn_grab: &CMN_GRAB
+  id: 5ad
+  images: 
+  - "nage.png"
+  name: Ground throw
+  plain_name: "Ground throw"
+  input: "{{ d4A }}+{{ D }} or {{ d6A }}+{{ D }}"
+  damage:
+    total: '144'
+  scaling:
+    p1: *P1_GRAB
+    p2: *P2_GRAB
+  guard: *GUARD_GRAB
+  cancel: *CANCEL_GRAB
+  prop:
+  - hkd: 1
+
+cmn_air_grab: &CMN_GRAB_AIR
+  id: jad
+  images: 
+  - "nageair.png"
+  name: Air throw
+  plain_name: "Air throw"
+  input: "{{ d4A }}+{{ D }} or {{ d6A }}+{{ D }} while airborne"
+  damage:
+    total: '120'
+  scaling:
+    p1: *P1_GRAB
+    p2: *P2_GRAB
+    min: *MIN_GRAB
+  guard: *GUARD_GRAB
+  cancel: *CANCEL_GRAB_AIR
+  prop:
+  - hkd: 1
+
+cmn_5s: &CMN_5S
+  <<: *HEAD_S
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_236s: &CMN_SKILL
+  <<: *HEAD_236S
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_214s: &CMN_SKILL
+  <<: *HEAD_214S
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_22s: &CMN_SKILL
+  <<: *HEAD_22S
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_46s: &CMN_SKILL
+  <<: *HEAD_46S
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_236a: &CMN_SKILL
+  <<: *HEAD_236A
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_236b: &CMN_SKILL
+  <<: *HEAD_236B
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+  
+cmn_236ab: &CMN_SKILL
+  <<: *HEAD_236AB
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_236c: &CMN_EX
+  <<: *HEAD_236C
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+  
+cmn_214a: &CMN_SKILL
+  <<: *HEAD_214A
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_214b: &CMN_SKILL
+  <<: *HEAD_214B
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_214ab: &CMN_SKILL
+  <<: *HEAD_214AB
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_214c: &CMN_EX
+  <<: *HEAD_214C
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+
+cmn_j214a: &CMN_SKILL
+  <<: *HEAD_J214A
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_j214b: &CMN_SKILL
+  <<: *HEAD_J214B
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_j214c: &CMN_EX
+  <<: *HEAD_J214C
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+
+cmn_22a: &CMN_SKILL
+  <<: *HEAD_22A
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_22b: &CMN_SKILL
+  <<: *HEAD_22B
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_22c: &CMN_EX
+  <<: *HEAD_22C
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+
+cmn_46a: &CMN_SKILL
+  <<: *HEAD_46A
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_46b: &CMN_SKILL
+  <<: *HEAD_46B
+  cost:
+    sp: '2'
+  cancel: *CANCEL_SKILL
+
+cmn_46c: &CMN_EX
+  <<: *HEAD_46C
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+
+cmn_ex: &CMN_EX
+  cost:
+    ex: '100'
+  cancel: *CANCEL_EX
+  prop:
+  - otg: 1
+  - launch: 1
+  - hkd: 1
+
+cmn_ex2: &CMN_EX2
+  id: "41236s"
+  name: "{{ 41236S }}"
+  input: "{{ d41236 }}{{ S }}"
+  images: 
+  - "41236s.png"
+  cost:
+    ex: '200'
+  cancel: *CANCEL_EX
+  prop:
+  - otg: 1
+  - launch: 1
+  - hkd: 1
+
+cmn_ex3: &CMN_EX3
+  id: "41236d"
+  name: "{{ 41236D }}"
+  input: "{{ d41236 }}{{ D }}"
+  images: 
+  - "41236d.png"
+  cost:
+    ex: '200'
+  cancel: *CANCEL_EX
+  prop:
+  - otg: 1
+  - launch: 1
+  - hkd: 1

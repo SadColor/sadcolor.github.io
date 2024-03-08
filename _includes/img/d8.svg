@@ -1,0 +1,6 @@
+<svg width="15" height="15" shape-rendering="crispEdges" role="img" aria-label="8" class="dirimg">
+	<circle cx="7.5" cy="7.5" r="5.25" fill="var(--dir-fill,#383448)"/>
+	<path fill="var(--dir-maru,#101018)" d="m2.9534 4.875a5.25 5.25 0 0 1 4.5466-2.625 5.25 5.25 0 0 1 4.5466 2.625l-4.5466 2.625z"/>
+	<circle cx="7.5" cy="7.5" r="3.05" fill="var(--dir-fill,#383448)" stroke="var(--dir-maru,#101018)" stroke-width=".8"/>
+	<path fill="#fff0e0" d="M5 3.975c0 .0661.051.1.1.1H7V7c0 .28.1029.45.3.45.2195 0 .45-.45.45-.45l1.125-2.35C8.9416 4.4958 9 4.388 9 4.3V.125C9 .0746 8.9191 0 8.8547 0 8.7899 0 8.728.0514 8.65.125l-3.55 3.7c-.0481.0481-.0987.1117-.1.15z"/>
+</svg>

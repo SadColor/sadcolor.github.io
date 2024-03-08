@@ -1,1 +1,8 @@
 repository: sadcolor/sadcolor.github.io
+lastupdated: "2024.03.06"
+
+flexible_include:
+  die_on_file_error: true
+  die_on_path_denied: true
+  die_on_run_error: true
+  die_on_other_error: true

@@ -16,7 +16,9 @@ gem "jekyll", "~> 4.1.1"
 # If you have any plugins, put them here!
 #  gem "jekyll-feed", "~> 0.12"
 group :jekyll_plugins do
+  gem 'jekyll_flexible_include', '~> 2.0', '>= 2.0.22'
   gem "jekyll-liquify-alt", "~> 0.1.2"
+  gem 'jekyll-target-blank'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

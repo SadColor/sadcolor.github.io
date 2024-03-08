@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.year }} overview</title>
+	{% include artfight-head.html %}
+</head>
+{% assign allpg = site.data.af.af_top %}
+{% assign pg = allpg.content | where: "year", page.year | first %}
+{% assign atks = "_atk" | prepend: page.year %}
+{% assign atks = site.data.af[atks] %}
+{% assign defs = "_def" | prepend: page.year %}
+{% assign defs = site.data.af[defs] %}
+{% if page.year == "2022" %}
+	{% assign mixs = "_mix" | prepend: page.year %}
+	{% assign mixs = site.data.af[mixs] %}
+{% endif %}
+{% assign sakka = site.data.af.sakka %}
+{% assign teams = site.data.af.teams %}
+<body>
+	<div id="page_cont">
+		{% assign subtitle = "art fight " | append: page.year %}
+		{% include top_bar.html title="overview" subtitle=subtitle %}
+		
+		<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+			<section id="seq_nav">
+			{% assign yearcheck = page.year | minus: 1 | append: "" %}
+			{% assign yearcheck2 = allpg.content | where: "year", yearcheck | first %}
+			{% if yearcheck2 %}
+				<a id="prev_nav" href="../{{ yearcheck }}">« {{ yearcheck }} overview</a>
+			{% endif %}
+			<a id="home_nav" href="/af">art fight top</a>
+			{% assign yearcheck = page.year | plus: 1 | append: "" %}
+			{% assign yearcheck2 = allpg.content | where: "year", yearcheck | first %}
+			{% if yearcheck2 %}
+				<a id="next_nav" href="../{{ yearcheck }}">{{ yearcheck }} overview »</a>
+			{% endif %}
+			</section>
+			<span id="page_nav_head">contents</span>
+			<section id="page_nav" role="list">
+			{% for s in pg.categories %}
+				{% case s %}
+					{% when "atk" %}{% assign now = atks %}{% assign header = "attacks" %}
+					{% when "def" %}{% assign now = defs %}{% assign header = "defenses" %}
+					{% when "mix" %}{% assign now = mixs %}{% assign header = "mass defenses" %}
+				{% endcase %}
+				<a href="#{{ s }}" class="nav_subhead{% if forloop.index > 1 %} latter{% endif%}">{{ header }}</a>
+				{% for i in now.content %}
+					{% assign zeroIndex = forloop.index | prepend: '00' | slice: -2, 2 %}
+					{% assign team = i.for | default: i.by %}
+					{% assign team = sakka[team].team[page.year] %}
+					<a href="{{ s }}/#{{ zeroIndex }}" style="color: {{ teams[team].color }}">#{{ zeroIndex }}</a>
+				{% endfor %}
+			{% endfor %}
+			</section>
+		</nav>
+		
+		<main id="post_body">
+			{% for s in pg.categories %}
+
+			{% case s %}
+				{% when "atk" %}{% assign now = atks %}{% assign header = "attacks" %}
+				{% when "def" %}{% assign now = defs %}{% assign header = "defenses" %}
+				{% when "mix" %}{% assign now = mixs %}{% assign header = "mass defenses" %}
+			{% endcase %}
+			<section aria-labelledby="{{ s }}">
+				<input id="collapse-{{ s }}" class="collapse-btn" type="checkbox" checked="checked">
+				<h3 id="{{ s }}"><label class="collapse-label" for="collapse-{{ s }}">{{ header }}</label></h3>
+				<div class="post_box tri_topA tri13 collapse">
+					<div class="af_thumb_box" role="list">
+						{% for i in now.content %}
+						{% assign zeroIndex = forloop.index | prepend: '00' | slice: -2, 2 %}
+						{% assign team = i.for | default: i.by %}
+						{% assign team = sakka[team].team[page.year] %}
+						<div class="af_thumb_title tri3" role="listitem">
+							<a href="{{ s }}/#{{ zeroIndex }}" class="W">
+								<figure class="af_thumb">
+									<img class="af_thumb" src="thumb_{{ s }}.png" style="object-position:0 {{ -202 | times: forloop.index0 }}px">
+									<span class="af_thumb_label" style="color: {{teams[team].color}}"><span>{{ zeroIndex }}</span></span>
+									<figcaption class="af_thumb_head">{{ i.title }}</span>
+								</figure>
+							</a>
+						</div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			{% endfor %}
+
+			{% include last_updated.html date=allpg.lastupdated %}
+		</main>
+	</div>
+</body>
+</html>

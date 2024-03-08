@@ -1,0 +1,32 @@
+lastupdated: "2024.03.08"
+
+content:
+- id: sns
+  title: social links
+  body: 
+  - type: "none"
+    body: |
+      - ・ [Tumblr](https://fukouiro.tumblr.com)
+      - ・ [Cohost](https://cohost.org/fukouiro)
+      - ・ [Doodle Tumblr](https://rakugakiro.tumblr.com) (no longer used)
+      - ・ [Toyhouse](https://toyhou.se/SadColor)
+      - ・ [Twitter](https://twitter.com/fukouiro)
+      - ・ [Itch.io](https://sadcolor.itch.io)
+      - ・ [Art Fight](https://artfight.net/~SadColor)
+      
+- id: art
+  title: art pages
+  body: 
+  - type: "none"
+    body: |
+      - ・ [Art Fight galleries](af)
+
+- id: other
+  title: other stuff
+  body: 
+  - type: "none"
+    body: |
+      - ・ [**Gimmick!** quality of life mod](https://www.tumblr.com/fukouiro/696149915638824960/)
+      - ・ [Bug Fables fighting game concept](bug)
+      - ・ [Blog sort of](log)
+#      - ・ [Translations](yaku)

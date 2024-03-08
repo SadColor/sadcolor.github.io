@@ -1,287 +1,143 @@
----
-layout: kakuge_layout
-sections: 
-- ["Stats", "#stats"]
-- ["Normals", "#normals"]
-- ["Command Normals", "#cmds"]
-- ["Throws", "#throws"]
-- ["Skills", "#skills"]
-- ["EX Skills", "#exs"]
----
-
-{{ content }}
-
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	{% include kakuge-head.html %}
+</head>
+{% assign pg = site.data.bug[page.kyara] %}
 {% include kakugestuff.html %}
-{% assign chr = site.data.bug[page.kyara] %}
-{% capture attackinfo %}{% raw %}	<div class="atkcont" id="{{ attack.id }}">
-		<!-- name -->
-		<div style="margin-bottom:4px">
-			<div class="atkname" style="width:35%">
-				{{ nesttopL }}
-				<div style="font-size:16px">{{ attack.name | liquify }}</div>
-				<div class="atkinput">{{ attack.input | liquify }}</div>
-				{{ nestcornerR }}
-			</div>
-		</div>
-		<!-- image -->
-		<div class="atkimg">
-			{% if attack.images %}
-				{% for img in attack.images %}
-				<a href="{{ img.i }}" target="_blank" rel="noopener noreferrer">
-					<img src={{ img.i }} />
-				</a>
+<body>
+	<div id="page_cont">
+		{% include top_bar.html title=page.title subtitle="bug fables fighting game" %}
+		
+		<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+			{% assign nav = pg.navi %}
+			<section id="seq_nav">
+			{% if nav.prev %}<a id="prev_nav" href="{{ nav.prev.link }}">« {{ nav.prev.title }}</a>{% endif %}
+			<a id="home_nav" href="/bug">bug fables top</a>
+			{% if nav.next %}<a id="next_nav" href="{{ nav.next.link }}">{{ nav.next.title }} »</a>{% endif %}
+			</section>
+		
+			<span id="page_nav_head">contents</span>
+			<section id="page_nav">
+			<a class="nav_subhead" href="#stats">stats</a>
+			{% for movelist in pg.movelist %}
+				<a class="nav_subhead latter" href="#{{ movelist.title }}">{{ movelist.title }}</a>
+				{% for move in movelist.moves %}
+					{% assign base_move = site.data.bug.commonstat[move.base] %}
+					{% assign id = move.id | default: base_move.id %}
+					{% assign name = move.plain_name | default: base_move.plain_name %}
+					{% if id and name %}<a href="#{{ id }}">{{ name }}</a>{% endif %}
 				{% endfor %}
-			{% endif %}
-			{% if attack.comment %}
-				<div class="comment">{{ attack.comment | liquify }}</div>
-			{% endif %}
-		</div>
-		<!-- the entire right side -->
-		<div class="atkinfo">
-			{% if attack.versions %}
-				{% for attack in attack.versions %}
-					<div class="vercont">
-							<div class="vername">
-								{{ nesttopL }}
-								<div style="line-height:1.1em">
-									<div>
-										{{ attack.name | liquify }}
-									</div>
-									<div class="atkinput">
-										{{ attack.label | liquify }}
-									</div>
-								</div>
-								{{ nestcornerR }}
-							</div>
-							{{ attacktable | liquify }}
-					</div>
-				{% endfor %}
-			{% else %}
-				{{ attacktable | liquify }}
-			{% endif %}
-			<p>{{ attack.description | liquify }}</p>
-		</div>
-	</div>{% endraw %}{% endcapture %}
-
-{% capture attacktable %}{% raw %}				{% if attack.damage %}
-					{% if attack.attributes.blue %}
-						{% if attack.cost %}
-							<div class="atkprop hasspc hascost">
-						{% else %}
-							<div class="atkprop hasspc">
-						{% endif %}
-					{% elsif attack.cost %}
-						<div class="atkprop hascost">
-					{% else %}
-						<div class="atkprop">
-					{% endif %}
-						<!-- cost/prorate -->
-						{% if attack.cost %}
-							<div class="costcont">
-								<div class="cost" style="flex:0 0 100px">
-									<div class="atkname">{{ nesttopL }}Cost{{ nestcornerR }}</div>
-									<div class="atkval">{{ attack.cost }}</div>
-								</div>
-								<div class="icp" style="float:left">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp" style="float:right">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% else %}
-							<div class="icpcont">
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}IP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.ip }}</b></div>
-								</div>
-								<div class="icp">
-									<div class="atkname">{{ nesttopL }}CP{{ nestcornerR }}</div>
-									<div class="atkval"><b>{{ attack.cp }}</b></div>
-								</div>
-							</div>
-						{% endif %}
-						<!-- guard/damage -->
-						<div class="grdcont">
-							<div class="grd">
-								<div class="atkname">{{ nesttopL }}Guard{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.attributes.guard }}</b></div>
-							</div>
-							<div class="dmg">
-								<div class="atkname">{{ nesttopL }}Damage{{ nestcornerR }}</div>
-								<div class="atkval"><b>{{ attack.damage }}</b></div>
-							</div>
-						</div>
-						<!-- blue attr -->
-						{% if attack.attributes.blue %}
-							<div class="spc">
-								<div class="atkname">{{ nesttopL }}Special{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% for attr in attack.attributes.blue %}
-										<div>{{ attr.b }}</div>
-									{% endfor %}
-								</div>
-							</div>
-						{% endif %}
-						<!-- red/green attr -->
-						<div class="attrcont">
-							<div class="attr">
-								<div class="atkname">{{ nesttopL }}Attributes{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% if attack.attributes.green %}
-										{% for attr in attack.attributes.green %}
-											<div>{{ attr.g }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
-								</div>
-							</div>
-							<div class="onhit">
-								<div class="atkname">{{ nesttopL }}On hit{{ nestcornerR }}</div>
-								<div class="attrbox">
-									{% if attack.attributes.red %}
-										{% for attr in attack.attributes.red %}
-											<div>{{ attr.r }}</div>
-										{% endfor %}
-									{% else %}
-										<div><t-gr>-</t-gr></div>
-									{% endif %}
-								</div>
-							</div>
+			{% endfor %}
+			</section>
+		</nav>
+		
+		<main id="post_body">
+			<article aria-labelledby="stats">
+				<input id="collapse-stats" class="collapse-btn" type="checkbox" checked="checked">
+				<h3 id="stats"><label class="collapse-label" for="collapse-stats">stats</label></h3>
+				<div class="post_box tri_topA tri13 collapse">
+					<div id="kyara_stat_cont">
+						<img id="kyara_art" src="art.png">
+						<div id="kyara_stats">
+							
 						</div>
 					</div>
-				{% endif %}{% endraw %}{% endcapture %}
-
-
-<div class="post_body">
-	<div class="kyaratop">
-		<!-- stats -->
-		<div class="chatS" style="flex:1 1 480px">
-			{{ topL }}
-			<div class="statbox">
-				<div class="procont">
-					<div>
-						<div style="text-align:center;font-size:16px;scroll-margin-top:144px" id="stats"><b>Stats</b></div>
-						<div class="stats">
-						{{ nesttopL }}
-							<table style="text-align:center"><tr>
-								<td><b><t-r>ＨＰ • </t-r>{{ chr.stats.hp }}</b></td>
-								<td><b><t-y>ＳＰ • </t-y>{{ chr.stats.sp }}</b></td>
-							</tr></table>
-						{{ nestcornerR }}
-						</div>
-					</div>
-						<div style="padding:0 4px;flex:0 0;"></div>
-					<div>
-						<div style="text-align:center;font-size:16px;color:var(--ao)"><b>Traits</b></div>
-						<div class="traits">
-							{{ nesttopL }}
-							{% for trait in chr.stats.traits %}
-								<div>{{ trait.t }}</div>
-							{% endfor %}
-							{{ nestcornerR }}
-						</div>
-					</div>
-
-					<div>
-						<div style="text-align:center;font-size:16px;color:var(--midori)"><b>Strengths</b></div>
-						<div class="pros">
-							{{ nesttopL }}
-							{% for pro in chr.stats.pros %}
-								<div>{{ pro.p }}</div>
-							{% endfor %}
-							{{ nestcornerR }}
-						</div>
-					</div>
-						<div style="padding:0 4px;flex:0 0;"></div>
-					<div>
-						<div style="text-align:center;font-size:16px;color:var(--aka)"><b>Weaknesses</b></div>
-						<div class="cons">
-							{{ nesttopL }}
-							{% for con in chr.stats.cons %}
-								<div>{{ con.c }}</div>
-							{% endfor %}
-							{{ nestcornerR }}
-						</div>
-					</div>
-					
-					{% if chr.stats.album %}
-						<div style="max-width:100%">
-							<h3 id="stats">{{ nesttopL }}<a href="{{ chr.stats.album }}">Sketch Album</a>{{ nestcornerR }}</h3>
-						</div>
-					{% endif %}
 				</div>
-				<div class="kyaraimg">
-					<a href="{{ chr.stats.image }}" target="_blank" rel="noopener noreferrer">
-						<img src="{{ chr.stats.image }}"/>
-					</a>
+			</article>
+			
+			{% capture section_renderer %}{% raw %}			
+			<input id="collapse-{{ s.id }}" class="collapse-btn" type="checkbox" checked="checked">
+			<h3 id="{{ s.id }}"><label class="collapse-label" for="collapse-{{ s.id }}" tabindex=0>{{ s.title }}</label></h3>
+			
+			<div class="post_box tri_topA tri13 collapse">
+				<div class="move_table" role="list">
+				{% for move in s.moves %}
+					{% assign base_move = site.data.bug.commonstat[move.base] %}
+					{% assign id = move.id | default: base_move.id %}
+					{% assign name = move.name | default: base_move.name %}
+					{% assign plain_name = move.plain_name | default: base_move.plain_name %}
+					{% assign input = move.input | default: base_move.input %}
+					{% assign images = move.images | default: base_move.images %}
+					{% assign damage = move.damage.total | default: base_move.damage.total %}
+					{% assign attr = move.attr | default: base_move.attr %}
+					{% assign cost = move.cost | default: base_move.cost %}
+					{% assign guard = move.guard | default: base_move.guard %}
+					{% if guard.grab %}
+						{% assign guard = "grab" %}
+					{% elsif guard.low and guard.high and guard.air %}
+						{% assign guard = "all" %}
+					{% elsif guard.low and guard.high %}	{% assign guard = "mid" %}
+					{% elsif guard.low %}					{% assign guard = "low" %}
+					{% elsif guard.high %}					{% assign guard = "high" %}
+					{% elsif guard.skip %}					{% assign guard = nil %}
+					{% else %}								{% assign guard = "none" %}
+					{% endif %}
+					<article class="move" id="{{ id }}" aria-label="{{ plain_name }}">
+						<div class="move_left">
+							<header class="move_name tri3">
+								<div>{{ name | liquify }}</div>
+								<div class="move_input">{{ input | liquify }}</div>
+							</header>
+							<div class="move_img tri_topC">
+								{% for img in images %}
+									<a href="{{img}}"><img src="{{img}}" alt="{{ move.alt }}"></img></a>
+								{% endfor %}
+							</div>
+						</div>
+						<div class="move_right">
+							{% unless move.noprop %}
+							<div class="move_prop tri13">
+								<table>
+									<tr class="b">
+										{% if cost %}<th scope="col">Cost</th>{% endif %}
+										{% if damage %}<th scope="col">Damage</th>{% endif %}
+										{% if guard %}<th scope="col">Guard</th>{% endif %}
+										{% if attr %}<th scope="col">Attribute</th>{% endif %}
+									</tr>
+									<tr>
+										{% if cost %}
+											<td>
+												{% if cost.sp %}<span class="spimg">{{ SP }}{{ cost.sp }}</span>{% endif %}
+												{% if cost.ex %}<span class="eximg">{{ EX }}{{ cost.ex }}</span>{% endif %}
+											</td>
+										{% endif %}
+										{% if damage %}<td>{{ damage | liquify }}</td>{% endif %}
+										{% if guard %}<td>{{ guard | liquify }}</td>{% endif %}
+										{% if attr %}<td>
+											{% if attr.foot  %}{{ FOOT }}{% endif %}
+											{% if attr.body  %}{{ BODY }}{% endif %}
+											{% if attr.chest %}{{ CHEST }}{% endif %}
+											{% if attr.head  %}{{ HEAD }}{% endif %}
+											{% if attr.dive  %}{{ DIVE }}{% endif %}
+										</td>{% endif %}
+									</tr>
+								</table>
+							</div>
+							{% else %}
+							<div class="move_prop" role="presentation"><div class="move_prop_spacer"></div></div>
+							{% endunless %}
+							<div class="move_desc">
+							{{ move.desc | markdownify | liquify }}
+							</div>
+						</div>
+					</article>
+				{% endfor %}
 				</div>
 			</div>
-			{{ cornerR }}
-		</div>
-	</div>
-
-	<!-- moves -->
-	<div class="collapse-cont">
-		<h3 id="normals">{{ topL }}<a href="#normals">Normals</a></h3>
-		<input id="collapse-nrm" class="collapse-btn" type="checkbox" checked>
-		<label for="collapse-nrm" class="collapse-label"></label>
-		<div class="chatS movelist collapse">
-			{% for attack in chr.normals %}
-				{{ attackinfo | liquify }}
+			{% endraw %}{% endcapture %}
+			
+			{% for s in pg.movelist %}
+			<section aria-labelledby="{{ s.id }}">
+				{{ section_renderer | liquify }}
+			</section>
 			{% endfor %}
-			{{ cornerR }}
-		</div>
+			
+			{% include kakuge_bottom.html %}
+			{% include last_updated.html date=pg.lastupdated %}
+		</main>
 	</div>
-
-	<div class="collapse-cont">
-		<h3 id="cmds">{{ topL }}<a href="#cmds">Command Normals</a></h3>
-		<input id="collapse-cmd" class="collapse-btn" type="checkbox" checked>
-		<label for="collapse-cmd" class="collapse-label"></label>
-		<div class="chatS movelist collapse">
-			{% for attack in chr.commands %}
-				{{ attackinfo | liquify }}
-			{% endfor %}
-			{{ cornerR }}
-		</div>
-	</div>
-
-	<div class="collapse-cont">
-		<h3 id="throws">{{ topL }}<a href="#throws">Throws</a></h3>
-		<input id="collapse-nage" class="collapse-btn" type="checkbox" checked>
-		<label for="collapse-nage" class="collapse-label"></label>
-		<div class="chatS movelist collapse">
-			{% for attack in chr.throws %}
-				{{ attackinfo | liquify }}
-			{% endfor %}
-			{{ cornerR }}
-		</div>
-	</div>
-	
-	<div class="collapse-cont">
-		<h3 id="skills">{{ topL }}<a href="#skills">Skills</a></h3>
-		<input id="collapse-spc" class="collapse-btn" type="checkbox" checked>
-		<label for="collapse-spc" class="collapse-label"></label>
-		<div class="chatS movelist collapse">
-			{% for attack in chr.skills %}
-				{{ attackinfo | liquify }}
-			{% endfor %}
-			{{ cornerR }}
-		</div>
-	</div>
-	
-	<div class="collapse-cont">
-		<h3 id="exs">{{ topL }}<a href="#exs">EX Skills</a></h3>
-		<input id="collapse-exs" class="collapse-btn" type="checkbox" checked>
-		<label for="collapse-exs" class="collapse-label"></label>
-		<div class="chatS movelist collapse">
-			{% for attack in chr.exs %}
-				{{ attackinfo | liquify }}
-			{% endfor %}
-			{{ cornerR }}
-		</div>
-	</div>
-</div>
+</body>
+</html>

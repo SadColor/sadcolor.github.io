@@ -1,0 +1,524 @@
+arcana: 
+  name: "Arcana"
+  link: "https://artfight.net/character/2374715.arcana"
+  mine: true
+aya:
+  name: "Aya"
+  link: "https://artfight.net/character/2451681.aya"
+  mine: true
+candle:
+  name: "Candle"
+  link: "https://artfight.net/character/2431258.candle"
+  mine: true
+ceru:
+  name: "Ceru"
+  link: "https://artfight.net/character/2376676.ceru"
+  mine: true
+donut_vendor:
+  name: "Donut Vendor"
+  link: "https://artfight.net/character/2363176.donut-vendor"
+  mine: true
+doppel:
+  name: "Doppel"
+  link: "https://artfight.net/character/2361622.doppel"
+  mine: true
+dramor:
+  name: "Dramor"
+  link: "https://artfight.net/attack/3728145.dramor"
+  mine: true
+g: 
+  name: "G"
+  link: "https://artfight.net/character/2364617.g"
+  mine: true
+hiyoco:
+  name: "Hiyoco"
+  link: "https://artfight.net/character/2363935.hiyoco"
+  mine: true
+io:
+  name: "Io"
+  link: "https://artfight.net/character/2376100.io"
+  mine: true
+kanpunk:
+  name: "Kanpunk"
+  link: "https://artfight.net/character/2693196.kanpunk"
+  mine: true
+king:
+  name: "King"
+  link: "https://artfight.net/character/2365486.king"
+  mine: true
+kyra: 
+  name: "Kyra"
+  link: "https://artfight.net/character/2368718.kyra"
+  mine: true
+leilei: 
+  name: "Lei-Lei"
+  link: "https://artfight.net/character/2372557.lei-lei"
+  mine: true
+luniro:
+  name: "Luniro"
+  link: "https://artfight.net/character/2362270.luniro"
+  mine: true
+marin:
+  name: "Marin"
+  link: "https://artfight.net/character/2366752.marin"
+  mine: true
+match:
+  name: "Match"
+  link: "https://artfight.net/character/2451897.match"
+  mine: true
+metasis:
+  name: "Metasis"
+  link: "https://artfight.net/character/2369497.metasis"
+  mine: true
+phial:
+  name: "Phial"
+  link: "https://artfight.net/character/2462411.phial"
+  mine: true
+ribbiro:
+  name: "Ribbiro"
+  link: "https://artfight.net/character/2362001.ribbiro"
+  mine: true
+tam:
+  name: "Tam"
+  link: "https://artfight.net/character/2368334.tam"
+  mine: true
+verdigris:
+  name: "Verdigris"
+  link: "https://artfight.net/character/2801229.verdigris"
+  mine: true
+vice: 
+  name: "Vice"
+  link: "https://artfight.net/character/2375312.vice"
+  mine: true
+zephyr:
+  name: "Zephyr"
+  link: "https://artfight.net/character/2366976.zephyr"
+  mine: true
+
+# others' characters
+# sorted by owner username  
+
+# A #
+acenil_hennessy:
+  name: "Hennessy Cohola"
+  link: "https://artfight.net/character/2624347.hennessy-cohola"
+  owner: "AceNil"
+adorabug_may:
+  name: "May"
+  link: "https://artfight.net/character/2344882.may"
+  owner: "adorabug"
+ananini_otto:
+  name: "Otto"
+  link: "https://artfight.net/character/2377128.otto"
+  owner: "AnaNini"
+ananini_vaue:
+  name: "Vaue"
+  link: "https://artfight.net/character/2366231.vaue"
+  owner: "AnaNini"
+ap0110_sprout:
+  name: "Sprout"
+  link: "https://artfight.net/character/1958624.sprout"
+  owner: "AP0110"
+apocalypsebird_snow_blueberry:
+  name: "Snow Blueberry"
+  link: "https://artfight.net/character/2085766.snow-blueberry"
+  owner: "ApocalypseBird"
+ashley600000_nova:
+  name: "Nova Lightfoot"
+  link: "https://artfight.net/character/1620106.nova-lightfoot"
+  owner: "ashley600000"
+
+# B #
+b3ar_nemo:
+  name: "Nemo"
+  link: "https://artfight.net/character/3280032.nemo"
+  owner: "B3AR"
+bbsartboutique_morta:
+  name: "Morta Mae"
+  link: "https://artfight.net/character/2046578.morta-mae"
+  owner: "bbsartboutique"
+beebfreeb_jupiter:
+  name: "Jupiter"
+  link: "https://artfight.net/character/1370568.jupiter-dreamland"
+  owner: "BeebFreeb"
+bittheidiot_valentine:
+  name: "Valentine"
+  link: "https://artfight.net/character/2100824.valentine"
+  owner: "Bittheidiot"
+bittheidiot_kade:
+  name: "Kade"
+  link: "https://artfight.net/character/1438544.kade"
+  owner: "Bittheidiot"
+bizkit09_headphones_guy:
+  name: "Headphones Guy"
+  link: "https://artfight.net/character/2147586.headphones-guy"
+  owner: "Bizkit09"
+bluesfw_nebula:
+  name: "Nebula"
+  link: "https://artfight.net/character/2580883.nebula"
+  owner: "bluesfue"
+
+# C #
+camelot_grayscale:
+  name: "Grayscale"
+  link: "https://artfight.net/character/2382833.grayscale"
+  owner: "Camelot"
+cappycode_marve:
+  name: "Marve"
+  link: "https://artfight.net/character/252336.marve"
+  owner: "cappycode"
+chameleonday_tab:
+  name: "Tab"
+  link: "https://artfight.net/character/3340256.tab"
+  owner: chameleonday"
+chanchimi_blue_jaws:
+  name: "Blue Jaws"
+  link: "https://artfight.net/character/1658732.blue-jaws"
+  owner: "chanchimi"
+chespien_melly:
+  name: "Melly"
+  link: "https://artfight.net/character/1459682.melly"
+  owner: "Chespien"
+chespien_quill:
+  name: "Quill"
+  link: "https://artfight.net/character/154509.quill"
+  owner: "Chespien"
+chespien_kattenebris:
+  name: "Kattenebris"
+  link: "https://artfight.net/character/1460742.kattenebris"
+  owner: "Chespien"
+cosmodotpng_cosmo:
+  name: "Cosmo"
+  link: "https://artfight.net/character/2033604.cosmo-persona"
+  owner: "cosmodotpng"
+creaturr_tucket:
+  name: "Tucket"
+  link: "https://artfight.net/character/2443937.tucket"
+  owner: "creaturr"
+creepincrawl_red:
+  name: "Red"
+  link: "https://artfight.net/character/2116665.red"
+  owner: "creepincrawl"
+cryebral_harlee:
+  name: "Harlee"
+  link: "https://toyhou.se/21568866.harlee"
+  owner: "cryebral"
+cryebral_itan:
+  name: "Itan"
+  link: "https://toyhou.se/21610131.itan"
+  owner: "cryebral"
+
+# D #
+dbappio_tappo:
+  name: "Tappo"
+  link: "https://artfight.net/character/2656882.tappo"
+  owner: "dbappio"
+
+# E #
+
+# F #
+ferndragon_ax:
+  name: "Ax"
+  link: "https://artfight.net/character/1237454.tbn"
+  owner: "FernDragon"
+fizzy_dizz_grasker:
+  name: "Grasker"
+  link: "https://artfight.net/character/405176.grasker"
+  owner: "fizzy-dizz"
+freakishhhhazzard_bast:
+  name: "Bast"
+  link: "https://artfight.net/character/1382908.bast"
+  owner: "freakishhhhazzard"
+frogkuronumaart_casey:
+  name: "CASEY"
+  link: "https://artfight.net/character/2475701.casey"
+  owner: "FrogKuronumaArt"
+frogkuronumaart_may:
+  name: "May"
+  link: "https://artfight.net/character/2471656.may"
+  owner: "FrogKuronumaArt"
+
+# G #
+gingle_toes:
+  name: "Razz"
+  link: "https://artfight.net/character/3088573.razz"
+  owner: "Gingle_toes"
+goobydroog_mauve:
+  name: "Mauve"
+  link: "https://artfight.net/character/2267050.mauve"
+  owner: "GoobyDroog"
+
+# H #
+hainfulcupid_sonia:
+  name: "Sonia Jugadora"
+  link: "https://artfight.net/character/3641978.sonia-jugadora"
+  owner: "Hainfulcupid"
+haumea_connor:
+  name: Connor
+  link: "https://artfight.net/character/2779990.connor"
+  owner: "HAUMEA"
+honeyhive_ebb:
+  name: "Ebb"
+  link: "https://artfight.net/character/1531966.ebb"
+  owner: "HoneyHive"
+honeyhive_kaya:
+  name: "Kaya"
+  link: "https://artfight.net/character/1532161.kaya"
+  owner: "HoneyHive"
+huntertallonian_bombara:
+  name: "Bombara O'Boom"
+  link: "https://artfight.net/character/582785.bombara-oboom"
+  owner: "Huntertallonian"
+
+# I #
+imakittypet_snips:
+  name: "Snips Gal"
+  link: "https://artfight.net/character/322260.snips-gal"
+  owner: "ImaKittypet"
+imakittypet_traffic:
+  name: "Traffic Gal"
+  link: "https://artfight.net/character/308834.traffic-gal"
+  owner: "ImaKittypet"
+
+# J #
+jamjuce_silvia:
+  name: "Silvia"
+  link: "https://artfight.net/character/2477733.silvia"
+  owner: "JamJuce"
+
+# K #
+kordbot_primrose:
+  name: "Primrose"
+  link: "https://artfight.net/character/2682695.primrose"
+  owner: "kordbot"
+
+kngkobun_devicat:
+  name: "DeviCat"
+  link: "https://artfight.net/character/999236.devicat"
+  owner: "KngKobun"
+
+# L # 
+lavendel_t0tem_tennel:
+  name: "Tennel"
+  link: "https://artfight.net/character/1682366.tennel"
+  owner: "Lavendel_t0tem"
+luciencreates_nemisis_dainty:
+  name: "Nemisis (Dainty)"
+  link: "https://artfight.net/character/2038496.nemisis-dainty"
+  owner: "LucienCreates"
+lumiinori_tech:
+  name: "Tech"
+  link: "https://artfight.net/character/1345117.tech"
+  owner: "LumiInori"
+
+# M #
+mad_disappointed_roger:
+  name: "Roger"
+  link: "https://artfight.net/character/1136772.roger"
+  owner: "Mad-Disappointed"
+malen10_blake:
+  name: "Blake Northway"
+  link: "https://artfight.net/character/3307655.blake-northway"
+  owner: "Malen10"
+meg7025_corgak:
+  name: "Corgak Ülrich"
+  link: "https://artfight.net/character/2020360.corgak-ulrich"
+  owner: "meg7025"
+mrnumeral_dulee:
+  name: "Dulee"
+  link: "https://artfight.net/character/3340908.dulee"
+  owner: "MrNumeral"
+mslay_jackson:
+  name: "Jackson O. Lantern"
+  link: "https://artfight.net/character/894073.jackson-o-lantern"
+  owner: "Mslay"
+
+# N #
+nebowskii_axis:
+  name: "Axis"
+  link: "https://artfight.net/character/842356.sg-axis"
+  owner: "Nebowskii"
+neonfish_zippo:
+  name: "zippo"
+  link: "https://artfight.net/character/3075330.zippo"
+  owner: "neonfish"
+niilorino_minty:
+  name: "Minty Sapphire"
+  link: "https://artfight.net/character/1034598.minty-sapphire"
+  owner: "Niilorino"
+
+# O #
+ohboychar_little_alien:
+  name: "Little Alien"
+  link: "https://artfight.net/character/2396435.little-alien"
+  owner: "ohboychar"
+
+ouroonmyboros_charose:
+  name: "Charose Doeaud"
+  link: "https://artfight.net/character/1607060.charose-doeaud"
+  owner: "ouroonmyboros"
+
+# P #
+pastelblu_sour_patch:
+  name: "Sour Patch"
+  link: "https://artfight.net/character/3060373.sour-patch"
+  owner: "Pastelblu"
+pigsy_amber:
+  name: "Amber"
+  link: "https://artfight.net/character/1561585.amber"
+  owner: "Pigsy"
+piress_eyelien:
+  name: "Eyelien"
+  link: "https://artfight.net/character/1976866.eyelien"
+  owner: "Piress"
+profcarrot_pepsi:
+  name: "Pepsi"
+  owner: "ProfCarrot"
+
+# Q #
+qugre_bjerg:
+  name: "Bjerg"
+  link: "https://artfight.net/character/2210849.bjerg"
+  owner: "qugre"
+
+# R #
+radrocket_der:
+  name: "Der"
+  link: "https://artfight.net/character/1873586.der"
+  owner: "radrocket"
+rainbowphi_phi:
+  name: "Phi"
+  link: "https://artfight.net/character/1153521.phi"
+  owner: "RainbowPhi"
+rainydayraize_alien:
+  name: "Alien"
+  link: "https://artfight.net/character/2121651.alien"
+  owner: "RainyDayRaize"
+ribbitrobot_ness:
+  name: "Ribbitrobot"
+  link: "https://artfight.net/character/2549397.ness-sona"
+  owner: "Ribbitrobot"
+rockfish_libra:
+  name: "Libra"
+  link: "https://artfight.net/character/2051646.libra"
+  owner: "Rockfish"
+rolypori_triradicals:
+  name: "Triradical Assholes"
+  link: "https://artfight.net/character/2911894.triradical-assholes"
+  owner: "RolyPori"
+rubicsart_rose:
+  name: "Rose"
+  link: "https://artfight.net/character/2416365.rose"
+  owner: "rubicsart"
+
+# S #
+skarpetky_apten:
+  name: "Apten Foster"
+  link: "https://artfight.net/character/1447157.apten-foster"
+  owner: "skarpetky"
+someguyiguess_luna:
+  name: "Luna"
+  link: "https://artfight.net/character/2683173.luna"
+  owner: "Someguyiguess"
+sonnytherat_sonny:
+  name: "Sonny"
+  link: "https://artfight.net/character/2707374.sonny"
+  owner: "Sonnytherat"
+snowthedemonfox_tori:
+  name: "Tori"
+  link: "https://artfight.net/character/1183489.tori-invader-zim"
+  owner: "SnowTheDemonFox"
+starbowgalaxy_surasi:
+  name: "Surasi"
+  link: "https://artfight.net/character/2415062.surasi"
+  owner: "StarbowGalaxy"
+starstorm747_sona:
+  name: "Sona"
+  link: "https://artfight.net/character/2332691.sona"
+  owner: "Starstorm747"
+stradlater_stradlater:
+  name: "Stradlater"
+  link: "https://artfight.net/character/2076072.stradlater-sona"
+  owner: "stradlater"
+supersmashbg_stem:
+  name: "Stem"
+  link: "https://artfight.net/character/1541183.stem"
+  owner: "Supersmashbg"
+
+# T #
+tankakuka_kuka:
+  name: "Kuka"
+  link: "https://artfight.net/character/613566.kuka"
+  owner: "Tankakuka"
+tcg_5_zian:
+  name: "Zian"
+  link: "https://artfight.net/character/2758643.zian"
+  owner: "Tcg-5"
+texeoghea_stag:
+  name: "The Stag"
+  link: "https://artfight.net/character/1978261.the-stag"
+  owner: "texeoghea"
+the_holy_gadunka_cashew:
+  name: "Cashew"
+  link: "https://artfight.net/character/2815050.cashew-bug-fables-oc"
+  owner: "The-Holy-Gadunka"
+thememeboiuwu_elodie:
+  name: "Elodie"
+  link: "https://artfight.net/character/2732530.elodie"
+  owner: "TheMemeBoiUwU"
+thunderlordess_catchup:
+  name: "Catchup Seasalt Ice Cream"
+  link: "https://artfight.net/character/2225356.catchup-seasalt-ice-cream"
+  owner: "ThunderLordess"
+togetic_hedvancci:
+  name: "Hedvancci"
+  link: "https://artfight.net/character/1256628.hedvancci"
+  owner: "togetic"
+truffleboxbattles_malius:
+  name: "Lord Malius Abendell"
+  link: "https://artfight.net/character/1954660.0x-lord-malius-abendell"
+  owner: "TruffleBoxBattles"
+twinvenus_antony:
+  name: "Antony"
+  link: "https://artfight.net/character/968703.antony"
+  owner: "twinvenus"
+tvcity_tv:
+  name: "TV"
+  link: "https://artfight.net/character/1406907.tv"
+  owner: "TVcity"
+
+# U #
+
+# V #
+velectric_jamboree:
+  name: "Jamboree"
+  link: "https://artfight.net/character/2800638.jamboree"
+  owner: "Velectric"
+vinegardude_case:
+  name: "Case"
+  link: "https://artfight.net/character/2097030.case"
+  owner: "VinegarDude"
+vizzbgit_mouse:
+  name: "Mouse"
+  link: "https://artfight.net/character/2542675.mouse"
+  owner: "Vizzbgit"
+
+# W #
+wild_fire_april:
+  name: "April Showers"
+  link: "https://artfight.net/character/2648601.april-showers"
+  owner: "Wild_fire"
+wild_fire_may:
+  name: "May Flowers"
+  link: "https://artfight.net/character/2648601.april-showers"
+  owner: "Wild_fire"
+
+# X #
+
+# Y #
+
+# Z #
+zo_was_here_zo:
+  name: "Zo the Shapeshifter"
+  link: "https://artfight.net/character/2710225.zo-the-shapeshifter"
+  owner: "zo_was_here_"

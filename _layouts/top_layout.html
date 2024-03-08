@@ -1,11 +1,150 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>{{ page.title }}</title>
-		{% include head-style.html %}
-	</head>
-	<body>
-		{{ content }}
-	</body>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	{% include head-style.html %}
+</head>
+{% assign pg = site.data %}
+{% for entry in page.ymfile %}
+	{% assign pg = pg[entry] %}
+{% endfor %}
+<body>
+	<div id="page_cont">
+		{% include top_bar.html title=page.title subtitle=page.subtitle %}
+
+		{% assign hasSections = pg.content | find_exp: "sec", "sec.id" %}
+		{% assign nav = pg.navi %}
+		{% if hasSections or nav.next or nav.prev or nav.home %}
+		<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+			{% include page_nav_seq.html prev=nav.prev home=nav.home next=nav.next %}
+			<span id="page_nav_head">contents</span>
+			<section id="page_nav">
+			{% for s in pg.content %}
+				{% if s.title %}<a href="#{{ s.id }}">{{ s.title }}</a>{% endif %}
+			{% endfor %}
+			</section>
+		</nav>
+		{% endif %}
+
+		
+		{% capture div_styler %}{% raw %}
+			{% assign style_string = "" %}
+			{% if styled.id %}{% assign style_string = style_string | append: ' id="' | append: subsec.id | append: '"' %}{% endif %}
+			{% if styled.class %}{% assign style_string = style_string | append: ' class="' | append: subsec.class | append: '"' %}{% endif %}
+			{% if styled.style %}{% assign style_string = style_string | append: ' style="' | append: subsec.style | append: '"' %}{% endif %}
+		{% endraw %}{% endcapture %}
+		{% capture cell_styler %}{% raw %}
+			{{ div_styler | liquify }}
+			{% if styled.colspan %}{% assign style_string = style_string | append: ' colspan="' | append: subsec.colspan | append: '"' %}{% endif %}
+			{% if styled.rowspan %}{% assign style_string = style_string | append: ' rowspan="' | append: subsec.rowspan | append: '"' %}{% endif %}
+		{% endraw %}{% endcapture %}
+		
+		<main id="post_body">
+			{% capture section_renderer %}{% raw %}
+				{% if s.class %}
+					{% assign class_string = s.class %}
+				{% endif %}
+				{% if s.style %}
+					{% assign style_string = style_string | append: 'style="' | append: s.style | append: '"' %} 
+				{% endif %}
+				{% if s.title %}			
+					<input id="collapse-{{ s.id }}" class="collapse-btn" type="checkbox" checked="checked">
+					<h3 id="{{ s.id }}"><label class="collapse-label" for="collapse-{{ s.id }}" tabindex=0>{{ s.title }}</label></h3>
+					<div class="collapse">
+					<div class="post_box tri_topA tri13 {{ s.class }}" {{ style_string }}>
+				{% else %}
+					{% if s.id %}
+						{% assign style_string = style_string | append: 'id="' | append: s.id | append: '"' %} 
+					{% endif %}
+					<div class="collapse">
+					<div class="post_box tri_topA tri17 {{ s.class }}" {{ style_string }}>
+				{% endif %}
+					{% for subsec in s.body %}
+						{% assign styled = subsec %}
+						{{ div_styler | liquify }}
+						{% case subsec.type %}
+							{% when "table" %}
+							<table {{ class_string }} {{ style_string }}>
+								{% for row in subsec.rows %}
+								{% assign styled = row %}
+								{{ div_styler | liquify }}
+								<tr {{ class_string }} {{ style_string }}>
+									{% for cell in row.cells %}
+									{% assign styled = cell %}
+									{{ cell_styler | liquify }}
+									<td {{ class_string }} {{ style_string }}>
+										{{ cell.body | markdownify }}
+									</td>
+									{% endfor %}
+								</tr>
+								{% endfor %}
+							</table>
+							{% when "figure" %}
+								<figure {{ class_string }} {{ style_string }}>
+								{% for fig in subsec.body %}
+									{% assign styled = fig %}
+									{{ div_styler | liquify }}
+									{% case fig.type %}
+									{% when "video_gif" %}
+										<video {{ class_string }} {{ style_string }} controls disablepictureinpicture loop muted playsinline preload="metadata" src="{{ fig.src }}"></video>
+									{% when "video" %}
+										<video {{ class_string }} {{ style_string }} controls preload="metadata" src="{{ fig.src }}"></video>
+									{% when "img" %}
+										<img {{ class_string }} {{ style_string }} src="{{ fig.src }}">
+									{% endcase %}
+								{% endfor %}
+								{% if subsec.caption %}
+									<figcaption {{ class_string }}>{{ subsec.caption }}</figcation>
+								{% endif %}
+								</figure>
+							{% when "video_gif" %}
+								{{ subsec | inspect }}
+								<video {{ class_string }} {{ style_string }} controls disablepictureinpicture loop muted playsinline preload="metadata" src="{{ subsec.src }}">
+							{% when "video" %}
+								<video {{ class_string }} {{ style_string }} controls preload="metadata" src="{{ subsec.src }}">
+							{% when "img" %}
+								<img {{ class_string }} {{ style_string }} src="{{ subsec.src }}">
+							{% when "subhead" %}
+								{% assign st = subsec.title | markdownify | size | minus: 8 %}
+								<h4 {{ class_string }} {{ style_string }}>{{ subsec.title | markdownify | slice: 3, st }}</h4>
+							{% when "none" %}
+								{{ subsec.body | markdownify }}
+							{% else %}
+								{% assign st = subsec.body | markdownify | size | minus: 8 %}
+								<p {{ class_string }} {{ style_string }}>{{ subsec.body | markdownify | slice: 3, st }}</p>
+						{% endcase %}
+					{% endfor %}
+					</div>
+				</div>
+			{% endraw %}{% endcapture %}
+
+			{% for s in pg.content %}
+			<section aria-labelledby="{{ s.id }}">
+			{{ section_renderer | liquify }}
+			</section>
+			{% endfor %}
+			
+			{% include last_updated.html date=pg.lastupdated %}
+
+			{% if pg.navi.bottom %}
+			<div id="bottom_bar_outer">
+				<div id="bottom_bar">
+					{% assign bnavi = site.data.navilists[pg.navi.bottom] %}
+					{% for navsec in bnavi %}
+					<div class="bottom_bar_sec">
+						<div class="bottom_bar_cat">{{ navsec.category | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</div>
+						<div class="bottom_bar_link_cont">
+							{% for item in navsec.items %}
+							<span class="bottom_bar_link">{{ item | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</span>
+							{% endfor %}
+						</div>
+					</div>
+					{% endfor %}
+				</div>
+			</div>
+			{% endif %}
+		</main>	
+	</div>
+</body>
 </html>

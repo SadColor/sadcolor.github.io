@@ -1,0 +1,930 @@
+lastupdated: "2024.03.06"
+
+content:
+- id: preface
+  title: Preface
+  body: 
+  - type: p
+    body: |-
+      Over a couple of days, I played some ROM hacks of the Famicom game **Gimmick**.  
+      The original game is pretty tightly designed, I think! Two of the hacks are adjustments of the original, while the other two are supposed to be new games, pretty much. So how good were they to me?  
+      I don't know why you'd care, but here's what I think. Oh, and by the way, while I'll label original vs. hack screenshots, you can tell the original apart because when I started playing the ROM hacks, I decided to use an NTSC shader just for fun.  
+      It'll probably be annoying that some screenshots look clean and some look like an NTSC analog video feed, so... oops.
+
+- id: easy
+  title: Gimmick! Easy Hack
+  body: 
+  - type: p
+    body: |-
+      The first hack I played was called **Gimmick! Easy Hack**.  
+      As the name suggests, the hack makes changes to reduce **Gimmick**'s difficulty level. Before I talk about what the hack does, I personally think **Gimmick** isn't too hard in the first place?  
+      I don't mean to say that the easy hack is pointless, but let me explain a bit.
+      
+      It took me 8–10 hours to complete my first legitimate good ending run, with a run taking me about 20-30 minutes to complete.  
+      I think the challenge level and play time for a single run is reasonable, but arcade-style games where you're supposed to play a short game until you get better aren't everyone's thing, so I can definitely see the appeal of an easy mode hack.  
+      The hardest part is actually how finicky the ledges can be. It's not really a problem on normal platforms, but ramps often randomly make you airborne for a frame or two, and conveyor belts can make you fall unexpectedly early. If you try to jump under either of these circumstances, you won't be able to. I actually made a small [ROM hack](https://www.tumblr.com/fukouiro/696149915638824960/) that addresses this issue!  
+      With that change alone, I think most of the game becomes a pretty fair challenge. There are some other small things I'd change too, but that's the biggest thing.  
+      
+      That kind of thing was probably above the coding level of the person who made the hack, since it's just a simple level edit, and there exists a level editor made for the game already.  
+      But enough preamble, what kind of changes are made to the game?
+  
+  - type: subhead
+    title: No star jumps required
+  
+  - type: p
+    body: |-
+      In Gimmick, you fight enemies by creating a star and throwing it at them.  
+      The arc varies based on your momentum and the star is quite bouncy, too.  
+      This is one of the coolest things about Gimmick, because by cleverly riding on your star at some points, you can make certain sections much easier, faster, and/or more consistent.  
+      Actually, in a normal playthrough of Gimmick, you aren't required to ride on your star at any point.  
+      However, in a good ending run, you'll need to use your star to get the stage 1, stage 4, stage 5, and stage 6\* secrets, and optionally a pink health potion in stage 7.  
+      In the Easy Hack, these sections have all been adjusted so that you don't need to use your star. I'd probably be fine with the hack removing mandatory star jumps, but I'm a bit sad that even these extra parts have star jumps removed.  
+      Having it required to get some of the secrets might make players think more about other spots they can try to star ride! I would've preferred making some of the star jumps easier instead.  
+      Here are some screenshots of changed sections.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    - cells:
+      - type: p
+        body: pic3
+    - cells:
+      - type: p
+        body: pic4
+    - cells:
+      - type: p
+        body: pic5
+    - cells:
+      - type: p
+        body: pic6
+  
+  - type: p
+    body: |-
+      In what is perhaps an oversight, a star jump is still required to escape from the stage 4 secret area.  
+      
+      A note on the stage 6 secret: As it turns out, you don't need a star jump to do the room with the cannonball spawner.   
+      I didn't know this until I saw a comment on the ROM hack, but it appears the intended solution is to push the cannonball spawner through the tube, and then you can ride a cannonball and jump off at the right time to get into the room on the left.  
+      You can use a bomb to nudge the spawner into the pipe. If you don't have a bomb, you can either wait for a bomb to come out of it, or you can use a star jump to land up there so you can push it yourself.  
+      The level adjustment for the Easy Hack actually renders the bomb solution slightly harder to do, and the non-bomb solution much harder.  
+      Of course, since you can just walk off in the Easy Hack, it doesn't really matter, but it's just funny.  
+      I guess the hack author also didn't know what you were supposed to do, because if they did know, they would maybe just make a clearer hint in the level design for the intended solution.
+      
+      Also, there's a second secret room within the secret room of level 2.  
+      You can get there by bouncing off the top of the screen here, but the hack added a couple blocks so you can jump up there normally.  
+      I don't really mind this change because it's not really clear that there's anything up there in the first place.  
+      I only found it one time because I was screwing around. Then again, maybe that's the point?  
+      All that's up there is a few items, which you can use to either stock up your supply or push them together to get a couple 1-ups if you want to spend the time.
+  
+  - type: subhead
+    title: Removal of one-block platforms
+  
+  - type: p
+    body: |-
+      Yumetaro (the main character of Gimmick!) has more momentum than most video game characters, so it takes a moment for you to come to a stop when you're moving.  
+      For some people, it makes it difficult to make jumps properly, so the ROM hack author decided to expand most one block wide platforms to two blocks.  
+      It's a pretty consistent change, so I won't show every example, but here are a couple instances where it's noticeable.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    - cells:
+      - type: p
+        body: pic3
+    - cells:
+      - type: p
+        body: pic4
+    - cells:
+      - type: p
+        body: pic5
+    - cells:
+      - type: p
+        body: pic6
+  
+  - type: subhead
+    title: Removal of (some) cheap shots
+  
+  - type: p
+    body: |-
+      Yumetaro (the main character of Gimmick!) has more momentum than most video game characters, so it takes a moment for you to come to a stop when you're moving.  
+      For some people, it makes it difficult to make jumps properly, so the ROM hack author decided to expand most one block wide platforms to two blocks.  
+      It's a pretty consistent change, so I won't show every example, but here are a couple instances where it's noticeable.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    - cells:
+      - type: p
+        body: pic3
+  
+  - type: subhead
+    title: Other level design changes
+  
+  - type: p
+    body: |-
+      In stage 2, there's a section where you ride a boat past the side of a pirate ship, where cannonballs will drop on you as you pass each window.  
+      It's pretty easy, but for some reason the hack author removed every other window, halving the number of cannonballs you dodge.  
+      It's not a big deal, but it actually partially removes a skip you can do by hopping off one of your own bombs onto a falling cannonball to jump to the screen above.  
+      In the original, you can perform this skip on the 5th or 6th cannonball to get to the left or right side of the ship, respectively.  
+      You go on the left side when you want to get to the secret item faster, but the right side when you want to get to the boss faster.  
+      
+      However, in the Easy Hack, since the 6th cannonball is removed, you can only go on the left side, which makes it take slightly longer to get to the boss using the skip.  
+      It's still faster than not using the skip, though.
+
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    - cells:
+      - type: p
+        body: pic3
+  
+  
+  - type: p
+    body: |-
+      In stage 3, there's a section of the level where you have to avoid some blocks that fall when you get near them.  
+      It's quite annoying to get through without taking damage at least once, so I think this redesign is fine.
+      
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    - cells:
+      - type: p
+        body: pic3
+  
+  - type: p
+    body: |-
+      For some reason, in the stage 5 secret, the hack author decided to reverse the direction of some of the conveyor belts.  
+      However, on one of the conveyor belts, they forgot to reverse the direction of the very edge of the belt, which actually makes the jump feel harder because you suddenly get pushed off when you walk over that tile.  
+      In the original, the conveyor is always pushing you to the right, so it's perhaps more difficult but more fair.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+    
+  - type: subhead
+    title: Other level design changes
+    
+  - type: p
+    body: |-
+      The stage 1 boss arena has been changed so you can no longer fall off the left side.  
+      I'm not really sure why this was changed, considering you enter from the right side, making it really unlikely that you'd end up to the left of the boss.
+
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+
+  - type: p
+    body: |-         
+      The stage 3 boss arena has been changed to uh... make it impossible to get hurt?  
+      Part of the ramp has been turned into a straight platform you can stand on normally, but it's raised high enough that it blocks the laser from the boss.  
+      The position is also perfect for you to just do a short hop straight up and throw your star to hit the boss.  
+      It's... a little unbelievable what an oversight this is.  
+      All they had to do was lower the right part (turning it into a mini staircase) and it would still have the same challenge as the original without you sliding down a ramp all the time.  
+      It's very odd.
+
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+  
+  - type: p
+    body: |-      
+      The stage 5 boss arena has a free orange potion (which increases your max health if it's not already at maximum, and restores your health) and fireball item.  
+      The fireball helps with the second phase, where the both of the boss's projectiles can block your star.  
+      Additionally, they've put a platform that both acts as a shield from the first phase of the boss and as a great spot to hit the second phase of the boss from.  
+      I question making another boss where it's impossible to get hurt, but I guess it's not so bad since the second phase can still cause a lot of trouble, especially for less experienced players.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+  
+  - type: p
+    body: |-      
+      The first two bosses for stage 6 both have a free orange potion in the arena.  
+      There's another orange potion after you beat the second boss, as well as one of each usable item.  
+      Finally, the last boss in stage 6 has two free orange potions, as well as a raised section in the middle of the arena.  
+      While it's supposed to make it easier to hit the boss without waiting for it to come down to hit you, I find it kind of cumbersome and it makes it harder to avoid the boss by jumping over it.  
+      It also makes a tactic from the original (throw a star, then get hit by a bubble so the boss will chase you and get hit by the star) pretty ineffective.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+    - cells:
+      - type: p
+        body: pic2
+  
+  - type: subhead
+    title: Concluding thoughts
+  
+  - type: p
+    body: |-
+      I'm not the target audience for this hack because I already enjoy Gimmick as-is, but I'd say that overall it does an okay job of making the game easier.  
+      Like I said at the start, you'd ideally make the game easier by making jumping more lenient and changing enemy behaviors, but that would require way more knowledge and effort than just a level hack.  
+      Some of the boss difficulty has been bandaged over with free items.  
+      The only real negatives are the lack of star jumps for secrets, and the stage 3 boss being impossible to lose.
+  
+- id: toy
+  title: Gimmick! More than a toy
+  body: 
+  - type: p
+    body: |-
+      This is supposed to be an improvement hack for Gimmick. The description isn't written in very good English, but the list of features are:
+      - "There are new gameplay solutions related both to the level design, and with his passing (now the game can be played as you like)."
+      - "Play it became much easier, compared to the original, where you had to used joystick specifically. Lives now is 5."
+      - "Added new room. The game filled with all the empty seats."
+      - "Fixed another drawback of the original game - inaccessibility of treasures, which if not taking, then player will see a bad ending. In this hack... collect all the treasures on the levels will not only gamers with curved arms."
+      
+      I don't know what the second thing is supposed to mean. I played through the game on a keyboard just fine plenty of times already.  
+      Doesn't it make more sense to think that using a keyboard provides more precise control than a joystick? I dunno...  
+      Well, besides that, how do the other features fare?
+  
+  - type: subhead
+    title: Easier difficulty?
+  
+  - type: p
+    body: |-
+      The patch claims that the difficulty has been made easier.  
+      And, in some cases, it's true! For example, the stage 5 boss has been utterly trivialized.  
+      They give you a platform shield that's **longer** than the Easy Hack (making it super easy to bounce stars off of to hit the boss).  
+      Additionally, the placement and positioning of the platform is perfect for you to snipe the second phase boss from the edge with complete safety.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+      - type: p
+        body: pic2
+      - type: p
+        body: pic3
+  
+  - type: p
+    body: |-
+      In stage 4, the entrance to the secret area has been redesigned to still require a star jump, but won't screw you permanently if you mess up. It's better than the Easy Hack's solution to this entrance, I think. Similarly, the platforming leading up to the secret item has been changed to not require star jumping (in a different way than the Easy Hack, though). Also like the Easy Hack, it has been modified to make using a star jump to get across easier, if you want to do that.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic1
+  
+  - type: p
+    body: |-
+      The arena for the final boss of stage 6 has a free pink health potion, along with a couple of platforms on the edges of the arena.  
+      I like this version of the arena more than the Easy Hack, because it still allows for the original strategies to work while giving you a way to bounce stars higher to try to hit the boss.  
+      Sometimes, the platforms can even act as shields from the boss depending on where it starts chasing you.  
+      Pretty good change, all things considered.
+  
+  - type: table
+    class: compare_x
+    rows:
+    - cells:
+      - type: p
+        body: pic10
+  
+  - type: p
+    body: |-
+      Despite all these changes, some rooms have actually been made **more** difficult.  
+      The cheap-shot room in stage 3 is no longer a cheap shot...  
+      but now it's much more dangerous to try to get the block to fall early because there's a goddamn spike pit there and a ramp that will slide you into it. Cool!
+  - type: figure
+    caption: I think 1HP is less than 4HP, but what do I know?
+    body:
+    - type: video_gif
+      src: "/img/gimmick/toy-cheap.mp4"
+  
+  - type: p
+    body: |-
+      The next room where you have to avoid falling blocks has been redesigned to... have instant death tiles with a glitchy appearance.  
+  
+  - type: figure
+    caption: I thought this was supposed to be easier?!
+    body:
+    - type: video_gif
+      src: "/img/gimmick/toy-glitch.mp4"
+  
+  - type: p
+    body: |-
+      In stage 1, the first orange potion has been put on a high platform that requires a star jump, while in the original it was out in the open.
+  
+  - type: figure
+    class: compare_x
+    caption: Why?
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: subhead
+    title: New rooms
+  
+  - type: p
+    body: |-
+      True to the description, every level has some new rooms in it... but most of them are kind of bad.  
+      Take this new room added in stage 1. It has t his little platforming section, but if you jump too high you transition to the screen above briefly, then back to the screen below, resetting the platforms' positions and killing you. Great.  
+      Oh, and despite being a somewhat-precise jump over a spike pit, your reward is just a pink health potion. Great.  
+      You probably don't even need it because you can just get one by killing the first enemy without jumping on any stars or enemies.
+  
+  - type: figure
+    caption: die
+    body:
+    - type: video_gif
+      src: "/img/gimmick/toy-plats.mp4"
+  
+  - type: p
+    body: |-
+      A lot of levels have a new room consisting of a few tall walls that you have to star jump over.  
+      The walls aren't spaced very far apart, so every time you jump over one, you have to wait for your star to quit bouncing so it disappears.  
+      Even though you (usually) get a usable item, it's hardly worth the time it takes since items are mostly optional.
+  
+  - type: figure
+    img: "/img/duk.png"
+    caption: die
+  
+  - type: p
+    body: |-
+      The second level has a new pipe on the right side of the ship that uhh...  
+      leads you to instant death with no warning and no ability to escape once you enter the pipe.
+  
+  - type: figure
+    caption: Great room.
+    body:
+    - type: video_gif
+      src: "/img/gimmick/toy-ship.mp4"
+  
+  - type: subhead
+    title: Play as you like?
+  
+  - type: p
+    body: |-
+      While the patch claims it makes changes that encourage more solutions (or at least I think that's what it's supposed to mean), certain changes remove solutions that existed in the original game.  
+      For example, in the first level you can do a tricky star bounce off of the first platform to get to the secret area above, saving you the time of going through the area the normal way. 
+      The rearranged first section doesn't have the platform there anymore, making it impossible to do this skip.
+  
+  - type: figure
+    class: compare_x
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Also in the first level, this room has been redesigned in a way that no longer allows you to star jump up to the second screen, which saved time and looked stylish.
+  
+  - type: figure
+    class: compare_x
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      In the original, if you reach the stage 2 boss fast enough, it will be sleeping, allowing you to push it right up to the edge.  
+      Then it'll wake up, but you can release a star to hit it as soon as it wakes up, knocking it off the edge and netting you a free win.  
+      In this hack, the floor extends across the entire screen, making the quick kill impossible.  
+      You could even call this a change that makes the game harder, because it's easier to learn how to quick-kill this boss than it is to actually fight it (though it's not a super hard fight once you do learn).
+  
+  - type: figure
+    class: compare_x
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The room for the second half of stage 3 has been redesigned in a way that you can't use a star jump to automatically clear half of it anymore.  
+      The redesign is a little easier than the original for the first half. That sounds okay, except the second half has definitely been made harder, with more precise jumps required.
+
+  - type: figure
+    class: compare_x
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      In stage 4, there's a section where you can skip killing some enemies by making a **very** precise star jump to the screen above.  
+      Killing the enemies takes a ton of time because the star doesn't go far enough off screen to disappear from offscreen-ness.  
+      In this version, the wall has been moved backwards **and** there's a pit next to the wall, so the skip becomes impossible.
+  
+  - type: figure
+    class: compare_x
+    body:
+    - type: img
+      class: left
+      src:  "/img/duk.png"
+    - type: img
+      class: right
+      src:  "/img/duk.png"
+  
+  - type: subhead
+    title: Concluding thoughts
+  
+  - type: p
+    body: |-
+      Not worth playing.  
+      The bad changes generally outweigh the good ones.
+
+- id: dark
+  title: Dark Gimmick!
+  body: 
+  - type: p
+    body: |-
+      Unlike the previous ROM hacks, Dark Gimmick aims to be a more difficult hack that extensively changes levels.
+      
+  - type: subhead
+    id:   dark-01
+    title: Stage 1
+  
+  - type: p
+    body: |-
+      Stage 1 is a really open-ended level with multiple paths.  
+      It **would** be cool, but there's no reason to pick any particular path (unless you know where they go), and some paths drop you into dead-ends to just die.  
+      The right path at the start seems to exist almost entirely to lead you into a death pit, avoidable only with foreknowledge.  
+      These paths are really annoying to navigate at the beginning because they require star-jumping into horizontal pipes.  
+      That means you basically have to nail a near-perfect bounce so you can walk inside the pipe.
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Shout-out to this section of the first level which you can get to by going left. It's by far the hardest thing in the hack for terrible reasons.  
+      As mentioned before, sometimes you will be put into the air for a frame or two when trying to walk onto slopes, a problem which is exacerbated here because the slope is just 1 block. Jumping off this thing at all is incredibly inconsistent.  
+      Plus, to avoid this falling enemy, you have three choices:
+      - kill it with an item
+      - get close enough to make it fall, then jump back to safety
+      - land an incredibly precise short jump so you make it over the pit while the enemy falls behind you
+      Regardless of the approach you take, this one obstacle is just so, so awful.
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Another annoying section is this jump. This part of the level is mandatory, and requires you to get an annoying and precise bounce off of this one-block tall wall that is spaced away from you with a one-block gap. It could have at least been two blocks tall!
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Also, shout-out to this bit of floor that clearly uses the "water falling onto ground" tile, but is not actually solid ground.
+  
+  - type: figure
+    caption: Who are ya gonna believe? Me, or your lying eyes?
+    body:
+    - type: img
+      src:  "/img/duk.png"
+
+  - type: p
+    body: |-
+      Double shout-out to this really annoying star jump that you have to do from the top of an enemy into a horizontal pipe so that you can get a pink health potion.  
+      Triple shout-out to the room requiring you to jump back into a horizontal pipe, then requiring you to hold right immediately or else you will fall back down to the previous screen.
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Quadruple shout-out to the star jump that is required to get the secret, which is right at the start of the stage and is very annoying and precise.  
+      At least you get to retry as much as you need to, I guess...
+  
+  - type: figure
+    caption: This took 90 attempts (I counted).
+    body:
+    - type: video_gif
+      src:  "/img/gimmick/dark-secret1.mp4"
+      
+  - type: p
+    body: |-
+      The boss has these pits that are mostly annoying for the fact that you could accidentally walk right into them your first time, but you can actually just clear them with one jump before it even shoots enemies at you.  
+      The boss also shoots out more enemies than the original, so... difficulty increase, I guess?  
+      If you just jump over the pits right away and then hit the boss, it's still easy as ever.
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Oh, one last thing that I didn't know where I should mention it, but the level just has a lot of random blocks with ice physics, even if they look the same as other blocks that don't have ice physics. Odd.
+  
+  - type: subhead
+    id:   dark-02
+    title: Stage 2
+  
+  - type: p
+    body: |-
+      The stage opens up with a pretty easy set of star rides.  
+      Considering the star rides you have to make in stage 1, this seems like a difficulty downgrade.  Not that I'm complaining.
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The cannon for the secret is still here, and the platform here has been redesigned so that you don't have to fall off the level and die if you miss hopping onto the cannonball.  
+      However, now the cannonball just takes you all the way back to the start of the level, where you will fall into a pit and die if you don't steer back to the right.
+  - type: figure
+    caption: I mean, it's kinda funny?
+    body:
+    - type: video_gif
+      src:  "/img/gimmick/dark-cannon.mp4"
+  
+  - type: p
+    body: |-
+      The star jump to get to the stage 2 secret is a lot like the one in stage 1, only way easier.
+  
+  - type: figure
+    caption: Seriously, after stage 1, everything about this level is fun and normal, and not mean and stupid and dumb and bad.
+    body:
+    - type: video_gif
+      src:  "/img/gimmick/dark-secret2.mp4"
+  
+  - type: p
+    body: |-
+      Incidentally, attempting boat skip will somehow lead to you getting warped to the secret area over a pit, then falling down to the area below it.  
+      It's still a shortcut, but I just wonder how this happens...
+  
+  - type: figure
+    caption: "#weird"
+    body:
+    - type: video_gif
+      src:  "/img/gimmick/dark-boat.mp4"
+
+  - type: subhead
+    id:   dark-03
+    title: Stage 3
+  
+  - type: p
+    body: |-
+      Stage 3 has this weird one-block-tall passage that I can't figure out how to get into, if it's even possible.  
+      It's just blocked off a few steps in anyways. Odd level design choice.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Stage 3 also has a fun inconsistency, with one waterfall being a pit of death and one not. 
+      You can see the splashing water tile making the difference, but it's still like... why?
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The secret for this stage has been made intensely annoying.  
+      The room with the secret is awkwardly shaped and it's very difficult to get a star ride that gets you out of it.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Then, the room above has this one block pit separated by these sloped tiles, which you normally should be able to walk over, but because this gap is only one block above the bottom of the screen, you actually hit the screen transition before you land on the other sloped tile.  
+      Because of the way the ceilings are placed, it's also basically impossible to jump over it normally.  
+      Since I held left when I first got up here instead of right, I had to awkwardly manage to land on a star as I was falling to make it over the pit.  
+      Then, it looks like the intended exit route is that weird one-block passage I mentioned at the start, but it's blocked off!  
+      So actually, you have to go jump back through the top hole of the screen, complete with this sloping platform that makes it easy to mistime your jump.  
+      Just a total disaster of a bonus section.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Also, there's this entire optional upper path before the second part of the stage that involves you getting cheap-shot by arrows and just... a lot of other very annoying things.  
+      And the only reward you get for it is that you fight the "miniboss" of stage 3 and get an orange health potion.  
+      Okay... I don't really feel like documenting it here though, so I'm just going to move on to the next bit.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      There's also a fun crossroads right before the second half of the stage where the left pit lets you progress and the right pit drops you down to your death.  
+      Sure. Whatever.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The first part of the second half is kind of annoying.  
+      You're required to star ride, and it's the same kind of star ride you could already do in the original to get past the first half.  
+      However, the level layout has been altered to require bouncing off of two one-block-wide surfaces, meaning that slight variations in exactly when or how you release the star can cause the star jump to fail, stranding or killing you. Great!
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The second part of the second half now requires you to jump off of the bugs that come flying in, rather than them serving as an optional fast path.  
+      Sounds fine and dandy, but the problem is that the bugs spawn by player position, so if you don't move at a decent pace after the first two bugs spawn, the gap becomes impossible to cross.  
+      Maybe there are some ways you can work around this, I'm not sure.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: subhead
+    id:   dark-04
+    title: Stage 4
+  
+  - type: p
+    body: |-
+      The jump to the dinosaur requires jumping off the first pterodactyl that flies in.  
+      Again, it's fine in theory, but missing the jump once renders it impossible, so... it's bad!
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The second area has tons of cheapshots from archer enemies placed off screen.  
+      The original only had the one, but this hack keeps that and adds more! Unbelievable.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      There's this section after the spike wall that looks like you should go right to continue (and there's also a cheapshot), but you actually have to go up.   
+      Couldn't you have blocked off the right area, dude...?
+  - type: figure
+    caption: You can go into the pit to go through a slightly annoying section to get an orange health potion, by the way.
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The secret is incredibly annoying (this is kind of a theme).  
+      So, you might remember that earlier in this stupid blog post, I talked about how missing the star jump in stage 4 to get to the secret room means you're screwed permanently and have to reset.  
+      Well, this one is worse! It's really easy to get **in**to the secret area, but once you're in, it's a total nightmare.  
+      You have to do this weird star ride to get to the end, and the falling platforms make it so you only have one chance even if you manage to spot that you messed up the ride and need to backtrack.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The level seems to have a spot where you can get back up and try again, as long as you nail a precise star jump over a pit that will screw you permanently by moving you to the next part of the level.  
+      I tried for about 4 minutes just attempting this one jump with savestates, and even the highest jump I could manage didn't get up past the block.  
+      When you're that close to the star, the frame window to nail the jump is pretty tight in the first place, so most of my attempts ended in failure anyways.  
+      It's baffling design.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      Also, there's a block here making it look like there might be something to the left, but there just isn't.  
+      If you jump left, you hit the wall and fall down to the screen below, but land on a one-block platform that is too low for you to get back up.  
+      Why is this here??
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: subhead
+    id:   dark-05
+    title: Stage 5
+  
+  - type: p
+    body: |-
+      The switch that opens up the secret area has been made easier to get to by having this passage you jump into, rather than having to make a somewhat precise star or normal jump from the screen above.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"  
+  
+  - type: p
+    body: |-
+      Although (as is a running theme), the place with the switch looks like it has some shortcut passage to another area off to the right, but it doesn't.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      You also have to jump off of this frog to get past this gap.  
+      If you accidentally kill it, you have to die and restart the level. Cool.  
+      Hopefully you learn your lesson from that first frog and don't accidentally kill the other frog that you need to get over a gap.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The cart ride has been made a little easier because the ramp no longer gets so close to the ceiling that you can't throw stars at the enemy shooting at you without getting off the cart.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      The jump afterwards is also easier, but still annoying because you can see a platform in the water that looks like the cart would land on it, but it instead disappears into the water anyways as soon as the wheels touch it, making the jump harder than it should be.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      This jump in the second section is annoying because of the problem with ramps and conveyor belts eating your jump input.
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: p
+    body: |-
+      For some reason, this vertical pipe on the left just sends you to a death pit.  
+  - type: figure
+    caption: Why does the hack author still think this is an okay level design choice? I will never know.
+    body:
+    - type: img
+      src:  "/img/duk.png"
+  
+  - type: subhead
+    id:   dark-06
+    title: Stage 6
+  
+  - type: p
+    body: |-
+      The stage begins with this tricky slope jump that's even trickier if you want to be fast enough to nab the health potion.  
+      I kinda like this, even though it took me a bunch of tries.  
+      However, I'd say that the ramp presenting itself as a slide is misleading, because it's very very hard to actually jump off the slope itself in a way that gets you enough momentum to make it over the gap.  
+      I would have thought that using the whole slide was like the easy mode, and jumping off early was the hard mode to get the potion, but the harder way is just the intended route, even if you don't manage to get the potion.
+  
+  # 1:28:47
+  
+  - type: figure
+    caption: wak
+    body:
+    - type: img
+      src:  "/img/duk.png"  
+  
+  - type: subhead
+    id:   dark-end
+    title: Concluding thoughts
+  
+  - type: p
+    body: |-
+      I'd say it's not bad.  
+      I think it succeeds at being a harder version of Gimmick that's still pretty fun, but some aspects of the level design are really annoying (partially due to engine limitations).  
+      It might still fun to attempt a legitimate run of Dark Gimmick, though.
+
+- id: two
+  title: Gimmick! 2
+  body: 
+  - type: p
+    body: |-
+      This hack is styled as a sequel of sorts to Gimmick.  
+      It's got a slightly edited intro, and for some reason it's a patch for the unreleased USA prototype, which mean that it doesn't have the sound expansion present in the Japanese version, so the music has received a downgrade and the sound effects also overwrite the music much more prominently. Awesome.  
+      Let's take a look at the hack.
+  
+  - type: subhead
+    title: New enemy and boss art
+  
+  - type: p
+    body: |-
+      WIP
+  
+  - type: subhead
+    title: Concluding thoughts
+  
+  - type: p
+    body: |-
+      Maybe the worst hack here?  
+      None of the new levels are great, there's a lot of weird glitchiness, and it even shoplifts some level designs from Dark Gimmick.
+  

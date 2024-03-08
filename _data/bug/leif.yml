@@ -1,0 +1,395 @@
+lastupdated: "2024.03.05"
+navi:
+  prev:
+    title: "kabbu"
+    link: "../kabbu"
+  next:
+    title: "monsieur scarlet"
+    link: "../scarlet"
+
+stats:
+  name: "leif"
+  hp: 1200
+  sp: 20 
+  album: "https://imgur.com/a/ZU0k9DG"
+  traits:
+  - "can freeze the opponent once per combo with certain Skills"
+  flows:
+  - "uncharged <span class='b'>Ice Shard</span> ({{ 236A }}) can be chained into <span class='b'>Icefall</span> ({{ 214A }}), and vice versa."
+  - "<span class='b'>Frost</span> ({{ S }}) can be whiff-canceled into other skills."
+  pros:
+  - "powerful ranged game with long normals and projectiles"
+  - "freeze is powerful way to extend combos or reset with a mixup"
+  - "can combo from throws anywhere for free"
+  cons:
+  - "attacks are slow, high commitment, and hit specific ranges"
+  - "low mobility"
+  - "lacks good conversions from far away without resources"
+
+movelist:
+- id: normals
+  title: normals
+  moves: 
+  - base: "cmn_5a"
+    damage:
+      total: '26'
+    desc: |-
+      Icicly swipe.  
+      Far range for a light normal, but it's also relatively slow.  
+      Whiffs on distant crouching opponents unless they’re tall enough.
+  - base: "cmn_5b"
+    damage:
+      total: '40'
+    desc: |-
+      Kicks two icicles forward while bending backwards.  
+      Leif’s farthest-reaching normal.
+  - base: "cmn_5c"
+    damage:
+      total: '65'
+    desc: |-
+      Spikes icicles forward. Just a bit less range than {{ 5B }}.  
+      Charged version {{ FREEZE }}s.
+  - base: "cmn_2a"
+    damage:
+      total: '20'
+    desc: |-
+      A low kick.
+      Less range than {{ 5A }}, but faster.
+  - base: "cmn_2b"
+    damage:
+      total: '41'
+    desc: |-
+      Stabs icicle forwards.
+  - base: "cmn_2c"
+    damage:
+      total: '73'
+    desc: |-
+      Leif stomps the ground, creating a large icicle.  
+      Has slow startup, making it good for frametraps, but is otherwise slightly difficult to use.
+  - base: "cmn_ja"
+    damage:
+      total: '30'
+    desc: |-
+      Kicks an icicle forwards.
+      Has the longest horizontal range of Leif’s jump normals.
+  - base: "cmn_jb"
+    damage:
+      total: '50'
+    desc: |-
+      Kicks an icicle downwards.
+  - base: "cmn_jc"
+    damage:
+      total: '70'
+    desc: |-
+      Attacks all around with a spread of icicles.
+      Charged version {{ LAUNCH }}es the opponent higher with significant hitstun.
+
+- id: cmds
+  title: command normals
+  moves: 
+  - base: "cmn_5aa"
+    damage:
+      total: '33'
+    attr:
+      chest: true
+    desc: |-
+      Poses and fires another short-range icicle.
+  - base: "cmn_5aaa"
+    damage:
+      total: '44'
+    desc: |-
+      -
+  - base: "cmn_5bb"
+    damage:
+      total: '48'
+    desc: |-
+      Leif kicks forward another pair of icicles.
+  - base: "cmn_5cc"
+    desc: |-
+      Leif spikes up an icicle at the opponent’s location (up to a certain distance), pushing them further away.
+  - base: "cmn_3b"
+    damage:
+      total: '56'
+    guard: 
+      low:  true
+      high: true
+    desc: |-
+      Leif hovers upside down and kicks at the opponent twice, advancing slightly with each kick.  
+      Goes over low-aiming moves.
+  - base: "cmn_6b"
+    damage:
+      total: '47'
+    guard: 
+      high: true
+    desc: |-
+      Steps forward with a spinning overhead kick.
+  - base: "cmn_3c"
+    damage:
+      total: '58'
+    desc: |-
+      Kicks up a tall icicle.  
+      Good anti-air move, but not much horizontal range.  
+      {{ antiair }}
+  - base: "cmn_j2b"
+    damage:
+      total: '44'
+    guard:
+      high: true
+    desc: |-
+      Leif kicks an icicle straight downwards.  
+      Bounces off the opponent.
+  - base: "cmn_66b"
+    desc: |-
+      Slides across the ground on an icicle.
+  - base: "cmn_66c"
+    images:
+    - "jc.png"
+    desc: |-
+      Leif jumps forward and spikes out icicles in all directions.  
+      Slow startup, high hitstun.
+
+- id: throws
+  title: throws
+  moves: 
+  - base: "cmn_grab"
+    damage:
+      total: '105'
+    desc: |-
+      Leif grabs the opponent and hits them with a large icicle.
+      Doesn’t {{ FREEZE }} if the opponent has already been frozen in the same combo.
+  - base: "cmn_grab"
+    id: "ad2"
+    name: " "
+    plain_name: " "
+    input: "{{ d4A }}+{{ D }} or {{ d6A }}+{{ D }}, hold {{ d2 }}"
+    images:
+    - "nage2.png"
+    desc: |-
+      Leif grabs the opponent, then slams them on the ground next to him.  
+      Doesn’t use your {{ FREEZE }}, and has lower initial proration, so it can lead to higher-damage combo conversions with resources.
+  - base: "cmn_air_grab"
+    damage:
+      total: '115'
+    desc: |-
+      Leif grabs the opponent and freezes them, letting them fall to the ground. 
+      If the opponent has already been frozen in the same combo, it won't {{ FREEZE }}.
+- id: skills
+  title: skills
+  moves: 
+  - base: "cmn_5s"
+    name: "<span class='b'>Frost</span>"
+    plain_name: "Frost"
+    guard:
+      skip: true
+    cost:
+      sp: '1'
+    desc: |-
+      Leif creates a frosty cloud that lingers for a few seconds.  
+      If you pass an Ice Shard ({{ d236A }}) or Icefall ({{ d214A }}) through it, the move will power up, consuming the cloud.  
+      In Active Flow, it can be whiff-canceled into other Skills.
+  - base: "cmn_236a"
+    name: "<span class='b'>Ice Shard</span>"
+    plain_name: "Ice Shard"
+    damage:
+      total: '50'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      chest: true
+    cost:
+      sp: '2'
+    desc: |-
+      Leif creates an icicle that launches straight forwards, or diagonally downwards in the air.  
+      Using the air version bounces you backwards. The charged version will slow your vertical momentum until the bounce.  
+      If it passes through a <span class='b'>Frost</span> cloud, the icicle will be fortified and gain an extra hit of unscaled damage that increases hitstun and blockstun.  
+      Fortified icicles also travel faster and redirect towards the opponent’s location.  
+      Charged version is stationary, hits three times, and is {{ DASH }} and {{ JUMP-CANCEL }}able. Used mostly as okizeme or a greedy pressure reset.  
+      Fortified charged version is still stationary, but increases in range with an extra final hit that deals extra hitstun/blockstun.  
+      
+      In Active Flow, you can chain uncharged <span class='b'>Ice Shard</span> into <span class='b'>Icefall</span> (shortcut: {{ d4A }}).
+  - base: "cmn_214a"
+    name: "<span class='b'>Icefall</span>"
+    plain_name: "Icefall"
+    damage:
+      total: '50'
+    guard:
+      high: true
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    cost:
+      sp: '2'
+    desc: |-
+      Leif shoots an icicle diagonally downwards.  
+      When charged, the icicle ricochets off the ground. The {{ GROUNDBOUNCE }} is very helpful in combos, or from converting off stray hits in neutral. The charged version can only be done on the ground.  
+      When passed through a <span class='b'>Frost</span> cloud, the icicle will be fortified and gain an extra hit of unscaled damage that increases hitstun and blockstun.  
+      A fortified charged Icefall will redirect to the opponent’s location.  
+      In the air, it acts similarly to <span class='b'>Ice Shard</span>, but pauses your aerial momentum briefly rather than bouncing back.  
+      The icicle accelerates after a delay.
+      
+      In Active Flow, you can chain uncharged <span class='b'>Icefall</span> into <span class='b'>Ice Shard</span> (shortcut: {{ d6A }}).
+  - base: "cmn_236b"
+    name: "<span class='b'>Arctic Geyser</span>"
+    plain_name: "Arctic Geyser"
+    damage:
+      total: '64'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    cost:
+      sp: '3'
+    desc: |-
+      Leif stomps on the ground and creates an icy splash.  
+      Safe, but minus on block.  
+      The air version has no extra recovery if you land after Leif stomps, making it very plus with the correct timing.  
+      Air version {{ WALLBOUNCE }}s if you’re close to the corner.  
+      Charged version can only be done on the ground, and sends ice shards across the entire screen that hit low.  
+  - base: "cmn_214b"
+    name: "<span class='b'>Zero Point</span>"
+    plain_name: "Zero Point"
+    damage:
+      total: '100'
+    guard:
+      grab: true
+    attr:
+      head: true
+    cost:
+      sp: '3'
+    desc: |-
+      Leif leaps forward and tries to grab the opponent. Only connects on aerial and standing opponents.  
+      On connect, he’ll slam them into the ground, launching them back up with an icicle.  
+      Can only combo afterwards on raw connect, or with Chain Cancel.  
+      If you Chain Cancel the startup, you’ll retain the forward momentum.
+  - base: "cmn_236b"
+    name: "<span class='b'>Arctic Geyser</span>"
+    plain_name: "Arctic Geyser"
+    damage:
+      total: '64'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    cost:
+      sp: '3'
+    desc: |-
+      Leif stomps on the ground and creates an icy splash.  
+      Safe, but minus on block.  
+      The air version has no extra recovery if you land after Leif stomps, making it very plus with the correct timing.  
+      Air version {{ WALLBOUNCE }}s if you’re close to the corner.  
+      Charged version can only be done on the ground, and sends ice shards across the entire screen that hit low.  
+  - base: "cmn_22a"
+    name: "<span class='b'>Glacial Ascension</span>"
+    plain_name: "Glacial Ascension"
+    damage:
+      total: '82'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '3'
+    desc: |-
+      Leif spikes up a large icicle about half-screen away.  
+      Good as a pre-emptive anti-air, or as a long-range poke.  
+      It doesn’t go past the edge of the screen in the corner.
+  - base: "cmn_22b"
+    name: "<span class='b'>Bubble Shield</span>"
+    plain_name: "Bubble Shield"
+    damage:
+      total: '151'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '5'
+    desc: |-
+      Leif encloses himself in a barrier, knocking nearby opponents away. Hits on both sides, but not much horizontal or vertical range.  
+      You can also use it to reflect projectiles.  
+      It can be useful as an expensive, but high-damage combo ender.
+- id: exs
+  title: ex skills
+  moves: 
+  - base: "cmn_236c"
+    damage:
+      total: '200'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    desc: |-
+      Leif extends an icicle all the way across the screen. On hit, the opponent will get splintered by more shards of ice once they hit the corner.  
+      If you’re close enough to the corner, you can actually continue the combo.  
+      If powered up with a <span class='b'>Frost</span> cloud, it will {{ WALLSPLAT }}, allowing for stronger combos and conversions from full-screen distance.  
+      Recovers {{ 4SP }} on hit.
+  - base: "cmn_214c"
+    name: "<span class='b'>Ice Rain</span>"
+    plain_name: "Ice Rain"
+    damage:
+      total: '160'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    desc: |-
+      Leif marks the opponent. After a short period of time, several icicles rapidly rain down from the sky at the opponent’s location.  
+      The marker goes away if Leif is hit before the icicles start falling. However, the icicles will not stop raining if Leif is hit afterwards.
+  - base: "cmn_j214c"
+    name: "<span class='b'>Hailstorm</span>"
+    plain_name: "Hailstorm"
+    damage:
+      total: '200'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    desc: |-
+      Leif creates a small hailstorm in an area around himself.  
+      Slightly plus on block.  
+      If powered up with a <span class='b'>Frost</span> cloud, it will {{ GUARD-CRUSH }}, giving extra frame-advantage.  
+      Recovers {{ 2SP }} on hit.
+  - base: "cmn_22c"
+    name: "<span class='b'>Frozen Drill</span>"
+    plain_name: "Frozen Drill"
+    damage:
+      total: '220'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Leif creates a tall icicle, hitting the opponent multiple times quickly. The final hit keeps the opponent in the air a long time, allowing you to switch sides.  
+      If powered up with a <span class='b'>Frost</span> cloud, the final hit will no longer be an {{ ENDER }}, allowing followup combos.  
+      Recovers {{ 2SP }} on hit.
+  - base: "cmn_ex2"
+    name: "<span class='b'>Northern Wind</span>"
+    plain_name: "Northern Wind"
+    damage:
+      total: '-'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      \-  
+      Recovers {{ 8SP }} on hit.

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.title }}</title>
+	{% include artfight-head.html %}
+</head>
+{% assign pg = site.data.af.af_top %}
+<body>
+	<div id="page_cont">
+		{% include top_bar.html title="art fight index" %}
+		
+		<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+			<section id="seq_nav">
+				<a id="prev_nav" href="/">« top page</a>
+				<a id="next_nav" href="2022">2022 overview »</a>
+			</section>
+			<span id="page_nav_head">contents</span>
+			<section id="page_nav">
+			{% for s in pg.content %}<a href="{{ s.year }}">{{ s.team }} ・ {{ s.year }}</a>{% endfor %}
+			</section>
+		</nav>
+		
+		<main id="post_body">
+			{% for s in pg.content %}
+			<section aria-labelledby="{{ s.year }}">
+				<h3 id="{{ s.year }}" class="double">
+					<span class="af_year">{{ s.year }}</span>
+					<span class="af_team" style="color: {{ site.data.af.teams[s.team].color }}">Team {{ s.team }}</span>
+				</h3>
+				<div class="post_box tri_topA tri13">
+					<div class="af_sections" role="list">
+						<div style="text-align: center" role="listitem"><a href="{{s.year}}">Overview</a></div>
+						{% for c in s.categories %}
+							<div role="listitem"><a href="{{ s.year }}/{{ c }}">
+							{% case c %}
+								{% when "atk" %}Attacks
+								{% when "def" %}Defenses
+								{% when "mix" %}Mass Defenses
+							{% endcase %}
+							</a></div>
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			{% endfor %}
+			
+			{% include last_updated.html date=pg.lastupdated %}
+		</main>
+	</div>
+</body>
+</html>

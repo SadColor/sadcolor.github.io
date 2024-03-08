@@ -1,93 +1,254 @@
-ladybird44:
-- af: "https://artfight.net/~Ladybird44"
-  sites: 
-  - name: deviantART
-    link: "https://ladybird44.deviantart.com/"
 
-XenoUmbre:
-- af: "https://artfight.net/~XEN0UMBRE"
+# A #
+AceNil:
+  af: "https://artfight.net/~AceNil"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Tumblr
+    link: "https://acenil.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/Nil_Ace"
+  - name: Cohost
+    link: "https://cohost.org/AceNil"
+  - name: Bluesky
+    link: "https://bsky.app/profile/acenil.bsky.social"
+  - name: Carrd
+    link: "https://acenil.carrd.co/"
+
+Adorabug:
+  af: "https://artfight.net/~adorabug"
+  team:
+    "2022": Bloom
   sites: 
   - name: deviantART
-    link: "https://www.deviantart.com/xenoumbre"
+    link: "https://adorabug.deviantart.com/"
+  - name: Twitter
+    link: "https://twitter.com/adorabug"
+
+AnaNini:
+  af: "https://artfight.net/~AnaNini"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: deviantART
+    link: "https://www.deviantart.com/ananini"
+  - name: Tumblr
+    link: "https://ananinidraws.tumblr.com/"
+
+animeshowfan:
+  af: "https://artfight.net/~animeshowfan"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/Animeshowfan"
   - name: Toyhouse
-    link: "https://toyhou.se/XenoUmbre"
- 
+    link: "https://toyhou.se/animania"
+
+a_stupid_otter:
+  af: "https://artfight.net/~a-stupid-otter"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Instagram
+    link: "https://www.instagram.com/A.stupid.otter/"
+
+ashley600000:
+  af: "https://artfight.net/~ashley600000"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/ashley600000"
+  - name: Toyhouse
+    link: "https://toyhou.se/azuretone"
+
+Avia:
+  af: "https://artfight.net/~Avia"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/roadkill_punk"
+  - name: Toyhouse
+    link: "https://toyhou.se/Roadkill_punk"
+
+# B #
+B3AR:
+  af: "https://artfight.net/~B3AR"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/b3ar_mp3"
+  - name: Toyhouse
+    link: "https://toyhou.se/B3AR"
+
 Battlecatman:
-- af: "https://artfight.net/~Battlecatman"
+  af: "https://artfight.net/~Battlecatman"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites: 
   - name: deviantART
     link: "https://battlecatman.deviantart.com/"
   - name: Twitter
     link: "https://twitter.com/battlecatman"
 
-Vizzbgit:
-- af: "https://artfight.net/~Vizzbgit"
-
-Morpherence:
-- af: "https://artfight.net/~Morpherence"
+bbsartboutique:
+  af: "https://artfight.net/~BBSARTBOUTIQUE"
+  team:
+    "2022": Bloom
   sites: 
+  - name: Tumblr
+    link: "https://tumblr.com/bbsartboutique"
   - name: Twitter
-    link: "https://twitter.com/morpherence"
+    link: "https://twitter.com/bbsartboutique"
+  - name: Ko-fi
+    link: "https://ko-fi.com/bbsartboutique"
+  - name: Twitch
+    link: "https://www.twitch.tv/bbsartboutique"
+
+BeebFreeb:
+  af: "https://artfight.net/~BeebFreeb"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Tumblr
+    link: "https://beebfreeb.tumblr.com/"
+  - name: Toyhouse
+    link: "https://toyhou.se/BeebFreeb"
+  - name: Cohost
+    link: "https://cohost.org/BeebFreeb"
+  - name: Personal Site
+    link: "https://beebfreeb.neocities.org/"
 
 Bittheidiot:
-- af: "https://artfight.net/~Bittheidiot"
+  af: "https://artfight.net/~Bittheidiot"
+  team:
+    "2022": Bloom
+    "2023": Vampires
   sites: 
+  - name: Toyhouse
+    link: "https://toyhou.se/Bittheidiot"
   - name: YouTube
     link: "https://www.youtube.com/channel/UCwnIUCJZMh0wa437s-v5zjQ"
 
-S8ku:
-- af: "https://artfight.net/~S8ku"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/S8KU_"
-  - name: Instagram
-    link: "https://instagram.com/logandabro/"
-
-Venidrizz:
-- af: "https://artfight.net/~Venidrizz"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/Venidrizz"
-  - name: Refsheet
-    link: "https://refsheet.net/Venidrizz"
-  - name: SoundCloud
-    link: "https://soundcloud.com/venidrizz"
-
-Adorabug:
-- af: "https://artfight.net/~adorabug"
-  sites: 
-  - name: deviantART
-    link: "https://adorabug.deviantart.com/"
-  - name: Twitter
-    link: "https://twitter.com/adorabug"
-  
-LilotheC00kie:
-- af: "https://artfight.net/~LilotheCookie"
-  sites: 
-  - name: Instagram
-    link: "https://instagram.com/lilothecookie/"
-
 boxzilla:
-- af: "https://artfight.net/~boxzilla"
+  af: "https://artfight.net/~boxzilla"
+  team:
+    "2022": Bloom
+    "2023": Vampires
   sites: 
   - name: Twitter
     link: "https://twitter.com/Boxxied"
 
-slimekatz:
-- af: "https://artfight.net/~slimekatz"
+# C #
+Camelot:
+  af: "https://artfight.net/~camelot"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://www.tumblr.com/ko-core-o"
+  - name: Twitter
+    link: "https://twitter.com/CameraCore"
+  - name: Toyhouse
+    link: "https://toyhou.se/Camera"
 
-jamjuce:
-- af: "https://artfight.net/~JamJuce"
+CATERPILLZ:
+  af: "https://artfight.net/~CATERPILLZ"
+  team:
+    "2022": Wither
+    "2023": Werewolves
   sites: 
   - name: Tumblr
-    link: "https://jamjuce.tumblr.com/"
+    link: "https://caterpillz.tumblr.com/"
+  - name: deviantART
+    link: "https://www.deviantart.com/caterpillz"
+  - name: Refsheet
+    link: "https://refsheet.net/CATERPILLZ"
+
+chameleonday:
+  af: "https://artfight.net/~chameleonday"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://chamele0nday.tumblr.com/"
   - name: Twitter
-    link: "https://twitter.com/Jamjuce_"
+    link: "https://twitter.com/chamele0nday"
+  - name: Carrd
+    link: "https://chameleonday.carrd.co/"
+
+chanchimi:
+  af: "https://artfight.net/~chanchimi"
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/montypmoneybags"
+
+Chespien:
+  af: "https://artfight.net/~Chespien"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Tumblr
+    link: "https://kadoozhtheguy.tumblr.com"
+  - name: Twitter
+    link: "https://twitter.com/kaddie_evo"
+  - name: Toyhouse
+    link: "https://toyhou.se/Kad"
+  - name: Personal Site
+    link: "https://zekiisnook.neocities.org/"
+
+CleoTheBirb:
+  af: "https://artfight.net/~CleoTheBirb"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Fur Affinity
+    link: "http://www.furaffinity.net/user/CleoTheBirb"
+  - name: Toyhouse
+    link: "https://toyhou.se/CleoTheBirb"
+
+cosmodotpng:
+  af: "https://artfight.net/~cosmodotpng"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: Tumblr
+    link: "https://cosmodotpng.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/cosmodotpng"
   - name: Instagram
-    link: "https://instagram.com/Jamjuce/"
+    link: "https://instagram.com/lotusdotpng/"
+  - name: Toyhouse
+    link: "https://toyhou.se/cosmodotpng"
+
+CosmosMoonie:
+  af: "https://artfight.net/~CosmosMoonie"
+  team:
+    "2022": Bloom
+  sites: 
+  - name: Tumblr
+    link: "https://www.tumblr.com/cosmosmoonie"
+  - name: Twitter
+    link: "https://twitter.com/MoriiToons"
+  - name: Instagram
+    link: "https://instagram.com/cosmos__mooni/"
 
 creepincrawl:
-- af: "https://artfight.net/~creepincrawl"
+  af: "https://artfight.net/~creepincrawl"
+  team:
+    "2022": Bloom
   sites: 
   - name: deviantART
     link: "https://creepincrawlart.deviantart.com/"
@@ -98,75 +259,109 @@ creepincrawl:
   - name: Instagram
     link: "https://instagram.com/creepincrawlart/"
 
-PlasmaPower:
-- af: "https://artfight.net/~PlasmaPower"
-  sites: 
-  - name: Fur Affinity
-    link: "https://www.furaffinity.net/user/PlasmaPower"
+cryebral:
+  af: "https://artfight.net/~cryebral"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Toyhouse
+    link: "https://toyhou.se/cryebral"
+
+# D #
+dbappio:
+  af: "https://artfight.net/~dbappio"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/dbappio"
+  - name: Instagram
+    link: "https://www.instagram.com/dbappio/"
+
+# E #
+
+# F #
+fizzy-dizz:
+  af: "https://artfight.net/~fizzy-dizz"
+  team:
+    "2023": Werewolves
+  sites:
   - name: Tumblr
-    link: "https://plasmapower.tumblr.com/"
+    link: "https://www.tumblr.com/fizzy-dizz"
+  - name: YouTube
+    link: "https://www.youtube.com/@fizzy-dizz"
+  - name: Carrd
+    link: "https://tundrawavez.carrd.co/"
+
+freakishhhhazzard:
+  af: "https://artfight.net/~freakishhhhazzard"
+  team:
+    "2023": Vampires
+
+# G #
+Gingle_toes:
+  af: "https://artfight.net/~Gingle_toes"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Tumblr
+    link: "https://www.tumblr.com/disco-weapon"
   - name: Twitter
-    link: "https://twitter.com/plasmap0wer"
+    link: "https://twitter.com/RAZZLE_DAZZLE34"
   - name: Toyhouse
-    link: "https://toyhou.se/plasmap0wer"
+    link: "https://toyhou.se/RAZZLE_DAZZLE34"
 
-animeshowfan:
-- af: "https://artfight.net/~animeshowfan"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/Animeshowfan"
-  - name: Toyhouse
-    link: "https://toyhou.se/animania"
-
-aazzuurree:
-- af: "https://artfight.net/~aazzuurree"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/wowcoolashley"
-  - name: Toyhouse
-    link: "https://toyhou.se/azuretone"
-
-BagelBoyy:
-- af: "https://artfight.net/~BagelBoyy"
-
-Chespien:
-- af: "https://artfight.net/~Chespien"
+glob_glump:
+  af: "https://artfight.net/~glob_glump"
+  team:
+    "2022": Wither
+    "2023": Vampires
   sites: 
   - name: Tumblr
-    link: "https://kadoozhtheguy.tumblr.com"
+    link: "https://globglump.tumblr.com/"
   - name: Twitter
-    link: "https://twitter.com/kad_draws"
-  - name: Toyhouse
-    link: "https://toyhou.se/Kad"
-  - Personal Site: Fur Affinity
-    link: "https://zekiisnook.neocities.org/"
-
-CATERPILLZ:
-- af: "https://artfight.net/~CATERPILLZ"
-  sites: 
-  - name: Tumblr
-    link: "https://caterpillz.tumblr.com/"
-  - name: deviantART
-    link: "https://www.deviantart.com/caterpillz"
+    link: "https://twitter.com/glob_gallery"
+  - name: Instagram
+    link: "https://instagram.com/glob_glump/"
   - name: Refsheet
-    link: "https://refsheet.net/CATERPILLZ"
+    link: "https://refsheet.net/Glob_Glump"
 
 GoobyDroog:
-- af: "https://artfight.net/~GoobyDroog"
+  af: "https://artfight.net/~GoobyDroog"
+  team:
+    "2022": Wither
+    "2023": Vampires
   sites: 
   - name: Toyhouse
     link: "https://toyhou.se/Gooby"
 
-AnaNini:
-- af: "https://artfight.net/~AnaNini"
-  sites: 
-  - name: deviantART
-    link: "https://www.deviantart.com/ananini"
+# H #
+Hainfulcupid:
+  af: "https://artfight.net/~Hainfulcupid"
+  team:
+    "2023": Vampires
+  sites:
   - name: Tumblr
-    link: "https://ananinidraws.tumblr.com/"
+    link: "https://hainfulcupid.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/hainfulcupid"
+  - name: Instagram
+    link: "https://instagram.com/hainfulcupid/"
+  - name: Toyhouse
+    link: "http://toyhou.se/hainfulcupid"
+
+HAUMEA:
+  af: "https://artfight.net/~HAUMEA"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Toyhouse
+    link: "https://toyhou.se/HAUMEA"
 
 HoneyHive:
-- af: "https://artfight.net/~HoneyHive_"
+  af: "https://artfight.net/~HoneyHive_"
+  team:
+    "2022": Bloom
   sites: 
   - name: Fur Affinity
     link: "https://www.furaffinity.net/user/HoneyHiveArt"
@@ -179,101 +374,23 @@ HoneyHive:
   - name: Pillowfort
     link: "https://www.pillowfort.social/HoneyHive"
 
-Rockfish:
-- af: "https://artfight.net/~Rockfish"
-  sites: 
-  - name: deviantART
-    link: "https://www.deviantart.com/rockfish-the-golem"
+honeynutbunz:
+  af: "https://artfight.net/~honeynutbunz"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/honeynutbunz"
   - name: Instagram
-    link: "https://www.instagram.com/A_smol_golem_called_rockfish/"
+    link: "https://www.instagram.com/honeynutbunz/"
   - name: Toyhouse
-    link: "https://toyhou.se/Rockfish"
-
-glob_glump:
-- af: "https://artfight.net/~glob_glump"
-  sites: 
-  - name: Tumblr
-    link: "https://globglump.tumblr.com/"
-  - name: Twitter
-    link: "https://twitter.com/glob_gallery"
-  - name: Instagram
-    link: "https://instagram.com/glob_glump/"
-  - name: Refsheet
-    link: "https://refsheet.net/Glob_Glump"
-
-skarpetky:
-- af: "https://artfight.net/~skarpetky"
-  sites: 
-  - name: deviantART
-    link: "https://skarpetky.deviantart.com/"
-  - name: Instagram
-    link: "https://instagram.com/skarpetky/"
-  - name: Toyhouse
-    link: "https://toyhou.se/skarpetky"
-
-Narwall:
-- af: "https://artfight.net/~Narwall"
-  sites: 
-  - name: deviantART
-    link: "https://www.deviantart.com/narwallittlevil"
-
-Pigsy:
-- af: https://artfight.net/~Pigsy
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/_pigsy"
-  - name: Instagram
-    link: "https://instagram.com/_pigsy_/"
-  - name: Toyhouse
-    link: "https://toyhou.se/Pigsy"
-
-AceNil:
-- af: "https://artfight.net/~AceNil"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/Nil_Ace"
-
-ProfCarrot:
-- af: "https://artfight.net/~ProfCarrot"
-  sites: 
-  - name: Tumblr
-    link: "https://profcarrot.tumblr.com/"
-  - name: Twitter
-    link: "https://twitter.com/profcarrot_"
-  - name: Toyhouse
-    link: "https://toyhou.se/profcarrot"
-
-Avia:
-- af: "https://artfight.net/~Avia"
-
-ScreamsAgainst:
-- af: "https://artfight.net/~ScreamsAgainst"
-  sites: 
-  - name: Instagram
-    link: "https://instagram.com/Screamsagainst/"
-
-CosmosMoonie:
-- af: "https://artfight.net/~CosmosMoonie"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/MoriiToons"
-  - name: Instagram
-    link: "https://instagram.com/cosmos__mooni/"
-
-cosmodotpng:
-- af: "https://artfight.net/~cosmodotpng"
-  sites: 
-  - name: Tumblr
-    link: "https://cosmodotpng.tumblr.com/"
-  - name: Twitter
-    link: "https://twitter.com/cosmodotpng"
-  - name: Instagram
-    link: "https://instagram.com/lotusdotpng/"
-  - name: Toyhouse
-    link: "https://toyhou.se/cosmodotpng"
+    link: "https://toyhou.se/honeynutbunz"
 
 Huntertallonian:
-- af: "https://artfight.net/~Huntertallonian"
+  af: "https://artfight.net/~Huntertallonian"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites:
   - name: Twitter
     link: "https://twitter.com/huntertallonian"
@@ -282,36 +399,495 @@ Huntertallonian:
   - name: Toyhouse
     link: "https://toyhou.se/huntertallonian"
 
-someguyiguess:
-- af: "https://artfight.net/~Someguyiguess"
+Hupsu_Corgi:
+  af: "https://artfight.net/~Hupsu-Corgi"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Bluesky
+    link: "https://bsky.app/profile/hupsu-corgi.bsky.social"
+
+# I #
+ImaKittypet:
+  af: "https://artfight.net/~ImaKittypet"
+  team:
+    "2022": Wither
+    "2023": Werewolves
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/ImaKittypet"
+  - name: Toyhouse
+    link: "https://toyhou.se/ImaKittypet"
+
+Insert_Disc_2:
+  af: "https://artfight.net/~Insert_Disc_2"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Insert_Disc_2"
+
+# J #
+JamJuce:
+  af: "https://artfight.net/~JamJuce"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Tumblr
+    link: "https://jamjuce.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/Jamjuce_"
+  - name: Instagram
+    link: "https://instagram.com/Jamjuce/"
+
+Jawaddles:
+  af: "https://artfight.net/~Jawaddles"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Jawaddles"
+  - name: Instagram
+    link: "https://www.instagram.com/jawaddles.art/"
+  - name: Personal Site
+    link: "https://qtownjack.wixsite.com/mysite"
+
+# K #
+kordbot:
+  af: "https://artfight.net/~kordbot"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites:
   - name: Tumblr
-    link: "https://www.tumblr.com/someguyiguess23"
+    link: "https://kordbot.tumblr.com/"
 
-TheMemeBoiUwU:
-- af: "https://artfight.net/~TheMemeBoiUwU"
+KngKobun:
+  af: "https://artfight.net/~MidnightFox"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: Tumblr
+    link: "https://kbnarts.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/Kngkobun"
+
+# L #
+ladybird44:
+  af: "https://artfight.net/~Ladybird44"
+  team:
+    "2022": Bloom
+  sites: 
+  - name: deviantART
+    link: "https://ladybird44.deviantart.com/"
+
+Lagtops:
+  af: "https://artfight.net/~Lagtops"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Lagtops"
+
+LilBard:
+  af: "https://artfight.net/~LilBard"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Toyhouse
+    link: "https://toyhou.se/LilBard"
+
+LilotheCookie:
+  af: "https://artfight.net/~LilotheCookie"
+  team:
+    "2022": Bloom
+    "2023": Vampires
   sites: 
   - name: Instagram
-    link: "https://www.instagram.com/the_meme_boi_owo/"
+    link: "https://instagram.com/lilothecookie/"
+
+Lumiinori:
+  af: "https://artfight.net/~Lumiinori"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Twitter
+    link: "https://www.tumblr.com/lumiinori"
+  - name: Twitter
+    link: "https://twitter.com/Lumiinori"
+  - name: Instagram
+    link: "https://instagram.com/lumiinori/"
   - name: Toyhouse
-    link: "https://toyhou.se/The_Meme_Boi_UwU"
+    link: "https://toyhou.se/Lumiinori"
+
+# M #
+Mad-Disappointed:
+  af: "https://artfight.net/~Mad-Disappointed"
+  team:
+    "2023": Werewolves
+    
+MakeMeMad_Gaming:
+  af: "https://artfight.net/~MakeMeMad_Gaming"
+  team: 
+    "2023": Werewolves
+
+Malen10:
+  af: "https://artfight.net/~Malen10"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Tumblr
+    link: "https://malen10.tumblr.com/"
+  - name: Instagram
+    link: "https://instagram.com/_malen10/"
 
 maximous_:
-- af: "https://artfight.net/~maximous_"
+  af: "https://artfight.net/~maximous_"
+  team:
+    "2022": Wither
+    "2023": Vampires
   sites: 
   - name: Twitter
     link: "https://twitter.com/maximous_"
 
-TVcity:
-- af: "https://artfight.net/~TVcity"
+meg7025:
+  af: "https://artfight.net/~meg7025"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://demonchick7025.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/meng_7025"
+  - name: Instagram
+    link: "https://www.instagram.com/meng_7025/"
+  - name: Carrd
+    link: "https://meng7025.carrd.co/"
+
+Morpherence:
+  af: "https://artfight.net/~Morpherence"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites: 
   - name: Twitter
-    link: "https://twitter.com/entropeutic"
-  - name: Instagram
-    link: "https://www.instagram.com/entropeutic/"
+    link: "https://twitter.com/morpherence"
 
+MrNumeral:
+  af: "https://artfight.net/~MrNumeral"
+  team:
+    "2023": Vampires
+
+Mslay:
+  af: "https://artfight.net/~Mslay"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: deviantART
+    link: "https://www.deviantart.com/sxugarbeez"
+  - name: Toyhouse
+    link: "https://toyhou.se/Mslay"
+
+# N #
+Narwall:
+  af: "https://artfight.net/~Narwall"
+  team:
+    "2022": Bloom
+  sites: 
+  - name: deviantART
+    link: "https://www.deviantart.com/narwallittlevil"
+
+Nebowskii:
+  af: "https://artfight.net/~Nebowskii"
+  team:
+    "2023": Vampires
+  sites:
+  - name: deviantART
+    link: "https://www.deviantart.com/nebowskii/"
+  - name: Twitter
+    link: "https://twitter.com/Nebowskii"
+  - name: Instagram
+    link: "https://www.instagram.com/nebowskii/"
+  - name: Toyhouse
+    link: "https://toyhou.se/Nebowskii"
+  - name: YouTube
+    link: "https://www.youtube.com/channel/UCyzm8ciPk8phNlZCkuBIeAw"
+
+neonfish:
+  af: "https://artfight.net/~neonfish"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/jjhneo"
+
+NotNameless:
+  af: "https://artfight.net/~NotNameless"
+  team:
+    "2022": Wither
+    "2023": Werewolves
+  sites:
+  - name: deviantART
+    link: "https://www.deviantart.com/fantasmadraws"
+  - name: Instagram
+    link: "https://www.instagram.com/NotNameless_/"
+
+# O #
+ohboychar:
+  af: "https://artfight.net/~ohboychar"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://ohboychar.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/ohboychar"
+
+# P #
+Pastelblu:
+  af: "https://artfight.net/~Pastelblu"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Tumblr
+    link: "https://www.tumblr.com/that-wilddog"
+  - name: Toyhouse
+    link: "https://toyhou.se/Corey_Coyote"
+  - name: Carrd
+    link: "https://corey-coyote.carrd.co/"
+
+Pigsy:
+  af: https://artfight.net/~Pigsy
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/_pigsy"
+  - name: Instagram
+    link: "https://instagram.com/_pigsy_/"
+  - name: Toyhouse
+    link: "https://toyhou.se/Pigsy"
+
+PlasmaPower:
+  af: "https://artfight.net/~PlasmaPower"
+  team:
+    "2022": Wither
+    "2023": Vampires
+  sites: 
+  - name: Fur Affinity
+    link: "https://www.furaffinity.net/user/PlasmaPower"
+  - name: Tumblr
+    link: "https://plasmapower.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/plasmap0wer"
+  - name: Toyhouse
+    link: "https://toyhou.se/plasmap0wer"
+
+ProfCarrot:
+  af: "https://artfight.net/~ProfCarrot"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: Tumblr
+    link: "https://profcarrot.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/profcarrot_"
+  - name: Toyhouse
+    link: "https://toyhou.se/profcarrot"
+
+# Q #
+
+# R #
+RainyDayRaize:
+  af: "https://artfight.net/~RainyDayRaize"
+  team:
+    "2022": Wither
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/RainyDayRaize"
+  - name: Instagram
+    link: "https://instagram.com/RainyDayRaize/s"
+  - name: Toyhouse
+    link: "https://toyhou.se/RainyDayRaize"
+
+redo:
+  af: "https://artfight.net/~redo"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://redoplus.tumblr.com"
+  - name: Twitter
+    link: "https://twitter.com/redoplus"
+
+Rockfish:
+  af: "https://artfight.net/~Rockfish"
+  team:
+    "2022": Wither
+    "2023": Werewolves
+  sites: 
+  - name: deviantART
+    link: "https://www.deviantart.com/rockfish-the-golem"
+  - name: Instagram
+    link: "https://www.instagram.com/A_smol_golem_called_rockfish/"
+  - name: Toyhouse
+    link: "https://toyhou.se/Rockfish"
+
+RolyPori:
+  af: "https://artfight.net/~RolyPori"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: deviantART
+    link: "https://www.deviantart.com/rolypori"
+  - name: YouTube
+    link: "https://www.youtube.com/channel/UCQLNKdY9Mn0OCddn0DTRWgA"
+
+rubicsart:
+  af: "https://artfight.net/~rubicsart"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://rubic.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/rubicsart"
+  - name: Toyhouse
+    link: "https://toyhou.se/rubic"
+  - name: Personal site
+    link: "https://rubic.dev/"
+
+# S #
+S8ku:
+  af: "https://artfight.net/~S8ku"
+  team:
+    "2022": Bloom
+    "2023": "Vampires"
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/S8KU_"
+  - name: Instagram
+    link: "https://instagram.com/logandabro/"
+
+ScreamsAgainst:
+  af: "https://artfight.net/~ScreamsAgainst"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Instagram
+    link: "https://instagram.com/Screamsagainst/"
+
+skarpetky:
+  af: "https://artfight.net/~skarpetky"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: deviantART
+    link: "https://skarpetky.deviantart.com/"
+  - name: Instagram
+    link: "https://instagram.com/skarpetky/"
+  - name: Toyhouse
+    link: "https://toyhou.se/skarpetky"
+
+slimekatz:
+  af: "https://artfight.net/~slimekatz"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+
+Someguyiguess:
+  af: "https://artfight.net/~Someguyiguess"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://www.tumblr.com/someguyiguess23"
+  - name: Bluesky
+    link: "https://bsky.app/profile/someguyiguess.bsky.social"
+
+Sonnytherat:
+  af: "https://artfight.net/~Sonnytherat"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Sonnytherat"
+
+Sonokido:
+  af: https://artfight.net/~Sonokido
+  team:
+    "2023": Vampires
+  sites:
+  - name: Tumblr
+    link: "https://sonokido.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/sonokido"
+  - name: Instagram
+    link: "https://www.instagram.com/sonokido/"
+  - name: Toyhouse
+    link: "https://toyhou.se/sonokido"
+  - name: Webcomic
+    link: "https://vcdcomic.carrd.co/"
+
+Smokeyocity:
+  af: "https://artfight.net/~Smokeyocity"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://smokeyocity.tumblr.com/"
+  - name: Twitter
+    link: "https://twitter.com/Smokeyocity"
+
+SnowTheDemonFox:
+  af: "https://artfight.net/~SnowTheDemonFox"
+  team:
+    "2023": 
+  sites:
+  - name: Tumblr
+    link: "https://snowthedemonfox.tumblr.com/"
+  - name: deviantART
+    link: "https://www.deviantart.com/snowthedemonfox/"
+  - name: Toyhouse
+    link: "https://toyhou.se/SnowTheDemonFox"
+  - name: Carrd
+    link: https://snowthedemonfox.carrd.co/
+
+starwugetten:
+  af: "https://artfight.net/~starwugetten"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Toyhouse
+    link: "https://toyhou.se/starwugetten"
+
+Sweguin:
+  af: "https://artfight.net/~Sweguin"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Sweguin7"
+  - name: Toyhouse
+    link: "https://toyhou.se/Sweguin"
+
+# T #
 Tankakuka:
-- af: "https://artfight.net/~Tanka"
+  af: "https://artfight.net/~Tanka"
+  team:
+    "2022": Wither
+    "2023": Werewolves
   sites: 
   - name: Tumblr
     link: "https://tankakuka.tumblr.com/"
@@ -324,93 +900,147 @@ Tankakuka:
   - name: Bandcamp
     link: "https://tankakuka.bandcamp.com/"
 
-"tired-t-rex":
-- af: "https://artfight.net/~tired-t-rex"
+Tcg-5:
+  af: "https://artfight.net/~Tcg-5"
+  team:
+    "2023": Werewolves
+
+texeoghea:
+  af: "https://artfight.net/~texeoghea"
+  team:
+    "2023": Werewolves
   sites:
   - name: Tumblr
-    link: "https://tired-t-rex.tumblr.com/"
+    link: "https://texeoghea.tumblr.com/"
+  - name: Fur Affinity
+    link: "https://www.furaffinity.net/user/texeoghea"
+  - name: Toyhouse
+    link: "https://toyhou.se/texeoghea"
+  - name: Carrd
+    link: "https://texeogheacommission.carrd.co/"
+
+TheBuggle:
+  af: "https://artfight.net/~TheBuggle"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+
+TheMemeBoiUwU:
+  af: "https://artfight.net/~TheMemeBoiUwU"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
+  sites: 
+  - name: Instagram
+    link: "https://www.instagram.com/the_meme_boi_owo/"
+  - name: Toyhouse
+    link: "https://toyhou.se/The_Meme_Boi_UwU"
+
+ThornShadow:
+  af: "https://artfight.net/~ThornShadow"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Tumblr
+    link: "https://cha0s-boyy.tumblr.com/"
+  - name: Toyhouse
+    link: "https://toyhou.se/ThornShadow"
+  - name: Fur Affinity
+    link: "https://www.furaffinity.net/user/ThornShadow"
+  - name: Personal site
+    link: "https://thornshadow.neocities.org/"
+
+Trjrkr:
+  af: "https://artfight.net/~Trjrkr"
+  team:
+    "2023": Werewolves
+
+TruffleBoxBattles:
+  af: "https://artfight.net/~TruffleBoxBattles"
+  team:
+    "2023": Vampires
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Truffleboxx"
+  - name: Toyhouse
+    link: "https://toyhou.se/TruffleBoxHouse"
+
+TVcity:
+  af: "https://artfight.net/~TVcity"
+  team:
+    "2022": Bloom
+    "2023": Vampires
+  sites: 
+  - name: Twitter
+    link: "https://twitter.com/entropeutic"
+  - name: Instagram
+    link: "https://www.instagram.com/entropeutic/"
 
 twinvenus:
-- af: "https://artfight.net/~twinvenus"
+  af: "https://artfight.net/~twinvenus"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites: 
   - name: Tumblr
     link: "https://twinvenus.tumblr.com/"
 
-Quinqaa:
-- af: "https://artfight.net/~Quinqaa"
-  sites: 
-  - name: deviantART
-    link: "https://www.deviantart.com/sxugarbeez"
-  - name: Instagram
-    link: "https://instagram.com/Quinqaa/"
-  - name: Toyhouse
-    link: "https://toyhou.se/Quinqaa"
+# U #
 
-GummiKube:
-- af: "https://artfight.net/~GummiKube"
-  sites: 
-  - name: Tumblr
-    link: "https://www.tumblr.com/gummikube"
+# V #
+Velectric:
+  af: "https://artfight.net/~Velectric"
+  team:
+    "2023": Vampires
+  sites:
   - name: Twitter
-    link: "https://twitter.com/GummiKube"
-  - name: Instagram
-    link: "https://instagram.com/gummikube/"
-  - name: Toyhouse
-    link: "https://toyhou.se/GummiKube"
-
-ImaKittypet:
-- af: "https://artfight.net/~ImaKittypet"
+    link: "https://twitter.com/Velectric6"
+Venidrizz:
+  af: "https://artfight.net/~Venidrizz"
+  team:
+    "2022": Bloom
+    "2023": Werewolves
   sites: 
   - name: Twitter
-    link: "https://twitter.com/ImaKittypet"
-  - name: Toyhouse
-    link: "https://toyhou.se/ImaKittypet"
+    link: "https://twitter.com/Venidrizz"
+  - name: Refsheet
+    link: "https://refsheet.net/Venidrizz"
+  - name: SoundCloud
+    link: "https://soundcloud.com/venidrizz"
 
+VinegarDude:
+  af: "https://artfight.net/~VinegarDude"
+  team:
+    "2023": Werewolves
+  sites:
+  - name: Twitter
+    link: "https://twitter.com/Vinegardude"
+  - name: Newgrounds
+    link: "https://vinegardude.newgrounds.com/"
+
+Vizzbgit:
+  af: "https://artfight.net/~Vizzbgit"
+  team:
+    "2022": Bloom
+
+# W #
 Wild_fire:
-- af: "https://artfight.net/~Wild_fire"
+  af: "https://artfight.net/~Wild_fire"
+  team:
+    "2022": Bloom
 
-KngKobun:
-- af: "https://artfight.net/~KngKobun"
+# X #
+XenoUmbre:
+  af: "https://artfight.net/~XEN0UMBRE"
+  team:
+    "2022": Bloom
   sites: 
-  - name: Tumblr
-    link: "https://kbnarts.tumblr.com/"
-  - name: Twitter
-    link: "https://twitter.com/Kngkobun"
-
-bbsartboutique:
-- af: "https://artfight.net/~BBSARTBOUTIQUE"
-  sites: 
-  - name: Twitter
-    link: "https://twitter.com/bbsartboutique"
-  - name: Patreon
-    link: "https://www.patreon.com/bbsartboutique"
-  - name: Twitch
-    link: "https://www.twitch.tv/bbsartboutique"
-
-NotNameless:
-- af: "https://artfight.net/~NotNameless"
-  sites:
   - name: deviantART
-    link: "https://www.deviantart.com/fantasmadraws"
-  - name: Instagram
-    link: "https://www.instagram.com/NotNameless_/"
-
-Jawaddles:
-- af: "https://artfight.net/~Jawaddles"
-  sites:
-  - name: Twitter
-    link: "https://twitter.com/Jawaddles"
-  - name: Instagram
-    link: "https://www.instagram.com/jawaddles.art/"
-  - name: Personal Site
-    link: "https://qtownjack.wixsite.com/mysite"
-
-RainyDayRaize:
-- af: "https://artfight.net/~RainyDayRaize"
-  sites:
-  - name: Twitter
-    link: "https://twitter.com/RainyDayRaize"
-  - name: Instagram
-    link: "https://instagram.com/RainyDayRaize/s"
+    link: "https://www.deviantart.com/xenoumbre"
   - name: Toyhouse
-    link: "https://toyhou.se/RainyDayRaize"
+    link: "https://toyhou.se/XenoUmbre"
+
+# Y #
+
+# Z #
+

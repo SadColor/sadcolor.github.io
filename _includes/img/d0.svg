@@ -1,0 +1,4 @@
+<svg width="15" height="15" shape-rendering="crispEdges" role="img" aria-label="5" class="dirimg">
+	<circle cx="7.5" cy="7.5" r="5.25" fill="var(--dir-fill,#383448)"/>
+	<circle cx="7.5" cy="7.5" r="3.05" fill="none" stroke="var(--dir-maru,#101018)" stroke-width=".8"/>
+</svg>

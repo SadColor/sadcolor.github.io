@@ -1,0 +1,21 @@
+navi:
+  prev:
+  - title: top page
+    link: "/"
+
+content:
+- year: "2022"
+  team: "Wither"
+  color: "#bd6c96"
+  categories:
+  - "atk"
+  - "def"
+  - "mix"
+- year: "2023"
+  team: "Vampires"
+  color: "#e6466c"
+  categories:
+  - "atk"
+  - "def"
+
+lastupdated: 2024.03.03

@@ -1,0 +1,5 @@
+<section id="seq_nav">
+	{% if include.prev %}<a id="prev_nav" href="{{ include.link }}">« {{ include.prev.title }}</a>{% endif %}
+	{% if include.home %}<a id="home_nav" href="{{ include.link }}">{{ include.home.title }}</a>{% endif %}
+	{% if include.next %}<a id="next_nav" href="{{ include.link }}">{{ include.next.title }} »</a>{% endif %}
+</section>

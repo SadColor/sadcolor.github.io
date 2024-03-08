@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>bug fables fighting game</title>
+	{% include kakuge-head.html %}
+</head>
+{% assign pg = site.data.bug.bug_top %}
+<body>
+	<div id="page_cont">
+		{% include top_bar.html title="bug fables fighting game" %}
+		
+		<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+			<section id="seq_nav">
+				<a id="prev_nav" href="/">« top page</a>
+			</section>
+		
+			<span id="page_nav_head">contents</span>
+			<section id="page_nav">
+				<a class="nav_subhead" href="#kyara">characters</a>
+				{% for c in pg.kyara %}
+					{% unless c.nolink %}
+						<a href="{{ c.id }}">{{ c.name }}</a>
+					{% else %}
+						<span class="BL">{{ c.name }}</span>
+					{% endunless %}
+				{% endfor %}
+				<a class="nav_subhead latter" href="#other">other links</a>
+				<!--
+				<a href="system">system mechanics</a>
+				<a href="attr">attack attributes</a>
+				-->
+				<a href="https://docs.google.com/document/d/e/2PACX-1vS6SVQCiu33XNMOZyBLRpRYqvAJGy0O3NwZ2waq7AgLPve70mmLUbLp9LNtGOTwr9c_y_PP-d_lJWD2/pub">google doc</a>
+			</section>
+		</nav>
+		<main id="post_body">
+			<section aria-labelledby="kyara">
+				<h3 id="kyara">characters</h3>
+				<div class="post_box tri_topA tri13">
+					<div class="bug_kyara_cont">
+						{% for c in pg.kyara %}
+							{% unless c.nolink %}<a href="{{ c.id }}">{{ c.name }}</a>
+							{% else %}<span class="GR">{{ c.name }}</span>
+							{% endunless %}
+						{% endfor %}
+					</div>
+				</div>
+			</section>
+			<section aria-labelledby="other">
+				<h3 id="other">other links</h3>
+				<div class="post_box tri_topA tri13">
+					<ul>
+						<!--
+						<li><a href="system">system mechanics</a></li>
+						<li><a href="attr">attack attributes</a></li>
+						-->
+						<li>
+							<a href="https://docs.google.com/document/d/e/2PACX-1vS6SVQCiu33XNMOZyBLRpRYqvAJGy0O3NwZ2waq7AgLPve70mmLUbLp9LNtGOTwr9c_y_PP-d_lJWD2/pub">google doc</a>
+							<p>＊since this site is only updated occasionally, the doc is almost always more up-to-date.</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+			{% include last_updated.html date=pg.lastupdated %}
+		</main>
+	</div>
+</body>
+</html>

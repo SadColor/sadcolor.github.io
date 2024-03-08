@@ -1,0 +1,92 @@
+lastupdated: "2024.03.04"
+
+content:
+- title: "serendipitous souls"
+  desc: "old ghost king meets old ghost King"
+  link: "https://artfight.net/attack/4156062.serendipitous-souls"
+  for: texeoghea
+  kyara:
+  - texeoghea_stag
+  - king
+  next: "06"
+
+- title: "N₂ express"
+  desc: "hold on to your hats "
+  link: "https://artfight.net/attack/4464848.n2-express"
+  for: dbappio
+  kyara: 
+  - dbappio_tappo
+  - phial
+
+- title: "a stone's throw away"
+  desc: "<img src='/img/duk.png'>"
+  link: "https://artfight.net/attack/4664210.a-stones-throw-away"
+  for: Camelot
+  kyara:
+  - camelot_grayscale
+
+- title: "amphibious amble"
+  link: "https://artfight.net/attack/4748493.amphibious-amble"
+  for: Sonnytherat
+  kyara:
+  - sonnytherat_sonny
+  next: "14"
+  
+- title: "DOSU☆KOI"
+  desc: "i love her funny design."
+  link: "https://artfight.net/attack/4885866.dosukoi"
+  for: BeebFreeb
+  kyara:
+  - beebfreeb_jupiter
+
+- title: "tritonal trio"
+  desc: "twist it"
+  link: "https://artfight.net/attack/4994524.tritonal-trio"
+  for: RolyPori
+  kyara:
+  - rolypori_triradicals
+
+- title: "≫ NEXT STOP: CLOUD NINE ≫"
+  link: "https://artfight.net/attack/5095212.next-stop-cloud-nine"
+  for: Malen10
+  kyara:
+  - malen10_blake
+  next: "22"
+
+- title: "look out he's gonna grask ya"
+  desc: "ahhhhhh (dats me yellin)"
+  link: "https://artfight.net/attack/5189927.look-out-hes-gonna-grask-ya"
+  for: fizzy-dizz
+  kyara:
+  - fizzy_dizz_grasker
+
+- title: "on the house"
+  filetype: ".mp4"
+  vtt: "09.vtt"
+  desc: |-
+    <span class="b" style="font-family: 'Arial'; font-size: 2rem; line-height: 2rem;">
+      Between millions of people  
+      around the world i found you.  
+      Don't forget to remember this day  
+      every time MY FRIEND!
+    </span>
+  link: "https://artfight.net/attack/5228703.on-the-house"
+  for: rubicsart
+  kyara:
+  - rubicsart_rose
+  prev: "19"
+
+- title: "hi-speed tape dubbing"
+  desc: "can anybody stop this piracy machine?? (no <img src='/img/bbsmiley.png' alt='(smiley)'>)"
+  link: "https://artfight.net/attack/5472276.hi-speed-tape-dubbing"
+  for: Hainfulcupid
+  kyara:
+  - hainfulcupid_sonia
+  prev: "06"
+
+- title: "shapes for sore eyes"
+  link: "https://artfight.net/attack/5706058.shapes-for-sore-eyes"
+  for: cryebral
+  kyara:
+  - cryebral_harlee
+  - cryebral_itan

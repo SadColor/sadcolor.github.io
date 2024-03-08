@@ -1,0 +1,394 @@
+lastupdated: "2024.03.05"
+navi:
+  next:
+    title: "kabbu"
+    link: "../kabbu"
+
+stats:
+  name: "vi"
+  hp: 1200
+  sp: 20 
+  album: "https://imgur.com/a/vlWdkHT"
+  traits:
+  - "airdashes are shorter than most characters'"
+  - "can use two airdashes before landing"
+  - "short and always takes crouching hitstun"
+  flows:
+  - "able to cancel Skills into **Beemerang Catch** ({{ d236 }}{{ A }})"
+  - "able to dash- and jump-cancel **Needle Toss** ({{ S }})."
+  pros:
+  - "highly mobile with multiple airdashes, fast movement speed, and small stature"
+  - "oppressive Beemerang blockstrings"
+  cons:
+  - "gets hit harder than any other character"
+  - "high-cost Skills burn through SP"
+
+movelist:
+- id: normals
+  title: normals
+  moves: 
+  - base: "cmn_5a"
+    damage:
+      total: '22'
+    desc: |-
+      Backhanded needle slash.
+  - base: "cmn_5b"
+    damage:
+      total: '44'
+    desc: |-
+      A slightly longer-ranged slash.
+  - base: "cmn_5c"
+    damage:
+      total: '66'
+    desc: |-
+      Wide backhanded slash.  
+      Charged version grants extra hitstun and damage.
+  - base: "cmn_2a"
+    damage:
+      total: '20'
+    desc: |-
+      A crouching needle stab.  
+      A little less range than {{ 5 }}{{ A }}, but recovers {{ 1F }} faster.
+  - base: "cmn_2b"
+    damage:
+      total: '40'
+    desc: |-
+      A further crouching slash.
+  - base: "cmn_2c"
+    damage:
+      total: '60'
+    desc: |-
+      A lunging needle sweep.  
+      Briefly invincible to {{ CHEST }} attacks.
+  - base: "cmn_ja"
+    damage:
+      total: '30'
+    desc: |-
+      Downwards needle slash.
+  - base: "cmn_jb"
+    damage:
+      total: '50'
+    desc: |-
+      Forward slash.  
+      Has the most horizontal range of Vi’s air normals by a little bit.
+  - base: "cmn_jc"
+    damage:
+      total: '70'
+    desc: |-
+      An upwards needle slash.  
+      Covers a good area vertically, but not much horizontal range.
+
+- id: cmds
+  title: command normals
+  moves: 
+  - base: "cmn_5aa"
+    damage:
+      total: '33'
+    desc: |-
+      An inwards needle slash.  
+      Baaaarely vacuums the opponent.
+  - base: "cmn_5aaa"
+    damage:
+      total: '37'
+    desc: |-
+      -
+  - base: "cmn_5bb"
+    damage:
+      total: '48'
+    desc: |-
+      Slashes upwards with her other needle.  
+      Launches nearly vertically.
+  - base: "cmn_5cc"
+    desc: |-
+      Steps forward with a backhand stab.  
+      The charged version’s startup is significant, but is a {{ GUARDCRUSH }}.
+  - base: "cmn_3b"
+    damage:
+      total: '56'
+    guard: 
+      low: true
+    lv: '4'
+    prop:
+    - hkd: 1
+    desc: |-
+      A close-range sweep that leaves Vi at advantage on block.
+  - base: "cmn_3c"
+    damage:
+      total: '58'
+    desc: |-
+      Vi kicks upwards while standing on her hands.  
+      Little horizontal range, but OK vertical range.  
+      Vi’s only {{ JUMPCANCEL }} normal on block.  
+      {{ antiair }}
+  - base: "cmn_j2c"
+    damage:
+      total: '64'
+    desc: |-
+      Spins upside down and slashes.  
+      Has a wide range and hits on both sides, but kinda slow.
+  - base: "cmn_66b"
+    desc: |-
+      A leaping knee forward.
+  - base: "cmn_66c"
+    images:
+    - "5c.png"
+    desc: |-
+      Wide horizontal slash (same animation as {{ 5 }}{{ C }}).  
+      Unlike {{ 5 }}{{ C }}, this move hits twice and {{ LAUNCH }}es.
+
+- id: throws
+  title: throws
+  moves: 
+  - base: "cmn_grab"
+    desc: |-
+      Grabs the opponent and kicks off of them.  
+      Can’t combo without resources.
+  - base: "cmn_air_grab"
+    desc: |-
+      Grabs the opponent and izuna drops them.  
+      Vi’s most damaging meterless air combo ender.  
+      Saving your mid-air jump allows you to jump before landing and get a safe jump.  
+      Landing a raw air throw results in a combo-able {{ GROUNDBOUNCE }}.
+
+- id: skills
+  title: skills
+  moves: 
+  - base: "cmn_5s"
+    name: "<span class='b'>Needle Toss</span>"
+    plain_name: "Needle Toss"
+    damage:
+      total: '40'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Vi flies a short distance before throwing up to three needles.  
+      When you press {{ S }}, Vi does a short dash in the direction you pressed, or directly upwards if you are holding no direction (or are grounded and holding {{ d2 }}).  
+      You can hold {{ S }} to briefly hover for a short period of time and steer Vi slightly.  
+      When you release {{ S }} or throw all three needles, Vi will quickly drop to the ground.
+      The angle of the needle can be changed with button strength. {{ A }} is diagonally downwards, {{ B }} is forwards, {{ C }} is diagonally upwards. There is a small degree of angle tracking on each toss.  
+      When in Active Flow, the move can be {{ JUMP }} and {{ DASHCANCEL }}ed immediately after a needle throw or during the falling animation.
+  - base: "cmn_236s"
+    name: "<span class='b'>Beemerang Toss</span>"
+    plain_name: "Beemerang Toss"
+    damage:
+      total: '51'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      chest: true
+    cost:
+      sp: '3'
+    desc: |-
+      Vi tosses her Beemerang straight forwards.  
+      Once it hits the opponent or a wall, the Beemerang will rebound back to the position it was thrown from.  
+      In the air, Vi will flip forwards and toss the Beemerang diagonally downwards, similar to grounded {{ d214S }}. When in Active Flow, the recovery of the air version is also {{ JUMPCANCEL }}able.  
+      Has high hitstun and a very low {{ P2 }}, making it an important part of optimized combos.
+  - base: "cmn_214s"
+    name: "<span class='b'>Beemerang Somertoss</span>"
+    plain_name: "Beemerang Somertoss"
+    damage:
+      total: '51'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Vi flips forwards into the air and tosses her Beemerang diagonally downwards.  
+      If the Beemerang hits the floor, it will stay there. Otherwise, it will rebound to the position it was originally thrown from.  
+      In the air, Vi will flip backwards instead ({{ d236S }} flips forwards).  
+      Normally, only the ground version is {{ JUMPCANCEL }}able.  
+      When in Active Flow, the recovery of the air version is also {{ JUMPCANCEL }}able.  
+      The ground version of Beemerang Somertoss can be done without the Beemerang in hand, in which case Vi will flip into the air without throwing anything.  
+      While empty-handed, Vi can automatically catch a falling Beemerang, which will cause her to throw it as usual when she reaches the apex of her flip. 
+  - id: "catch"
+    name: "<b>Beemerang Catch</b> (automatic)"
+    plain_name: "Beemerang Catch (automatic)"
+    input: "{{ d2 }} near Beemerang"
+    noprop: true
+    desc: |-
+      When on the ground, the Beemerang can be picked up by simply crouching near it.  
+      This has no special animation, but can only be done when crouching from a neutral state.
+      In the air, you can catch the Beemerang by simply touching it while not performing an attack.  
+      This will cancel your current animation, so if you catch it near the start of an airdash, you will start falling immediately.  
+      The air version has an animation that is immediately cancelable.
+  - id: "236catch"
+    name: "<b>Beemerang Catch</b> (manual)"
+    plain_name: "Beemerang Catch (manual)"
+    input: "{{ d236 }}{{ S }} near Beemerang"
+    noprop: true
+    desc: |-
+      Picking up the Beemerang manually has different properties.  
+      The catch range is greater than the automatic version, and falling Beemerangs can be caught before they hit the ground.   
+      The manual catch is even faster than Vi's {{ A }} normals.  
+      Mid-air catches maintain momentum from your last animation.  
+      In Active Flow, Skills can be canceled into a manual catch, increasing the possibilities for blockstrings and combos.
+  - id: "236s236s"
+    name: "<span class='b'>ADBP, Engage!</span>"
+    plain_name: "ADBP, Engage!"
+    input: "{{ d236 }}{{ S }} upon Beemerang hit"
+    desc: |-
+      Vi makes the Beemerang perform an extra spin attack.  
+      The spin bounces the Beemerang up, then it falls down for a second hit.  
+      Usually, if the opponent gets hit by the first hit, the second hit occurs at the apex of the Beemerang’s bounce arc rather than having time to fall.  
+      After the falling hit connects, the Beemerang bounces back much further than it was originally thrown.
+    damage:
+      total: '70'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+  - base: "cmn_236a"
+    guard:
+      low:  true
+    attr:
+      foot: true
+    desc: |-
+      Vi slashes at the opponent’s feet with both needles while doing a cool flip.  
+      Decently fast startup, but not safe on block.  
+      <b>Fatal Counter</b> on counterhit.  
+  - base: "cmn_236b"
+    name: "<span class='b'>Needle Pincer</span>"
+    plain_name: "Needle Pincer"
+    images:
+    - "236b2.png"
+    - "236bbb.png"
+    damage:
+      total: '30'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '1'
+    desc: |-
+      Vi stabs once with a needle, with multiple followups available.  
+      The first stab is safe but minus on block. It's a good point for a pressure reset, especially if you hit near the end of the attack.  
+      You can perform up to two followup attacks.  
+      Press {{ d6B }} for a second advancing stab. It’s less safe on block, but has greater reward on counterhit.  
+      Press {{ d6B }} again for a straight stab with both needles. It’s fast, but knocks the opponent far away. {{ WALLBOUNCE }}s in the corner for combos.  
+      Pressing {{ d4A }} performs {{ 214A }}, but it starts up a little faster. If you get a counterhit from the first or second hit, you can combo into this followup.  
+      Pressing {{ d6A }} performs {{ 236A }}. If done in the air, you have to land before the slash comes out. Performing a Needle Pincer low in the air gives you a high/low mixup between these two followups.  
+      Pressing {{ d4B }} performs <b>Dandelion</b> with no special properties and exits Needle Pincer.  
+  - base: "cmn_214a"
+    damage:
+      total: '71'
+    guard:
+      high: true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Vi hops forwards and slashes downwards with both needles. Has faster startup when doing the aerial version.  
+      The ground version can always link into {{ A }} normals on grounded opponents, but the aerial version requires a counterhit.  
+      {{ airverguard }}
+  - base: "cmn_214b"
+    name: "<span class='b'>Dandelion</span>"
+    plain_name: "Dandelion"
+    damage:
+      total: '104'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '5'
+    desc: |-
+      Vi slashes while retreating.
+      Being in the corner allows you to land this move multiple times in one combo, which is a very damaging route.
+
+- id: exs
+  title: ex skills
+  moves: 
+  - base: "cmn_236c"
+    name: "<span class='b'>Hurricane Toss</span>"
+    plain_name: "Hurricane Toss"
+    input: "{{ d236 }}{{ C }} with Beemerang"
+    damage:
+      total: '180'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    desc: |-
+      Vi throws her Beemerang in front of her, spinning it fast enough to create a small hurricane.  
+      The Beemerang doesn't fall back down for a few seconds.  
+      Knocks the opponent high into the air, and you can always pick up a combo afterwards.  
+      Also useful in block pressure, since it leaves you at advantage in the air for a high/low mixup.  
+      Recovers {{ 5SP }} on hit.
+  - base: "cmn_236c"
+    name: "<span class='b'>ADBP Retrieval System</span>"
+    plain_name: "ADBP Retrieval System"
+    input: "{{ d236 }}{{ C }} without Beemerang"
+    damage:
+      total: '100'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    desc: |-
+      Vi recalls her Beemerang from anywhere on the screen.  
+      The Beemerang can hit opponents as it spins back towards Vi if she didn't guard or get hit by an attack after recalling.  
+      Forces Vi into the manual Beemerang Catch animation once it reaches her.
+  - base: "cmn_214c"
+    name: "<span class='b'>Poison Pincer</span>"
+    plain_name: "Poison Pincer"
+    damage:
+      total: '210'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Vi rapidly stabs with needles before ending with a final hit that {{ POISON }}s the opponent.  
+      The last hit doesn’t occur if the previous hits are blocked or whiff.  
+      Recovers {{ 3SP }} on hit.
+  - base: "cmn_j214c"
+    name: "<span class='b'>Myriad Needles</span>"
+    plain_name: "Myriad Needles"
+    damage:
+      total: '175'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Vi tosses several needles diagonally downwards while rising slightly.  
+      Can link air throw afterwards, even at high scaling.  
+      Recovers {{ 3SP }} on hit.
+  - base: "cmn_ex2"
+    name: "<span class='b'>Blue Stinger</span>"
+    plain_name: "Blue Stinger"
+    damage:
+      total: '300'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Vi stings the opponent with her stinger. Inflicts {{ NUMB }} if it hits.  
+      Restands airborne opponents.  
+      Recovers {{ 8SP }} on hit.

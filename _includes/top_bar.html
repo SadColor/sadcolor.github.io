@@ -1,0 +1,9 @@
+{% include skiplink.html %}
+<header id="top_cont" role="banner">
+	<div id="top_bar">
+		<h1>{{ include.title }}</h1>
+		{% if include.subtitle %}<h2>{{ include.subtitle }}</h2>
+		{% else %}<h2 role="presentation"></h2>{% endif %}
+	</div>
+	{% include top_nav.html %}
+</header>

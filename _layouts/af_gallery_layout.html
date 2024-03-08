@@ -1,142 +1,192 @@
----
-layout: artfight_layout
----
-{% include normalstuff.html %}
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>{{ page.year }} {{ page.title }}</title>
+		{% include artfight-head.html %}
+	</head>
+	{% assign pg = page.year | append: "_" | append: page.type %}
+	{% assign pg = site.data.af[pg] %}
+	{% if page.type == "atk" %}
+		{% assign otherpg = page.year | append: "_def" %}
+		{% assign othertype = "def" %}
+	{% else %}
+		{% assign otherpg = page.year | append: "_atk" %}
+		{% assign othertype = "atk" %}
+	{% endif %}
+	{% assign otherpg = site.data.af[otherpg] %}
+	{% assign sakka = site.data.af.sakka %}
+	{% assign kyara = site.data.af.kyara %}
+	{% assign teams = site.data.af.teams %}
+	<body>
+		<div id="page_cont">
+			{% assign subtitle = "art fight " | append: page.year %}
+			{% include top_bar.html title=page.title subtitle=subtitle %}
 
-{% assign list = site.data.af[page.imagelist] %}
-<div class="post_body">
-	{% for image in list %}
-		{% if image.for %}
-			{% assign artist = image.for %}
-			{% assign artsites = site.data.af.sakka[artist][0] %}
-		{% elsif image.by %}
-			{% assign artist = image.by %}
-			{% assign artsites = site.data.af.sakka[artist][0] %}
-		{% endif %}
-		<h3 id="{{ image.id }}"><a href="#{{ image.id }}" class="pinklink">
-			<span class="artnum">[{{ image.id }}]<br></span>
-			<span>{{ image.title }}</span></a>
-		</h3>
-		<div class="chat">
-			{{ topL }}
-			<div class="aflink">
-				{% if forloop.index0 > 0 %}
-					{% assign prevnum = forloop.index | minus: 1 | prepend: '00' | slice: -2, 2 %}
-					<a href="#{{ prevnum }}" class="pinklink" style="position:absolute;left:0">« prev</a>
-				{% endif %}
-				<a href="{{ image.link }}" class="pinklink">view on Art Fight</a>
-				{% if forloop.rindex0 > 0 %}
-					{% assign nextnum = forloop.index | plus: 1 | prepend: '00' | slice: -2, 2 %}
-					<a href="#{{ nextnum }}" class="pinklink" style="position:absolute;right:0">next »</a>
-				{% endif %}
-			</div>
-			<div class="mainimg">
-				<a href="/img/af/{{ page.year }}/{{ image.img }}" target="_blank" rel="noopener noreferrer">
-					<img src="/img/af/{{ page.year }}/{{ image.img }}" />
-				</a>
-			</div>
-			{% if image.desc %}
-				<div style="text-align:center">{{ image.desc }}</div>
+			{% assign nav = pg.navi %}
+			{% if nav.rel %}
+				{% assign nav = site.data.navilists[nav.rel] %}
 			{% endif %}
-			
-			<hr>
-			
-			<table>
-				<tr>
-					<td class="infoleft">
-						{% if image.for %}
-							<b>For</b>
-						{% elsif image.by %}
-							<b>By</b> 
+			<nav id="page_nav_cont" aria-labelledby="page_nav_head">
+				<section id="seq_nav">
+					{% case page.type %}
+						{% when "atk" %}<a id="prev_nav" href="../">« {{ page.year }} overview</a>
+						{% when "def" %}<a id="prev_nav" href="../atk/">« {{ page.year }} attacks</a>
+						{% when "mix" %}<a id="prev_nav" href="../def/">« {{ page.year }} defenses</a>
+					{% endcase %}
+					<a href="/af/{{ page.year }}" id="home_nav">{{ page.year }} overview</a>
+					{% assign yearcheck = page.year | plus: 1 | append: "" %}
+					{% assign yearcheck = site.data.af_top.content | where: "year", yearcheck %}
+					{% if page.type == "atk" %}
+					<a id="next_nav" href="../def/">{{ page.year }} defenses »</a>
+					{% elsif page.type == "def" %}
+						{% if page.year == '2022' %}
+						<a id="next_nav" href="../mix/">{{ page.year }} mass defenses »</a>
+						{% elsif yearcheck %}
+						<a id="next_nav" href="../../{{ page.year | plus: 1 }}/">{{ page.year | plus: 1 }} index »</a>
 						{% endif %}
-						<div class="linklist">
-							{{ nesttopL }}
-							<ul>
-							<b><a href="{{ artsites.af }}">{{ artist }}</a></b>
-							{% if artsites.sites %}
-								{% for site in artsites.sites %}
-									<li>•<a href="{{ site.link }}" class="pinklink">{{ site.name }}</a></li>
-								{% endfor %}
-							{% endif %}
-							</ul>
-							{{ nestcornerR }}
-						</div>
-					</td>
-					<td class="inforight">
-						<b>Characters</b>
-						<div class="linklist">
-							{{ nesttopL }}
-							<ul>
-							{% for chr in image.kyara %}
-								<li><b><a href="{{ chr.link }}">{{ chr.name }}</a></b></li>
-							{% endfor %}
-							</ul>
-							{{ nestcornerR }}
-						</div>
-					</td>
-				</tr>
-			</table>
-			{% if image.kome %}
-				<hr>
-				<div style="text-align:center">
-					<span><b>Doodle Response</b><br></span>
-					<div class="mainimg">
-						<a href="/img/af/{{ page.year }}/{{ image.kome }}" target="_blank" rel="noopener noreferrer">
-							<img src="/img/af/{{ page.year }}/{{ image.kome }}" />
-						</a>
-					</div>
-				</div>
-			{% endif %}
+					{% elsif page.type == "mix" %}
+					<a id="next_nav" href="../../{{ page.year | plus: 1 }}/">{{ page.year | plus: 1 }} index »</a>
+					{% endif %}
+				</section>
 
-			{% if image.next or image.prev %}
-				<hr>
-				<span style="position:absolute;left:50%;transform:translateX(-50%)"><b>Revenge Chain</b><br></span>
-				<table>
-					<tr>
-						<td class="chainprev">
-							{% if image.prev %}
-								{% if image.by %}
-									{% assign other = "atk" | append: page.year %}
-								{% else if image.for %}
-									{% assign other = "def" | append: page.year %}
+				<div id="page_nav_head">contents</div>
+				<section id="page_nav">
+				{% for s in pg.content %}
+					{% assign zeroIndex = forloop.index | prepend: '00' | slice: -2, 2 %}
+					{% assign team = s.for | default: s.by %}
+					{% assign team = sakka[team].team[page.year] %}
+					<a href="#{{ zeroIndex }}" style="color: {{ teams[team].color }}">#{{ zeroIndex }}</a>
+				{% endfor %}
+				</section>
+			</nav>
+			<div id="post_body">
+				{% for s in pg.content %}
+				{% assign zeroIndex = forloop.index | prepend: '00' | slice: -2, 2 %}
+				{% assign team = s.for | default: s.by %}
+				{% assign team = sakka[team].team[page.year] %}
+				<section>
+					<h3 id="{{ zeroIndex }}" class="double">
+						<a href="#{{ zeroIndex }}" style="color: {{ teams[team].color }}"><span class="af_number">[{{ zeroIndex }}]</span></a>
+						<span class="af_title">{{ s.title }}</span>
+					</h3>
+					<div class="post_box tri_topA tri13">
+						<div class="af_nav">
+							{% unless forloop.first %}
+							<a class="af_nav_prev" href="#{{ forloop.index | minus: 1 | prepend: '00' | slice: -2, 2 }}">« prev</a>
+							{% endunless %}
+							<a class="af_nav_view" href="{{ s.link }}">view on Art Fight</a>
+							{% unless forloop.last %}
+							<a class="af_nav_next" href="#{{ forloop.index | plus: 1 | prepend: '00' | slice: -2, 2 }}">next »</a>
+							{% endunless %}
+						</div>
+						{% assign img = s.filetype | default: ".png" | prepend: zeroIndex %}
+						<figure class="af_img">
+							{% if s.filetype == ".mp4" %}
+								<video controls><source src="{{ img }}">
+								{% if s.vtt %}
+									<track default kind="captions" srclang="en" src="{{ s.vtt }}" />
 								{% endif %}
-								{% assign otherlist = site.data.af[other] %}
-								{% assign otherid = image.prev | minus: 1 %}
-								<a href="./{{ other }}#{{ image.prev }}" class="pinklink">
-									<span>« prev chain<br>
-										<b>{{ otherlist[otherid].title }}</b><br></span>
-									{% if otherlist[otherid].thumb %}
-										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].thumb }}" />
-									{% else %}
-										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].img }}" />
-									{% endif %}
-								</a>
+								</video>
+							{% else %}
+								<a href="{{ img }}" target="_blank" rel="noopener noreferrer"><img src="{{ img }}" alt="{{ s.alt }}"></a>
 							{% endif %}
-						</td>
-						<td class="chainnext">
-							{% if image.next %}
-								{% if image.by %}
-									{% assign other = "atk" | append: page.year %}
-								{% else if image.for %}
-									{% assign other = "def" | append: page.year %}
+							{% assign slicesize = s.desc | markdownify | size | minus: 8 %}
+							<figcaption class="af_desc">{{ s.desc | markdownify | slice: 3,slicesize }}</figcaption>
+						</figure>
+						<hr>
+						<div class="af_meta_info">
+							<div>
+								<div class="af_for tri_topC">
+								{% assign artist = s.by | default: s.for %}
+								{%   if s.for %}for
+								{% elsif s.by %}by
 								{% endif %}
-								{% assign otherlist = site.data.af[other] %}
-								{% assign otherid = image.next | minus: 1 %}
-								<a href="./{{ other }}#{{ image.next }}" class="pinklink">
-									<span>next chain »<br>
-										<b>{{ otherlist[otherid].title }}</b><br></span>
-									{% if otherlist[otherid].thumb %}
-										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].thumb }}" />
-									{% else %}
-										<img src="/img/af/{{ page.year }}/thumbs/{{ otherlist[otherid].img }}" />
+								</div>
+								<div class="af_user_info tri9 tri13">
+									<div class="af_user"><a href="{{ sakka[artist].af }}" style="color: {{ teams[team].color }}">{{ artist }}</a></div>
+									{% if sakka[artist].sites %}
+									<div>
+										{% for site in sakka[artist].sites %}
+										<div>・ <a href="{{ site.link }}" class="PI">{{ site.name }}</a></div>
+										{% endfor %}
+									</div>
 									{% endif %}
-								</a>
-							{% endif %}
-						</td>
-					</tr>
-				</table>
-			{% endif %}
-			{{ cornerR }}
+								</div>
+							</div>
+							<div>
+								<div class="af_for tri_topC">Character{% if s.kyara.size > 1 %}s{% endif %}</div>
+								<div class="af_user_info tri9 tri13">
+									{% for chr in s.kyara %}
+									<div class="af_user"><a href="{{ kyara[chr].link }}" {% if kyara[chr].mine %}class="PI"{% endif %}>{{ kyara[chr].name }}</a></div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+						{% if page.type == "def" %}{% unless s.nokome %}
+						<hr style="margin-top: 16px;">
+						<div style="position:relative">
+							<div class="af_chain_head tri13 tri79">doodle response</div>
+							<div class="af_kome">
+								{% if s.komehover %}
+									<div class="hover" style="background: url('../kome/{{ s.kometype | default: '.png' | prepend: zeroIndex }}')0 0"></div>
+								{% else %}
+									<img src="../kome/{{ s.kometype | default: '.png' | prepend: zeroIndex }}" alt="{{ s.komealt }}">
+								{% endif %}
+							</div>
+						</div>
+						{% endunless %}{% endif %}
+						{% if s.next or s.prev %}
+						<hr style="margin-top: 16px;">
+						<div style="position:relative">
+							<div class="af_chain_head tri79">revenge chain</div>
+							<div class="af_chain_info">	
+								<div class="af_chain_prev tri1">
+								{% if s.prev %}
+									{% assign pIndex = s.prev | minus: 1 %}
+									<a class="af_chain_link PI" href="../{{ othertype }}#{{ s.prev }}" target="_blank" rel="noopener noreferrer">
+										<div class="af_chain_prev_link">« prev chain</div>
+										<div class="af_chain_prev_title">{{ otherpg.content[pIndex].title }}</div>
+										<div class="af_chain_thumb"><img src="../{{ othertype }}/thumbs/{{ s.prev }}.png" alt=""></div>
+									</a>
+								{% endif %}
+								</div>
+								<div class="af_chain_next tri3">
+								{% if s.next %}
+									{% assign nIndex = s.next | minus: 1 %}
+									<a class="af_chain_link PI" href="../{{ othertype }}/#{{ s.next }}" target="_blank" rel="noopener noreferrer">
+										<div class="af_chain_next_link">next chain »</div>
+										<div class="af_chain_next_title">{{ otherpg.content[nIndex].title }}</div>
+										<div class="af_chain_thumb"><img src="../{{ othertype }}/thumbs/{{ s.next }}.png" alt=""></div>
+									</a>
+								{% endif %}
+								</div>
+							</div>
+						</div>
+						{% endif %}
+					</div>
+				</section>
+				{% endfor %}
+			{% assign lastupdate = pg.lastupdated | default: page.lastupdated %}
+			{% if lastupdate %}<footer id="site_date">last updated: {{ site.lastupdated }}</footer>{% endif %}
 		</div>
-	{% endfor %}
-</div>
+
+		{% if pg.navi.bottom %}
+		<div id="bottom_bar_outer">
+		<div id="bottom_bar">
+			{% assign bnavi = site.data.navilists[pg.navi.bottom] %}
+			{% for navsec in bnavi %}
+			<div class="bottom_bar_sec">
+				<div class="bottom_bar_cat">{{ navsec.category | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</div>
+				<div class="bottom_bar_link_cont">
+				{% for item in navsec.items %}
+				<span class="bottom_bar_link">{{ item | markdownify | remove: '<p>' | remove: '</p>' | downcase }}</span>
+				{% endfor %}
+				</div>
+			</div>
+			{% endfor %}
+		</div>
+		</div>
+		{% endif %}
+	</body>
+</html>

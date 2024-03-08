@@ -1,0 +1,339 @@
+lastupdated: "2024.03.05"
+navi:
+  prev:
+    title: "leif"
+    link: "../leif"
+
+stats:
+  name: "monsieur scarlet"
+  hp: 1000
+  sp: 20 
+  album: "https://imgur.com/a/TnmgjIU"
+  traits:
+  - "umbrella attacks deal increased chip damage"
+  - "can steal life from the opponent"
+  flows:
+  - "can cancel <span class='b'>Sweet Kiss</span> ({{ S }}) into the placement or detonation of <span class='b'>Abysssal Affection</span> ({{ 22S }})."
+  - "can cancel other Skills into the detonation of <span class='b'>Abyssal Affection</span>({{ 22S }})."
+  pros:
+  - "strong okizeme using <span class='b'>Sweet Kiss</span> ({{ S }}) and <span class='b'>Abyssal Affection</span>({{ 22S }})."
+  - "Burns health away with chip damage and <span class='b'>Abyssal Affection</span>({{ 22S }})."
+  cons:
+  - ""
+  - ""
+
+movelist:
+- id: normals
+  title: normals
+  moves: 
+  - base: "cmn_5a"
+    damage:
+      total: '22'
+    desc: |-
+      Hand swipe.
+  - base: "cmn_5b"
+    damage:
+      total: '40'
+    desc: |-
+      Pokes umbrella forward.
+  - base: "cmn_5c"
+    damage:
+      total: '-'
+    desc: |-
+      Large umbrella swipe. Vacuums the opponent inwards.  
+      Charged version has increased hitstun and blockstun and a stronger vacuum effect.
+  - base: "cmn_2a"
+    damage:
+      total: '20'
+    desc: |-
+      Crouching hand swipe.
+  - base: "cmn_2b"
+    damage:
+      total: '41'
+    desc: |-
+      Crouching umbrella poke.
+  - base: "cmn_2c"
+    damage:
+      total: '78'
+    desc: |-
+      Scarlet pokes his umbrella downwards then swipes it back.  
+      Launches the opponent higher than other {{ 2C }}s on the second hit.  
+      Second hit isn’t a low and vacuums the opponent inwards slightly.  
+      To guarantee the knockdown, you can do {{ 2C }}(1st hit) whiff {{ 2A }}.
+  - base: "cmn_ja"
+    damage:
+      total: '44'
+    desc: |-
+      Pokes umbrella downwards, then opens it.
+      Second hit is not an overhead if the first is blocked.
+  - base: "cmn_jb"
+    damage:
+      total: '48'
+    desc: |-
+      Forward umbrella slash.
+  - base: "cmn_jc"
+    damage:
+      total: '80'
+    desc: |-
+      Stabs umbrella straight down.  
+      Very high blockstun and hitstun. Combos into j.236A even on ground hit.  
+      On hit, the charged version has a second hit where Scarlet pulls up the umbrella, launching the opponent up towards himself. This also bounces Scarlet upwards slightly.
+- id: cmds
+  title: command normals
+  moves: 
+  - base: "cmn_5aa"
+    damage:
+      total: '33'
+    attr:
+      body: true
+    desc: |-
+      A downward hand swipe.
+  - base: "cmn_5aaa"
+    damage:
+      total: '44'
+    desc: |-
+      -
+  - base: "cmn_5bb"
+    damage:
+      total: '-'
+    desc: |-
+      Scarlet pops open his umbrella.
+  - base: "cmn_5cc"
+    desc: |-
+      \-
+  - base: "cmn_3c"
+    damage:
+      total: '67'
+    desc: |-
+      Scarlet thrusts his umbrella upwards and pops it open.  
+      Upper body is {{ DIVE }} invincible for the first hit.
+  - base: "cmn_jb"
+    id: "j4b"
+    name: "{{ j4B }}"
+    plain_name: "j.4B"
+    input: "{{ d4B }} while airborne"
+    damage:
+      total: '56'
+    desc: |-
+      Scarlet swipes his umbrella behind him.  
+      A proper cross-up move that requires the opponent to block correctly.  
+      Useful for faking out jump-in attempts, or for trying to switch sides with an opponent on top of an <span class='b'>Abyssal Affection</span> ({{ 22S }}) midscreen.
+  - base: "cmn_j2c"
+    damage:
+      total: '80'
+    desc: |-
+      Scarlet pops his umbrella open in front of himself.  
+      Bounces Scarlet backwards.
+  - base: "cmn_66b"
+    images:
+    - "5c.png"
+    desc: |-
+      A large umbrella swipe that vacuums the opponent inwards.
+      Same animation as {{ 5C }}.
+  - base: "cmn_66c"
+    damage:
+      total: '72'
+    attr:
+      chest: true
+    desc: |-
+      A powerful jab with the handle of Scarlet’s umbrella.  
+      Can be linked after {{ 2C }} or {{ 2C }}(1)→whiff {{ 5A }} with low scaling.  
+      The opponent suffers longer hitstop than Scarlet does when this move connects.
+
+- id: throws
+  title: throws
+  moves: 
+  - base: "cmn_grab"
+    damage:
+      total: '81'
+    desc: |-
+      Scarlet tosses the opponent aside. Doesn’t cause {{ HKD }} unless you get a counterhit throw (like from throwing a Super Block attempt).
+      You can combo afterwards if they land on a <span class='b'>Sweet Kiss</span> ({{ S }}) or – ({{ 22C }}).
+  - base: "cmn_air_grab"
+    damage:
+      total: '115'
+    desc: |-
+      Scarlet grabs the opponent, slamming them on the ground while advancing forwards.  
+      Has good corner carry and leaves you next to the opponent.
+- id: skills
+  title: skills
+  moves: 
+  - base: "cmn_5s"
+    name: "<span class='b'>Sweet Kiss</span>"
+    plain_name: "Sweet Kiss"
+    damage:
+      total: '40'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    cost:
+      sp: '2'
+    desc: |-
+      Scarlet blows out a kiss that stops a short distance away. The spot it stops at depends on the direction you hold as you input the move.  
+      {{ 2S }} version rests at foot height, {{ 5S }} version rests at head height, {{ 4S }} version starts higher than {{ 5S }} but slowly falls down.  
+      In the air, the {{ 2S }} version rests at foot-height on the ground, the 5S version rests in front and slightly below Scarlet, and the 4S version starts higher than 5S but slowly falls down.  
+      The move will not connect if the opponent has been hit with a {{ SNARE }} move already.  
+      Heals {{ 10HP }} on hit.
+  - base: "cmn_236s"
+    name: "<span class='b'>Lovers' Embrace</span>"
+    plain_name: "Lovers' Embrace"
+    damage:
+      total: '50'
+    guard:
+      grab: true
+    attr:
+      body: true
+    cost:
+      sp: '5'
+    desc: |-
+      Scarlet grabs and kisses the opponent, healing himself for {{ 50HP }} in the process. When landed raw, you can combo afterwards, otherwise it’s an {{ ENDER }} and requires resources to combo.  
+      The ground version can connect on airborne opponents only within a combo.  
+      The air version has Scarlet rush forwards and slightly upwards. If the opponent is grabbed, he’ll kiss them and toss them to the ground.  
+      It’s somewhat slow, so longer combos require resources to land the aerial version. 
+      When used in a combo, the healing increases by 10% (up to a max of an extra 100%) for every lifesteal move that lands in a combo.
+  - base: "cmn_22s"
+    name: "<span class='b'>Abyssal Affection</span>"
+    plain_name: "Abyssal Affection"
+    damage:
+      total: '90'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      foot: true
+    cost:
+      sp: '2'
+    desc: |-
+      Scarlet places a magic field on the ground that can slowly drain the opponent’s HP as long as they stand on it.  
+      Goes away if Scarlet techs a throw or is hit, but not if he guards.  
+      You can detonate the field by inputting 22S again, which is similar to a charged Blossom Fall ({{ 22[A] }}) with more range.  
+      In Active Flow, you can cancel other Skills into a field placement or detonation.  
+      Drains {{ 15HP }} per second ({{ 1HP }} per {{ 4F }}).
+  - base: "cmn_236ab"
+    damage:
+      total: '55'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    cost:
+      sp: '2'
+    desc: |-
+      Scarlet swipes his umbrella, shooting a pink fireball.  
+      The {{ A }} version is fast, but travels only about half-screen.  
+      The {{ B }} version takes a moment to accelerate, but travels full-screen and the pause gives you more frame advantage.  
+      You can input the move twice in a row to fire two fireballs in quick succession (costs {{ 4SP }} total). If you fire a {{ B }} then an {{ A }} fireball, they can combine into a more powerful projectile with improved properties.  
+      The initial swing of the {{ B }} fireball can cancel one-hit fireballs.  
+      In the air, both versions travel diagonally downwards. The {{ B }} version cuts your horizontal momentum and makes you fall forwards, while the {{ A }} version maintains horizontal momentum.  
+      Heals {{ 5HP }} on hit, or {{ 15HP }} for the combined version.
+  - base: "cmn_214ab"
+    name: "<span class='b'>Doting Dive</span>"
+    plain_name: "Doting Dive"
+    damage:
+      total: '70'
+    guard:
+      high: true
+    attr:
+      dive: true
+    cost:
+      sp: '3'
+    desc: |-
+      Scarlet jumps into the air and dives down, stabbing with his umbrella. Forces crouch on hit.  
+      The {{ A }} version is faster, but generally has less reward on hit without meter. It’s just barely safe on block, but can be punished if Super Blocked.  
+      The {{ B }} version is slower, but you can combo after meterlessly. However, it is always punishable if blocked.  
+      Heals {{ 10HP }} on hit. 
+  - base: "cmn_22a"
+    name: "<span class='b'>Blossom Fall</span>"
+    plain_name: "Blossom Fall"
+    damage:
+      total: '90'
+    guard:
+      low:  true
+    attr:
+      foot: true
+    cost:
+      sp: '2'
+    desc: |-
+      Scarlet raises his arm, creating a flowery explosion at his feet.  
+      Safe on block and pushes the opponent far away.  
+      You can’t really combo afterwards, but it makes for a good combo ender at any time due to its speed and range.  
+      The charged version has reduced recovery and launches higher, allowing for a juggle as long as you’re close enough.  
+      Heals {{ 10HP }} on hit.
+  - base: "cmn_22b"
+    name: "<span class='b'>Helenic Highrise</span>"
+    plain_name: "Helenic Highrise"
+    damage:
+      total: '144'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    cost:
+      sp: '3'
+    desc: |-
+      Scarlet leaps backwards, creating a geyser of magic about a half-screen away. The geyser cannot spawn past the edge of the screen.  
+      On hit or block, the move can be chained into any other air normals or Skills and can be {{ JUMP }} or {{ DASH-CANCEL }}ed.  
+      Heals {{ 15HP }} on hit.
+- id: exs
+  title: ex skills
+  moves: 
+  - base: "cmn_236c"
+    name: "<span class='b'>Love-Me Chain</span>"
+    plain_name: "Love-Me Chain"
+    damage:
+      total: '235'
+    guard:
+      low:  true
+      high: true
+    attr:
+      body: true
+    desc: |-
+      Scarlet swipes his umbrella upwards.  
+      On hit, he circles around the opponent a few times, leaving a chain of pink magic before passing them one last time, closing the chain and detonating it.  
+      Heals Scarlet for {{ 60HP }}.
+  - base: "cmn_214c"
+    damage:
+      total: '-'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      dive: true
+    desc: |-
+      \-
+  - base: "cmn_22c"
+    damage:
+      total: '100'
+    guard:
+      low:  true
+      high: true
+      air:  true
+    attr:
+      body: true
+    desc: |-
+      Scarlet blows a large kiss that slowly floats across the screen.  
+      If it hits the opponent, they will be locked for a very long period of time. You can use this time to set up a couple Sweet Kisses, or to continue a combo.  
+      It’s also very plus on block, so you can use it to extend pressure or as okizeme.  
+      Heals Scarlet for {{ 40HP }}.
+  - base: "cmn_ex2"
+    name: "<span class='b'>Love and Beauty Shock</span>"
+    plain_name: "Love and Beauty Shock"
+    damage:
+      total: '360'
+    guard:
+      grab: true
+    attr:
+      body: true
+    desc: |-
+      Scarlet tries to grab the opponent.  
+      On a successful grab, Scarlet takes the opponent and holds them in a romantic pose, before the screen fades to black and he takes a big bite out of them.  
+      Heals Scarlet for {{ 100HP }}.  
+      Recovers {{ 8SP }} on hit.

@@ -1,5 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" shape-rendering="crispEdges">
-  <circle cx="7.5" cy="7.5" color="#000" fill="#383448" r="5.25"/>
-  <circle cx="7.5" cy="7.5" fill="none" stroke="#101018" stroke-linejoin="bevel" stroke-width=".8" r="3.05"/>
-  <path d="M10 11.025c0-.0661-.051-.1-.1-.1H8V8c0-.28-.1029-.45-.3-.45-.2195 0-.45.45-.45.45l-1.125 2.35c-.0666.1542-.125.262-.125.35v4.175c0 .0503.0809.125.1453.125.0648 0 .1266-.0514.2047-.125l3.55-3.7c.0481-.0481.0987-.1117.1-.15z" fill="#fff0e0"/>
-</svg>

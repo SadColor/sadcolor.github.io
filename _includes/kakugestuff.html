@@ -1,72 +1,252 @@
 <!--page elements-->
 {% capture triL %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="triL" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="decotri triL" alt="">
 		<path d="M0 0H20V20z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 {% capture triR %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="triR" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="decotri triR" alt="">
 		<path d="M20 0H0V20z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 {% capture cornerR %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="decotri tD tR" alt="">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 {% capture topR %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topR" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="decotri tU tR" alt="">
 		<path d="M0 0H12V12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 {% capture topL %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="decotri tU tL" alt="">
 		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 
 {% capture nestcornerR %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="cornerR nest" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="decotri tD tR nest" alt="">
 		<path d="M0 12H12V0z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 {% capture nesttopL %}
-	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="topL nest" alt="">
+	<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" class="decotri tU tL nest" alt="">
 		<path d="M0 12V0H12z" fill-rule="evenodd" shape-rendering="crispEdges"/>
 	</svg>
 {% endcapture %}
 
 <!--buttons-->
-{% capture A %}<t-g><b>A</b></t-g>{% endcapture %}
-{% capture B %}<t-y><b>B</b></t-y>{% endcapture %}
-{% capture C %}<t-r><b>C</b></t-r>{% endcapture %}
-{% capture D %}<t-cy><b>D</b></t-cy>{% endcapture %}
-{% capture S %}<t-b><b>S</b></t-b>{% endcapture %}
-{% capture X %}<t-p><b>X</b></t-p>{% endcapture %}
-{% capture n1 %}<b>1</b>{% endcapture %}
-{% capture n2 %}<b>2</b>{% endcapture %}
-{% capture n3 %}<b>3</b>{% endcapture %}
-{% capture n4 %}<b>4</b>{% endcapture %}
-{% capture n5 %}<b>5</b>{% endcapture %}
-{% capture n6 %}<b>6</b>{% endcapture %}
-{% capture n7 %}<b>7</b>{% endcapture %}
-{% capture n8 %}<b>8</b>{% endcapture %}
-{% capture n9 %}<b>9</b>{% endcapture %}
-{% capture n236 %}<b>236</b>{% endcapture %}
-{% capture n214 %}<b>214</b>{% endcapture %}
-{% capture n41236 %}<b>41236</b>{% endcapture %}
-{% capture j %}<b>j.</b>{% endcapture %}
-{% capture d %}<b>d.</b>{% endcapture %}
-{% capture d0 %}<img class="dirimg l" alt="" src="/img/d0.svg" />{% endcapture %}
-{% capture d1 %}<img class="dirimg l" alt="1" src="/img/d1.svg" />{% endcapture %}
-{% capture d2 %}<img class="dirimg l" alt="2" src="/img/d2.svg" />{% endcapture %}
-{% capture d3 %}<img class="dirimg r" alt="3" src="/img/d3.svg" />{% endcapture %}
-{% capture d4 %}<img class="dirimg l" alt="4" src="/img/d4.svg" />{% endcapture %}
-{% capture d5 %}<img class="dirimg l" alt="5" src="/img/d0.svg" />{% endcapture %}
-{% capture d6 %}<img class="dirimg r" alt="6" src="/img/d6.svg" />{% endcapture %}
-{% capture d7 %}<img class="dirimg l" alt="7" src="/img/d7.svg" />{% endcapture %}
-{% capture d8 %}<img class="dirimg l" alt="8" src="/img/d8.svg" />{% endcapture %}
-{% capture d9 %}<img class="dirimg r" alt="9" src="/img/d9.svg" />{% endcapture %}
-{% capture d236 %}<img class="dirimg r" alt="236" src="/img/d236.svg" />{% endcapture %}
-{% capture d214 %}<img class="dirimg l" alt="214" src="/img/d214.svg" />{% endcapture %}
-{% capture d41236 %}<img class="dirimg r" alt="41236" src="/img/d41236.svg" />{% endcapture %}
+{% capture A %}<span class="b G">A</span>{% endcapture %}{% capture B %}<span class="b Y">B</span>{% endcapture %}
+{% capture C %}<span class="b R">C</span>{% endcapture %}{% capture D %}<span class="b CY">D</span>{% endcapture %}
+{% capture S %}<span class="b B">S</span>{% endcapture %}{% capture X %}<span class="b P">X</span>{% endcapture %}
+{% capture n1 %}<span class="b">1</span>{% endcapture %}{% capture n2 %}<span class="b">2</span>{% endcapture %}{% capture n3 %}<span class="b">3</span>{% endcapture %}
+{% capture n4 %}<span class="b">4</span>{% endcapture %}{% capture n5 %}<span class="b">5</span>{% endcapture %}{% capture n6 %}<span class="b">6</span>{% endcapture %}
+{% capture n7 %}<span class="b">7</span>{% endcapture %}{% capture n8 %}<span class="b">8</span>{% endcapture %}{% capture n9 %}<span class="b">9</span>{% endcapture %}
+{% capture n44 %}<span class="b">44</span>{% endcapture %}{% capture n66 %}<span class="b">66</span>{% endcapture %}
+{% capture n236 %}<span class="b">236</span>{% endcapture %}{% capture n214 %}<span class="b">214</span>{% endcapture %}
+{% capture n41236 %}<span class="b">41236</span>{% endcapture %}
+{% capture j %}<span class="b">j.</span>{% endcapture %}
+
+<!--direction images-->
+{% capture d0 %}{% include img/d0.svg %}{% endcapture %}{% assign d0 = d0 | strip_newlines %}
+{% capture d1 %}{% include img/d1.svg %}{% endcapture %}{% assign d1 = d1 | strip_newlines %}
+{% capture d2 %}{% include img/d2.svg %}{% endcapture %}{% assign d2 = d2 | strip_newlines %}
+{% capture d3 %}{% include img/d3.svg %}{% endcapture %}{% assign d3 = d3 | strip_newlines %}
+{% capture d4 %}{% include img/d4.svg %}{% endcapture %}{% assign d4 = d4 | strip_newlines %}
+{% capture d5 %}{% include img/d5.svg %}{% endcapture %}{% assign d5 = d5 | strip_newlines %}
+{% capture d6 %}{% include img/d6.svg %}{% endcapture %}{% assign d8 = d6 | strip_newlines %}
+{% capture d7 %}{% include img/d7.svg %}{% endcapture %}{% assign d7 = d7 | strip_newlines %}
+{% capture d8 %}{% include img/d8.svg %}{% endcapture %}{% assign d8 = d8 | strip_newlines %}
+{% capture d9 %}{% include img/d9.svg %}{% endcapture %}{% assign d9 = d9 | strip_newlines %}
+{% capture d236 %}{% include img/d236.svg %}{% endcapture %}{% assign d236 = d236 | strip_newlines %}
+{% capture d214 %}{% include img/d214.svg %}{% endcapture %}{% assign d214 = d214 | strip_newlines %}
+{% capture d41236 %}{% include img/d41236.svg %}{% endcapture %}{% assign d41236 = d41236 | strip_newlines %}
+
+{% capture d22 %}{{ d2 }}{{ d2 }}{% endcapture %}
+{% capture d44 %}{{ d4 }}{{ d4 }}{% endcapture %}
+{% capture d66 %}{{ d6 }}{{ d6 }}{% endcapture %}
+
+{% capture SP %}<img class="spimg" alt="SP" src="/img/bug-tp.svg" />{% endcapture %}
+{% capture 1SP %}<span class="spimg">{{ SP }}1</span>{% endcapture %}
+{% capture 2SP %}<span class="spimg">{{ SP }}2</span>{% endcapture %}
+{% capture 3SP %}<span class="spimg">{{ SP }}3</span>{% endcapture %}
+{% capture 4SP %}<span class="spimg">{{ SP }}4</span>{% endcapture %}
+{% capture 5SP %}<span class="spimg">{{ SP }}5</span>{% endcapture %}
+{% capture 6SP %}<span class="spimg">{{ SP }}6</span>{% endcapture %}
+{% capture 7SP %}<span class="spimg">{{ SP }}7</span>{% endcapture %}
+{% capture 8SP %}<span class="spimg">{{ SP }}8</span>{% endcapture %}
+{% capture 9SP %}<span class="spimg">{{ SP }}9</span>{% endcapture %}
+{% capture 10SP %}<span class="spimg">{{ SP }}10</span>{% endcapture %}
+{% capture 20SP %}<span class="spimg">{{ SP }}20</span>{% endcapture %}
+
+{% capture EX %}<img class="eximg" alt="EX" src="/img/bug-ex.svg" />{% endcapture %}
+{% capture 50EX %}<span class="eximg">{{ EX }}50</span>{% endcapture %}
+{% capture 100EX %}<span class="eximg">{{ EX }}100</span>{% endcapture %}
+{% capture 200EX %}<span class="eximg">{{ EX }}200</span>{% endcapture %}
+
+<!--direction plus button-->
+{% capture d0A %}{{ d0 }}{{ A }}{% endcapture %}{% capture d0B %}{{ d0 }}{{ B }}{% endcapture %}
+{% capture d1A %}{{ d1 }}{{ A }}{% endcapture %}{% capture d1B %}{{ d1 }}{{ B }}{% endcapture %}
+{% capture d2A %}{{ d2 }}{{ A }}{% endcapture %}{% capture d2B %}{{ d2 }}{{ B }}{% endcapture %}
+{% capture d3A %}{{ d3 }}{{ A }}{% endcapture %}{% capture d3B %}{{ d3 }}{{ B }}{% endcapture %}
+{% capture d4A %}{{ d4 }}{{ A }}{% endcapture %}{% capture d4B %}{{ d4 }}{{ B }}{% endcapture %}
+{% capture d5A %}{{ d5 }}{{ A }}{% endcapture %}{% capture d5B %}{{ d5 }}{{ B }}{% endcapture %}
+{% capture d6A %}{{ d6 }}{{ A }}{% endcapture %}{% capture d6B %}{{ d6 }}{{ B }}{% endcapture %}
+{% capture d7A %}{{ d7 }}{{ A }}{% endcapture %}{% capture d7B %}{{ d7 }}{{ B }}{% endcapture %}
+{% capture d8A %}{{ d8 }}{{ A }}{% endcapture %}{% capture d8B %}{{ d8 }}{{ B }}{% endcapture %}
+{% capture d9A %}{{ d9 }}{{ A }}{% endcapture %}{% capture d9B %}{{ d9 }}{{ B }}{% endcapture %}
+{% capture d0C %}{{ d0 }}{{ C }}{% endcapture %}{% capture d0S %}{{ d0 }}{{ S }}{% endcapture %}
+{% capture d1C %}{{ d1 }}{{ C }}{% endcapture %}{% capture d1S %}{{ d1 }}{{ S }}{% endcapture %}
+{% capture d2C %}{{ d2 }}{{ C }}{% endcapture %}{% capture d2S %}{{ d2 }}{{ S }}{% endcapture %}
+{% capture d3C %}{{ d3 }}{{ C }}{% endcapture %}{% capture d3S %}{{ d3 }}{{ S }}{% endcapture %}
+{% capture d4C %}{{ d4 }}{{ C }}{% endcapture %}{% capture d4S %}{{ d4 }}{{ S }}{% endcapture %}
+{% capture d5C %}{{ d5 }}{{ C }}{% endcapture %}{% capture d5S %}{{ d5 }}{{ S }}{% endcapture %}
+{% capture d6C %}{{ d6 }}{{ C }}{% endcapture %}{% capture d6S %}{{ d6 }}{{ S }}{% endcapture %}
+{% capture d7C %}{{ d7 }}{{ C }}{% endcapture %}{% capture d7S %}{{ d7 }}{{ S }}{% endcapture %}
+{% capture d8C %}{{ d8 }}{{ C }}{% endcapture %}{% capture d8S %}{{ d8 }}{{ S }}{% endcapture %}
+{% capture d9C %}{{ d9 }}{{ C }}{% endcapture %}{% capture d9S %}{{ d9 }}{{ S }}{% endcapture %}
+
+{% capture d236A %}{{ d236 }}{{ A }}{% endcapture %}{% capture d236B %}{{ d236 }}{{ B }}{% endcapture %}
+{% capture d214A %}{{ d214 }}{{ A }}{% endcapture %}{% capture d214B %}{{ d214 }}{{ B }}{% endcapture %}
+{% capture  d22A %}{{  d22 }}{{ A }}{% endcapture %}{% capture  d22B %}{{  d22 }}{{ B }}{% endcapture %}
+{% capture d236C %}{{ d236 }}{{ C }}{% endcapture %}{% capture d236S %}{{ d236 }}{{ S }}{% endcapture %}
+{% capture d214C %}{{ d214 }}{{ C }}{% endcapture %}{% capture d214S %}{{ d214 }}{{ S }}{% endcapture %}
+{% capture  d22C %}{{  d22 }}{{ C }}{% endcapture %}{% capture  d22S %}{{  d22 }}{{ S }}{% endcapture %}
+
+<!--moves-->
+{% capture 5A %}<span class="b">5<span class="G">A</span></span>{% endcapture %}{% capture 5B %}<span class="b">5<span class="Y">B</span></span>{% endcapture %}
+{% capture 2A %}<span class="b">2<span class="G">A</span></span>{% endcapture %}{% capture 2B %}<span class="b">2<span class="Y">B</span></span>{% endcapture %}
+{% capture 3A %}<span class="b">3<span class="G">A</span></span>{% endcapture %}{% capture 3B %}<span class="b">3<span class="Y">B</span></span>{% endcapture %}
+{% capture 4A %}<span class="b">4<span class="G">A</span></span>{% endcapture %}{% capture 4B %}<span class="b">4<span class="Y">B</span></span>{% endcapture %}
+{% capture 6A %}<span class="b">6<span class="G">A</span></span>{% endcapture %}{% capture 6B %}<span class="b">6<span class="Y">B</span></span>{% endcapture %}
+{% capture 5C %}<span class="b">5<span class="R">C</span></span>{% endcapture %}{% capture 5S %}<span class="b">5<span class="B">S</span></span>{% endcapture %}
+{% capture 2C %}<span class="b">2<span class="R">C</span></span>{% endcapture %}{% capture 2S %}<span class="b">2<span class="B">S</span></span>{% endcapture %}
+{% capture 3C %}<span class="b">3<span class="R">C</span></span>{% endcapture %}{% capture 3S %}<span class="b">3<span class="B">S</span></span>{% endcapture %}
+{% capture 4C %}<span class="b">4<span class="R">C</span></span>{% endcapture %}{% capture 4S %}<span class="b">4<span class="B">S</span></span>{% endcapture %}
+{% capture 6C %}<span class="b">6<span class="R">C</span></span>{% endcapture %}{% capture 6S %}<span class="b">6<span class="B">S</span></span>{% endcapture %}
+
+{% capture 5_A %}<span class="b">5<span class="G">[A]</span></span>{% endcapture %}{% capture 5_B %}<span class="b">5<span class="Y">[B]</span></span>{% endcapture %}
+{% capture 2_A %}<span class="b">2<span class="G">[A]</span></span>{% endcapture %}{% capture 2_B %}<span class="b">2<span class="Y">[B]</span></span>{% endcapture %}
+{% capture 3_A %}<span class="b">3<span class="G">[A]</span></span>{% endcapture %}{% capture 3_B %}<span class="b">3<span class="Y">[B]</span></span>{% endcapture %}
+{% capture 4_A %}<span class="b">4<span class="G">[A]</span></span>{% endcapture %}{% capture 4_B %}<span class="b">4<span class="Y">[B]</span></span>{% endcapture %}
+{% capture 6_A %}<span class="b">6<span class="G">[A]</span></span>{% endcapture %}{% capture 6_B %}<span class="b">6<span class="Y">[B]</span></span>{% endcapture %}
+{% capture 5_C %}<span class="b">5<span class="R">[C]</span></span>{% endcapture %}{% capture 5_S %}<span class="b">5<span class="B">[S]</span></span>{% endcapture %}
+{% capture 2_C %}<span class="b">2<span class="R">[C]</span></span>{% endcapture %}{% capture 2_S %}<span class="b">2<span class="B">[S]</span></span>{% endcapture %}
+{% capture 3_C %}<span class="b">3<span class="R">[C]</span></span>{% endcapture %}{% capture 3_S %}<span class="b">3<span class="B">[S]</span></span>{% endcapture %}
+{% capture 4_C %}<span class="b">4<span class="R">[C]</span></span>{% endcapture %}{% capture 4_S %}<span class="b">4<span class="B">[S]</span></span>{% endcapture %}
+{% capture 6_C %}<span class="b">6<span class="R">[C]</span></span>{% endcapture %}{% capture 6_S %}<span class="b">6<span class="B">[S]</span></span>{% endcapture %}
+
+{% capture 5AA %}<span class="b">5<span class="G">AA</span></span>{% endcapture %}{% capture 5BB %}<span class="b">5<span class="Y">BB</span></span>{% endcapture %}
+{% capture 2AA %}<span class="b">2<span class="G">AA</span></span>{% endcapture %}{% capture 2BB %}<span class="b">2<span class="Y">BB</span></span>{% endcapture %}
+{% capture 3AA %}<span class="b">3<span class="G">AA</span></span>{% endcapture %}{% capture 3BB %}<span class="b">3<span class="Y">BB</span></span>{% endcapture %}
+{% capture 4AA %}<span class="b">4<span class="G">AA</span></span>{% endcapture %}{% capture 4BB %}<span class="b">4<span class="Y">BB</span></span>{% endcapture %}
+{% capture 6AA %}<span class="b">6<span class="G">AA</span></span>{% endcapture %}{% capture 6BB %}<span class="b">6<span class="Y">BB</span></span>{% endcapture %}
+{% capture 5CC %}<span class="b">5<span class="R">CC</span></span>{% endcapture %}{% capture 5SS %}<span class="b">5<span class="B">SS</span></span>{% endcapture %}
+{% capture 2CC %}<span class="b">2<span class="R">CC</span></span>{% endcapture %}{% capture 2SS %}<span class="b">2<span class="B">SS</span></span>{% endcapture %}
+{% capture 3CC %}<span class="b">3<span class="R">CC</span></span>{% endcapture %}{% capture 3SS %}<span class="b">3<span class="B">SS</span></span>{% endcapture %}
+{% capture 4CC %}<span class="b">4<span class="R">CC</span></span>{% endcapture %}{% capture 4SS %}<span class="b">4<span class="B">SS</span></span>{% endcapture %}
+{% capture 6CC %}<span class="b">6<span class="R">CC</span></span>{% endcapture %}{% capture 6SS %}<span class="b">6<span class="B">SS</span></span>{% endcapture %}
+
+{% capture 5AAA %}<span class="b">5<span class="G">AAA</span></span>{% endcapture %}{% capture 5BBB %}<span class="b">5<span class="Y">BBB</span></span>{% endcapture %}
+{% capture 2AAA %}<span class="b">2<span class="G">AAA</span></span>{% endcapture %}{% capture 2BBB %}<span class="b">2<span class="Y">BBB</span></span>{% endcapture %}
+{% capture 3AAA %}<span class="b">3<span class="G">AAA</span></span>{% endcapture %}{% capture 3BBB %}<span class="b">3<span class="Y">BBB</span></span>{% endcapture %}
+{% capture 4AAA %}<span class="b">4<span class="G">AAA</span></span>{% endcapture %}{% capture 4BBB %}<span class="b">4<span class="Y">BBB</span></span>{% endcapture %}
+{% capture 6AAA %}<span class="b">6<span class="G">AAA</span></span>{% endcapture %}{% capture 6BBB %}<span class="b">6<span class="Y">BBB</span></span>{% endcapture %}
+{% capture 5CCC %}<span class="b">5<span class="R">CCC</span></span>{% endcapture %}{% capture 5SSS %}<span class="b">5<span class="B">SSS</span></span>{% endcapture %}
+{% capture 2CCC %}<span class="b">2<span class="R">CCC</span></span>{% endcapture %}{% capture 2SSS %}<span class="b">2<span class="B">SSS</span></span>{% endcapture %}
+{% capture 3CCC %}<span class="b">3<span class="R">CCC</span></span>{% endcapture %}{% capture 3SSS %}<span class="b">3<span class="B">SSS</span></span>{% endcapture %}
+{% capture 4CCC %}<span class="b">4<span class="R">CCC</span></span>{% endcapture %}{% capture 4SSS %}<span class="b">4<span class="B">SSS</span></span>{% endcapture %}
+{% capture 6CCC %}<span class="b">6<span class="R">CCC</span></span>{% endcapture %}{% capture 6SSS %}<span class="b">6<span class="B">SSS</span></span>{% endcapture %}
+
+{% capture  jA  %}<span class="b">j.<span class="G">A</span></span>{% endcapture %}{% capture  jB  %}<span class="b">j.<span class="Y">B</span></span>{% endcapture %}
+{% capture j2A %}<span class="b">j.2<span class="G">A</span></span>{% endcapture %}{% capture j2B %}<span class="b">j.2<span class="Y">B</span></span>{% endcapture %}
+{% capture j4A %}<span class="b">j.4<span class="G">A</span></span>{% endcapture %}{% capture j4B %}<span class="b">j.4<span class="Y">B</span></span>{% endcapture %}
+{% capture j6A %}<span class="b">j.6<span class="G">A</span></span>{% endcapture %}{% capture j6B %}<span class="b">j.6<span class="Y">B</span></span>{% endcapture %}
+{% capture  jC  %}<span class="b">j.<span class="R">C</span></span>{% endcapture %}{% capture  jS  %}<span class="b">j.<span class="B">S</span></span>{% endcapture %}
+{% capture j2C %}<span class="b">j.2<span class="R">C</span></span>{% endcapture %}{% capture j2S %}<span class="b">j.2<span class="B">S</span></span>{% endcapture %}
+{% capture j4C %}<span class="b">j.4<span class="R">C</span></span>{% endcapture %}{% capture j4S %}<span class="b">j.4<span class="B">S</span></span>{% endcapture %}
+{% capture j6C %}<span class="b">j.6<span class="R">C</span></span>{% endcapture %}{% capture j6S %}<span class="b">j.6<span class="B">S</span></span>{% endcapture %}
+{% capture  j_A  %}<span class="b">j.[<span class="G">A</span>]</span>{% endcapture %}{% capture  j_B  %}<span class="b">j.[<span class="Y">B</span>]</span>{% endcapture %}
+{% capture j2_A %}<span class="b">j.2[<span class="G">A</span>]</span>{% endcapture %}{% capture j2_B %}<span class="b">j.2[<span class="Y">B</span>]</span>{% endcapture %}
+{% capture j4_A %}<span class="b">j.4[<span class="G">A</span>]</span>{% endcapture %}{% capture j4_B %}<span class="b">j.4[<span class="Y">B</span>]</span>{% endcapture %}
+{% capture j6_A %}<span class="b">j.6[<span class="G">A</span>]</span>{% endcapture %}{% capture j6_B %}<span class="b">j.6[<span class="Y">B</span>]</span>{% endcapture %}
+{% capture  j_C  %}<span class="b">j.[<span class="R">C</span>]</span>{% endcapture %}{% capture  j_S  %}<span class="b">j.[<span class="B">S</span>]</span>{% endcapture %}
+{% capture j2_C %}<span class="b">j.2[<span class="R">C</span>]</span>{% endcapture %}{% capture j2_S %}<span class="b">j.2[<span class="B">S</span>]</span>{% endcapture %}
+{% capture j4_C %}<span class="b">j.4[<span class="R">C</span>]</span>{% endcapture %}{% capture j4_S %}<span class="b">j.4[<span class="B">S</span>]</span>{% endcapture %}
+{% capture j6_C %}<span class="b">j.6[<span class="R">C</span>]</span>{% endcapture %}{% capture j6_S %}<span class="b">j.6[<span class="B">S</span>]</span>{% endcapture %}
+
+{% capture 66A %}<span class="b">66<span class="G">A</span></span>{% endcapture %}{% capture 66B %}<span class="b">66<span class="Y">B</span></span>{% endcapture %}
+{% capture 66C %}<span class="b">66<span class="R">C</span></span>{% endcapture %}{% capture 66S %}<span class="b">66<span class="B">S</span></span>{% endcapture %}
+
+{% capture 236A  %}<span class="b">236<span class="G">A</span></span>{% endcapture %}{% capture 236B  %}<span class="b">236<span class="Y">B</span></span>{% endcapture %}
+{% capture 214A  %}<span class="b">214<span class="G">A</span></span>{% endcapture %}{% capture 214B  %}<span class="b">214<span class="Y">B</span></span>{% endcapture %}
+{% capture  22A   %}<span class="b">22<span class="G">A</span></span>{% endcapture %}{% capture  22B   %}<span class="b">22<span class="Y">B</span></span>{% endcapture %}
+{% capture  46A %}<span class="b">[4]6<span class="G">A</span></span>{% endcapture %}{% capture  46B %}<span class="b">[4]6<span class="Y">B</span></span>{% endcapture %}
+{% capture  28A %}<span class="b">[2]8<span class="G">A</span></span>{% endcapture %}{% capture  28B %}<span class="b">[2]8<span class="Y">B</span></span>{% endcapture %}
+{% capture 236C  %}<span class="b">236<span class="R">C</span></span>{% endcapture %}{% capture 236S  %}<span class="b">236<span class="B">S</span></span>{% endcapture %}
+{% capture 214C  %}<span class="b">214<span class="R">C</span></span>{% endcapture %}{% capture 214S  %}<span class="b">214<span class="B">S</span></span>{% endcapture %}
+{% capture  22C   %}<span class="b">22<span class="R">C</span></span>{% endcapture %}{% capture  22S   %}<span class="b">22<span class="B">S</span></span>{% endcapture %}
+{% capture  46C %}<span class="b">[4]6<span class="R">C</span></span>{% endcapture %}{% capture  46S %}<span class="b">[4]6<span class="B">S</span></span>{% endcapture %}
+{% capture  28C %}<span class="b">[2]8<span class="R">C</span></span>{% endcapture %}{% capture  28S %}<span class="b">[2]8<span class="B">S</span></span>{% endcapture %}
+
+{% capture j236A  %}<span class="b">j.236<span class="G">A</span></span>{% endcapture %}{% capture j236B  %}<span class="b">j.236<span class="Y">B</span></span>{% endcapture %}
+{% capture j214A  %}<span class="b">j.214<span class="G">A</span></span>{% endcapture %}{% capture j214B  %}<span class="b">j.214<span class="Y">B</span></span>{% endcapture %}
+{% capture  j22A   %}<span class="b">j.22<span class="G">A</span></span>{% endcapture %}{% capture  j22B   %}<span class="b">j.22<span class="Y">B</span></span>{% endcapture %}
+{% capture  j46A %}<span class="b">j.[4]6<span class="G">A</span></span>{% endcapture %}{% capture  j46B %}<span class="b">j.[4]6<span class="Y">B</span></span>{% endcapture %}
+{% capture  j28A %}<span class="b">j.[2]8<span class="G">A</span></span>{% endcapture %}{% capture  j28B %}<span class="b">j.[2]8<span class="Y">B</span></span>{% endcapture %}
+{% capture j236C  %}<span class="b">j.236<span class="R">C</span></span>{% endcapture %}{% capture j236S  %}<span class="b">j.236<span class="B">S</span></span>{% endcapture %}
+{% capture j214C  %}<span class="b">j.214<span class="R">C</span></span>{% endcapture %}{% capture j214S  %}<span class="b">j.214<span class="B">S</span></span>{% endcapture %}
+{% capture  j22C   %}<span class="b">j.22<span class="R">C</span></span>{% endcapture %}{% capture  j22S   %}<span class="b">j.22<span class="B">S</span></span>{% endcapture %}
+{% capture  j46C %}<span class="b">j.[4]6<span class="R">C</span></span>{% endcapture %}{% capture  j46S %}<span class="b">j.[4]6<span class="B">S</span></span>{% endcapture %}
+{% capture  j28C %}<span class="b">j.[2]8<span class="R">C</span></span>{% endcapture %}{% capture  j28S %}<span class="b">j.[2]8<span class="B">S</span></span>{% endcapture %}
+
+<!-- attack attributes -->
+{% capture FOOT %}<span class="b PI">F<span class="small">OOT</span></span>{% endcapture %}
+{% capture BODY %}<span class="b PI">B<span class="small">ODY</span></span>{% endcapture %}
+{% capture CHEST %}<span class="b PI">C<span class="small">HEST</span></span>{% endcapture %}
+{% capture HEAD %}<span class="b PI">H<span class="small">EAD</span></span>{% endcapture %}
+{% capture DIVE %}<span class="b PI">D<span class="small">IVE</span></span>{% endcapture %}
+
+<!-- attack properties -->
+{% capture OTG %}<span class="b G">O<span class="small">TG</span></span>{% endcapture %}
+{% capture ENDER %}<span class="b G">E<span class="small">NDER</span></span>{% endcapture %}
+{% capture JUMP %}<span class="b G">J<span class="small">UMP-</span></span>{% endcapture %}
+{% capture DASH %}<span class="b G">D<span class="small">ASH-</span></span>{% endcapture %}
+{% capture JUMPCANCEL %}<span class="b G">J<span class="small">UMP-CANCEL</span></span>{% endcapture %}
+{% capture DASHCANCEL %}<span class="b G">D<span class="small">ASH-CANCEL</span></span>{% endcapture %}
+
+{% capture GUARDCRUSH %}<span class="b Y">G<span class="small">UARD-CRUSH</span></span>{% endcapture %}
+
+{% capture LAUNCH %}<span class="b R">L<span class="small">AUNCH</span></span>{% endcapture %}
+{% capture SKD %}<span class="b R">S<span class="small">KD</span></span>{% endcapture %}
+{% capture HKD %}<span class="b R">H<span class="small">KD</span></span>{% endcapture %}
+{% capture SNARE %}<span class="b R">S<span class="small">NARE</span></span>{% endcapture %}
+{% capture GROUNDSLIDE %}<span class="b R">G<span class="small">ROUNDSLIDE</span></span>{% endcapture %}
+{% capture GROUNDBOUNCE %}<span class="b R">G<span class="small">ROUNDBOUNCE</span></span>{% endcapture %}
+{% capture WALLSPLAT %}<span class="b R">W<span class="small">ALLSPLAT</span></span>{% endcapture %}
+{% capture WALLBOUNCE %}<span class="b R">W<span class="small">ALLBOUNCE</span></span>{% endcapture %}
+
+{% capture P1 %}<span class="b B">P<span class="small">1</span></span>{% endcapture %}
+{% capture P2 %}<span class="b B">P<span class="small">2</span></span>{% endcapture %}
+{% capture POISON %}<span class="b B">P<span class="small">OISON</span></span>{% endcapture %}
+{% capture NUMB %}<span class="b B">N<span class="small">UMB</span></span>{% endcapture %}
+{% capture FREEZE %}<span class="b B">F<span class="small">REEZE</span></span>{% endcapture %}
+
+{% capture   1HP %}<span class="hp">1<span class="small">HP</span></span>{% endcapture %}
+{% capture   5HP %}<span class="hp">5<span class="small">HP</span></span>{% endcapture %}
+{% capture  10HP %}<span class="hp">10<span class="small">HP</span></span>{% endcapture %}
+{% capture  15HP %}<span class="hp">15<span class="small">HP</span></span>{% endcapture %}
+{% capture  40HP %}<span class="hp">40<span class="small">HP</span></span>{% endcapture %}
+{% capture  50HP %}<span class="hp">50<span class="small">HP</span></span>{% endcapture %}
+{% capture  60HP %}<span class="hp">60<span class="small">HP</span></span>{% endcapture %}
+{% capture 100HP %}<span class="hp">100<span class="small">HP</span></span>{% endcapture %}
+<!-- frames -->
+{% capture 1F %}<span class="frame b">1</span><span class="small">F</span>{% endcapture %}
+{% capture 4F %}<span class="frame b">4</span><span class="small">F</span>{% endcapture %}
+
+<!-- common strings -->
+{% capture antiair %}Upper body is {{ DIVE }}-invulnerable.{% endcapture %}
+{% capture airverchest %}{{ CHEST }} attribute when used in the air.{% endcapture %}
+{% capture airverdive %}{{ DIVE }} attribute when used in the air.{% endcapture %}
+{% capture airverguard %}The aerial version can be guarded while airborne.{% endcapture %}

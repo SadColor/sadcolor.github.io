@@ -1,0 +1,65 @@
+lastupdated: "2024.03.06"
+
+kyara:
+- id:   vi
+  name: Vi
+- id:   kabbu
+  name: Kabbu
+- id:   leif
+  name: Leif
+- id:   mothiva
+  name: Mothiva
+  nolink: true
+- id:   maki
+  name: Maki
+  nolink: true
+- id:   kina
+  name: Kina
+  nolink: true
+- id:   scarlet
+  name: Scarlet
+- id:   riz
+  name: Riz
+  nolink: true
+- id:   wasp
+  name: Wasp King
+  nolink: true
+- id:   everlasting
+  name: Everlasting King
+  nolink: true
+- id:   aria
+  name: Aria
+  nolink: true
+- id:   stratos
+  name: Stratos
+  nolink: true
+- id:   delilah
+  name: Delilah
+  nolink: true
+- id:   verdi
+  name: Verdigris
+  nolink: true
+- id:   boko
+  name: Bokobot
+  nolink: true
+- id:   elizant
+  name: Elizant II
+  nolink: true
+- id:   carmina
+  name: Carmina
+  nolink: true
+- id:   tbn
+  name: (TBN)
+  nolink: true
+- id:   kabbu_pink
+  name: Pink Kabbu
+  nolink: true
+- id:   muse
+  name: Muse
+  nolink: true
+- id:   zaryant
+  name: Zaryant
+  nolink: true
+- id:   kali
+  name: Kali
+  nolink: true
