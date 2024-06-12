@@ -4,6 +4,9 @@ navi:
     title: "leif"
     link: "../leif"
 
+meta:
+  color: "#ff90ac"
+
 stats:
   name: "monsieur scarlet"
   hp: 1000

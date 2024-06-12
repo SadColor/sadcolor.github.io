@@ -1,5 +1,11 @@
 lastupdated: "2024.06.12"
 
+meta:
+  opengraph:
+    description: |
+      @fukouiro on Tumblr, Twitter, Bluesky, Cohost.
+      @sadcolor on Art Fight, Toyhouse, Itch.
+
 content:
 - id: sns
   title: social links

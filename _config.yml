@@ -2,6 +2,14 @@ repository: sadcolor/sadcolor.github.io
 lastupdated: "2024.06.12"
 url: "https://sadcolor.github.io"
 
+color: "#70a4ff"
+
+site_name: "sadcolor's stuff"
+bug_name: "sadcolor's bug fables fighter"
+artfight_name: "sadcolor's art fight archive"
+
+site_icon: "/favicon-192x192.png"
+
 flexible_include:
   die_on_file_error: true
   die_on_path_denied: true

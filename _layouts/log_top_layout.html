@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
+	{% assign pg = site.data %}
+	{% for y in page.ymfile %}{% assign pg = pg[y] %}{% endfor %}
+	{% assign pg_rev = pg.content | reverse %}
 	<head>
 		<meta charset="utf-8">
 		<title>sadcolor's blog</title>
 		{% include head-style.html %}
 	</head>
-	{% assign pg = site.data %}
-	{% for y in page.ymfile %}{% assign pg = pg[y] %}{% endfor %}
-	{% assign pg_rev = pg.content | reverse %}
 	<body>
 		<div id="page_cont">
 			{% include top_bar.html title=page.title subtitle=page.subtitle %}

@@ -1,4 +1,11 @@
-lastupdated: "2024.06.11"
+lastupdated: "2024.06.12"
+
+meta:
+  large_image: true
+  opengraph:
+    description: |-
+      ＊all prices in USD
+    image: "/comm/prices.png"
 
 content:
 - id: prices

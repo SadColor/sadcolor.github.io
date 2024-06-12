@@ -7,6 +7,10 @@ navi:
     title: "leif"
     link: "../leif"
 
+meta:
+  color: "#20a42c"
+  has_art: true
+
 stats:
   name: "kabbu"
   hp: 1300

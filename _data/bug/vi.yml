@@ -4,6 +4,10 @@ navi:
     title: "kabbu"
     link: "../kabbu"
 
+meta:
+  color: "#ffd850"
+  has_art: true
+
 stats:
   name: "vi"
   hp: 1200

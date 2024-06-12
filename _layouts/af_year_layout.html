@@ -1,10 +1,5 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>{{ page.year }} overview</title>
-	{% include artfight-head.html %}
-</head>
 {% assign allpg = site.data.af.af_top %}
 {% assign pg = allpg.content | where: "year", page.year | first %}
 {% assign atks = "_atk" | prepend: page.year %}
@@ -17,6 +12,11 @@
 {% endif %}
 {% assign sakka = site.data.af.sakka %}
 {% assign teams = site.data.af.teams %}
+<head>
+	<meta charset="utf-8">
+	<title>{{ page.year }} overview</title>
+	{% include artfight-head.html %}
+</head>
 <body>
 	<div id="page_cont">
 		{% assign subtitle = "art fight " | append: page.year %}

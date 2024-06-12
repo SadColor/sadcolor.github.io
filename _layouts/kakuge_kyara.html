@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
+{% assign pg = site.data.bug[page.kyara] %}
 <head>
 	<meta charset="utf-8">
 	<title>{{ page.title }}</title>
 	{% include kakuge-head.html %}
 </head>
-{% assign pg = site.data.bug[page.kyara] %}
 {% include kakugestuff.html %}
 <body>
 	<div id="page_cont">
