@@ -372,13 +372,11 @@ hr {
 }
 
 .post_box.tri_topA>p:first-child,
-.post_box.tri_topB>p:first-child
-{
+.post_box.tri_topB>p:first-child {
 	margin-top:		1rem;
 }
 .post_box.tri_topA>p:last-child,
-.post_box.tri_topB>p:last-child
-{
+.post_box.tri_topB>p:last-child {
 	margin-bottom:	1rem;
 }
 
