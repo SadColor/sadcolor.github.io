@@ -1,4 +1,4 @@
-lastupdated: "2024.03.08"
+lastupdated: "2024.06.12"
 
 content:
 - id: sns
@@ -13,6 +13,7 @@ content:
       - ・ [Twitter](https://twitter.com/fukouiro)
       - ・ [Itch.io](https://sadcolor.itch.io)
       - ・ [Art Fight](https://artfight.net/~SadColor)
+      - ・ [Bluesky](https://bsky.app/profile/fukouiro.bsky.social)
       
 - id: art
   title: art pages
@@ -20,6 +21,7 @@ content:
   - type: "none"
     body: |
       - ・ [Art Fight galleries](af)
+      - ・ [Commission info](comm)
 
 - id: other
   title: other stuff

@@ -1,0 +1,99 @@
+lastupdated: "2024.06.11"
+
+content:
+- id: prices
+  title: prices
+  body: 
+  - type: figure
+    class: "Y"
+    style: text-align:center
+    caption: |
+      ＊all prices in USD
+    body:
+    - type: img
+      src: prices.png
+
+  - type: subhead
+    title: note about extra characters
+
+  - type: p
+    body: |
+      Things like simple silhouettes or disembodied body parts don't count as an extra character.
+
+  - type: subhead
+    title: my character discount
+
+  - type: p
+    body: |
+      A small discount is applied for commissions featuring [my characters](https://toyhou.se/sadcolor/characters).  
+      The discount is **$5** for non-shaded pieces and **$10** for shaded pieces.
+      
+- id: examples
+  title: more examples
+  body: 
+  - type: p
+    body: |
+      In addition to the guide above, here are more examples of how each detail level should look.
+
+  - type: table
+    style: text-align:center
+    rows:
+    - style: font-weight:bold
+      cells:
+      - type: none
+        body: Sketch
+      - type: none
+        body: Flatcolor
+      - type: none
+        body: Simple Shading
+      - type: none
+        body: Full Shading
+    - cells:
+      - type: "none"
+        body: "<a href='x-sketch01.png'><img src='x-sketch01.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-full01.png'><img src='x-flat01.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-simple01.png'><img src='x-simple01.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-full01.png'><img src='x-full01.png' alt=''></a>"
+    - cells:
+      - type: "none"
+        body: "<a href='x-sketch02.png'><img src='x-sketch02.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-flat02.png'><img src='x-flat02.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-simple02.png'><img src='x-simple02.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-full02.png'><img src='x-full02.png' alt=''></a>"
+    - cells:
+      - type: "none"
+        body: "<a href='x-sketch03.png'><img src='x-sketch03.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-flat03.png'><img src='x-flat03.png' alßt=''></a>"
+      - type: "none"
+        body: "<a href='x-simple03.png'><img src='x-simple03.png' alt=''></a>"
+      - type: "none"
+        body: "<a href='x-full03.png'><img src='x-full03.png' alt=''></a>"
+
+- id: terms
+  title: stuff i'll draw
+  body: 
+  - type: none
+    body: |
+      - ・ Best at drawing anthropomorphic characters.  
+      - ・ No human characters.  
+      - ・ Safe-for-work and suggestive content is OK.
+      - ・ Characters with intricate details may be simplified.
+
+- id: contact
+  title: contact
+  body: 
+  - type: p
+    body: |
+      Contact me on one of my [social media accounts](/#sns).  
+      I highly encourage having a concept in mind already, preferably with reference images [(even if those images are stick figures)](https://twitter.com/vetyyr/status/1414636926909485057).  
+      [Justsketch.me](https://app.justsketch.me/) is also a good free pose doll.
+
+      Payment is done via PayPal invoice.  
+      Sketch commissions must be paid for up front; other commissions require payment once a sketch is approved.

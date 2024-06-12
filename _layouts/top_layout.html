@@ -30,14 +30,14 @@
 		
 		{% capture div_styler %}{% raw %}
 			{% assign style_string = "" %}
-			{% if styled.id %}{% assign style_string = style_string | append: ' id="' | append: subsec.id | append: '"' %}{% endif %}
-			{% if styled.class %}{% assign style_string = style_string | append: ' class="' | append: subsec.class | append: '"' %}{% endif %}
-			{% if styled.style %}{% assign style_string = style_string | append: ' style="' | append: subsec.style | append: '"' %}{% endif %}
+			{% if styled.id %}{% assign style_string = style_string | append: ' id="' | append: styled.id | append: '"' %}{% endif %}
+			{% if styled.class %}{% assign style_string = style_string | append: ' class="' | append: styled.class | append: '"' %}{% endif %}
+			{% if styled.style %}{% assign style_string = style_string | append: ' style="' | append: styled.style | append: '"' %}{% endif %}
 		{% endraw %}{% endcapture %}
 		{% capture cell_styler %}{% raw %}
 			{{ div_styler | liquify }}
-			{% if styled.colspan %}{% assign style_string = style_string | append: ' colspan="' | append: subsec.colspan | append: '"' %}{% endif %}
-			{% if styled.rowspan %}{% assign style_string = style_string | append: ' rowspan="' | append: subsec.rowspan | append: '"' %}{% endif %}
+			{% if styled.colspan %}{% assign style_string = style_string | append: ' colspan="' | append: styled.colspan | append: '"' %}{% endif %}
+			{% if styled.rowspan %}{% assign style_string = style_string | append: ' rowspan="' | append: styled.rowspan | append: '"' %}{% endif %}
 		{% endraw %}{% endcapture %}
 		
 		<main id="post_body">
