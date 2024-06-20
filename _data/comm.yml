@@ -5,7 +5,7 @@ meta:
   opengraph:
     description: |-
       ＊all prices in USD
-    image: "/comm/prices.png"
+    image: "/comm/prices2.png"
 
 content:
 - id: prices
