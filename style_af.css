@@ -52,7 +52,8 @@ img {
 	text-align:		center;
 	line-height:	0;
 }
-.af_img>a {
+.af_img>a,
+.af_img>label {
 	display:	inline-block;
 }
 .af_desc {
@@ -63,12 +64,43 @@ img {
 	max-height: 1.5rem;
 	top:		0.2rem;
 }
-.af_img>a>img,
+.af_desc img.full {
+	max-height: unset;
+}
+
+.af_img>label>img,
 .af_img>video {
 	max-height:	50vh;
 	position:	relative;
 	z-index:	1;
 }
+.af_img>label>img:hover {
+	cursor:	zoom-in;
+	background-color: var(--hover);
+}
+
+.af_img>label>input[type=checkbox]:checked+.lightbox {
+	display:	block;
+}
+.lightbox {
+	display:	none;
+	position:	fixed;
+	top:		0;
+	left:		0;
+	width:		100vw;
+	height:		100vh;
+	background-color:	#000000E0;
+	cursor:		zoom-out;
+	z-index:	32;
+}
+.lightbox>img {
+	position:	relative;
+	max-width:		100vw;
+	max-height:		100vh;
+	top: 		50%;
+ 	transform:	translateY(-50%);
+}
+
 .af_nav {
 	margin:		0 16px;
 	text-align:	center;
