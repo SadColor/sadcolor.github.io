@@ -7,7 +7,8 @@
 }
 
 .af_sections>div {
-	width: 100%;
+	width: 		100%;
+	text-align:	center;
 }
 .af_year_top {
 	background-color: var(--bg);
