@@ -169,6 +169,7 @@ h4::after {
 	display: 	grid;
 	width:		100vw;
 	height:		100vh;
+	position:	relative;
 
 	grid-template-rows:		auto 1fr auto;
 	grid-template-columns:	minmax(0,1fr) clamp(var(--minw), var(--centerw), var(--maxw)) minmax(0,1fr);
@@ -254,6 +255,7 @@ h4::after {
 	box-sizing:	border-box;
 	overflow:	hidden scroll;
 	padding:	0 16px;
+	z-index:	2;
 }
 #page_nav_head,
 .bottom_bar_cat {
@@ -264,7 +266,7 @@ h4::after {
 #page_nav {
 	border-top:		1px solid var(--kuro);
 	border-bottom:	1px solid var(--kuro);
-	padding:		4px 0;
+	padding:		4px 0 2rem;
 }
 #page_nav>* {	display:	block;	}
 #page_nav>a {	color:		var(--lightgrey);	}
@@ -350,12 +352,14 @@ h4::after {
 
 #post_body {
 	grid-area: 	grid5;
+	padding:	0 calc( (100vw - clamp(var(--minw), var(--centerw), var(--maxw))) / 2 );
 	overflow: 	auto;
 	width:		var(--centerw);
 	height:		100%;
     max-width:	var(--maxw);
     min-width:	var(--minw);
 }
+
 .post_box {
 	background-color:	var(--makkuro);
 	border-color:		var(--bg);
@@ -368,7 +372,9 @@ h4::after {
 hr {
 	color:		var(--bg);
 	margin:		12px -24px 8px;
-	border-top:	2px solid var(--bg);
+	border-color:	var(--bg);
+	border-style:	solid;
+	border-width:	2px 0 0;
 }
 
 .post_box.tri_topA>p:first-child,
@@ -410,17 +416,17 @@ h3>.collapse-label:hover {
 
 .collapse {	
 	display:	grid;
-	grid-template-rows: 0fr;
+	grid-template-rows: 1fr;
 	transition: grid-template-rows 0.5s ease-out;
 }
 .collapse-btn:checked ~ .collapse {
-	grid-template-rows:	1fr;
+	grid-template-rows:	0fr;
 }
 .collapse>div {
 	overflow:	hidden;
 	transition:	visibility 0.5s ease-out;
 }
-.collapse-btn:not(:checked) ~ .collapse>div>* {
+.collapse-btn:checked ~ .collapse>div>* {
 	visibility:	hidden;
 	transition:	visibility 0.5s ease-out;
 }
@@ -430,6 +436,7 @@ h3>.collapse-label:hover {
 */
 .tri1::after, .tri3::after, .tri7::after, .tri9::after, 
 .tri13::before, .tri17::before, .tri39::after, .tri79::after,
+.tri13a::after, .tri17a::after,
 .tri_topA::after, .tri_topB::before, .tri_topC::after {
 	content:			"";
 	position:			absolute;
@@ -476,6 +483,7 @@ h3>.collapse-label:hover {
 }
 
 .tri79::after,
+.tri13a::after,
 .tri13::before {
 	left:				0;
 	right:				0;
@@ -488,11 +496,13 @@ h3>.collapse-label:hover {
 	top:				0;
 	border-bottom: 		12px solid transparent;
 }
+.tri13a::after,
 .tri13::before {
 	bottom:				0;
 	border-top: 		12px solid transparent;
 }
 
+.tri17a::after,
 .tri17::before,
 .tri39::after {
 	top:					0;
@@ -503,6 +513,7 @@ h3>.collapse-label:hover {
 	border-bottom-color:	inherit;
 }
 
+.tri17a::after,
 .tri17::before {
 	left:			0;
 	border-right:	12px solid transparent;
