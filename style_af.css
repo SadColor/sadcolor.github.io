@@ -114,14 +114,8 @@ img {
 	display:	inline-block;
 	color:		var(--pink);
 }
-.af_nav_prev {
-	position:	absolute;
-	left:		0;
-}
-.af_nav_next {
-	position:	absolute;
-	right:		0;
-}
+.af_nav_prev { position: absolute; left: 0; }
+.af_nav_next { position: absolute; right:0; }
 
 section { position: relative; }
 .af_meta_info {
@@ -312,15 +306,15 @@ img.af_thumb {
 	bottom:			1.5rem;
 	margin-bottom:	-1.5rem;
 	font-family:	"MS Gothic", monospace;
+}
+.af_thumb_label>span {
 	background-color:	var(--bg);
-	padding:			0 8px;
-	width:			min-content;
+	padding:			4px 8px;
 }
 .af_thumb_label::after {
 	content: 	" ";
 	position:	relative;
 	border-right: 			1rem solid transparent;
 	border-bottom: 			1.5rem solid var(--bg);
-	right:		-0.5rem;
 	bottom:		1.25rem;
 }
