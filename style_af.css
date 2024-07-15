@@ -1,29 +1,23 @@
 .af_sections {
-	position:		relative;
 	display:		flex;
 	text-align:		center;
 	margin:			8px 0;
-	border-color:	var(--bg);
 }
-
-.af_sections>div {
+.af_sections>li {
 	width: 		100%;
-	text-align:	center;
 }
-.af_year_top {
-	background-color: var(--bg);
+.af_year_top { background-color: var(--bg); }
+h3.double>* { 
+	display: block;
+	text-align: center;
 }
-
 h3.double::before {
 	position:	absolute;
-	top: 		28px;
+	top: 		1.5em;
 }
-h3>a:link {
-	padding: 0;
-}
-img {
-	display: inline-block;
-}
+h3.double::after {	top: 2rem; }
+h3>a:link {	padding: 0; }
+img { display: inline-block; }
 .hover {
 	width:		640px;
 	height:		360px;
@@ -32,22 +26,10 @@ img {
 .hover:hover {
 	background-position-y:	360px !important;
 }
-
-.af_year,
-.af_team,
-.af_number,
-.af_title {
-	display:	block;
-	text-align:	center;
-}
-.af_team,
 .af_title {
 	position:	relative;
 	top:		4px;
 	font-size:	1.25rem;
-}
-.af_number {
-	font-size:  0.875rem;
 }
 .af_img {
 	text-align:		center;
@@ -60,17 +42,18 @@ img {
 .af_desc {
 	line-height:	1.5rem;
 	text-align:		center;
-	margin-top:		0.25em;
+	margin-top:		.25rem;
 }
 .af_desc img {
 	position:	relative;
 	max-height: 1.5rem;
-	top:		0.2rem;
+	top:		.2rem;
 }
 .af_desc img.full {
 	max-height: unset;
 }
 
+.af_img>label>img { height: auto; width: auto; }
 .af_img>label>img,
 .af_img>video {
 	max-height:	50vh;
@@ -107,7 +90,7 @@ img {
 	margin:		0 16px;
 	text-align:	center;
 	position:	relative;
-	font-size:	0.875rem;
+	font-size:	.875rem;
 	top:		-4px;
 }
 .af_nav>a {
@@ -122,7 +105,7 @@ section { position: relative; }
 	display:		flex;
 	gap:			8px;
 	margin-bottom:	8px;
-	padding-top:	0.25em;
+	padding-top:	.25rem;
 }
 .af_meta_info>div {
 	width: 100%;
@@ -130,7 +113,7 @@ section { position: relative; }
 }
 ul, ol, dl { margin: 0; }
 dd {
-	margin-left:	1.5em;
+	margin-left:	1.5rem;
 	display:		list-item;
 	list-style-type: "・　";
 }
@@ -138,7 +121,12 @@ dd {
 	position:			relative;
 	background-color:	var(--bg);
 	border-color:		var(--makkuro);
-	padding:			4px 40px 8px;
+	padding:			8px 40px;
+}
+.af_user_info>dt:nth-child(n+2) {
+	margin-top:	.5rem;
+	padding-top: .5rem;
+	border-top: 1px solid var(--makkuro);
 }
 .af_for {
 	position: 			relative;
@@ -149,11 +137,11 @@ dd {
 }
 .af_kome {
 	text-align:		center;
-	padding-top:	0.5em;
+	padding-top:	.5rem;
 }
 h4, h4::after { all: unset; }
-hr { margin-top: 1.25em; }
-.af_chain_hr { margin-top: 2em; }
+hr { margin-top: 1.25rem; }
+.af_chain_hr { margin-top: 2rem; }
 
 .af_chain_head {
 	text-align:		center;
@@ -173,15 +161,15 @@ hr { margin-top: 1.25em; }
 	flex-flow:			row nowrap;
 	justify-content:	space-between;
 	background-color:	var(--bg);
-	margin-bottom:		0.25em;
+	margin-bottom:		.25rem;
 	position:			relative;
-	top:				-0.5em;
+	top:				-.5rem;
 	border-color:		var(--makkuro);
 }
 .af_chain_prev,
 .af_chain_next {
 	position:	relative;
-	top:		-0.5em;
+	top:		-.5rem;
 	width:		100%;
 	background-color:	var(--bg);
 	border-color:		var(--makkuro);
@@ -213,54 +201,54 @@ hr { margin-top: 1.25em; }
 }
 .af_chain_prev_link::before {
 	left: 0;
-  	border-right:	3em solid var(--makkuro);
-	border-bottom:	3em solid var(--bg);
+  	border-right:	3rem solid var(--makkuro);
+	border-bottom:	3rem solid var(--bg);
 	bottom:	28px;
 }
 .af_chain_prev_link::after {
 	left: 0;
-  	border-right:	4em solid transparent;
-	border-bottom:	4em solid var(--makkuro);
+  	border-right:	4rem solid transparent;
+	border-bottom:	4rem solid var(--makkuro);
 }
 .af_chain_next_link::before {
 	right: 0;
-	border-left:	3em solid var(--makkuro);
-  	border-bottom:	3em solid var(--bg);
+	border-left:	3rem solid var(--makkuro);
+  	border-bottom:	3rem solid var(--bg);
 	bottom:	28px;
 }
 .af_chain_next_link::after {
 	right: 0;
-	border-left:	4em solid transparent;
-	border-bottom:	4em solid var(--makkuro);
+	border-left:	4rem solid transparent;
+	border-bottom:	4rem solid var(--makkuro);
 }
 .af_thumb_title.prev::after, .af_thumb_title.prev::before,
 .af_thumb_title.next::after, .af_thumb_title.next::before {
 	content: "";
 	position: absolute;
-	bottom: -1.25em;
+	bottom: -1.25rem;
 	z-index: 8;
 }
 .af_thumb_title.prev::before {
 	left: 224px;
-  	border-right:	5.25em solid transparent;
-	border-bottom:	5.25em solid var(--bg);
+  	border-right:	5.25rem solid transparent;
+	border-bottom:	5.25rem solid var(--bg);
 }
 .af_thumb_title.prev::after {
 	left: 216px;
-  	border-right:	5.25em solid transparent;
-	border-bottom:	5.25em solid var(--makkuro);
+  	border-right:	5.25rem solid transparent;
+	border-bottom:	5.25rem solid var(--makkuro);
 }
 .af_thumb_title.next::before {
 	right: 224px;
-  	border-left:	5.25em solid transparent;
-	border-bottom:	5.25em solid var(--bg);
+  	border-left:	5.25rem solid transparent;
+	border-bottom:	5.25rem solid var(--bg);
 }
 .af_thumb_title.next::after {
 	right: 216px;
-  	border-left:	5.25em solid transparent;
-	border-bottom:	5.25em solid var(--makkuro);
+  	border-left:	5.25rem solid transparent;
+	border-bottom:	5.25rem solid var(--makkuro);
 }
-
+figure { margin: 0; }
 figure.af_thumb {
 	position:	relative;
 	box-sizing:	border-box;
@@ -268,6 +256,11 @@ figure.af_thumb {
 	margin-left:	4px;
 	width:		100%;
 	max-width:	200px;
+}
+.af_thumb>figcaption {
+	padding: 0 4px;
+	font-weight: bold;
+	font-family: "Mona", "MS Gothic", sans-serif;
 }
 img.af_thumb {
 	object-fit:		none;
@@ -294,27 +287,37 @@ img.af_thumb {
 	text-align:		center;
 	flex-shrink:	1;
 }
-.af_thumb_head {
-	display:		block;
-	padding:		0 4px;
-	font-weight:	bold;
-	font-family:	"Mona", "MS Gothic", sans-serif;
+.af_thumb_title>a {
+	color: var(--siro);
 }
-.af_thumb_label {
+.af_thumb>span {
 	float:			left;
 	position:		relative;
 	bottom:			1.5rem;
 	margin-bottom:	-1.5rem;
 	font-family:	"MS Gothic", monospace;
 }
-.af_thumb_label>span {
+.af_thumb>span>span {
 	background-color:	var(--bg);
 	padding:			4px 8px;
 }
-.af_thumb_label::after {
+.af_thumb>span::after {
 	content: 	" ";
 	position:	relative;
 	border-right: 			1rem solid transparent;
 	border-bottom: 			1.5rem solid var(--bg);
 	bottom:		1.25rem;
+}
+
+.Bloom			{ color: #a1af4e !important; }
+.Wither			{ color: #bd6c96 !important; }
+.Werewolves		{ color: #498cad !important; }
+.Vampires		{ color: #e6466c !important; }
+.Seafoam		{ color: #51b083 !important; }
+.Stardust		{ color: #877feb !important; }
+
+a.Bloom:hover, a.Wither:hover,
+a.Werewolves:hover, a.Vampires:hover,
+a.Seafoam:hover, a.Stardust:hover {
+	color: var(--siro) !important;
 }
