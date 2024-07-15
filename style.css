@@ -434,9 +434,9 @@ h3::before {
 	content:		"";
 	display:		inline-block;
 	margin:			0 1rem 0 .5rem;
-	border-top:		6px solid var(--bg);
+	border-top:		6px solid transparent;
 	border-left:	8px solid var(--siro);
-	border-bottom:	6px solid var(--bg);
+	border-bottom:	6px solid transparent;
 }
 .collapse-label:hover {
 	cursor:				pointer;
