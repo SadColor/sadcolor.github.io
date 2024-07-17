@@ -253,7 +253,7 @@ h4::after {
 	box-sizing:	border-box;
 	overflow:	hidden scroll;
 	padding:	0 16px;
-	z-index:	16;
+	z-index:	40;
 }
 #page_nav_head,
 .bottom_bar_cat {
@@ -578,7 +578,7 @@ h3>.collapse-label:hover {
 		display:	inline-block;
 		min-height: unset;
 	}
-	#seq_nav>*:not(:first-child) { border-top:  unset; }
+	#seq_nav>*:not(:first-child) { border-top:  unset !important; }
 	#prev_nav {	float: left; text-align: center; border-right: 1px solid var(--kuro); }
 	#next_nav { float: right; text-align: center; border-left: 1px solid var(--kuro); }
 	#page_cont {
