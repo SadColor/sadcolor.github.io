@@ -122,7 +122,7 @@ img { display: inline-block; }
 	height:		100vh;
 	background-color:	#000000E0;
 	cursor:		zoom-out;
-	z-index:	32;
+	z-index:	96;
 }
 .lightbox>img {
 	position:	relative;
@@ -383,4 +383,22 @@ a.Seafoam:hover,	a.Stardust:hover {
 @media only screen and (min-width:1360px) and (max-width:1440px) {
 	.af_nav_title { display: none; }
 	.af_nav_title::after { content: ""; }
+}
+/* portrait layout */
+@media only screen and (max-width:1360px) {
+	.lightbox {
+		width:		100svw;
+		height:		100svh;
+	}
+	.lightbox>img {
+		max-width:		100svw;
+		max-height:		100svh;
+	}
+}
+/* landscape layout */
+@media only screen and (max-height:800px) {
+	.af_chain_link::before {
+		bottom:		  22px;
+		border-width: 0rem 3.5rem 3.5rem;
+	}
 }
