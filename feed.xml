@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>sadcolor's stuff (RSS)</title>
-		<link>http://localhost:4000</link>
+		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Wed, 09 Oct 2024 04:58:52 -0500</pubDate>
+		<pubDate>Wed, 09 Oct 2024 05:16:17 -0500</pubDate>
 		<image>
-			<url>http://localhost:4000/rss.gif</url>
+			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
-			<link>http://localhost:4000</link>
+			<link>https://sadcolor.net</link>
 			<width>128</width>
 			<height>96</height>
 		</image>
-		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
 		<item>
-			<guid>http://localhost:4000/art/boss-0006b.html</guid>
+			<guid>https://sadcolor.net/art/boss-0006b.html</guid>
 			<title>toss the baby</title>
-			<link>http://localhost:4000/art/boss-0006b.html</link>
+			<link>https://sadcolor.net/art/boss-0006b.html</link>
 			<description>and the bathwater too. yeah. no, the baby has to go.
 </description>
 			<pubDate>Tue, 08 Oct 2024 12:50:00 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
-			<enclosure url="http://localhost:4000/art/boss-0006b.png" length="35067" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/boss-0006b.png" length="35067" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/boss-0006a.html</guid>
+			<guid>https://sadcolor.net/art/boss-0006a.html</guid>
 			<title>vice</title>
-			<link>http://localhost:4000/art/boss-0006a.html</link>
+			<link>https://sadcolor.net/art/boss-0006a.html</link>
 			<description>cool-looking vice drawing…
 </description>
 			<pubDate>Mon, 07 Oct 2024 12:24:24 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
-			<enclosure url="http://localhost:4000/art/boss-0006a.png" length="18121" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/boss-0006a.png" length="18121" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/ask-0001-king-0001.html</guid>
+			<guid>https://sadcolor.net/art/ask-0001-king-0001.html</guid>
 			<title>king ask #1</title>
-			<link>http://localhost:4000/art/ask-0001-king-0001.html</link>
+			<link>https://sadcolor.net/art/ask-0001-king-0001.html</link>
 			<description>king is asked about his armor
 
 transcription without the funny archaic letters:
@@ -49,224 +49,224 @@ Now, such time has passed that I'd nary dream of inhabiting any other!
 </description>
 			<pubDate>Mon, 05 Aug 2024 02:44:00 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>ask</category><category>oc:king</category>
-			<enclosure url="http://localhost:4000/art/ask-0001-king-0001.png" length="18121" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/ask-0001-king-0001.png" length="18121" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/soft-0001.html</guid>
+			<guid>https://sadcolor.net/art/soft-0001.html</guid>
 			<title>exhaust</title>
-			<link>http://localhost:4000/art/soft-0001.html</link>
+			<link>https://sadcolor.net/art/soft-0001.html</link>
 			<description>debut of soft's redesign! fshhhhh…&amp;#10;
 with this, the RPG party is complete once more
 </description>
 			<pubDate>Fri, 14 Jun 2024 13:59:00 -0500</pubDate>
 			<category>art</category><category>oc:soft</category>
-			<enclosure url="http://localhost:4000/art/soft-0001.png" length="35033" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/soft-0001.png" length="35033" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/kyra-0003.html</guid>
+			<guid>https://sadcolor.net/art/kyra-0003.html</guid>
 			<title>yo!</title>
-			<link>http://localhost:4000/art/kyra-0003.html</link>
+			<link>https://sadcolor.net/art/kyra-0003.html</link>
 			<description>new kyra art.&amp;#10;
 this time i'm really happy with how her body shape turned out!
 </description>
 			<pubDate>Tue, 11 Jun 2024 01:48:00 -0500</pubDate>
 			<category>art</category><category>oc:kyra</category>
-			<enclosure url="http://localhost:4000/art/kyra-0003.png" length="36680" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/kyra-0003.png" length="36680" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/kit-0002.html</guid>
+			<guid>https://sadcolor.net/art/kit-0002.html</guid>
 			<title>good work out there!</title>
-			<link>http://localhost:4000/art/kit-0002.html</link>
+			<link>https://sadcolor.net/art/kit-0002.html</link>
 			<description>another kit drawing.&amp;#10;
 added a little more detail on his harpoon!
 </description>
 			<pubDate>Thu, 25 Apr 2024 16:58:00 -0500</pubDate>
 			<category>art</category><category>oc:kit</category>
-			<enclosure url="http://localhost:4000/art/kit-0002.png" length="21519" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/kit-0002.png" length="21519" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/boss-0005.html</guid>
+			<guid>https://sadcolor.net/art/boss-0005.html</guid>
 			<title>Hey Listen...</title>
-			<link>http://localhost:4000/art/boss-0005.html</link>
+			<link>https://sadcolor.net/art/boss-0005.html</link>
 			<description>wow!
 </description>
 			<pubDate>Mon, 01 Apr 2024 16:28:00 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
-			<enclosure url="http://localhost:4000/art/boss-0005.png" length="9405" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/boss-0005.png" length="9405" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/tetrode-0002.html</guid>
+			<guid>https://sadcolor.net/art/tetrode-0002.html</guid>
 			<title>tetrode doodles</title>
-			<link>http://localhost:4000/art/tetrode-0002.html</link>
+			<link>https://sadcolor.net/art/tetrode-0002.html</link>
 			<description>yummy dish please
 </description>
 			<pubDate>Tue, 26 Mar 2024 05:46:00 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>oc:tetrode</category>
-			<enclosure url="http://localhost:4000/art/tetrode-0002.png" length="19405" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/tetrode-0002.png" length="19405" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/tetrode-0001.html</guid>
+			<guid>https://sadcolor.net/art/tetrode-0001.html</guid>
 			<title>new robutt</title>
-			<link>http://localhost:4000/art/tetrode-0001.html</link>
+			<link>https://sadcolor.net/art/tetrode-0001.html</link>
 			<description>been wanting a more mechanical robot design for a while…
 </description>
 			<pubDate>Wed, 13 Mar 2024 12:24:24 -0500</pubDate>
 			<category>art</category><category>oc:tetrode</category>
-			<enclosure url="http://localhost:4000/art/tetrode-0001.png" length="24878" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/tetrode-0001.png" length="24878" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/tam-0011.html</guid>
+			<guid>https://sadcolor.net/art/tam-0011.html</guid>
 			<title>cat</title>
-			<link>http://localhost:4000/art/tam-0011.html</link>
+			<link>https://sadcolor.net/art/tam-0011.html</link>
 			<description>'tis truly tam!
 </description>
 			<pubDate>Mon, 11 Mar 2024 16:41:00 -0500</pubDate>
 			<category>art</category><category>oc:tam</category>
-			<enclosure url="http://localhost:4000/art/tam-0011.png" length="24954" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/tam-0011.png" length="24954" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/boss-0004.html</guid>
+			<guid>https://sadcolor.net/art/boss-0004.html</guid>
 			<title>bom</title>
-			<link>http://localhost:4000/art/boss-0004.html</link>
+			<link>https://sadcolor.net/art/boss-0004.html</link>
 			<description>vice looking cool as always
 </description>
 			<pubDate>Sun, 10 Mar 2024 16:16:16 -0500</pubDate>
 			<category>art</category><category>oc:vice</category>
-			<enclosure url="http://localhost:4000/art/boss-0004.png" length="17389" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/boss-0004.png" length="17389" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/kit-0001.html</guid>
+			<guid>https://sadcolor.net/art/kit-0001.html</guid>
 			<title>redesigned oc, kit</title>
-			<link>http://localhost:4000/art/kit-0001.html</link>
+			<link>https://sadcolor.net/art/kit-0001.html</link>
 			<description>i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…
 </description>
 			<pubDate>Sun, 25 Feb 2024 09:11:12 -0600</pubDate>
 			<category>art</category><category>oc:kit</category>
-			<enclosure url="http://localhost:4000/art/kit-0001.png" length="18272" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/kit-0001.png" length="18272" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/zephyr-0002.html</guid>
+			<guid>https://sadcolor.net/art/zephyr-0002.html</guid>
 			<title>gato</title>
-			<link>http://localhost:4000/art/zephyr-0002.html</link>
+			<link>https://sadcolor.net/art/zephyr-0002.html</link>
 			<description>check out those scars
 </description>
 			<pubDate>Fri, 16 Feb 2024 11:24:24 -0600</pubDate>
 			<category>art</category><category>oc:zephyr</category>
-			<enclosure url="http://localhost:4000/art/zephyr-0002.png" length="9703" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/zephyr-0002.png" length="9703" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/gyre-0001.html</guid>
+			<guid>https://sadcolor.net/art/gyre-0001.html</guid>
 			<title>moon guy</title>
-			<link>http://localhost:4000/art/gyre-0001.html</link>
+			<link>https://sadcolor.net/art/gyre-0001.html</link>
 			<description>funny guy i should draw more
 </description>
 			<pubDate>Mon, 15 Jan 2024 07:37:00 -0600</pubDate>
 			<category>art</category><category>doodle</category><category>oc:gyre</category>
-			<enclosure url="http://localhost:4000/art/gyre-0001.png" length="8744" type="image/png"/>
-			<enclosure url="http://localhost:4000/art/gyre-0002.png" length="15757" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/gyre-0001.png" length="8744" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/gyre-0002.png" length="15757" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/nerdy_hato-0001-nerdy_grovyle-0001.html</guid>
+			<guid>https://sadcolor.net/art/nerdy_hato-0001-nerdy_grovyle-0001.html</guid>
 			<title>women</title>
-			<link>http://localhost:4000/art/nerdy_hato-0001-nerdy_grovyle-0001.html</link>
+			<link>https://sadcolor.net/art/nerdy_hato-0001-nerdy_grovyle-0001.html</link>
 			<description>drawn for @bri-wolfer (tumblr) / @nerdyreindeer (twitter)
 </description>
 			<pubDate>Thu, 23 Nov 2023 17:00:00 -0600</pubDate>
 			<category>art</category><category>nerdyreindeer</category>
-			<enclosure url="http://localhost:4000/art/nerdy_hato-0001.png" length="26911" type="image/png"/>
-			<enclosure url="http://localhost:4000/art/nerdy_grovyle-0001.png" length="24132" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/nerdy_hato-0001.png" length="26911" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/nerdy_grovyle-0001.png" length="24132" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/creeps_blair-0001.html</guid>
+			<guid>https://sadcolor.net/art/creeps_blair-0001.html</guid>
 			<title>blair</title>
-			<link>http://localhost:4000/art/creeps_blair-0001.html</link>
+			<link>https://sadcolor.net/art/creeps_blair-0001.html</link>
 			<description> /) /)&amp;#10;
 ( • ༝•)
 </description>
 			<pubDate>Sat, 18 Nov 2023 22:33:32 -0600</pubDate>
 			<category>art</category><category>creepincrawl</category>
-			<enclosure url="http://localhost:4000/art/creeps_blair-0001.png" length="27096" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/creeps_blair-0001.png" length="27096" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/king-0001.html</guid>
+			<guid>https://sadcolor.net/art/king-0001.html</guid>
 			<title>king redesign</title>
-			<link>http://localhost:4000/art/king-0001.html</link>
+			<link>https://sadcolor.net/art/king-0001.html</link>
 			<description>'tis thine amicable armored apparition, king! °ω°
 </description>
 			<pubDate>Tue, 24 Oct 2023 01:16:00 -0500</pubDate>
 			<category>art</category><category>oc:king</category>
-			<enclosure url="http://localhost:4000/art/king-0001.png" length="39194" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/king-0001.png" length="39194" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/alice_sona-0001.html</guid>
+			<guid>https://sadcolor.net/art/alice_sona-0001.html</guid>
 			<title>sona (not mine)</title>
-			<link>http://localhost:4000/art/alice_sona-0001.html</link>
+			<link>https://sadcolor.net/art/alice_sona-0001.html</link>
 			<description>•⌵•&amp;#10;
 drawn for @alicemoon812 (tumblr, twitter, bluesky)
 </description>
 			<pubDate>Mon, 09 Oct 2023 04:49:00 -0500</pubDate>
 			<category>art</category>
-			<enclosure url="http://localhost:4000/art/alice_sona-0001.png" length="34971" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/alice_sona-0001.png" length="34971" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/zatsu-vulture.html</guid>
+			<guid>https://sadcolor.net/art/zatsu-vulture.html</guid>
 			<title>hægh</title>
-			<link>http://localhost:4000/art/zatsu-vulture.html</link>
+			<link>https://sadcolor.net/art/zatsu-vulture.html</link>
 			<description>baby king vulture my beloved
 </description>
 			<pubDate>Sat, 07 Oct 2023 23:05:00 -0500</pubDate>
 			<category>art</category><category>doodle</category>
-			<enclosure url="http://localhost:4000/art/zatsu-vulture.png" length="2682" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/zatsu-vulture.png" length="2682" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/ceru-0003.html</guid>
+			<guid>https://sadcolor.net/art/ceru-0003.html</guid>
 			<title>hiii</title>
-			<link>http://localhost:4000/art/ceru-0003.html</link>
+			<link>https://sadcolor.net/art/ceru-0003.html</link>
 			<description>what's good, ceru
 </description>
 			<pubDate>Thu, 21 Sep 2023 12:24:24 -0500</pubDate>
 			<category>art</category><category>oc:ceru</category>
-			<enclosure url="http://localhost:4000/art/ceru-0003.png" length="14464" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/ceru-0003.png" length="14464" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/io-0013b.html</guid>
+			<guid>https://sadcolor.net/art/io-0013b.html</guid>
 			<title>paper, paper, toil and labor</title>
-			<link>http://localhost:4000/art/io-0013b.html</link>
+			<link>https://sadcolor.net/art/io-0013b.html</link>
 			<description>get it done right
 </description>
 			<pubDate>Wed, 20 Sep 2023 12:24:24 -0500</pubDate>
 			<category>art</category><category>oc:io</category>
-			<enclosure url="http://localhost:4000/art/io-0013b.png" length="20321" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/io-0013b.png" length="20321" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/io-0013a.html</guid>
+			<guid>https://sadcolor.net/art/io-0013a.html</guid>
 			<title>iyo iyo io dayo</title>
-			<link>http://localhost:4000/art/io-0013a.html</link>
+			<link>https://sadcolor.net/art/io-0013a.html</link>
 			<description>•w&amp;lt;～☆
 </description>
 			<pubDate>Tue, 19 Sep 2023 12:56:00 -0500</pubDate>
 			<category>art</category><category>oc:io</category>
-			<enclosure url="http://localhost:4000/art/io-0013a.png" length="15951" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/io-0013a.png" length="15951" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/zephyr-0001.html</guid>
+			<guid>https://sadcolor.net/art/zephyr-0001.html</guid>
 			<title>zephyrs</title>
-			<link>http://localhost:4000/art/zephyr-0001.html</link>
+			<link>https://sadcolor.net/art/zephyr-0001.html</link>
 			<description>meow meow &amp;gt;^•ω•^&amp;lt;
 </description>
 			<pubDate>Thu, 14 Sep 2023 15:58:00 -0500</pubDate>
 			<category>art</category><category>oc:zephyr</category>
-			<enclosure url="http://localhost:4000/art/zephyr-0001.png" length="50637" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/zephyr-0001.png" length="50637" type="image/png"/>
 			</item>
 		<item>
-			<guid>http://localhost:4000/art/dramor-0001.html</guid>
+			<guid>https://sadcolor.net/art/dramor-0001.html</guid>
 			<title>dramors</title>
-			<link>http://localhost:4000/art/dramor-0001.html</link>
+			<link>https://sadcolor.net/art/dramor-0001.html</link>
 			<description>couple o' doodles
 </description>
 			<pubDate>Tue, 01 Aug 2023 12:24:24 -0500</pubDate>
 			<category>art</category><category>oc:dramor</category>
-			<enclosure url="http://localhost:4000/art/dramor-0001.png" length="39750" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/dramor-0001.png" length="39750" type="image/png"/>
 			</item>
 	</channel>
 </rss>
