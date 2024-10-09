@@ -1,0 +1,380 @@
+{
+	"version": "https://jsonfeed.org/version/1.1",
+	"title": "sadcolor's stuff (JSON)",
+	"home_page_url": "http://localhost:4000",
+	"feed_url": "http://localhost:4000/feed.json",
+	"description": "art and other stuff by SadColor",
+	"icon": "/icon.png",
+	"favicon": "/favicon-192x192.png",
+	"language": "en-us",
+	"items": [
+		{
+			"id": "/feed.json",
+			"url": "/art/boss-0006b.html",
+            "title": "toss the baby",
+            "summary": "and the bathwater too. yeah. no, the baby has to go.\n",
+		    "date_published": "2024-10-08T12:50:00-05:00",
+            "tags": "art, doodle, oc:vice","attachments": [
+                {
+                        "url": "/art/boss-0006b.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "35067"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/boss-0006a.html",
+            "title": "vice",
+            "summary": "cool-looking vice drawing…\n",
+		    "date_published": "2024-10-07T12:24:24-05:00",
+            "tags": "art, doodle, oc:vice","attachments": [
+                {
+                        "url": "/art/boss-0006a.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "18121"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/ask-0001-king-0001.html",
+            "title": "king ask #1",
+            "summary": "king is asked about his armor\n",
+		    "date_published": "2024-08-05T02:44:00-05:00",
+            "tags": "art, doodle, ask, oc:king","attachments": [
+                {
+                        "url": "/art/ask-0001-king-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "18121"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/soft-0001.html",
+            "title": "exhaust",
+            "summary": "debut of soft's redesign! fshhhhh…&#13;&#10;\nwith this, the RPG party is complete once more\n",
+		    "date_published": "2024-06-14T13:59:00-05:00",
+            "tags": "art, oc:soft","attachments": [
+                {
+                        "url": "/art/soft-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "35033"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/kyra-0003.html",
+            "title": "yo!",
+            "summary": "new kyra art.&#13;&#10;\nthis time i'm really happy with how her body shape turned out!\n",
+		    "date_published": "2024-06-11T01:48:00-05:00",
+            "tags": "art, oc:kyra","attachments": [
+                {
+                        "url": "/art/kyra-0003.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "36680"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/kit-0002.html",
+            "title": "good work out there!",
+            "summary": "another kit drawing.&#13;&#10;\nadded a little more detail on his harpoon!\n",
+		    "date_published": "2024-04-25T16:58:00-05:00",
+            "tags": "art, oc:kit","attachments": [
+                {
+                        "url": "/art/kit-0002.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "21519"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/boss-0005.html",
+            "title": "Hey Listen...",
+            "summary": "wow!\n",
+		    "date_published": "2024-04-01T16:28:00-05:00",
+            "tags": "art, doodle, oc:vice","attachments": [
+                {
+                        "url": "/art/boss-0005.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "9405"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/tetrode-0002.html",
+            "title": "tetrode doodles",
+            "summary": "yummy dish please\n",
+		    "date_published": "2024-03-26T05:46:00-05:00",
+            "tags": "art, doodle, oc:tetrode","attachments": [
+                {
+                        "url": "/art/tetrode-0002.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "19405"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/tetrode-0001.html",
+            "title": "new robutt",
+            "summary": "been wanting a more mechanical robot design for a while…\n",
+		    "date_published": "2024-03-13T12:24:24-05:00",
+            "tags": "art, oc:tetrode","attachments": [
+                {
+                        "url": "/art/tetrode-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "24878"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/tam-0011.html",
+            "title": "cat",
+            "summary": "'tis truly tam!\n",
+		    "date_published": "2024-03-11T16:41:00-05:00",
+            "tags": "art, oc:tam","attachments": [
+                {
+                        "url": "/art/tam-0011.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "24954"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/boss-0004.html",
+            "title": "bom",
+            "summary": "vice looking cool as always\n",
+		    "date_published": "2024-03-10T16:16:16-05:00",
+            "tags": "art, oc:vice","attachments": [
+                {
+                        "url": "/art/boss-0004.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "17389"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/kit-0001.html",
+            "title": "redesigned oc, kit",
+            "summary": "i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…\n",
+		    "date_published": "2024-02-25T09:11:12-06:00",
+            "tags": "art, oc:kit","attachments": [
+                {
+                        "url": "/art/kit-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "18272"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/zephyr-0002.html",
+            "title": "gato",
+            "summary": "check out those scars\n",
+		    "date_published": "2024-02-16T11:24:24-06:00",
+            "tags": "art, oc:zephyr","attachments": [
+                {
+                        "url": "/art/zephyr-0002.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "9703"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/gyre-0001.html",
+            "title": "moon guy",
+            "summary": "funny guy i should draw more\n",
+		    "date_published": "2024-01-15T07:37:00-06:00",
+            "tags": "art, doodle, oc:gyre","attachments": [
+                {
+                        "url": "/art/gyre-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "8744"
+                    },{
+                        "url": "/art/gyre-0002.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "15757"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/nerdy_hato-0001-nerdy_grovyle-0001.html",
+            "title": "women",
+            "summary": "drawn for @bri-wolfer (tumblr) / @nerdyreindeer (twitter)\n",
+		    "date_published": "2023-11-23T17:00:00-06:00",
+            "tags": "art, nerdyreindeer","attachments": [
+                {
+                        "url": "/art/nerdy_hato-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "26911"
+                    },{
+                        "url": "/art/nerdy_grovyle-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "24132"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/creeps_blair-0001.html",
+            "title": "blair",
+            "summary": " /) /)&#13;&#10;\n( • ༝•)\n",
+		    "date_published": "2023-11-18T22:33:32-06:00",
+            "tags": "art, creepincrawl","attachments": [
+                {
+                        "url": "/art/creeps_blair-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "27096"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/king-0001.html",
+            "title": "king redesign",
+            "summary": "'tis thine amicable armored apparition, king! °ω°\n",
+		    "date_published": "2023-10-24T01:16:00-05:00",
+            "tags": "art, oc:king","attachments": [
+                {
+                        "url": "/art/king-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "39194"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/alice_sona-0001.html",
+            "title": "sona (not mine)",
+            "summary": "•⌵•&#13;&#10;\ndrawn for @alicemoon812 (tumblr, twitter, bluesky)\n",
+		    "date_published": "2023-10-09T04:49:00-05:00",
+            "tags": "art","attachments": [
+                {
+                        "url": "/art/alice_sona-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "34971"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/zatsu-vulture.html",
+            "title": "hægh",
+            "summary": "baby king vulture my beloved\n",
+		    "date_published": "2023-10-07T23:05:00-05:00",
+            "tags": "art, doodle","attachments": [
+                {
+                        "url": "/art/zatsu-vulture.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "2682"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/ceru-0003.html",
+            "title": "hiii",
+            "summary": "what's good, ceru\n",
+		    "date_published": "2023-09-21T12:24:24-05:00",
+            "tags": "art, oc:ceru","attachments": [
+                {
+                        "url": "/art/ceru-0003.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "14464"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/io-0013b.html",
+            "title": "paper, paper, toil and labor",
+            "summary": "get it done right\n",
+		    "date_published": "2023-09-20T12:24:24-05:00",
+            "tags": "art, oc:io","attachments": [
+                {
+                        "url": "/art/io-0013b.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "20321"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/io-0013a.html",
+            "title": "iyo iyo io dayo",
+            "summary": "•w&lt;～☆\n",
+		    "date_published": "2023-09-19T12:56:00-05:00",
+            "tags": "art, oc:io","attachments": [
+                {
+                        "url": "/art/io-0013a.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "15951"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/zephyr-0001.html",
+            "title": "zephyrs",
+            "summary": "meow meow &gt;^•ω•^&lt;\n",
+		    "date_published": "2023-09-14T15:58:00-05:00",
+            "tags": "art, oc:zephyr","attachments": [
+                {
+                        "url": "/art/zephyr-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "50637"
+                    }
+                ]
+            
+        },
+		{
+			"id": "/feed.json",
+			"url": "/art/dramor-0001.html",
+            "title": "dramors",
+            "summary": "couple o' doodles\n",
+		    "date_published": "2023-08-01T12:24:24-05:00",
+            "tags": "art, oc:dramor","attachments": [
+                {
+                        "url": "/art/dramor-0001.png:00",
+                        "mime_type": "image/png",
+                        "size_in_bytes": "39750"
+                    }
+                ]
+            
+        }
+	]
+}

@@ -1,0 +1,443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>http://localhost:4000/feed.atom</id>
+    <title type="text">sadcolor's stuff (atom)</title>
+    <subtitle>art and other stuff by SadColor</subtitle>
+    <author>
+        <name>SadColor</name>
+        <uri>http://localhost:4000</uri>
+    </author>
+    <link href="http://localhost:4000"/>
+    <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.atom"/>
+    <updated>2024-10-09T04:58:52-05:00</updated>
+    <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:localhost:4000,2024-10-08:/art/boss-0006b.html</id>
+        <title>toss the baby</title>
+        <content type="html">
+            &lt;img src=&quot;/art/boss-0006b.png&quot; alt=&quot;a couple drawings of a portly shadow demon pitching a bomb-shaped demon like a baseball.&quot; width=2400 height=1760&gt;
+        &lt;p&gt;and the bathwater too. yeah. no, the baby &lt;strong&gt;has&lt;/strong&gt; to go.&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://www.tumblr.com/fukouiro/763793060845027328/toss-the-baby&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3l5zf4qzie52r&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1843710542650978751&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-10-08T12:50:00-05:00</published>
+            <updated>2024-10-08T12:50:00-05:00</updated>
+        <category term="art"/><category term="doodle"/><category term="oc:vice"/>
+        <link rel="self" href="http://localhost:4000/art/boss-0006b.html"/>
+        <link rel="enclosure" href="/art/boss-0006b.png" length="35067" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-10-07:/art/boss-0006a.html</id>
+        <title>vice</title>
+        <content type="html">
+            &lt;img src=&quot;/art/boss-0006a.png&quot; alt=&quot;a tough, portly shadow-demon posing with an anxious bomb-like demon.&quot; width=1080 height=1440&gt;
+        &lt;p&gt;cool-looking vice drawing…&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/763700835976904704/vice&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3l5wgtobxvr2r&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1843341518578561332&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-10-07T12:24:24-05:00</published>
+            <updated>2024-10-07T12:24:24-05:00</updated>
+        <category term="art"/><category term="doodle"/><category term="oc:vice"/>
+        <link rel="self" href="http://localhost:4000/art/boss-0006a.html"/>
+        <link rel="enclosure" href="/art/boss-0006a.png" length="18121" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-08-05:/art/ask-0001-king-0001.html</id>
+        <title>king ask #1</title>
+        <content type="html">
+            &lt;img src=&quot;/art/ask-0001-king-0001.png&quot; alt=&quot;an anonymous user asking a ghost character, &quot;Does King have other suits of armor to possess?&quot; the ghost answers while polishing his armor.&quot; width=640 height=720&gt;
+        &lt;p&gt;king is asked about his armor&lt;/p&gt;
+
+&lt;p&gt;transcription without the funny archaic letters:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;Nay, this fine suit of armor hath been my sole abode since afore mine earliest memories.&lt;br /&gt;
+Upon my wake in this new body, it brought me severe dolor.&lt;br /&gt;
+Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
+&lt;/blockquote&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/757956742609092608/transcription-without-the-funny-archaic&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kyxfhdu5di2f&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1820365417128333799&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        <summary type="html">&lt;p&gt;king is asked about his armor&lt;/p&gt;
+</summary>
+        <published>2024-08-05T02:44:00-05:00</published>
+            <updated>2024-08-05T02:44:00-05:00</updated>
+        <category term="art"/><category term="doodle"/><category term="ask"/><category term="oc:king"/>
+        <link rel="self" href="http://localhost:4000/art/ask-0001-king-0001.html"/>
+        <link rel="enclosure" href="/art/ask-0001-king-0001.png" length="18121" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-06-14:/art/soft-0001.html</id>
+        <title>exhaust</title>
+        <content type="html">
+            &lt;img src=&quot;/art/soft-0001.png&quot; alt=&quot;drawing of an anthropomorphic robot modeled after a lighter expelling heat from their left arm.&quot; width=1152 height=1760&gt;
+        &lt;p&gt;debut of soft's redesign! fshhhhh…&lt;br /&gt;
+with this, the RPG party is complete once more&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/753288168797798400/exhaust&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kuvszo3m422c&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1801691020075086223&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-06-14T13:59:00-05:00</published>
+            <updated>2024-06-14T13:59:00-05:00</updated>
+        <category term="art"/><category term="oc:soft"/>
+        <link rel="self" href="http://localhost:4000/art/soft-0001.html"/>
+        <link rel="enclosure" href="/art/soft-0001.png" length="35033" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-06-11:/art/kyra-0003.html</id>
+        <title>yo!</title>
+        <content type="html">
+            &lt;img src=&quot;/art/kyra-0003.png&quot; alt=&quot;drawing of a cheery anthropomorphic cat slinging a jacket behind her back.&quot; width=976 height=1500&gt;
+        &lt;p&gt;new kyra art.&lt;br /&gt;
+this time i'm really happy with how her body shape turned out!&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://www.tumblr.com/fukouiro/752970363329282048/yo&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1800420648956956683&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-06-11T01:48:00-05:00</published>
+            <updated>2024-06-11T01:48:00-05:00</updated>
+        <category term="art"/><category term="oc:kyra"/>
+        <link rel="self" href="http://localhost:4000/art/kyra-0003.html"/>
+        <link rel="enclosure" href="/art/kyra-0003.png" length="36680" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-04-25:/art/kit-0002.html</id>
+        <title>good work out there!</title>
+        <content type="html">
+            &lt;img src=&quot;/art/kit-0002.png&quot; alt=&quot;drawing of a stout anthropomorphic marlin resting one elbow while waving at someone off-camera.&quot; width=1152 height=1472&gt;
+        &lt;p&gt;another kit drawing.&lt;br /&gt;
+added a little more detail on his harpoon!&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/748769555646742528/good-work-out-there&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kvrfp7sqp22g&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1805666724295196808&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-04-25T16:58:00-05:00</published>
+            <updated>2024-04-25T16:58:00-05:00</updated>
+        <category term="art"/><category term="oc:kit"/>
+        <link rel="self" href="http://localhost:4000/art/kit-0002.html"/>
+        <link rel="enclosure" href="/art/kit-0002.png" length="21519" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-04-01:/art/boss-0005.html</id>
+        <title>Hey Listen...</title>
+        <content type="html">
+            &lt;img src=&quot;/art/boss-0005.png&quot; alt=&quot;Hey Listen... Two people were asking me about you, I gave them your address and tel no. They will be visiting soon. Their names are 💣 and 💣.&quot; width=768 height=640&gt;
+        &lt;p&gt;wow!&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/746593370269417473/wow&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-04-01T16:28:00-05:00</published>
+            <updated>2024-04-01T16:28:00-05:00</updated>
+        <category term="art"/><category term="doodle"/><category term="oc:vice"/>
+        <link rel="self" href="http://localhost:4000/art/boss-0005.html"/>
+        <link rel="enclosure" href="/art/boss-0005.png" length="9405" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-03-26:/art/tetrode-0002.html</id>
+        <title>tetrode doodles</title>
+        <content type="html">
+            &lt;img src=&quot;/art/tetrode-0002.png&quot; alt=&quot;a couple of doodles of a robot in a cute tamagotchi apron.&quot; width=1500 height=1000&gt;
+        &lt;p&gt;yummy dish please&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/746009398950920193/tetrode-doodles&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-03-26T05:46:00-05:00</published>
+            <updated>2024-03-26T05:46:00-05:00</updated>
+        <category term="art"/><category term="doodle"/><category term="oc:tetrode"/>
+        <link rel="self" href="http://localhost:4000/art/tetrode-0002.html"/>
+        <link rel="enclosure" href="/art/tetrode-0002.png" length="19405" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-03-13:/art/tetrode-0001.html</id>
+        <title>new robutt</title>
+        <content type="html">
+            &lt;img src=&quot;/art/tetrode-0001.png&quot; alt=&quot;drawing of a robot with a hexagonal CRT monitor for a head.&quot; width=768 height=1080&gt;
+        &lt;p&gt;been wanting a more mechanical robot design for a while…&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/744856639609470976/new-robutt&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kuqny3s27x2n&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1800942138018103333&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-03-13T12:24:24-05:00</published>
+            <updated>2024-03-13T12:24:24-05:00</updated>
+        <category term="art"/><category term="oc:tetrode"/>
+        <link rel="self" href="http://localhost:4000/art/tetrode-0001.html"/>
+        <link rel="enclosure" href="/art/tetrode-0001.png" length="24878" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-03-11:/art/tam-0011.html</id>
+        <title>cat</title>
+        <content type="html">
+            &lt;img src=&quot;/art/tam-0011.png&quot; alt=&quot;drawing of a laid-back fluffy blue-grey anthropomorphic cat making a shaka sign at the viewer.&quot; width=768 height=1300&gt;
+        &lt;p&gt;'tis truly tam!&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/744691630839414784/cat&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1800420648956956683&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-03-11T16:41:00-05:00</published>
+            <updated>2024-03-11T16:41:00-05:00</updated>
+        <category term="art"/><category term="oc:tam"/>
+        <link rel="self" href="http://localhost:4000/art/tam-0011.html"/>
+        <link rel="enclosure" href="/art/tam-0011.png" length="24954" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-03-10:/art/boss-0004.html</id>
+        <title>bom</title>
+        <content type="html">
+            &lt;img src=&quot;/art/boss-0004.png&quot; alt=&quot;a tough, fat shadowy demon holding two bomb-like demons in her arms with a third by her feet.&quot; width=1024 height=1240&gt;
+        &lt;p&gt;vice looking cool as always&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/744599499748589569/bom&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kvcdghests2h&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1803494743235567774&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-03-10T16:16:16-05:00</published>
+            <updated>2024-03-10T16:16:16-05:00</updated>
+        <category term="art"/><category term="oc:vice"/>
+        <link rel="self" href="http://localhost:4000/art/boss-0004.html"/>
+        <link rel="enclosure" href="/art/boss-0004.png" length="17389" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-02-25:/art/kit-0001.html</id>
+        <title>redesigned oc, kit</title>
+        <content type="html">
+            &lt;img src=&quot;/art/kit-0001.png&quot; alt width=820 height=1176&gt;
+        &lt;p&gt;i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/743311944139833344/redesigned-oc-kit&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kutd2ze3qc2h&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1801331445853769915&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-02-25T09:11:12-06:00</published>
+            <updated>2024-02-25T09:11:12-06:00</updated>
+        <category term="art"/><category term="oc:kit"/>
+        <link rel="self" href="http://localhost:4000/art/kit-0001.html"/>
+        <link rel="enclosure" href="/art/kit-0001.png" length="18272" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-02-16:/art/zephyr-0002.html</id>
+        <title>gato</title>
+        <content type="html">
+            &lt;img src=&quot;/art/zephyr-0002.png&quot; alt=&quot;drawing of a meek brown anthropomorphic cat waving one hand at the viewer with a bathrobe around his waist.&quot; width=544 height=736&gt;
+        &lt;p&gt;check out those scars&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/742504919972610048/gato&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kveqarcupt2m&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1803840811735617830&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-02-16T11:24:24-06:00</published>
+            <updated>2024-02-16T11:24:24-06:00</updated>
+        <category term="art"/><category term="oc:zephyr"/>
+        <link rel="self" href="http://localhost:4000/art/zephyr-0002.html"/>
+        <link rel="enclosure" href="/art/zephyr-0002.png" length="9703" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2024-01-15:/art/gyre-0001.html</id>
+        <title>moon guy</title>
+        <content type="html">
+            &lt;img src=&quot;/art/gyre-0001.png&quot; alt width=480 height=860&gt;
+        
+            &lt;img src=&quot;/art/gyre-0002.png&quot; alt width=640 height=1124&gt;
+        &lt;p&gt;funny guy i should draw more&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/739591545829933056/moon-guy&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-01-15T07:37:00-06:00</published>
+            <updated>2024-01-15T07:37:00-06:00</updated>
+        <category term="art"/><category term="doodle"/><category term="oc:gyre"/>
+        <link rel="self" href="http://localhost:4000/art/gyre-0001.html"/>
+        <link rel="enclosure" href="/art/gyre-0001.png" length="8744" type="image/png"/><link rel="enclosure" href="/art/gyre-0002.png" length="15757" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-11-23:/art/nerdy_hato-0001-nerdy_grovyle-0001.html</id>
+        <title>women</title>
+        <content type="html">
+            &lt;img src=&quot;/art/nerdy_hato-0001.png&quot; alt width=720 height=1440&gt;
+        
+            &lt;img src=&quot;/art/nerdy_grovyle-0001.png&quot; alt width=616 height=1048&gt;
+        &lt;p&gt;drawn for &lt;a href=&quot;https://www.tumblr.com/bri-wolfer&quot;&gt;@bri-wolfer&lt;/a&gt; (tumblr) / &lt;a href=&quot;https://twitter.com/nerdyreindeer&quot;&gt;@nerdyreindeer&lt;/a&gt; (twitter)&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/734825284557209600/women-bri-wolfer&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://vxtwitter.com/fukouiro/status/1806045742403875162&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-11-23T17:00:00-06:00</published>
+            <updated>2023-11-23T17:00:00-06:00</updated>
+        <category term="art"/><category term="nerdyreindeer"/>
+        <link rel="self" href="http://localhost:4000/art/nerdy_hato-0001-nerdy_grovyle-0001.html"/>
+        <link rel="enclosure" href="/art/nerdy_hato-0001.png" length="26911" type="image/png"/><link rel="enclosure" href="/art/nerdy_grovyle-0001.png" length="24132" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-11-18:/art/creeps_blair-0001.html</id>
+        <title>blair</title>
+        <content type="html">
+            &lt;img src=&quot;/art/creeps_blair-0001.png&quot; alt width=696 height=1216&gt;
+        &lt;p&gt; /) /)&lt;br /&gt;
+( • ༝•)&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/734393290031611904/blair-for-creepincrawl&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-11-18T22:33:32-06:00</published>
+            <updated>2023-11-18T22:33:32-06:00</updated>
+        <category term="art"/><category term="creepincrawl"/>
+        <link rel="self" href="http://localhost:4000/art/creeps_blair-0001.html"/>
+        <link rel="enclosure" href="/art/creeps_blair-0001.png" length="27096" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-10-24:/art/king-0001.html</id>
+        <title>king redesign</title>
+        <content type="html">
+            &lt;img src=&quot;/art/king-0001.png&quot; alt width=1152 height=1464&gt;
+        &lt;p&gt;'tis thine amicable armored apparition, king! °ω°&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/732040481658322944/its-thine-amicable-armored-apparition-king-%CF%89&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-10-24T01:16:00-05:00</published>
+            <updated>2023-10-24T01:16:00-05:00</updated>
+        <category term="art"/><category term="oc:king"/>
+        <link rel="self" href="http://localhost:4000/art/king-0001.html"/>
+        <link rel="enclosure" href="/art/king-0001.png" length="39194" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-10-09:/art/alice_sona-0001.html</id>
+        <title>sona (not mine)</title>
+        <content type="html">
+            &lt;img src=&quot;/art/alice_sona-0001.png&quot; alt width=920 height=1404&gt;
+        &lt;p&gt;•⌵•&lt;br /&gt;
+drawn for @alicemoon812 (tumblr, twitter, bluesky)&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/730694927401582592/sona-for-alicemoon812&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-10-09T04:49:00-05:00</published>
+            <updated>2023-10-09T04:49:00-05:00</updated>
+        <category term="art"/>
+        <link rel="self" href="http://localhost:4000/art/alice_sona-0001.html"/>
+        <link rel="enclosure" href="/art/alice_sona-0001.png" length="34971" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-10-07:/art/zatsu-vulture.html</id>
+        <title>hægh</title>
+        <content type="html">
+            &lt;img src=&quot;/art/zatsu-vulture.png&quot; alt width=544 height=276&gt;
+        &lt;p&gt;baby king vulture my beloved&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/730582697900179456/h%C3%A6gh&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-10-07T23:05:00-05:00</published>
+            <updated>2023-10-07T23:05:00-05:00</updated>
+        <category term="art"/><category term="doodle"/>
+        <link rel="self" href="http://localhost:4000/art/zatsu-vulture.html"/>
+        <link rel="enclosure" href="/art/zatsu-vulture.png" length="2682" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-09-21:/art/ceru-0003.html</id>
+        <title>hiii</title>
+        <content type="html">
+            &lt;img src=&quot;/art/ceru-0003.png&quot; alt width=464 height=1064&gt;
+        &lt;p&gt;what's good, ceru&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/729092794462928896/hiii&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kvmadhkuck24&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1804921947362332822&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-09-21T12:24:24-05:00</published>
+            <updated>2023-09-21T12:24:24-05:00</updated>
+        <category term="art"/><category term="oc:ceru"/>
+        <link rel="self" href="http://localhost:4000/art/ceru-0003.html"/>
+        <link rel="enclosure" href="/art/ceru-0003.png" length="14464" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-09-20:/art/io-0013b.html</id>
+        <title>paper, paper, toil and labor</title>
+        <content type="html">
+            &lt;img src=&quot;/art/io-0013b.png&quot; alt width=820 height=1096&gt;
+        &lt;p&gt;get it done right&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/729002197732540416/paper-paper-toil-and-labor&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kvjvecstga2p&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1804584333056860614&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-09-20T12:24:24-05:00</published>
+            <updated>2023-09-20T12:24:24-05:00</updated>
+        <category term="art"/><category term="oc:io"/>
+        <link rel="self" href="http://localhost:4000/art/io-0013b.html"/>
+        <link rel="enclosure" href="/art/io-0013b.png" length="20321" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-09-19:/art/io-0013a.html</id>
+        <title>iyo iyo io dayo</title>
+        <content type="html">
+            &lt;img src=&quot;/art/io-0013a.png&quot; alt width=672 height=1120&gt;
+        &lt;p&gt;•w&amp;lt;～☆&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/728868340668448768/w&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kvhg4lrxhr2j&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://x.com/fukouiro/status/1804227459510079669/&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-09-19T12:56:00-05:00</published>
+            <updated>2023-09-19T12:56:00-05:00</updated>
+        <category term="art"/><category term="oc:io"/>
+        <link rel="self" href="http://localhost:4000/art/io-0013a.html"/>
+        <link rel="enclosure" href="/art/io-0013a.png" length="15951" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-09-14:/art/zephyr-0001.html</id>
+        <title>zephyrs</title>
+        <content type="html">
+            &lt;img src=&quot;/art/zephyr-0001.png&quot; alt width=1320 height=1664&gt;
+        &lt;p&gt;meow meow &amp;gt;^•ω•^&amp;lt;&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/728472082579652608/zephyr-doodles-meow-meow-%CF%89&quot;&gt;tumblr&lt;/a&gt; • bluesky ( &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kv2oqp5t622m&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kv7udab6332k&quot;&gt;2&lt;/a&gt; )
+                 • twitter ( &lt;a href=&quot;https://twitter.com/fukouiro/status/1802392609567998355&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fukouiro/status/1803138326318424327&quot;&gt;2&lt;/a&gt; )
+                )
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-09-14T15:58:00-05:00</published>
+            <updated>2023-09-14T15:58:00-05:00</updated>
+        <category term="art"/><category term="oc:zephyr"/>
+        <link rel="self" href="http://localhost:4000/art/zephyr-0001.html"/>
+        <link rel="enclosure" href="/art/zephyr-0001.png" length="50637" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:localhost:4000,2023-08-01:/art/dramor-0001.html</id>
+        <title>dramors</title>
+        <content type="html">
+            &lt;img src=&quot;/art/dramor-0001.png&quot; alt width=1022 height=1024&gt;
+        &lt;p&gt;couple o' doodles&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/724472342513876992/couple-o-doodles&quot;&gt;tumblr&lt;/a&gt; • bluesky ( &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kuyfjjvcr22t&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3kv5h5njm5c2h&quot;&gt;2&lt;/a&gt; )
+                 • twitter ( &lt;a href=&quot;https://twitter.com/fukouiro/status/1802062826254573639/&quot;&gt;1&lt;/a&gt;, &lt;a href=&quot;https://twitter.com/fukouiro/status/1802790958033166475&quot;&gt;2&lt;/a&gt; )
+                )
+            &lt;/section&gt;
+        </content>
+        
+        <published>2023-08-01T12:24:24-05:00</published>
+            <updated>2023-08-01T12:24:24-05:00</updated>
+        <category term="art"/><category term="oc:dramor"/>
+        <link rel="self" href="http://localhost:4000/art/dramor-0001.html"/>
+        <link rel="enclosure" href="/art/dramor-0001.png" length="39750" type="image/png"/>
+    </entry>
+</feed>
