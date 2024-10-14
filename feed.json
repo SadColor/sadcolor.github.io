@@ -9,6 +9,23 @@
 	"language": "en-us",
 	"items": [
 		{
+			"id": "20241013-ari_possum#0003",
+			"url": "https://sadcolor.net/art/ari_possum-0003",
+            "content_text": "for @nyagatoari on twitter",
+            "content_html": "<img src=\"/art/ari_possum-0003.png\" alt=\"drawing of an anthropomorphic punk opossum posing confidently, resting one hand on a baseball bat.\" width=600 height=1100><p>for <a href=\"https://twitter.com/NyaGatoAri\">@nyagatoari</a> on twitter</p>\n            <section>(also on <a href=\"https://fukouiro.tumblr.com/post/764269829669666816/for-nyagatoari-on-twitter\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6gndurbcy2j\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1845617264110014788\">twitter</a>)</section>",
+            "title": "ariariariariariari",
+		    "date_published": "2024-10-13T19:07:07-05:00",
+            "tags": [ "art", "nyagatoari" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/art/ari_possum-0003.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 24602
+                }
+            ]
+            
+        },
+		{
 			"id": "20241008-boss#0006b",
 			"url": "https://sadcolor.net/art/boss-0006b",
             "content_text": "and the bathwater too. yeah. no, the baby has to go.",

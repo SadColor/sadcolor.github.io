@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Wed, 09 Oct 2024 18:43:16 -0500</pubDate>
+		<pubDate>Sun, 13 Oct 2024 19:33:34 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,15 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/ari_possum-0003</guid>
+			<title>ariariariariariari</title>
+			<link>https://sadcolor.net/art/ari_possum-0003</link>
+			<description>for @nyagatoari on twitter</description>
+			<pubDate>Sun, 13 Oct 2024 19:07:07 -0500</pubDate>
+			<category>art</category><category>nyagatoari</category>
+			<enclosure url="https://sadcolor.net/art/ari_possum-0003.png" length="24602" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/art/boss-0006b</guid>
 			<title>toss the baby</title>
