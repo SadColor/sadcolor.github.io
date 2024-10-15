@@ -9,6 +9,23 @@
 	"language": "en-us",
 	"items": [
 		{
+			"id": "20241014-glob_bb2#0001",
+			"url": "https://sadcolor.net/art/glob_bb2-0001",
+            "content_text": "for @globglump (tumblr • bluesky)",
+            "content_html": "<img src=\"/art/glob_bb2-0001.png\" alt width=800 height=1360><p>for @globglump (<a href=\"https://globglump.tumblr.com\">tumblr</a> • <a href=\"https://bsky.app/profile/globglump.bsky.social\">bluesky</a>)</p>\n            <section>(also on <a href=\"https://fukouiro.tumblr.com/post/764364218444234752/bb2-globglump\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6jaffnmhm2p\">bluesky</a>)</section>",
+            "title": "BB2 :]",
+		    "date_published": "2024-10-14T08:08:00-05:00",
+            "tags": [ "art", "globglump" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/art/glob_bb2-0001.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 23125
+                }
+            ]
+            
+        },
+		{
 			"id": "20241013-ari_possum#0003",
 			"url": "https://sadcolor.net/art/ari_possum-0003",
             "content_text": "for @nyagatoari on twitter",
