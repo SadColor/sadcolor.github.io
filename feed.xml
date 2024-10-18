@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Mon, 14 Oct 2024 20:11:44 -0500</pubDate>
+		<pubDate>Thu, 17 Oct 2024 19:10:10 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,15 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/sonny_mouse14-0001</guid>
+			<title>mouse knight</title>
+			<link>https://sadcolor.net/art/sonny_mouse14-0001</link>
+			<description>for @sonnytherat (bluesky • twitter)</description>
+			<pubDate>Thu, 17 Oct 2024 19:07:07 -0500</pubDate>
+			<category>art</category><category>sonnytherat</category>
+			<enclosure url="https://sadcolor.net/art/sonny_mouse14-0001.png" length="26915" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/art/glob_bb2-0001</guid>
 			<title>BB2 :]</title>

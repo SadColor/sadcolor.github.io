@@ -9,8 +9,25 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2024-10-14T20:11:44-05:00</updated>
+    <updated>2024-10-17T19:10:10-05:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2024-10-17:/art/sonny_mouse14-0001</id>
+        <title>mouse knight</title>
+        <content type="html">
+            &lt;img src=&quot;/art/sonny_mouse14-0001.png&quot; alt width=960 height=1080&gt;
+        &lt;p&gt;for @sonnytherat (&lt;a href=&quot;https://bsky.app/profile/sonnytherat.bsky.social&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/sonnytherat&quot;&gt;twitter&lt;/a&gt;)&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://www.tumblr.com/fukouiro/764632233229303808/mouse-knight-for-sonnytherat-on-bluesky&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3l6qogv5xdx24&quot;&gt;bluesky&lt;/a&gt; • &lt;a href=&quot;https://twitter.com/fukouiro/status/1847066815408885955&quot;&gt;twitter&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-10-17T19:07:07-05:00</published>
+            <updated>2024-10-17T19:07:07-05:00</updated>
+        <category term="art"/><category term="sonnytherat"/>
+        <link rel="self" href="https://sadcolor.net/art/sonny_mouse14-0001"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/sonny_mouse14-0001.png" length="26915" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2024-10-14:/art/glob_bb2-0001</id>
         <title>BB2 :]</title>
