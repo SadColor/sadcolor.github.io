@@ -9,8 +9,25 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2024-10-27T19:11:08-05:00</updated>
+    <updated>2024-11-22T03:46:35-06:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2024-11-22:/art/anya.0009</id>
+        <title>anya ref</title>
+        <content type="html">
+            &lt;img src=&quot;/art/anya.0009.png&quot; alt width=1232 height=1024&gt;
+        &lt;p&gt;meeeowth, dat's right&lt;/p&gt;
+        &lt;section&gt;
+                (also on &lt;a href=&quot;https://fukouiro.tumblr.com/post/767838882739978240/meeeowth-dats-right&quot;&gt;tumblr&lt;/a&gt;)
+            &lt;/section&gt;
+        </content>
+        
+        <published>2024-11-22T03:36:06-06:00</published>
+            <updated>2024-11-22T03:36:06-06:00</updated>
+        <category term="art"/><category term="oc:anya"/>
+        <link rel="self" href="https://sadcolor.net/art/anya.0009"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/anya.0009.png" length="59611" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2024-10-17:/art/sonny_mouse14.0001</id>
         <title>mouse knight</title>
