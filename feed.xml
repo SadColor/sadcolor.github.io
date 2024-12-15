@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Fri, 22 Nov 2024 03:46:35 -0600</pubDate>
+		<pubDate>Sat, 14 Dec 2024 21:08:29 -0600</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -15,13 +15,23 @@
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
 		<item>
+			<guid>https://sadcolor.net/art/verity.0003</guid>
+			<title>verity sketches</title>
+			<link>https://sadcolor.net/art/verity.0003</link>
+			<description>nobody's doing it like him
+(plus a bonus doodle from @videobun [tumblr • bluesky • twitter])</description>
+			<pubDate>Sat, 14 Dec 2024 20:58:08 -0600</pubDate>
+			<category>art</category><category>oc:verity</category>
+			<enclosure url="https://sadcolor.net/art/verity.0003.png" length="69838" type="image/png"/>
+			</item>
+		<item>
 			<guid>https://sadcolor.net/art/anya.0009</guid>
 			<title>anya ref</title>
 			<link>https://sadcolor.net/art/anya.0009</link>
 			<description>meeeowth, dat's right</description>
 			<pubDate>Fri, 22 Nov 2024 03:36:06 -0600</pubDate>
 			<category>art</category><category>oc:anya</category>
-			<enclosure url="https://sadcolor.net/art/anya.0009.png" length="59611" type="image/png"/>
+			<enclosure url="https://sadcolor.net/art/anya.0009.png" length="59693" type="image/png"/>
 			</item>
 		<item>
 			<guid>https://sadcolor.net/art/sonny_mouse14.0001</guid>
