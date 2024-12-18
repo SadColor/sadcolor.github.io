@@ -8,6 +8,26 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20241218-echo#0000",
+			"url": "https://sadcolor.net/art/echo.0000",
+            "content_text": "a little different of a body type for me!\ngligar is so cool :]",
+            "content_html": "<img src=\"/art/echo.0000.png\" alt=\"drawing of an anthro Gligar from Pokémon grinning with her hands by her cheeks.\" width=640 height=768><img src=\"/art/echo.0000b.png\" alt=\"the same drawing, but without clothing to better show her body type.\" width=640 height=768><p>a little different of a body type for me!<br />\ngligar is so cool :]</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/770183712086360064/we-love-funny-bat\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ldkr64spmk2c\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1869273178360721437\">twitter</a> ─</section>",
+            "title": "we love funny bat",
+		    "date_published": "2024-12-18T00:47:00-06:00",
+            "tags": [ "art", "oc:echo" ],
+            "attachments": [
+                {
+                    "url":"https://sadcolor.net/art/echo.0000.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 18192
+                },{
+                    "url":"https://sadcolor.net/art/echo.0000b.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 14322
+                }
+            ]
+            
+        },
 		{"id": "20241214-verity#0003",
 			"url": "https://sadcolor.net/art/verity.0003",
             "content_text": "nobody's doing it like him\n(plus a bonus doodle from @videobun [tumblr • bluesky • twitter])",
