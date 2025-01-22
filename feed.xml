@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Wed, 18 Dec 2024 00:57:06 -0600</pubDate>
+		<pubDate>Wed, 22 Jan 2025 15:28:22 -0600</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,22 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/bristle.0004</guid>
+			<title>galarian meowth</title>
+			<link>https://sadcolor.net/art/bristle.0004</link>
+			<description>another pokédesign.
+i kinda like galarian meowth even though i don't like purrserker. it happens, i guess
+
+“A self-confident and standoffish Meowth.
+She is generally nice, but just prefers being alone. To that end, her brusque behavior tends to keep others away.”
+
+character theme:
+♪ COOL JAM (Iori Yagami) (THE KING OF FIGHTERS '97 ARRANGE SOUND TRAX)</description>
+			<pubDate>Wed, 22 Jan 2025 15:15:15 -0600</pubDate>
+			<category>art</category><category>oc:bristle</category>
+			<enclosure url="https://sadcolor.net/art/bristle.0004.png" length="61191" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/art/echo.0000</guid>
 			<title>we love funny bat</title>
