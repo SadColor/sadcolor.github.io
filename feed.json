@@ -1,15 +1,31 @@
 {
 	"version": "https://jsonfeed.org/version/1.1",
 	"title": "sadcolor's stuff (JSON)",
-	"home_page_url": "https://sadcolor.net",
-	"feed_url": "https://sadcolor.net/feed.json",
+	"home_page_url": "http://localhost:4000",
+	"feed_url": "http://localhost:4000/feed.json",
 	"description": "art and other stuff by SadColor",
 	"icon": "/icon.png",
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250204-mokatypebeat_cadice#0002",
+			"url": "http://localhost:4000/art/mokatypebeat_cadice.0002",
+            "content_text": "for @mokatypebeat on bsky.\ncool character i also drew for art fight!",
+            "content_html": "<img src=\"/art/mokatypebeat_cadice.0002.png\" alt=\"drawing of an anthro zombie cat with a stitched-together body. she's doing a \"beckoning cat\" pose\" width=776 height=1556><p>for <a href=\"https://bsky.app/profile/mokatypebeat.bsky.social\">@mokatypebeat</a> on bsky.\ncool character <a href=\"/af/2024/atk/09\">i also drew for art fight</a>!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/774606935791222784/for-mokatypebeat-on-bsky\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3lhfjrdnxec2z\">bluesky</a> ─</section>",
+            "title": "cadice",
+		    "date_published": "2025-02-04T20:32:00-06:00",
+            "tags": [ "art", "mokatypebeat" ],
+            "attachments": [
+                {
+                    "url":"http://localhost:4000/art/mokatypebeat_cadice.0002.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 31823
+                }
+            ]
+            
+        },
 		{"id": "20250122-bristle#0004",
-			"url": "https://sadcolor.net/art/bristle.0004",
+			"url": "http://localhost:4000/art/bristle.0004",
             "content_text": "another pokédesign.\ni kinda like galarian meowth even though i don't like purrserker. it happens, i guess\n\n“A self-confident and standoffish Meowth.\nShe is generally nice, but just prefers being alone. To that end, her brusque behavior tends to keep others away.”\n\ncharacter theme:\n♪ COOL JAM (Iori Yagami) (THE KING OF FIGHTERS '97 ARRANGE SOUND TRAX)",
             "content_html": "<img src=\"/art/bristle.0004.png\" alt=\"ref sheet of an anthro galarian meowth. she's a gruff, bearded brown cat with black ears and horns.\" width=1424 height=920><p>another pokédesign.<br />\ni kinda like galarian meowth even though i don't like purrserker. it happens, i guess</p>\n\n<blockquote>\n  <p>A self-confident and standoffish Meowth.<br />\nShe is generally nice, but just prefers being alone. To that end, her brusque behavior tends to keep others away.</p>\n</blockquote>\n\n<p>character theme:\n<a href=\"https://www.youtube.com/watch?v=xfiwNeAvnRc\">♪ <strong>COOL JAM (Iori Yagami)</strong></a> (THE KING OF FIGHTERS '97 ARRANGE SOUND TRAX)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/773409223012974592/another-pokédesign-a-self-confident-and\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3lgebyqx7i22l\">bluesky</a> ─</section>",
             "title": "galarian meowth",
@@ -17,7 +33,7 @@
             "tags": [ "art", "oc:bristle" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/bristle.0004.png",
+                    "url":"http://localhost:4000/art/bristle.0004.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 61191
                 }
@@ -25,19 +41,19 @@
             
         },
 		{"id": "20241218-echo#0000",
-			"url": "https://sadcolor.net/art/echo.0000",
+			"url": "http://localhost:4000/art/echo.0000",
             "content_text": "a little different of a body type for me!\ngligar is so cool :]",
-            "content_html": "<img src=\"/art/echo.0000.png\" alt=\"drawing of an anthro Gligar from Pokémon grinning with her hands by her cheeks.\" width=640 height=768><img src=\"/art/echo.0000b.png\" alt=\"the same drawing, but without clothing to better show her body type.\" width=640 height=768><p>a little different of a body type for me!<br />\ngligar is so cool :]</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/770183712086360064/we-love-funny-bat\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ldkr64spmk2c\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1869273178360721437\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/echo.0000.png\" alt=\"drawing of an anthro Gligar from Pokémon grinning with her hands by her cheeks.\" width=640 height=768><img src=\"/art/echo.0000b.png\" alt=\"the same drawing, but without clothing to better show her body type.\" width=640 height=768><p>a little different of a body type for me!<br />\ngligar is so cool :]</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/770183712086360064/we-love-funny-bat\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ldkr64spmk2c\">bluesky</a> ─</section>",
             "title": "we love funny bat",
 		    "date_published": "2024-12-18T00:47:00-06:00",
             "tags": [ "art", "oc:echo" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/echo.0000.png",
+                    "url":"http://localhost:4000/art/echo.0000.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 18192
                 },{
-                    "url":"https://sadcolor.net/art/echo.0000b.png",
+                    "url":"http://localhost:4000/art/echo.0000b.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 14322
                 }
@@ -45,15 +61,15 @@
             
         },
 		{"id": "20241214-verity#0003",
-			"url": "https://sadcolor.net/art/verity.0003",
+			"url": "http://localhost:4000/art/verity.0003",
             "content_text": "nobody's doing it like him\n(plus a bonus doodle from @videobun [tumblr • bluesky • twitter])",
-            "content_html": "<img src=\"/art/verity.0003.png\" alt=\"a couple of action shots of an anthro Sirfetch'd evading enemy attacks while counterattacking. plus a doodle from a friend where he's a tiny baby bird.\" width=1152 height=1864><p>nobody's doing it like him<br />\n(plus a bonus doodle from @videobun [<a href=\"https://videobun-art.tumblr.com\">tumblr</a> • <a href=\"https://bsky.app/profile/videobun.bsky.social\">bluesky</a> • <a href=\"https://twitter.com/videobun_art\">twitter</a>])</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/769897513325035520/nobodys-doing-it-like-him-plus-a-bonus-doodle\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ldcsxx3has26\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1868128391834251734\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/verity.0003.png\" alt=\"a couple of action shots of an anthro Sirfetch'd evading enemy attacks while counterattacking. plus a doodle from a friend where he's a tiny baby bird.\" width=1152 height=1864><p>nobody's doing it like him<br />\n(plus a bonus doodle from @videobun [<a href=\"https://videobun-art.tumblr.com\">tumblr</a> • <a href=\"https://bsky.app/profile/videobun.bsky.social\">bluesky</a> • <a href=\"https://twitter.com/videobun_art\">twitter</a>])</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/769897513325035520/nobodys-doing-it-like-him-plus-a-bonus-doodle\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ldcsxx3has26\">bluesky</a> ─</section>",
             "title": "verity sketches",
 		    "date_published": "2024-12-14T20:58:08-06:00",
             "tags": [ "art", "oc:verity" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/verity.0003.png",
+                    "url":"http://localhost:4000/art/verity.0003.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 69838
                 }
@@ -61,7 +77,7 @@
             
         },
 		{"id": "20241122-anya#0009",
-			"url": "https://sadcolor.net/art/anya.0009",
+			"url": "http://localhost:4000/art/anya.0009",
             "content_text": "meeeowth, dat's right",
             "content_html": "<img src=\"/art/anya.0009.png\" alt width=1232 height=1024><p>meeeowth, dat's right</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/767838882739978240/meeeowth-dats-right\">tumblr</a> ─</section>",
             "title": "anya ref",
@@ -69,7 +85,7 @@
             "tags": [ "art", "oc:anya" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/anya.0009.png",
+                    "url":"http://localhost:4000/art/anya.0009.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 59693
                 }
@@ -77,15 +93,15 @@
             
         },
 		{"id": "20241017-sonny_mouse14#0001",
-			"url": "https://sadcolor.net/art/sonny_mouse14.0001",
+			"url": "http://localhost:4000/art/sonny_mouse14.0001",
             "content_text": "for @sonnytherat (bluesky • twitter)",
-            "content_html": "<img src=\"/art/sonny_mouse14.0001.png\" alt width=960 height=1080><p>for @sonnytherat (<a href=\"https://bsky.app/profile/sonnytherat.bsky.social\">bluesky</a> • <a href=\"https://twitter.com/sonnytherat\">twitter</a>)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/764632233229303808/mouse-knight-for-sonnytherat-on-bluesky\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6qogv5xdx24\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1847066815408885955\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/sonny_mouse14.0001.png\" alt width=960 height=1080><p>for @sonnytherat (<a href=\"https://bsky.app/profile/sonnytherat.bsky.social\">bluesky</a> • <a href=\"https://twitter.com/sonnytherat\">twitter</a>)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/764632233229303808/mouse-knight-for-sonnytherat-on-bluesky\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6qogv5xdx24\">bluesky</a> ─</section>",
             "title": "mouse knight",
 		    "date_published": "2024-10-17T19:07:07-05:00",
             "tags": [ "art", "sonnytherat" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/sonny_mouse14.0001.png",
+                    "url":"http://localhost:4000/art/sonny_mouse14.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 26915
                 }
@@ -93,7 +109,7 @@
             
         },
 		{"id": "20241014-glob_bb2#0001",
-			"url": "https://sadcolor.net/art/glob_bb2.0001",
+			"url": "http://localhost:4000/art/glob_bb2.0001",
             "content_text": "for @globglump (tumblr • bluesky)",
             "content_html": "<img src=\"/art/glob_bb2.0001.png\" alt width=800 height=1360><p>for @globglump (<a href=\"https://globglump.tumblr.com\">tumblr</a> • <a href=\"https://bsky.app/profile/globglump.bsky.social\">bluesky</a>)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/764364218444234752/bb2-globglump\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6jaffnmhm2p\">bluesky</a> ─</section>",
             "title": "BB2 :]",
@@ -101,7 +117,7 @@
             "tags": [ "art", "globglump" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/glob_bb2.0001.png",
+                    "url":"http://localhost:4000/art/glob_bb2.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 23125
                 }
@@ -109,15 +125,15 @@
             
         },
 		{"id": "20241013-ari_possum#0003",
-			"url": "https://sadcolor.net/art/ari_possum.0003",
+			"url": "http://localhost:4000/art/ari_possum.0003",
             "content_text": "for @nyagatoari on twitter",
-            "content_html": "<img src=\"/art/ari_possum.0003.png\" alt=\"drawing of an anthropomorphic punk opossum posing confidently, resting one hand on a baseball bat.\" width=600 height=1100><p>for <a href=\"https://twitter.com/NyaGatoAri\">@nyagatoari</a> on twitter</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/764269829669666816/for-nyagatoari-on-twitter\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6gndurbcy2j\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1845617264110014788\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/ari_possum.0003.png\" alt=\"drawing of an anthropomorphic punk opossum posing confidently, resting one hand on a baseball bat.\" width=600 height=1100><p>for <a href=\"https://twitter.com/NyaGatoAri\">@nyagatoari</a> on twitter</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/764269829669666816/for-nyagatoari-on-twitter\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l6gndurbcy2j\">bluesky</a> ─</section>",
             "title": "ariariariariariari",
 		    "date_published": "2024-10-13T19:07:07-05:00",
             "tags": [ "art", "nyagatoari" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/ari_possum.0003.png",
+                    "url":"http://localhost:4000/art/ari_possum.0003.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 24602
                 }
@@ -125,15 +141,15 @@
             
         },
 		{"id": "20241008-boss#0006b",
-			"url": "https://sadcolor.net/art/boss.0006b",
+			"url": "http://localhost:4000/art/boss.0006b",
             "content_text": "and the bathwater too. yeah. no, the baby has to go.",
-            "content_html": "<img src=\"/art/boss.0006b.png\" alt=\"a couple drawings of a portly shadow demon pitching a bomb-shaped demon like a baseball.\" width=2400 height=1760><p>and the bathwater too. yeah. no, the baby <strong>has</strong> to go.</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/763793060845027328/toss-the-baby\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l5zf4qzie52r\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1843710542650978751\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/boss.0006b.png\" alt=\"a couple drawings of a portly shadow demon pitching a bomb-shaped demon like a baseball.\" width=2400 height=1760><p>and the bathwater too. yeah. no, the baby <strong>has</strong> to go.</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/763793060845027328/toss-the-baby\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l5zf4qzie52r\">bluesky</a> ─</section>",
             "title": "toss the baby",
 		    "date_published": "2024-10-08T12:50:00-05:00",
             "tags": [ "art", "doodle", "oc:vice" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/boss.0006b.png",
+                    "url":"http://localhost:4000/art/boss.0006b.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 35067
                 }
@@ -141,15 +157,15 @@
             
         },
 		{"id": "20241007-boss#0006a",
-			"url": "https://sadcolor.net/art/boss.0006a",
+			"url": "http://localhost:4000/art/boss.0006a",
             "content_text": "cool-looking vice drawing…",
-            "content_html": "<img src=\"/art/boss.0006a.png\" alt=\"a tough, portly shadow-demon posing with an anxious bomb-like demon.\" width=1080 height=1440><p>cool-looking vice drawing…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/763700835976904704/vice\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l5wgtobxvr2r\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1843341518578561332\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/boss.0006a.png\" alt=\"a tough, portly shadow-demon posing with an anxious bomb-like demon.\" width=1080 height=1440><p>cool-looking vice drawing…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/763700835976904704/vice\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3l5wgtobxvr2r\">bluesky</a> ─</section>",
             "title": "vice",
 		    "date_published": "2024-10-07T12:24:24-05:00",
             "tags": [ "art", "doodle", "oc:vice" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/boss.0006a.png",
+                    "url":"http://localhost:4000/art/boss.0006a.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 18121
                 }
@@ -157,15 +173,15 @@
             
         },
 		{"id": "20240805-ask#0001-king#0001",
-			"url": "https://sadcolor.net/art/ask.0001-king.0001",
+			"url": "http://localhost:4000/art/ask.0001-king.0001",
             "content_text": "king is asked about his armor\n\ntranscription without the funny archaic letters:\n“Nay, this fine suit of armor hath been my sole abode since afore mine earliest memories.\nUpon my wake in this new body, it brought me severe dolor.\nNow, such time has passed that I'd nary dream of inhabiting any other!”",
-            "content_html": "<img src=\"/art/ask.0001-king.0001.png\" alt=\"an anonymous user asking a ghost character, \"Does King have other suits of armor to possess?\" the ghost answers while polishing his armor.\" width=640 height=720><p>king is asked about his armor</p>\n\n<p>transcription without the funny archaic letters:</p>\n<blockquote>\n  <p>Nay, this fine suit of armor hath been my sole abode since afore mine earliest memories.<br />\nUpon my wake in this new body, it brought me severe dolor.<br />\nNow, such time has passed that I'd nary dream of inhabiting any other!</p>\n</blockquote>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/757956742609092608/transcription-without-the-funny-archaic\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kyxfhdu5di2f\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1820365417128333799\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/ask.0001-king.0001.png\" alt=\"an anonymous user asking a ghost character, \"Does King have other suits of armor to possess?\" the ghost answers while polishing his armor.\" width=640 height=720><p>king is asked about his armor</p>\n\n<p>transcription without the funny archaic letters:</p>\n<blockquote>\n  <p>Nay, this fine suit of armor hath been my sole abode since afore mine earliest memories.<br />\nUpon my wake in this new body, it brought me severe dolor.<br />\nNow, such time has passed that I'd nary dream of inhabiting any other!</p>\n</blockquote>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/757956742609092608/transcription-without-the-funny-archaic\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kyxfhdu5di2f\">bluesky</a> ─</section>",
             "title": "king ask #1",
 		    "date_published": "2024-08-05T02:44:00-05:00",
             "tags": [ "art", "doodle", "ask", "oc:king" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/ask.0001-king.0001.png",
+                    "url":"http://localhost:4000/art/ask.0001-king.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 18121
                 }
@@ -173,7 +189,7 @@
             
         },
 		{"id": "20240803-A19-someguyiguess_noir#0001",
-			"url": "https://sadcolor.net/af/2024/atk/19",
+			"url": "http://localhost:4000/af/2024/atk/19",
             "content_text": "",
             "content_html": "<img src=\"/art/19.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/8682399.equipment-exchange\">art fight</a> ─</section>",
             "title": "[AF2024 • A#19] equipment exchange",
@@ -181,14 +197,14 @@
             "tags": [ "art fight", "art fight 2024", "oc:g", "someguyiguess" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/19.png",
+                    "url": "http://localhost:4000/af/2024/atk/19.png",
                     "mime_type": "image/png"
                 }
             ]
             
         },
 		{"id": "20240803-A18-mokatypebeat_siberian#0001",
-			"url": "https://sadcolor.net/af/2024/atk/18",
+			"url": "http://localhost:4000/af/2024/atk/18",
             "content_text": "",
             "content_html": "<img src=\"/art/18.png\" alt ><p><img src=\"/img/predictable.gif\" class=\"full\" width=\"320\" height=\"180\" /></p>\n            <section>─ <a href=\"https://artfight.net/attack/8680316.worst-jump-rope-partners\">art fight</a> ─</section>",
             "title": "[AF2024 • A#18] worst jump rope partner(s)",
@@ -196,7 +212,7 @@
             "tags": [ "art fight", "art fight 2024", "oc:vice", "mokatypebeat" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/18.png",
+                    "url": "http://localhost:4000/af/2024/atk/18.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 29964
                 }
@@ -204,7 +220,7 @@
             
         },
 		{"id": "20240802-A17-trjrkr_thorne#0001",
-			"url": "https://sadcolor.net/af/2024/atk/17",
+			"url": "http://localhost:4000/af/2024/atk/17",
             "content_text": "taste divine fury",
             "content_html": "<img src=\"/art/17.png\" alt ><p>taste divine fury</p>\n            <section>─ <a href=\"https://artfight.net/attack/8623556.righteous-retribution\">art fight</a> ─</section>",
             "title": "[AF2024 • A#17] righteous retribution",
@@ -212,7 +228,7 @@
             "tags": [ "art fight", "art fight 2024", "Trjrkr" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/17.png",
+                    "url": "http://localhost:4000/af/2024/atk/17.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 74188
                 }
@@ -220,7 +236,7 @@
             
         },
 		{"id": "20240802-A16-disco_fish_walter#0001",
-			"url": "https://sadcolor.net/af/2024/atk/16",
+			"url": "http://localhost:4000/af/2024/atk/16",
             "content_text": "i don't think that's quite right",
             "content_html": "<img src=\"/art/16.gif\" alt ><p>i don't think that's quite right</p>\n            <section>─ <a href=\"https://artfight.net/attack/8577154.cold-case\">art fight</a> ─</section>",
             "title": "[AF2024 • A#16] cold case",
@@ -228,7 +244,7 @@
             "tags": [ "art fight", "art fight 2024", "oc:phial", "disco_fish" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/16.gif",
+                    "url": "http://localhost:4000/af/2024/atk/16.gif",
                     "mime_type": "image/gif",
                     "size_in_bytes": 82844
                 }
@@ -236,7 +252,7 @@
             
         },
 		{"id": "20240731-A15-starp3rior_valerie#0001",
-			"url": "https://sadcolor.net/af/2024/atk/15",
+			"url": "http://localhost:4000/af/2024/atk/15",
             "content_text": "rehearsal's over",
             "content_html": "<img src=\"/art/15.png\" alt ><p>rehearsal's over</p>\n            <section>─ <a href=\"https://artfight.net/attack/8514000.chemical-love\">art fight</a> ─</section>",
             "title": "[AF2024 • A#15] chemical love",
@@ -244,7 +260,7 @@
             "tags": [ "art fight", "art fight 2024", "STARP3RIOR" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/15.png",
+                    "url": "http://localhost:4000/af/2024/atk/15.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 148167
                 }
@@ -252,7 +268,7 @@
             
         },
 		{"id": "20240729-A14-mokatypebeat_espresso#0001",
-			"url": "https://sadcolor.net/af/2024/atk/14",
+			"url": "http://localhost:4000/af/2024/atk/14",
             "content_text": "i keep reading the motion trail on his ref as a long claw so i had to do a thing",
             "content_html": "<img src=\"/art/14.gif\" alt=\"animation of a cat in a hoodie with oversized sleeves revealing and retracting very long claws.\" ><p>i keep reading the motion trail on his ref as a long claw so i had to do a thing</p>\n            <section>─ <a href=\"https://artfight.net/attack/8368688.sleighty-sleeves\">art fight</a> ─</section>",
             "title": "[AF2024 • A#14] sleighty sleeves",
@@ -260,14 +276,14 @@
             "tags": [ "art fight", "art fight 2024", "mokatypebeat" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/14.gif",
+                    "url": "http://localhost:4000/af/2024/atk/14.gif",
                     "mime_type": "image/gif"
                 }
             ]
             
         },
 		{"id": "20240728-A13-thesloum_griffon#0001",
-			"url": "https://sadcolor.net/af/2024/atk/13",
+			"url": "http://localhost:4000/af/2024/atk/13",
             "content_text": "folks, is it cheating to let the ambiphysical manifestation of your soul to take a hit for you",
             "content_html": "<img src=\"/art/13.png\" alt=\"an armored gryphon stabbing a spear at a haunted suit of armor. the armor dodges, but its ghost gets hit.\" ><p>folks, is it cheating to let the ambiphysical manifestation of your soul to take a hit for you</p>\n            <section>─ <a href=\"https://artfight.net/attack/8320428.spirited-sparring\">art fight</a> ─</section>",
             "title": "[AF2024 • A#13] spirited sparring",
@@ -275,7 +291,7 @@
             "tags": [ "art fight", "art fight 2024", "oc:king", "thesloum" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/13.png",
+                    "url": "http://localhost:4000/af/2024/atk/13.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 96277
                 }
@@ -283,7 +299,7 @@
             
         },
 		{"id": "20240718-A12-skarpetky_apten#0002",
-			"url": "https://sadcolor.net/af/2024/atk/12",
+			"url": "http://localhost:4000/af/2024/atk/12",
             "content_text": "what's in the suitcase…………….",
             "content_html": "<img src=\"/art/12.png\" alt=\"a penguin in a nice suit slinging a suitcase behind her back.\" ><p>what's in the suitcase…………….</p>\n            <section>─ <a href=\"https://artfight.net/attack/7794590.la-pinguina-graciosa\">art fight</a> ─</section>",
             "title": "[AF2024 • A#12] la pingüina graciosa",
@@ -291,7 +307,7 @@
             "tags": [ "art fight", "art fight 2024", "skarpetky" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/12.png",
+                    "url": "http://localhost:4000/af/2024/atk/12.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 27215
                 }
@@ -299,7 +315,7 @@
             
         },
 		{"id": "20240716-A11-goldeklee_grimal#0001",
-			"url": "https://sadcolor.net/af/2024/atk/11",
+			"url": "http://localhost:4000/af/2024/atk/11",
             "content_text": "",
             "content_html": "<img src=\"/art/11.png\" alt=\"a menacing hairless anthro cat poses with her giant sword.\" >\n            <section>─ <a href=\"https://artfight.net/attack/7665715.youve-just-crossed-over-into-the-grimal-zone\">art fight</a> ─</section>",
             "title": "[AF2024 • A#11] You've just crossed over into the Grimal Zone",
@@ -307,14 +323,14 @@
             "tags": [ "art fight", "art fight 2024", "GoldeKlee" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/11.png",
+                    "url": "http://localhost:4000/af/2024/atk/11.png",
                     "mime_type": "image/png"
                 }
             ]
             
         },
 		{"id": "20240714-A10-martiansnake_compass#0001-martiansnake_grill#0001",
-			"url": "https://sadcolor.net/af/2024/atk/10",
+			"url": "http://localhost:4000/af/2024/atk/10",
             "content_text": "i never imagined my love of ramen could get me into such trouble…",
             "content_html": "<img src=\"/art/10.png\" alt=\"a pirate polar bear fishes out a squid with ramen, to the bemusement of her shrimp crewmate.\" ><p>i never imagined my love of ramen could get me into such trouble…</p>\n            <section>─ <a href=\"https://artfight.net/attack/7584263.sos-snagging-odd-squid\">art fight</a> ─</section>",
             "title": "[AF2024 • A#10] S.O.S. (snagging odd squid)",
@@ -322,7 +338,7 @@
             "tags": [ "art fight", "art fight 2024", "oc:marin", "martiansnake" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/10.png",
+                    "url": "http://localhost:4000/af/2024/atk/10.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 104911
                 }
@@ -330,7 +346,7 @@
             
         },
 		{"id": "20240712-A09-mokatypebeat_cadice#0001",
-			"url": "https://sadcolor.net/af/2024/atk/09",
+			"url": "http://localhost:4000/af/2024/atk/09",
             "content_text": "block this overhead or your brains are forfeit",
             "content_html": "<img src=\"/art/09.png\" alt=\"an anthro zombie cat clawing down from above.\" ><p>block this overhead or your brains are forfeit</p>\n            <section>─ <a href=\"https://artfight.net/attack/7374119.3mp-skull-scoop\">art fight</a> ─</section>",
             "title": "[AF2024 • A#09] 3MP: Skull Scoop",
@@ -338,7 +354,7 @@
             "tags": [ "art fight", "art fight 2024", "mokatypebeat" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/09.png",
+                    "url": "http://localhost:4000/af/2024/atk/09.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 31737
                 }
@@ -346,7 +362,7 @@
             
         },
 		{"id": "20240709-A08-zelfie_tome#0001-zelfie_karasu#0001-nyanorama_worm#0001",
-			"url": "https://sadcolor.net/af/2024/atk/08",
+			"url": "http://localhost:4000/af/2024/atk/08",
             "content_text": "always remember to check your smart ovens for viruses",
             "content_html": "<img src=\"/art/08.png\" alt ><p>always remember to check your smart ovens for viruses</p>\n            <section>─ <a href=\"https://artfight.net/attack/7270702.security-breach\">art fight</a> ─</section>",
             "title": "[AF2024 • A#08] security breach",
@@ -354,7 +370,7 @@
             "tags": [ "art fight", "art fight 2024", "zelfie", "NYANORAMA" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/08.png",
+                    "url": "http://localhost:4000/af/2024/atk/08.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 139032
                 }
@@ -362,7 +378,7 @@
             
         },
 		{"id": "20240709-A07-whee23_ino#0001",
-			"url": "https://sadcolor.net/af/2024/atk/07",
+			"url": "http://localhost:4000/af/2024/atk/07",
             "content_text": "",
             "content_html": "<img src=\"/art/07.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/7169432.burst-the-big-bubble\">art fight</a> ─</section>",
             "title": "[AF2024 • A#07] burst the big bubble",
@@ -370,7 +386,7 @@
             "tags": [ "art fight", "art fight 2024", "whee23" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/07.png",
+                    "url": "http://localhost:4000/af/2024/atk/07.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 44068
                 }
@@ -378,7 +394,7 @@
             
         },
 		{"id": "20240708-A06-viggar_emmeline#0001-viggar_hazel#0001",
-			"url": "https://sadcolor.net/af/2024/atk/06",
+			"url": "http://localhost:4000/af/2024/atk/06",
             "content_text": "",
             "content_html": "<img src=\"/art/06.png\" alt=\"a drunken secretarybird chatting with the cheery robin serving her.\" >\n            <section>─ <a href=\"https://artfight.net/attack/6956824.regular-rapport\">art fight</a> ─</section>",
             "title": "[AF2024 • A#06] regular rapport",
@@ -386,7 +402,7 @@
             "tags": [ "art fight", "art fight 2024", "viggar" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/06.png",
+                    "url": "http://localhost:4000/af/2024/atk/06.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 49301
                 }
@@ -394,7 +410,7 @@
             
         },
 		{"id": "20240707-A05-acenil_tracy#0001",
-			"url": "https://sadcolor.net/af/2024/atk/05",
+			"url": "http://localhost:4000/af/2024/atk/05",
             "content_text": "🗡️🐍🗡️",
             "content_html": "<img src=\"/art/05.png\" alt=\"an anthro snake posing with two daggers.\" ><p>🗡️🐍🗡️</p>\n            <section>─ <a href=\"https://artfight.net/attack/6908651.dungeon-crawler\">art fight</a> ─</section>",
             "title": "[AF2024 • A#05] dungeon crawler",
@@ -402,7 +418,7 @@
             "tags": [ "art fight", "art fight 2024", "acenil" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/05.png",
+                    "url": "http://localhost:4000/af/2024/atk/05.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 33707
                 }
@@ -410,7 +426,7 @@
             
         },
 		{"id": "20240706-A04-peerkartosh_rage#0001-peerkartosh_scare#0001",
-			"url": "https://sadcolor.net/af/2024/atk/04",
+			"url": "http://localhost:4000/af/2024/atk/04",
             "content_text": "",
             "content_html": "<img src=\"/art/04.png\" alt=\"a robot and a shadowy character team up against an occult figure summoning a dragon.\" ><p><img src=\"/img/nanaya.jpg\" class=\"full\" alt=\"I don't even play this game.\" /></p>\n            <section>─ <a href=\"https://artfight.net/attack/6798640.buddy-bossing\">art fight</a> ─</section>",
             "title": "[AF2024 • A#04] buddy bossing",
@@ -418,7 +434,7 @@
             "tags": [ "art fight", "art fight 2024", "peerkartosh" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/04.png",
+                    "url": "http://localhost:4000/af/2024/atk/04.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 132347
                 }
@@ -426,7 +442,7 @@
             
         },
 		{"id": "20240705-A03-vampzghost_cara#0001",
-			"url": "https://sadcolor.net/af/2024/atk/03",
+			"url": "http://localhost:4000/af/2024/atk/03",
             "content_text": "no rest for the postal workers…",
             "content_html": "<img src=\"/art/03.gif\" alt=\"animation of a portly envelope-head postal worker anxiously barreling forward.\" ><p>no rest for the postal workers…</p>\n            <section>─ <a href=\"https://artfight.net/attack/6556462.rush-delivery\">art fight</a> ─</section>",
             "title": "[AF2024 • A#03] rush delivery",
@@ -434,7 +450,7 @@
             "tags": [ "art fight", "art fight 2024", "vampzghost" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/03.gif",
+                    "url": "http://localhost:4000/af/2024/atk/03.gif",
                     "mime_type": "image/gif",
                     "size_in_bytes": 99877
                 }
@@ -442,7 +458,7 @@
             
         },
 		{"id": "20240704-A02-himignicest_cateline#0001",
-			"url": "https://sadcolor.net/af/2024/atk/02",
+			"url": "http://localhost:4000/af/2024/atk/02",
             "content_text": "",
             "content_html": "<img src=\"/art/02.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/6393836.guardian\">art fight</a> ─</section>",
             "title": "[AF2024 • A#02] guardian",
@@ -450,7 +466,7 @@
             "tags": [ "art fight", "art fight 2024", "himignicest" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/02.png",
+                    "url": "http://localhost:4000/af/2024/atk/02.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 32643
                 }
@@ -458,7 +474,7 @@
             
         },
 		{"id": "20240702-A01-blabla_sammi#0001",
-			"url": "https://sadcolor.net/af/2024/atk/01",
+			"url": "http://localhost:4000/af/2024/atk/01",
             "content_text": "that's how you start the art fight and finish it quickly",
             "content_html": "<img src=\"/art/01.png\" alt=\"an eyeball-head bartender cheerfully pops open a bottle of champagne.\" ><p>that's how you start the art fight and finish it quickly</p>\n            <section>─ <a href=\"https://artfight.net/attack/6077474.pop\">art fight</a> ─</section>",
             "title": "[AF2024 • A#01] POP",
@@ -466,7 +482,7 @@
             "tags": [ "art fight", "art fight 2024", "blabla" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2024/atk/01.png",
+                    "url": "http://localhost:4000/af/2024/atk/01.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 25339
                 }
@@ -474,15 +490,15 @@
             
         },
 		{"id": "20240614-soft#0001",
-			"url": "https://sadcolor.net/art/soft.0001",
+			"url": "http://localhost:4000/art/soft.0001",
             "content_text": "debut of soft's redesign! fshhhhh…\nwith this, the RPG party is complete once more",
-            "content_html": "<img src=\"/art/soft.0001.png\" alt=\"drawing of an anthropomorphic robot modeled after a lighter expelling heat from their left arm.\" width=1152 height=1760><p>debut of soft's redesign! fshhhhh…<br />\nwith this, the RPG party is complete once more</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/753288168797798400/exhaust\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuvszo3m422c\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1801691020075086223\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/soft.0001.png\" alt=\"drawing of an anthropomorphic robot modeled after a lighter expelling heat from their left arm.\" width=1152 height=1760><p>debut of soft's redesign! fshhhhh…<br />\nwith this, the RPG party is complete once more</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/753288168797798400/exhaust\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuvszo3m422c\">bluesky</a> ─</section>",
             "title": "exhaust",
 		    "date_published": "2024-06-14T13:59:00-05:00",
             "tags": [ "art", "oc:soft" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/soft.0001.png",
+                    "url":"http://localhost:4000/art/soft.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 35033
                 }
@@ -490,15 +506,15 @@
             
         },
 		{"id": "20240611-kyra#0003",
-			"url": "https://sadcolor.net/art/kyra.0003",
+			"url": "http://localhost:4000/art/kyra.0003",
             "content_text": "new kyra art.\nthis time i'm really happy with how her body shape turned out!",
-            "content_html": "<img src=\"/art/kyra.0003.png\" alt=\"drawing of a cheery anthropomorphic cat slinging a jacket behind her back.\" width=976 height=1500><p>new kyra art.<br />\nthis time i'm really happy with how her body shape turned out!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/752970363329282048/yo\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1800420648956956683\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/kyra.0003.png\" alt=\"drawing of a cheery anthropomorphic cat slinging a jacket behind her back.\" width=976 height=1500><p>new kyra art.<br />\nthis time i'm really happy with how her body shape turned out!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/752970363329282048/yo\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25\">bluesky</a> ─</section>",
             "title": "yo!",
 		    "date_published": "2024-06-11T01:48:00-05:00",
             "tags": [ "art", "oc:kyra" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/kyra.0003.png",
+                    "url":"http://localhost:4000/art/kyra.0003.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 36680
                 }
@@ -506,15 +522,15 @@
             
         },
 		{"id": "20240425-kit#0002",
-			"url": "https://sadcolor.net/art/kit.0002",
+			"url": "http://localhost:4000/art/kit.0002",
             "content_text": "another kit drawing.\nadded a little more detail on his harpoon!",
-            "content_html": "<img src=\"/art/kit.0002.png\" alt=\"drawing of a stout anthropomorphic marlin resting one elbow while waving at someone off-camera.\" width=1152 height=1472><p>another kit drawing.<br />\nadded a little more detail on his harpoon!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/748769555646742528/good-work-out-there\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvrfp7sqp22g\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1805666724295196808\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/kit.0002.png\" alt=\"drawing of a stout anthropomorphic marlin resting one elbow while waving at someone off-camera.\" width=1152 height=1472><p>another kit drawing.<br />\nadded a little more detail on his harpoon!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/748769555646742528/good-work-out-there\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvrfp7sqp22g\">bluesky</a> ─</section>",
             "title": "good work out there!",
 		    "date_published": "2024-04-25T16:58:00-05:00",
             "tags": [ "art", "oc:kit" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/kit.0002.png",
+                    "url":"http://localhost:4000/art/kit.0002.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 21519
                 }
@@ -522,7 +538,7 @@
             
         },
 		{"id": "20240401-boss#0005",
-			"url": "https://sadcolor.net/art/boss.0005",
+			"url": "http://localhost:4000/art/boss.0005",
             "content_text": "wow!",
             "content_html": "<img src=\"/art/boss.0005.png\" alt=\"Hey Listen... Two people were asking me about you, I gave them your address and tel no. They will be visiting soon. Their names are 💣 and 💣.\" width=768 height=640><p>wow!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/746593370269417473/wow\">tumblr</a> ─</section>",
             "title": "Hey Listen...",
@@ -530,7 +546,7 @@
             "tags": [ "art", "doodle", "oc:vice" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/boss.0005.png",
+                    "url":"http://localhost:4000/art/boss.0005.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 9405
                 }
@@ -538,7 +554,7 @@
             
         },
 		{"id": "20240326-tetrode#0002",
-			"url": "https://sadcolor.net/art/tetrode.0002",
+			"url": "http://localhost:4000/art/tetrode.0002",
             "content_text": "yummy dish please",
             "content_html": "<img src=\"/art/tetrode.0002.png\" alt=\"a couple of doodles of a robot in a cute tamagotchi apron.\" width=1500 height=1000><p>yummy dish please</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/746009398950920193/tetrode-doodles\">tumblr</a> ─</section>",
             "title": "tetrode doodles",
@@ -546,7 +562,7 @@
             "tags": [ "art", "doodle", "oc:tetrode" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/tetrode.0002.png",
+                    "url":"http://localhost:4000/art/tetrode.0002.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 19405
                 }
@@ -554,15 +570,15 @@
             
         },
 		{"id": "20240313-tetrode#0001",
-			"url": "https://sadcolor.net/art/tetrode.0001",
+			"url": "http://localhost:4000/art/tetrode.0001",
             "content_text": "been wanting a more mechanical robot design for a while…",
-            "content_html": "<img src=\"/art/tetrode.0001.png\" alt=\"drawing of a robot with a hexagonal CRT monitor for a head.\" width=768 height=1080><p>been wanting a more mechanical robot design for a while…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744856639609470976/new-robutt\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuqny3s27x2n\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1800942138018103333\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/tetrode.0001.png\" alt=\"drawing of a robot with a hexagonal CRT monitor for a head.\" width=768 height=1080><p>been wanting a more mechanical robot design for a while…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744856639609470976/new-robutt\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuqny3s27x2n\">bluesky</a> ─</section>",
             "title": "new robutt",
 		    "date_published": "2024-03-13T12:24:24-05:00",
             "tags": [ "art", "oc:tetrode" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/tetrode.0001.png",
+                    "url":"http://localhost:4000/art/tetrode.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 24878
                 }
@@ -570,15 +586,15 @@
             
         },
 		{"id": "20240311-tam#0011",
-			"url": "https://sadcolor.net/art/tam.0011",
+			"url": "http://localhost:4000/art/tam.0011",
             "content_text": "'tis truly tam!",
-            "content_html": "<img src=\"/art/tam.0011.png\" alt=\"drawing of a laid-back fluffy blue-grey anthropomorphic cat making a shaka sign at the viewer.\" width=768 height=1300><p>'tis truly tam!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744691630839414784/cat\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1800420648956956683\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/tam.0011.png\" alt=\"drawing of a laid-back fluffy blue-grey anthropomorphic cat making a shaka sign at the viewer.\" width=768 height=1300><p>'tis truly tam!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744691630839414784/cat\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuouxull6e25\">bluesky</a> ─</section>",
             "title": "cat",
 		    "date_published": "2024-03-11T16:41:00-05:00",
             "tags": [ "art", "oc:tam" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/tam.0011.png",
+                    "url":"http://localhost:4000/art/tam.0011.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 24954
                 }
@@ -586,15 +602,15 @@
             
         },
 		{"id": "20240310-boss#0004",
-			"url": "https://sadcolor.net/art/boss.0004",
+			"url": "http://localhost:4000/art/boss.0004",
             "content_text": "vice looking cool as always",
-            "content_html": "<img src=\"/art/boss.0004.png\" alt=\"a tough, fat shadowy demon holding two bomb-like demons in her arms with a third by her feet.\" width=1024 height=1240><p>vice looking cool as always</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744599499748589569/bom\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvcdghests2h\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1803494743235567774\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/boss.0004.png\" alt=\"a tough, fat shadowy demon holding two bomb-like demons in her arms with a third by her feet.\" width=1024 height=1240><p>vice looking cool as always</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/744599499748589569/bom\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvcdghests2h\">bluesky</a> ─</section>",
             "title": "bom",
 		    "date_published": "2024-03-10T16:16:16-05:00",
             "tags": [ "art", "oc:vice" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/boss.0004.png",
+                    "url":"http://localhost:4000/art/boss.0004.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 17389
                 }
@@ -602,15 +618,15 @@
             
         },
 		{"id": "20240225-kit#0001",
-			"url": "https://sadcolor.net/art/kit.0001",
+			"url": "http://localhost:4000/art/kit.0001",
             "content_text": "i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…",
-            "content_html": "<img src=\"/art/kit.0001.png\" alt width=820 height=1176><p>i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/743311944139833344/redesigned-oc-kit\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kutd2ze3qc2h\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1801331445853769915\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/kit.0001.png\" alt width=820 height=1176><p>i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/743311944139833344/redesigned-oc-kit\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kutd2ze3qc2h\">bluesky</a> ─</section>",
             "title": "redesigned oc, kit",
 		    "date_published": "2024-02-25T09:11:12-06:00",
             "tags": [ "art", "oc:kit" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/kit.0001.png",
+                    "url":"http://localhost:4000/art/kit.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 18272
                 }
@@ -618,15 +634,15 @@
             
         },
 		{"id": "20240216-zephyr#0002",
-			"url": "https://sadcolor.net/art/zephyr.0002",
+			"url": "http://localhost:4000/art/zephyr.0002",
             "content_text": "check out those scars",
-            "content_html": "<img src=\"/art/zephyr.0002.png\" alt=\"drawing of a meek brown anthropomorphic cat waving one hand at the viewer with a bathrobe around his waist.\" width=544 height=736><p>check out those scars</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/742504919972610048/gato\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kveqarcupt2m\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1803840811735617830\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/zephyr.0002.png\" alt=\"drawing of a meek brown anthropomorphic cat waving one hand at the viewer with a bathrobe around his waist.\" width=544 height=736><p>check out those scars</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/742504919972610048/gato\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kveqarcupt2m\">bluesky</a> ─</section>",
             "title": "gato",
 		    "date_published": "2024-02-16T11:24:24-06:00",
             "tags": [ "art", "oc:zephyr" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/zephyr.0002.png",
+                    "url":"http://localhost:4000/art/zephyr.0002.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 9703
                 }
@@ -634,7 +650,7 @@
             
         },
 		{"id": "20240115-gyre#0001",
-			"url": "https://sadcolor.net/art/gyre.0001",
+			"url": "http://localhost:4000/art/gyre.0001",
             "content_text": "funny guy i should draw more",
             "content_html": "<img src=\"/art/gyre.0001.png\" alt width=480 height=860><img src=\"/art/gyre.0002.png\" alt width=640 height=1124><p>funny guy i should draw more</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/739591545829933056/moon-guy\">tumblr</a> ─</section>",
             "title": "moon guy",
@@ -642,11 +658,11 @@
             "tags": [ "art", "doodle", "oc:gyre" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/gyre.0001.png",
+                    "url":"http://localhost:4000/art/gyre.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 8744
                 },{
-                    "url":"https://sadcolor.net/art/gyre.0002.png",
+                    "url":"http://localhost:4000/art/gyre.0002.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 15757
                 }
@@ -654,19 +670,19 @@
             
         },
 		{"id": "20231123-nerdy_hato#0001-nerdy_grovyle#0001",
-			"url": "https://sadcolor.net/art/nerdy_hato.0001-nerdy_grovyle.0001",
+			"url": "http://localhost:4000/art/nerdy_hato.0001-nerdy_grovyle.0001",
             "content_text": "drawn for @bri-wolfer (tumblr) / @nerdyreindeer (twitter)",
-            "content_html": "<img src=\"/art/nerdy_hato.0001.png\" alt width=720 height=1440><img src=\"/art/nerdy_grovyle.0001.png\" alt width=616 height=1048><p>drawn for <a href=\"https://www.tumblr.com/bri-wolfer\">@bri-wolfer</a> (tumblr) / <a href=\"https://twitter.com/nerdyreindeer\">@nerdyreindeer</a> (twitter)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/734825284557209600/women-bri-wolfer\">tumblr</a> • <a href=\"https://twitter.com/fukouiro/status/1806045742403875162\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/nerdy_hato.0001.png\" alt width=720 height=1440><img src=\"/art/nerdy_grovyle.0001.png\" alt width=616 height=1048><p>drawn for <a href=\"https://www.tumblr.com/bri-wolfer\">@bri-wolfer</a> (tumblr) / <a href=\"https://twitter.com/nerdyreindeer\">@nerdyreindeer</a> (twitter)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/734825284557209600/women-bri-wolfer\">tumblr</a> ─</section>",
             "title": "women",
 		    "date_published": "2023-11-23T17:00:00-06:00",
             "tags": [ "art", "nerdyreindeer" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/nerdy_hato.0001.png",
+                    "url":"http://localhost:4000/art/nerdy_hato.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 26911
                 },{
-                    "url":"https://sadcolor.net/art/nerdy_grovyle.0001.png",
+                    "url":"http://localhost:4000/art/nerdy_grovyle.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 24132
                 }
@@ -674,7 +690,7 @@
             
         },
 		{"id": "20231118-creeps_blair#0001",
-			"url": "https://sadcolor.net/art/creeps_blair.0001",
+			"url": "http://localhost:4000/art/creeps_blair.0001",
             "content_text": " /) /)\n( • ༝•)",
             "content_html": "<img src=\"/art/creeps_blair.0001.png\" alt width=696 height=1216><p> /) /)<br />\n( • ༝•)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/734393290031611904/blair-for-creepincrawl\">tumblr</a> ─</section>",
             "title": "blair",
@@ -682,7 +698,7 @@
             "tags": [ "art", "creepincrawl" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/creeps_blair.0001.png",
+                    "url":"http://localhost:4000/art/creeps_blair.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 27096
                 }
@@ -690,7 +706,7 @@
             
         },
 		{"id": "20231024-king#0001",
-			"url": "https://sadcolor.net/art/king.0001",
+			"url": "http://localhost:4000/art/king.0001",
             "content_text": "'tis thine amicable armored apparition, king! °ω°",
             "content_html": "<img src=\"/art/king.0001.png\" alt width=1152 height=1464><p>'tis thine amicable armored apparition, king! °ω°</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/732040481658322944/its-thine-amicable-armored-apparition-king-%CF%89\">tumblr</a> ─</section>",
             "title": "king redesign",
@@ -698,7 +714,7 @@
             "tags": [ "art", "oc:king" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/king.0001.png",
+                    "url":"http://localhost:4000/art/king.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 39194
                 }
@@ -706,7 +722,7 @@
             
         },
 		{"id": "20231009-alice_sona#0001",
-			"url": "https://sadcolor.net/art/alice_sona.0001",
+			"url": "http://localhost:4000/art/alice_sona.0001",
             "content_text": "•⌵•\ndrawn for @alicemoon812 (tumblr, bluesky, twitter)",
             "content_html": "<img src=\"/art/alice_sona.0001.png\" alt width=920 height=1404><p>•⌵•<br />\ndrawn for @alicemoon812 (<a href=\"https://alicemoon812.tumblr.com/\">tumblr</a>, <a href=\"https://bsky.app/profile/alicemoon812.bsky.social\">bluesky</a>, <a href=\"https://twitter.com/alicemoon812\">twitter</a>)</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/730694927401582592/sona-for-alicemoon812\">tumblr</a> ─</section>",
             "title": "sona (not mine)",
@@ -714,7 +730,7 @@
             "tags": [ "art" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/alice_sona.0001.png",
+                    "url":"http://localhost:4000/art/alice_sona.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 34971
                 }
@@ -722,7 +738,7 @@
             
         },
 		{"id": "20231007-zatsu-vulture",
-			"url": "https://sadcolor.net/art/zatsu-vulture",
+			"url": "http://localhost:4000/art/zatsu-vulture",
             "content_text": "baby king vulture my beloved",
             "content_html": "<img src=\"/art/zatsu-vulture.png\" alt width=544 height=276><p>baby king vulture my beloved</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/730582697900179456/h%C3%A6gh\">tumblr</a> ─</section>",
             "title": "hægh",
@@ -730,7 +746,7 @@
             "tags": [ "art", "doodle" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/zatsu-vulture.png",
+                    "url":"http://localhost:4000/art/zatsu-vulture.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 2682
                 }
@@ -738,15 +754,15 @@
             
         },
 		{"id": "20230921-ceru#0003",
-			"url": "https://sadcolor.net/art/ceru.0003",
+			"url": "http://localhost:4000/art/ceru.0003",
             "content_text": "what's good, ceru",
-            "content_html": "<img src=\"/art/ceru.0003.png\" alt width=464 height=1064><p>what's good, ceru</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/729092794462928896/hiii\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvmadhkuck24\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1804921947362332822\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/ceru.0003.png\" alt width=464 height=1064><p>what's good, ceru</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/729092794462928896/hiii\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvmadhkuck24\">bluesky</a> ─</section>",
             "title": "hiii",
 		    "date_published": "2023-09-21T12:24:24-05:00",
             "tags": [ "art", "oc:ceru" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/ceru.0003.png",
+                    "url":"http://localhost:4000/art/ceru.0003.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 14464
                 }
@@ -754,15 +770,15 @@
             
         },
 		{"id": "20230920-io#0013b",
-			"url": "https://sadcolor.net/art/io.0013b",
+			"url": "http://localhost:4000/art/io.0013b",
             "content_text": "get it done right",
-            "content_html": "<img src=\"/art/io.0013b.png\" alt width=820 height=1096><p>get it done right</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/729002197732540416/paper-paper-toil-and-labor\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvjvecstga2p\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1804584333056860614\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/io.0013b.png\" alt width=820 height=1096><p>get it done right</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/729002197732540416/paper-paper-toil-and-labor\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvjvecstga2p\">bluesky</a> ─</section>",
             "title": "paper, paper, toil and labor",
 		    "date_published": "2023-09-20T12:24:24-05:00",
             "tags": [ "art", "oc:io" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/io.0013b.png",
+                    "url":"http://localhost:4000/art/io.0013b.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 20321
                 }
@@ -770,15 +786,15 @@
             
         },
 		{"id": "20230919-io#0013a",
-			"url": "https://sadcolor.net/art/io.0013a",
+			"url": "http://localhost:4000/art/io.0013a",
             "content_text": "•w&lt;～☆",
-            "content_html": "<img src=\"/art/io.0013a.png\" alt width=672 height=1120><p>•w&lt;～☆</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/728868340668448768/w\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvhg4lrxhr2j\">bluesky</a> • <a href=\"https://twitter.com/fukouiro/status/1804227459510079669\">twitter</a> ─</section>",
+            "content_html": "<img src=\"/art/io.0013a.png\" alt width=672 height=1120><p>•w&lt;～☆</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/728868340668448768/w\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3kvhg4lrxhr2j\">bluesky</a> ─</section>",
             "title": "iyo iyo io dayo",
 		    "date_published": "2023-09-19T12:56:00-05:00",
             "tags": [ "art", "oc:io" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/io.0013a.png",
+                    "url":"http://localhost:4000/art/io.0013a.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 15951
                 }
@@ -786,15 +802,15 @@
             
         },
 		{"id": "20230914-zephyr#0001",
-			"url": "https://sadcolor.net/art/zephyr.0001",
+			"url": "http://localhost:4000/art/zephyr.0001",
             "content_text": "meow meow &gt;^•ω•^&lt;",
-            "content_html": "<img src=\"/art/zephyr.0001.png\" alt width=1320 height=1664><p>meow meow &gt;^•ω•^&lt;</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/728472082579652608/zephyr-doodles-meow-meow-%CF%89\">tumblr</a> • bluesky [ <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv2oqp5t622m\">1</a>, <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv7udab6332k\">2</a> ] • twitter [ <a href=\"https://twitter.com/fukouiro/status/1802392609567998355\">1</a>, <a href=\"https://twitter.com/fukouiro/status/1803138326318424327\">2</a> ] ─</section>",
+            "content_html": "<img src=\"/art/zephyr.0001.png\" alt width=1320 height=1664><p>meow meow &gt;^•ω•^&lt;</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/728472082579652608/zephyr-doodles-meow-meow-%CF%89\">tumblr</a> • bluesky [ <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv2oqp5t622m\">1</a>, <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv7udab6332k\">2</a> ] ─</section>",
             "title": "zephyrs",
 		    "date_published": "2023-09-14T15:58:00-05:00",
             "tags": [ "art", "oc:zephyr" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/zephyr.0001.png",
+                    "url":"http://localhost:4000/art/zephyr.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 50637
                 }
@@ -802,15 +818,15 @@
             
         },
 		{"id": "20230801-dramor#0001",
-			"url": "https://sadcolor.net/art/dramor.0001",
+			"url": "http://localhost:4000/art/dramor.0001",
             "content_text": "couple o' doodles",
-            "content_html": "<img src=\"/art/dramor.0001.png\" alt width=1022 height=1024><p>couple o' doodles</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/724472342513876992/couple-o-doodles\">tumblr</a> • bluesky [ <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuyfjjvcr22t\">1</a>, <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv5h5njm5c2h\">2</a> ] • twitter [ <a href=\"https://twitter.com/fukouiro/status/1802062826254573639\">1</a>, <a href=\"https://twitter.com/fukouiro/status/1802790958033166475\">2</a> ] ─</section>",
+            "content_html": "<img src=\"/art/dramor.0001.png\" alt width=1022 height=1024><p>couple o' doodles</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/724472342513876992/couple-o-doodles\">tumblr</a> • bluesky [ <a href=\"https://bsky.app/profile/sadcolor.net/post/3kuyfjjvcr22t\">1</a>, <a href=\"https://bsky.app/profile/sadcolor.net/post/3kv5h5njm5c2h\">2</a> ] ─</section>",
             "title": "dramors",
 		    "date_published": "2023-08-01T12:24:24-05:00",
             "tags": [ "art", "oc:dramor" ],
             "attachments": [
                 {
-                    "url":"https://sadcolor.net/art/dramor.0001.png",
+                    "url":"http://localhost:4000/art/dramor.0001.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 39750
                 }
@@ -818,7 +834,7 @@
             
         },
 		{"id": "20230731-A11-cryebral_harlee#0001-cryebral_itan#0001",
-			"url": "https://sadcolor.net/af/2023/atk/11",
+			"url": "http://localhost:4000/af/2023/atk/11",
             "content_text": "",
             "content_html": "<img src=\"/art/11.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/5706058.shapes-for-sore-eyes\">art fight</a> ─</section>",
             "title": "[AF2023 • A#11] shapes for sore eyes",
@@ -826,7 +842,7 @@
             "tags": [ "art fight", "art fight 2023", "cryebral" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/11.png",
+                    "url": "http://localhost:4000/af/2023/atk/11.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 29753
                 }
@@ -834,7 +850,7 @@
             
         },
 		{"id": "20230724-A10-hainfulcupid_sonia#0001",
-			"url": "https://sadcolor.net/af/2023/atk/10",
+			"url": "http://localhost:4000/af/2023/atk/10",
             "content_text": "can anybody stop this piracy machine?? (no )",
             "content_html": "<img src=\"/art/10.png\" alt ><p>can anybody stop this piracy machine?? (no <img src=\"/img/bbsmiley.png\" alt=\"(smiley)\" />)</p>\n            <section>─ <a href=\"https://artfight.net/attack/5472276.hi-speed-tape-dubbing\">art fight</a> ─</section>",
             "title": "[AF2023 • A#10] hi-speed tape dubbing",
@@ -842,7 +858,7 @@
             "tags": [ "art fight", "art fight 2023", "Hainfulcupid" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/10.png",
+                    "url": "http://localhost:4000/af/2023/atk/10.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 38010
                 }
@@ -850,7 +866,7 @@
             
         },
 		{"id": "20230717-A09-rubic_rose#0001",
-			"url": "https://sadcolor.net/af/2023/atk/09",
+			"url": "http://localhost:4000/af/2023/atk/09",
             "content_text": "\n  Between millions of people\n  around the world i found you.\n  Don't forget to remember this day\n  every time MY FRIEND!\n",
             "content_html": "<img src=\"/art/09.mp4\" alt ><p><span class=\"b\" style=\"font-family: 'Arial'; font-size: 2rem; line-height: 2rem;\">\n  Between millions of people<br />\n  around the world i found you.<br />\n  Don't forget to remember this day<br />\n  every time MY FRIEND!\n</span></p>\n            <section>─ <a href=\"https://artfight.net/attack/5228703.on-the-house\">art fight</a> ─</section>",
             "title": "[AF2023 • A#09] on the house",
@@ -858,14 +874,14 @@
             "tags": [ "art fight", "art fight 2023", "rubic" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/09.mp4",
+                    "url": "http://localhost:4000/af/2023/atk/09.mp4",
                     "mime_type": "image/mp4"
                 }
             ]
             
         },
 		{"id": "20230716-A08-fizzy_dizz_grasker#0001",
-			"url": "https://sadcolor.net/af/2023/atk/08",
+			"url": "http://localhost:4000/af/2023/atk/08",
             "content_text": "ahhhhhh (dats me yellin)",
             "content_html": "<img src=\"/art/08.png\" alt=\"a menacing pumpkin-head launching scarf-hands at you.\" ><p>ahhhhhh (dats me yellin)</p>\n            <section>─ <a href=\"https://artfight.net/attack/5189927.look-out-hes-gonna-grask-ya\">art fight</a> ─</section>",
             "title": "[AF2023 • A#08] look out he's gonna grask ya",
@@ -873,7 +889,7 @@
             "tags": [ "art fight", "art fight 2023", "fizzy-dizz" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/08.png",
+                    "url": "http://localhost:4000/af/2023/atk/08.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 23988
                 }
@@ -881,7 +897,7 @@
             
         },
 		{"id": "20230714-A07-malen10_blake#0001",
-			"url": "https://sadcolor.net/af/2023/atk/07",
+			"url": "http://localhost:4000/af/2023/atk/07",
             "content_text": "",
             "content_html": "<img src=\"/art/07.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/5095212.next-stop-cloud-nine\">art fight</a> ─</section>",
             "title": "[AF2023 • A#07] ≫ NEXT STOP: CLOUD NINE ≫",
@@ -889,7 +905,7 @@
             "tags": [ "art fight", "art fight 2023", "Malen10" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/07.png",
+                    "url": "http://localhost:4000/af/2023/atk/07.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 25610
                 }
@@ -897,7 +913,7 @@
             
         },
 		{"id": "20230712-A06-rolypori_triradicals#0001",
-			"url": "https://sadcolor.net/af/2023/atk/06",
+			"url": "http://localhost:4000/af/2023/atk/06",
             "content_text": "twist it",
             "content_html": "<img src=\"/art/06.png\" alt ><p>twist it</p>\n            <section>─ <a href=\"https://artfight.net/attack/4994524.tritonal-trio\">art fight</a> ─</section>",
             "title": "[AF2023 • A#06] tritonal trio",
@@ -905,7 +921,7 @@
             "tags": [ "art fight", "art fight 2023", "RolyPori" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/06.png",
+                    "url": "http://localhost:4000/af/2023/atk/06.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 56669
                 }
@@ -913,7 +929,7 @@
             
         },
 		{"id": "20230710-A05-beebfreeb_jupiter#0001",
-			"url": "https://sadcolor.net/af/2023/atk/05",
+			"url": "http://localhost:4000/af/2023/atk/05",
             "content_text": "i love her funny design.",
             "content_html": "<img src=\"/art/05.png\" alt ><p>i love her funny design.</p>\n            <section>─ <a href=\"https://artfight.net/attack/4885866.dosukoi\">art fight</a> ─</section>",
             "title": "[AF2023 • A#05] DOSU☆KOI",
@@ -921,7 +937,7 @@
             "tags": [ "art fight", "art fight 2023", "BeebFreeb" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/05.png",
+                    "url": "http://localhost:4000/af/2023/atk/05.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 22478
                 }
@@ -929,7 +945,7 @@
             
         },
 		{"id": "20230708-A04-sonnytherat_sonny#0001",
-			"url": "https://sadcolor.net/af/2023/atk/04",
+			"url": "http://localhost:4000/af/2023/atk/04",
             "content_text": "",
             "content_html": "<img src=\"/art/04.png\" alt=\"a cute anthro frog leaning on an armrest.\" >\n            <section>─ <a href=\"https://artfight.net/attack/4748493.amphibious-amble\">art fight</a> ─</section>",
             "title": "[AF2023 • A#04] amphibious amble",
@@ -937,7 +953,7 @@
             "tags": [ "art fight", "art fight 2023", "Sonnytherat" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/04.png",
+                    "url": "http://localhost:4000/af/2023/atk/04.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 16933
                 }
@@ -945,7 +961,7 @@
             
         },
 		{"id": "20230707-A03-camelot_grayscale#0001",
-			"url": "https://sadcolor.net/af/2023/atk/03",
+			"url": "http://localhost:4000/af/2023/atk/03",
             "content_text": "",
             "content_html": "<img src=\"/art/03.png\" alt ><p><img src=\"/img/duk.png\" alt=\"\" /></p>\n            <section>─ <a href=\"https://artfight.net/attack/4664210.a-stones-throw-away\">art fight</a> ─</section>",
             "title": "[AF2023 • A#03] a stone's throw away",
@@ -953,7 +969,7 @@
             "tags": [ "art fight", "art fight 2023", "Camelot" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/03.png",
+                    "url": "http://localhost:4000/af/2023/atk/03.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 33648
                 }
@@ -961,7 +977,7 @@
             
         },
 		{"id": "20230705-A02-dbappio_tappo#0001",
-			"url": "https://sadcolor.net/af/2023/atk/02",
+			"url": "http://localhost:4000/af/2023/atk/02",
             "content_text": "hold on to your hats",
             "content_html": "<img src=\"/art/02.png\" alt ><p>hold on to your hats</p>\n            <section>─ <a href=\"https://artfight.net/attack/4464848.n2-express\">art fight</a> ─</section>",
             "title": "[AF2023 • A#02] N₂ express",
@@ -969,7 +985,7 @@
             "tags": [ "art fight", "art fight 2023", "oc:phial", "dbappio" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/02.png",
+                    "url": "http://localhost:4000/af/2023/atk/02.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 20477
                 }
@@ -977,7 +993,7 @@
             
         },
 		{"id": "20230702-A01-texeoghea_stag#0001",
-			"url": "https://sadcolor.net/af/2023/atk/01",
+			"url": "http://localhost:4000/af/2023/atk/01",
             "content_text": "old ghost king meets old ghost King",
             "content_html": "<img src=\"/art/01.png\" alt ><p>old ghost king meets old ghost King</p>\n            <section>─ <a href=\"https://artfight.net/attack/4156062.serendipitous-souls\">art fight</a> ─</section>",
             "title": "[AF2023 • A#01] serendipitous souls",
@@ -985,7 +1001,7 @@
             "tags": [ "art fight", "art fight 2023", "oc:king", "texeoghea" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2023/atk/01.png",
+                    "url": "http://localhost:4000/af/2023/atk/01.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 36222
                 }
@@ -993,7 +1009,7 @@
             
         },
 		{"id": "20220731-A33-tvcity_tv#0001",
-			"url": "https://sadcolor.net/af/2022/atk/33",
+			"url": "http://localhost:4000/af/2022/atk/33",
             "content_text": "",
             "content_html": "<img src=\"/art/33.png\" alt=\"a TV-head robot striking a cool pose.\" >\n            <section>─ <a href=\"https://artfight.net/attack/4003869.pearl-blue-glow\">art fight</a> ─</section>",
             "title": "[AF2022 • A#33] PEARL BLUE GLOW",
@@ -1001,7 +1017,7 @@
             "tags": [ "art fight", "art fight 2022", "TVcity" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/33.png",
+                    "url": "http://localhost:4000/af/2022/atk/33.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 26579
                 }
@@ -1009,7 +1025,7 @@
             
         },
 		{"id": "20220730-A32-someguyiguess_luna#0001",
-			"url": "https://sadcolor.net/af/2022/atk/32",
+			"url": "http://localhost:4000/af/2022/atk/32",
             "content_text": "wind + wind = very wind\n(sorry to the two bugs i knocked over)",
             "content_html": "<img src=\"/art/32.png\" alt ><p>wind + wind = very wind\n(sorry to the two bugs i knocked over)</p>\n            <section>─ <a href=\"https://artfight.net/attack/3977948.ride-the-wind\">art fight</a> ─</section>",
             "title": "[AF2022 • A#32] RIDE THE WIND",
@@ -1017,7 +1033,7 @@
             "tags": [ "art fight", "art fight 2022", "oc:verdigris", "Someguyiguess" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/32.png",
+                    "url": "http://localhost:4000/af/2022/atk/32.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 27323
                 }
@@ -1025,7 +1041,7 @@
             
         },
 		{"id": "20220727-A31-bbsartboutique_morta#0001",
-			"url": "https://sadcolor.net/af/2022/atk/31",
+			"url": "http://localhost:4000/af/2022/atk/31",
             "content_text": "helps u crow up happy &amp; healthy",
             "content_html": "<img src=\"/art/31.png\" alt ><p>helps u crow up happy &amp; healthy</p>\n            <section>─ <a href=\"https://artfight.net/attack/3886962.corvid-19-vaccine\">art fight</a> ─</section>",
             "title": "[AF2022 • A#31] CORVID-19 vaccine",
@@ -1033,7 +1049,7 @@
             "tags": [ "art fight", "art fight 2022", "BBSARTBOUTIQUE" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/31.png",
+                    "url": "http://localhost:4000/af/2022/atk/31.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 33733
                 }
@@ -1041,7 +1057,7 @@
             
         },
 		{"id": "20220724-A30-thememeboiuwu_elodie#0001",
-			"url": "https://sadcolor.net/af/2022/atk/30",
+			"url": "http://localhost:4000/af/2022/atk/30",
             "content_text": "",
             "content_html": "<img src=\"/art/30.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/3824787.dialtone\">art fight</a> ─</section>",
             "title": "[AF2022 • A#30] dialtone",
@@ -1049,7 +1065,7 @@
             "tags": [ "art fight", "art fight 2022", "TheMemeBoiUwU" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/30.png",
+                    "url": "http://localhost:4000/af/2022/atk/30.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 15846
                 }
@@ -1057,7 +1073,7 @@
             
         },
 		{"id": "20220724-A29-tankakuka_kuka#0001",
-			"url": "https://sadcolor.net/af/2022/atk/29",
+			"url": "http://localhost:4000/af/2022/atk/29",
             "content_text": "kill each other, but it's good",
             "content_html": "<img src=\"/art/29.gif\" alt ><p>kill each other, but it's good</p>\n            <section>─ <a href=\"https://artfight.net/attack/3816090.1st-clause-divide\">art fight</a> ─</section>",
             "title": "[AF2022 • A#29] 1st CLAUSE -DIVIDE!-",
@@ -1065,7 +1081,7 @@
             "tags": [ "art fight", "art fight 2022", "Tankakuka" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/29.gif",
+                    "url": "http://localhost:4000/af/2022/atk/29.gif",
                     "mime_type": "image/gif",
                     "size_in_bytes": 257444
                 }
@@ -1073,7 +1089,7 @@
             
         },
 		{"id": "20220723-A28-acenil_hennessy#0001",
-			"url": "https://sadcolor.net/af/2022/atk/28",
+			"url": "http://localhost:4000/af/2022/atk/28",
             "content_text": "da-don",
             "content_html": "<img src=\"/art/28.png\" alt ><p>da-don</p>\n            <section>─ <a href=\"https://artfight.net/attack/3783631.world-shaking\">art fight</a> ─</section>",
             "title": "[AF2022 • A#28] world shaking",
@@ -1081,7 +1097,7 @@
             "tags": [ "art fight", "art fight 2022", "AceNil" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/28.png",
+                    "url": "http://localhost:4000/af/2022/atk/28.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 20093
                 }
@@ -1089,7 +1105,7 @@
             
         },
 		{"id": "20220722-A27-kngkobun_devicat#0001",
-			"url": "https://sadcolor.net/af/2022/atk/27",
+			"url": "http://localhost:4000/af/2022/atk/27",
             "content_text": "well i guess it's not really grinding more like a wallrun oops",
             "content_html": "<img src=\"/art/27.png\" alt ><p>well i guess it's not really grinding more like a wallrun oops</p>\n            <section>─ <a href=\"https://artfight.net/attack/3754092.grind\">art fight</a> ─</section>",
             "title": "[AF2022 • A#27] GRIND",
@@ -1097,7 +1113,7 @@
             "tags": [ "art fight", "art fight 2022", "KngKobun" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/27.png",
+                    "url": "http://localhost:4000/af/2022/atk/27.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 15791
                 }
@@ -1105,7 +1121,7 @@
             
         },
 		{"id": "20220721-A26-cosmodotpng_cosmo#0001",
-			"url": "https://sadcolor.net/af/2022/atk/26",
+			"url": "http://localhost:4000/af/2022/atk/26",
             "content_text": "exploring the 3D pipes screensaver",
             "content_html": "<img src=\"/art/26.png\" alt ><p>exploring the 3D pipes screensaver</p>\n            <section>─ <a href=\"https://artfight.net/attack/3732174.cyberdive\">art fight</a> ─</section>",
             "title": "[AF2022 • A#26] CYBERDIVE",
@@ -1113,7 +1129,7 @@
             "tags": [ "art fight", "art fight 2022", "cosmodotpng" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/26.png",
+                    "url": "http://localhost:4000/af/2022/atk/26.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 17991
                 }
@@ -1121,7 +1137,7 @@
             
         },
 		{"id": "20220720-A25-kordbot_primrose#0001",
-			"url": "https://sadcolor.net/af/2022/atk/25",
+			"url": "http://localhost:4000/af/2022/atk/25",
             "content_text": "",
             "content_html": "<img src=\"/art/25.png\" alt=\"a large anthro moth slashing his dagger at a smaller moth who deftly evades.\" >\n            <section>─ <a href=\"https://artfight.net/attack/3697843.midnight-raider\">art fight</a> ─</section>",
             "title": "[AF2022 • A#25] midnight raider",
@@ -1129,7 +1145,7 @@
             "tags": [ "art fight", "art fight 2022", "oc:verdigris", "kordbot" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/25.png",
+                    "url": "http://localhost:4000/af/2022/atk/25.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 48794
                 }
@@ -1137,7 +1153,7 @@
             
         },
 		{"id": "20220719-A24-goobydroog_mauve#0001",
-			"url": "https://sadcolor.net/af/2022/atk/24",
+			"url": "http://localhost:4000/af/2022/atk/24",
             "content_text": "",
             "content_html": "<img src=\"/art/24.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/3663479.binding-beatitude\">art fight</a> ─</section>",
             "title": "[AF2022 • A#24] Binding Beatitude",
@@ -1145,7 +1161,7 @@
             "tags": [ "art fight", "art fight 2022", "GoobyDroog" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/24.png",
+                    "url": "http://localhost:4000/af/2022/atk/24.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 26100
                 }
@@ -1153,7 +1169,7 @@
             
         },
 		{"id": "20220718-A23-honeyhive_ebb#0001",
-			"url": "https://sadcolor.net/af/2022/atk/23",
+			"url": "http://localhost:4000/af/2022/atk/23",
             "content_text": "",
             "content_html": "<img src=\"/art/23.png\" alt >\n            <section>─ <a href=\"https://artfight.net/attack/3636485.spirit-gun\">art fight</a> ─</section>",
             "title": "[AF2022 • A#23] SPIRIT GUN!!",
@@ -1161,7 +1177,7 @@
             "tags": [ "art fight", "art fight 2022", "HoneyHive" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/23.png",
+                    "url": "http://localhost:4000/af/2022/atk/23.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 28623
                 }
@@ -1169,7 +1185,7 @@
             
         },
 		{"id": "20220718-A22-ananini_vaue#0001",
-			"url": "https://sadcolor.net/af/2022/atk/22",
+			"url": "http://localhost:4000/af/2022/atk/22",
             "content_text": "IMG_4346.jpeg",
             "content_html": "<img src=\"/art/22.png\" alt=\"a shadowy ghost presenting the viewer with a QR code of a silly picture.\" ><p>IMG_4346.jpeg</p>\n            <section>─ <a href=\"https://artfight.net/attack/3635564.take-a-look-yall\">art fight</a> ─</section>",
             "title": "[AF2022 • A#22] TAke a look, y'all:",
@@ -1177,7 +1193,7 @@
             "tags": [ "art fight", "art fight 2022", "AnaNini" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/22.png",
+                    "url": "http://localhost:4000/af/2022/atk/22.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 16383
                 }
@@ -1185,7 +1201,7 @@
             
         },
 		{"id": "20220717-A21-honeyhive_kaya#0001",
-			"url": "https://sadcolor.net/af/2022/atk/21",
+			"url": "http://localhost:4000/af/2022/atk/21",
             "content_text": "gettin ready 2 work",
             "content_html": "<img src=\"/art/21.png\" alt=\"an anthro bee tying up her apron.\" ><p>gettin ready 2 work</p>\n            <section>─ <a href=\"https://artfight.net/attack/3607444.busy-bee\">art fight</a> ─</section>",
             "title": "[AF2022 • A#21] busy bee",
@@ -1193,7 +1209,7 @@
             "tags": [ "art fight", "art fight 2022", "HoneyHive" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/21.png",
+                    "url": "http://localhost:4000/af/2022/atk/21.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 20668
                 }
@@ -1201,7 +1217,7 @@
             
         },
 		{"id": "20220716-A20-rockfish_libra#0001",
-			"url": "https://sadcolor.net/af/2022/atk/20",
+			"url": "http://localhost:4000/af/2022/atk/20",
             "content_text": "don't keep her waiting",
             "content_html": "<img src=\"/art/20.png\" alt=\"a bored anthro moth standing around with hands on her hips.\" ><p>don't keep her waiting</p>\n            <section>─ <a href=\"https://artfight.net/attack/3578695.loitering-moth\">art fight</a> ─</section>",
             "title": "[AF2022 • A#20] loitering moth",
@@ -1209,7 +1225,7 @@
             "tags": [ "art fight", "art fight 2022", "Rockfish" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/20.png",
+                    "url": "http://localhost:4000/af/2022/atk/20.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 24268
                 }
@@ -1217,7 +1233,7 @@
             
         },
 		{"id": "20220716-A19-kad_quill#0001.md-kad_kattenebris#0001",
-			"url": "https://sadcolor.net/af/2022/atk/19",
+			"url": "http://localhost:4000/af/2022/atk/19",
             "content_text": "dunno why this was the first thing i thought of because of the scarf thingy",
             "content_html": "<img src=\"/art/19.png\" alt ><p>dunno why this was the first thing i thought of because of the scarf thingy</p>\n            <section>─ <a href=\"https://artfight.net/attack/3575515.super-quillstlevania-iv\">art fight</a> ─</section>",
             "title": "[AF2022 • A#19] Super Quillstlevania IV",
@@ -1225,7 +1241,7 @@
             "tags": [ "art fight", "art fight 2022", "kad" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/19.png",
+                    "url": "http://localhost:4000/af/2022/atk/19.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 25403
                 }
@@ -1233,7 +1249,7 @@
             
         },
 		{"id": "20220716-A18-ashley600000_nova#0001",
-			"url": "https://sadcolor.net/af/2022/atk/18",
+			"url": "http://localhost:4000/af/2022/atk/18",
             "content_text": "ka-pow",
             "content_html": "<img src=\"/art/18.png\" alt=\"a hooded anthro cat lobbing a firecracker at the ground, making a big bang.\" ><p>ka-pow</p>\n            <section>─ <a href=\"https://artfight.net/attack/3567479.firecracker\">art fight</a> ─</section>",
             "title": "[AF2022 • A#18] firecracker",
@@ -1241,7 +1257,7 @@
             "tags": [ "art fight", "art fight 2022", "ashley600000" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/18.png",
+                    "url": "http://localhost:4000/af/2022/atk/18.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 21144
                 }
@@ -1249,7 +1265,7 @@
             
         },
 		{"id": "20220715-A17-ananini_otto#0001",
-			"url": "https://sadcolor.net/af/2022/atk/17",
+			"url": "http://localhost:4000/af/2022/atk/17",
             "content_text": "otamatonal hijinx",
             "content_html": "<img src=\"/art/17.png\" alt=\"a few silly doodles of an Otamatone-head character playing with my characters.\" ><p>otamatonal hijinx</p>\n            <section>─ <a href=\"https://artfight.net/attack/3535128.pwah\">art fight</a> ─</section>",
             "title": "[AF2022 • A#17] pwah",
@@ -1257,7 +1273,7 @@
             "tags": [ "art fight", "art fight 2022", "oc:phial", "oc:marin", "oc:metasis", "Ananini" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/17.png",
+                    "url": "http://localhost:4000/af/2022/atk/17.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 31172
                 }
@@ -1265,7 +1281,7 @@
             
         },
 		{"id": "20220714-A16-kad_melly#0001",
-			"url": "https://sadcolor.net/af/2022/atk/16",
+			"url": "http://localhost:4000/af/2022/atk/16",
             "content_text": "✿&gt;ω◉✿ ～☆°. ·",
             "content_html": "<img src=\"/art/16.png\" alt=\"a cheerful anthro cactus posing for the camera.\" ><p>✿&gt;ω◉✿ ～☆°. ·</p>\n            <section>─ <a href=\"https://artfight.net/attack/3511603.alacritous-cactus\">art fight</a> ─</section>",
             "title": "[AF2022 • A#16] alacritous cactus",
@@ -1273,7 +1289,7 @@
             "tags": [ "art fight", "art fight 2022", "kad" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/16.png",
+                    "url": "http://localhost:4000/af/2022/atk/16.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 31125
                 }
@@ -1281,7 +1297,7 @@
             
         },
 		{"id": "20220713-A15-creepincrawl_red#0001",
-			"url": "https://sadcolor.net/af/2022/atk/15",
+			"url": "http://localhost:4000/af/2022/atk/15",
             "content_text": "`•ω•´",
             "content_html": "<img src=\"/art/15.png\" alt ><p>`•ω•´</p>\n            <section>─ <a href=\"https://artfight.net/attack/3464940.red-zone\">art fight</a> ─</section>",
             "title": "[AF2022 • A#15] RED ZONE",
@@ -1289,7 +1305,7 @@
             "tags": [ "art fight", "art fight 2022", "creepincrawl" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/15.png",
+                    "url": "http://localhost:4000/af/2022/atk/15.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 19581
                 }
@@ -1297,7 +1313,7 @@
             
         },
 		{"id": "20220712-A14-wild_fire_april#0001-wild_fire_may#0001",
-			"url": "https://sadcolor.net/af/2022/atk/14",
+			"url": "http://localhost:4000/af/2022/atk/14",
             "content_text": "☁️ 🌼",
             "content_html": "<img src=\"/art/14.png\" alt ><p>☁️ 🌼</p>\n            <section>─ <a href=\"https://artfight.net/attack/3423377.flower-power-shower\">art fight</a> ─</section>",
             "title": "[AF2022 • A#14] flower power shower",
@@ -1305,7 +1321,7 @@
             "tags": [ "art fight", "art fight 2022", "Wild_fire" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/14.png",
+                    "url": "http://localhost:4000/af/2022/atk/14.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 29267
                 }
@@ -1313,7 +1329,7 @@
             
         },
 		{"id": "20220711-A13-huntertallonian_bombara#0001",
-			"url": "https://sadcolor.net/af/2022/atk/13",
+			"url": "http://localhost:4000/af/2022/atk/13",
             "content_text": "✿ ( ˘ ˘)",
             "content_html": "<img src=\"/art/13.png\" alt ><p>✿ ( ˘ ˘)</p>\n            <section>─ <a href=\"https://artfight.net/attack/3370774.flower-field\">art fight</a> ─</section>",
             "title": "[AF2022 • A#13] flower field",
@@ -1321,7 +1337,7 @@
             "tags": [ "art fight", "art fight 2022", "Huntertallonian" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/13.png",
+                    "url": "http://localhost:4000/af/2022/atk/13.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 22962
                 }
@@ -1329,7 +1345,7 @@
             
         },
 		{"id": "20220710-A12-jamjuce_silvia#0001",
-			"url": "https://sadcolor.net/af/2022/atk/12",
+			"url": "http://localhost:4000/af/2022/atk/12",
             "content_text": "where's she at lol",
             "content_html": "<img src=\"/art/12.png\" alt ><p>where's she at lol</p>\n            <section>─ <a href=\"https://artfight.net/attack/3323471.lookin-for-the-gf\">art fight</a> ─</section>",
             "title": "[AF2022 • A#12] lookin for the gf",
@@ -1337,7 +1353,7 @@
             "tags": [ "art fight", "art fight 2022", "JamJuce" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/12.png",
+                    "url": "http://localhost:4000/af/2022/atk/12.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 18425
                 }
@@ -1345,7 +1361,7 @@
             
         },
 		{"id": "20220708-A11-imakittypet_snips#0001-imakittypet_traffic#0001",
-			"url": "https://sadcolor.net/af/2022/atk/11",
+			"url": "http://localhost:4000/af/2022/atk/11",
             "content_text": "get 2 school on time",
             "content_html": "<img src=\"/art/11.png\" alt=\"two classmates, a scissor-head and a traffic light-head, chatting as they wait for a crosswalk signal.\" ><p>get 2 school on time</p>\n            <section>─ <a href=\"https://artfight.net/attack/3267491.commute-chatter\">art fight</a> ─</section>",
             "title": "[AF2022 • A#11] commute chatter",
@@ -1353,7 +1369,7 @@
             "tags": [ "art fight", "art fight 2022", "ImaKittypet" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/11.png",
+                    "url": "http://localhost:4000/af/2022/atk/11.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 20671
                 }
@@ -1361,7 +1377,7 @@
             
         },
 		{"id": "20220707-A10-bittheidiot_kade#0001",
-			"url": "https://sadcolor.net/af/2022/atk/10",
+			"url": "http://localhost:4000/af/2022/atk/10",
             "content_text": "🧨🔥🎆🎇✨",
             "content_html": "<img src=\"/art/10.png\" alt ><p>🧨🔥🎆🎇✨</p>\n            <section>─ <a href=\"https://artfight.net/attack/3211764.flame-on\">art fight</a> ─</section>",
             "title": "[AF2022 • A#10] FLAME - ON!",
@@ -1369,7 +1385,7 @@
             "tags": [ "art fight", "art fight 2022", "Bittheidiot" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/10.png",
+                    "url": "http://localhost:4000/af/2022/atk/10.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 23173
                 }
@@ -1377,7 +1393,7 @@
             
         },
 		{"id": "20220707-A09-vizzbgit_mouse#0001",
-			"url": "https://sadcolor.net/af/2022/atk/09",
+			"url": "http://localhost:4000/af/2022/atk/09",
             "content_text": "bow-wow",
             "content_html": "<img src=\"/art/09.png\" alt ><p>bow-wow</p>\n            <section>─ <a href=\"https://artfight.net/attack/3174982.chain-chomp-be-upon-thee\">art fight</a> ─</section>",
             "title": "[AF2022 • A#09] chain chomp be upon thee",
@@ -1385,7 +1401,7 @@
             "tags": [ "art fight", "art fight 2022", "Vizzbgit" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/09.png",
+                    "url": "http://localhost:4000/af/2022/atk/09.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 16602
                 }
@@ -1393,7 +1409,7 @@
             
         },
 		{"id": "20220706-A08-profcarrot_pepsi#0001",
-			"url": "https://sadcolor.net/af/2022/atk/08",
+			"url": "http://localhost:4000/af/2022/atk/08",
             "content_text": "c'mon, let's sing!!",
             "content_html": "<img src=\"/art/08.png\" alt ><p>c'mon, let's sing!!</p>\n            <section>─ <a href=\"https://artfight.net/attack/3150462.karaoke-night\">art fight</a> ─</section>",
             "title": "[AF2022 • A#08] karaoke night",
@@ -1401,7 +1417,7 @@
             "tags": [ "art fight", "art fight 2022", "ProfCarrot" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/08.png",
+                    "url": "http://localhost:4000/af/2022/atk/08.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 13827
                 }
@@ -1409,7 +1425,7 @@
             
         },
 		{"id": "20220706-A07-pigsy_amber#0001",
-			"url": "https://sadcolor.net/af/2022/atk/07",
+			"url": "http://localhost:4000/af/2022/atk/07",
             "content_text": "💣🗡️💥",
             "content_html": "<img src=\"/art/07.png\" alt=\"a bomb-head pirate charging forward with her rapier.\" ><p>💣🗡️💥</p>\n            <section>─ <a href=\"https://artfight.net/attack/3100794.clear-the-way\">art fight</a> ─</section>",
             "title": "[AF2022 • A#07] Clear the Way!",
@@ -1417,7 +1433,7 @@
             "tags": [ "art fight", "art fight 2022", "Pigsy" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/07.png",
+                    "url": "http://localhost:4000/af/2022/atk/07.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 23592
                 }
@@ -1425,7 +1441,7 @@
             
         },
 		{"id": "20220705-A06-lumiinori_tech#0001",
-			"url": "https://sadcolor.net/af/2022/atk/06",
+			"url": "http://localhost:4000/af/2022/atk/06",
             "content_text": "chillin on the weekend like usual",
             "content_html": "<img src=\"/art/06.png\" alt ><p>chillin on the weekend like usual</p>\n            <section>─ <a href=\"https://artfight.net/attack/3039639.night-walk\">art fight</a> ─</section>",
             "title": "[AF2022 • A#06] night walk",
@@ -1433,7 +1449,7 @@
             "tags": [ "art fight", "art fight 2022", "Lumiinori" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/06.png",
+                    "url": "http://localhost:4000/af/2022/atk/06.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 19514
                 }
@@ -1441,7 +1457,7 @@
             
         },
 		{"id": "20220704-A05-mslay_jackson#0001",
-			"url": "https://sadcolor.net/af/2022/atk/05",
+			"url": "http://localhost:4000/af/2022/atk/05",
             "content_text": "(`•w•´)",
             "content_html": "<img src=\"/art/05.png\" alt ><p>(`•w•´)</p>\n            <section>─ <a href=\"https://artfight.net/attack/3005960.pyro-jack\">art fight</a> ─</section>",
             "title": "[AF2022 • A#05] pyro jack",
@@ -1449,7 +1465,7 @@
             "tags": [ "art fight", "art fight 2022", "Mslay" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/05.png",
+                    "url": "http://localhost:4000/af/2022/atk/05.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 40971
                 }
@@ -1457,7 +1473,7 @@
             
         },
 		{"id": "20220703-A04-skarpetky_apten#0001",
-			"url": "https://sadcolor.net/af/2022/atk/04",
+			"url": "http://localhost:4000/af/2022/atk/04",
             "content_text": "sure thing boss",
             "content_html": "<img src=\"/art/04.png\" alt=\"a smug suited penguin looking at the viewer as she downloads a picture of a car.\" ><p>sure thing boss</p>\n            <section>─ <a href=\"https://artfight.net/attack/2910028.you-wouldnt-download-a-car\">art fight</a> ─</section>",
             "title": "[AF2022 • A#04] YOU WOULDN'T DOWNLOAD A CAR",
@@ -1465,7 +1481,7 @@
             "tags": [ "art fight", "art fight 2022", "skarpetky" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/04.png",
+                    "url": "http://localhost:4000/af/2022/atk/04.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 48485
                 }
@@ -1473,7 +1489,7 @@
             
         },
 		{"id": "20220703-A03-adorabug_may#0001",
-			"url": "https://sadcolor.net/af/2022/atk/03",
+			"url": "http://localhost:4000/af/2022/atk/03",
             "content_text": "just hangin' out",
             "content_html": "<img src=\"/art/03.png\" alt ><p>just hangin' out</p>\n            <section>─ <a href=\"https://artfight.net/attack/2847021.bf-big-frog\">art fight</a> ─</section>",
             "title": "[AF2022 • A#03] bf (big frog)",
@@ -1481,7 +1497,7 @@
             "tags": [ "art fight", "art fight 2022", "adorabug" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/03.png",
+                    "url": "http://localhost:4000/af/2022/atk/03.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 17321
                 }
@@ -1489,7 +1505,7 @@
             
         },
 		{"id": "20220702-A02-twinvenus_antony#0001",
-			"url": "https://sadcolor.net/af/2022/atk/02",
+			"url": "http://localhost:4000/af/2022/atk/02",
             "content_text": "watch out little guy!",
             "content_html": "<img src=\"/art/02.png\" alt=\"a black anthro ant holding onto his hat and cloak as they billow in the strong wind.\" ><p>watch out little guy!</p>\n            <section>─ <a href=\"https://artfight.net/attack/2802916.windy-day\">art fight</a> ─</section>",
             "title": "[AF2022 • A#02] windy day",
@@ -1497,7 +1513,7 @@
             "tags": [ "art fight", "art fight 2022", "twinvenus" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/02.png",
+                    "url": "http://localhost:4000/af/2022/atk/02.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 13937
                 }
@@ -1505,7 +1521,7 @@
             
         },
 		{"id": "20220702-A01-bittheidiot_valentine#0001",
-			"url": "https://sadcolor.net/af/2022/atk/01",
+			"url": "http://localhost:4000/af/2022/atk/01",
             "content_text": "kindly check the attached LOVELETTER coming from me.",
             "content_html": "<img src=\"/art/01.png\" alt=\"a pink envelope-head lady plucking a spam e-mail out of several circling around her, about to send it to you.\" ><p>kindly check the attached LOVELETTER coming from me.</p>\n            <section>─ <a href=\"https://artfight.net/attack/2736881.iloveyou-message-rich-text\">art fight</a> ─</section>",
             "title": "[AF2022 • A#01] ILOVEYOU - Message (Rich Text)",
@@ -1513,7 +1529,7 @@
             "tags": [ "art fight", "art fight 2022", "Bittheidiot" ],
             "attachments": [
                 {
-                    "url": "https://sadcolor.net/af/2022/atk/01.png",
+                    "url": "http://localhost:4000/af/2022/atk/01.png",
                     "mime_type": "image/png",
                     "size_in_bytes": 28927
                 }
