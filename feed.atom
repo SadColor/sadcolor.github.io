@@ -9,8 +9,30 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2025-02-06T07:05:27-06:00</updated>
+    <updated>2025-02-10T20:54:45-06:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2025-02-10:/art/talon.0000</id>
+        <title>the sneaser</title>
+        <content type="html">
+            &lt;img src=&quot;/art/talon.0000.png&quot; alt=&quot;ref sheet of an anthro sneasel in a few poses and outfits.&quot; width=1232 height=876&gt;
+        &lt;p&gt;`•ω•´&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp;amp; card tricks.&lt;/p&gt;
+&lt;/blockquote&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://fukouiro.tumblr.com/post/75151532142460928/the-sneaser&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3lhunifvy4k24&quot;&gt;bluesky&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        <summary type="html">&lt;p&gt;`•ω•´&lt;/p&gt;
+</summary>
+        <published>2025-02-10T20:48:04-06:00</published>
+            <updated>2025-02-10T20:48:04-06:00</updated>
+        <category term="art"/><category term="pkmn"/><category term="oc:talon"/>
+        <link rel="self" href="https://sadcolor.net/art/talon.0000"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/talon.0000.png" length="50139" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2025-02-06:/art/bugstabu_bravebird.0001</id>
         <title>brave bird</title>

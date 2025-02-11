@@ -8,6 +8,22 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250210-talon#0000",
+			"url": "https://sadcolor.net/art/talon.0000",
+            "content_text": "`•ω•´\n\n“a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp; card tricks.”",
+            "content_html": "<img src=\"/art/talon.0000.png\" alt=\"ref sheet of an anthro sneasel in a few poses and outfits.\" width=1232 height=876><p>`•ω•´</p>\n\n<blockquote>\n  <p>a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp; card tricks.</p>\n</blockquote>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/75151532142460928/the-sneaser\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3lhunifvy4k24\">bluesky</a> ─</section>",
+            "title": "the sneaser",
+		    "date_published": "2025-02-10T20:48:04-06:00",
+            "tags": [ "art", "pkmn", "oc:talon" ],
+            "attachments": [
+                {
+                    "url":"https://sadcolor.net/art/talon.0000.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 50139
+                }
+            ]
+            
+        },
 		{"id": "20250205-bugstabu_bravebird#0001",
 			"url": "https://sadcolor.net/art/bugstabu_bravebird.0001",
             "content_text": "for @bugstabu (tumblr • bluesky)",
