@@ -8,6 +8,22 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250324-estuary#0000",
+			"url": "https://sadcolor.net/art/estuary.0000",
+            "content_text": "another pokéguy.\nthey're just fun to doodle!",
+            "content_html": "<img src=\"/art/estuary.0000.png\" alt=\"an anthro Frogadier smiling at the viewer and adjusting their glasses.\" width=640 height=1124><p>another pokéguy.<br />\nthey're just fun to doodle!</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/778876813013286912/another-pok%C3%A9guy-theyre-just-fun-to-doodle\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3ll426r5mmk2y\">bluesky</a> ─</section>",
+            "title": "estuary",
+		    "date_published": "2025-03-24T00:40:04-05:00",
+            "tags": [ "art", "pkmn", "oc:estuary" ],
+            "attachments": [
+                {
+                    "url":"https://sadcolor.net/art/estuary.0000.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 21854
+                }
+            ]
+            
+        },
 		{"id": "20250210-talon#0000",
 			"url": "https://sadcolor.net/art/talon.0000",
             "content_text": "`•ω•´\n\n“a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp; card tricks.”",
