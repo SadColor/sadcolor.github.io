@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Thu, 03 Apr 2025 21:15:55 -0500</pubDate>
+		<pubDate>Thu, 08 May 2025 23:15:08 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,15 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/rubic_rose.0001</guid>
+			<title>[COMM] rose ref</title>
+			<link>https://sadcolor.net/art/rubic_rose.0001</link>
+			<description>commission for rubic of their character rose</description>
+			<pubDate>Thu, 08 May 2025 23:02:58 -0500</pubDate>
+			<category>art</category><category>pkmn</category><category>comm</category><category>rubic</category>
+			<enclosure url="https://sadcolor.net/art/rubic_rose.0001.png" length="69751" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/art/estuary.0000</guid>
 			<title>estuary</title>

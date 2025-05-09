@@ -9,8 +9,25 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2025-04-03T21:15:55-05:00</updated>
+    <updated>2025-05-08T23:15:08-05:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2025-05-08:/art/rubic_rose.0001</id>
+        <title>[COMM] rose ref</title>
+        <content type="html">
+            &lt;img src=&quot;/art/rubic_rose.0001.png&quot; alt=&quot;ref sheet of an anthro Chandelure character.&quot; width=1232 height=1172&gt;
+        &lt;p&gt;commission for &lt;a href=&quot;https://toyhou.se/rubic&quot;&gt;rubic&lt;/a&gt; of their character &lt;a href=&quot;https://toyhou.se/14259306.rose&quot;&gt;rose&lt;/a&gt;&lt;/p&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://fukouiro.tumblr.com/post/783038157623033856/commission-for-rubic-of-their-character-rose&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3lopk7l6z322t&quot;&gt;bluesky&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2025-05-08T23:02:58-05:00</published>
+            <updated>2025-05-08T23:02:58-05:00</updated>
+        <category term="art"/><category term="pkmn"/><category term="comm"/><category term="rubic"/>
+        <link rel="self" href="https://sadcolor.net/art/rubic_rose.0001"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/rubic_rose.0001.png" length="69751" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2025-03-24:/art/estuary.0000</id>
         <title>estuary</title>

@@ -8,6 +8,22 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250508-rubic_rose#0001",
+			"url": "https://sadcolor.net/art/rubic_rose.0001",
+            "content_text": "commission for rubic of their character rose",
+            "content_html": "<img src=\"/art/rubic_rose.0001.png\" alt=\"ref sheet of an anthro Chandelure character.\" width=1232 height=1172><p>commission for <a href=\"https://toyhou.se/rubic\">rubic</a> of their character <a href=\"https://toyhou.se/14259306.rose\">rose</a></p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/783038157623033856/commission-for-rubic-of-their-character-rose\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3lopk7l6z322t\">bluesky</a> ─</section>",
+            "title": "[COMM] rose ref",
+		    "date_published": "2025-05-08T23:02:58-05:00",
+            "tags": [ "art", "pkmn", "comm", "rubic" ],
+            "attachments": [
+                {
+                    "url":"https://sadcolor.net/art/rubic_rose.0001.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 69751
+                }
+            ]
+            
+        },
 		{"id": "20250324-estuary#0000",
 			"url": "https://sadcolor.net/art/estuary.0000",
             "content_text": "another pokéguy.\nthey're just fun to doodle!",
