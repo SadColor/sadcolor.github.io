@@ -9,10 +9,37 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2025-05-08T23:15:08-05:00</updated>
+    <updated>2025-05-18T17:42:40-04:00</updated>
     <icon>/favicon-192x192.png</icon>
     <entry>
-        <id>tag:sadcolor.net,2025-05-08:/art/rubic_rose.0001</id>
+        <id>tag:sadcolor.net,2025-05-18:/art/estival.0000</id>
+        <title>estival</title>
+        <content type="html">
+            &lt;img src=&quot;/art/estival.0000.png&quot; alt=&quot;a ref sheet of a fashionable Alolan Meowth.&quot; width=1600 height=1024&gt;
+        &lt;p&gt;completing the meowth trio!&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;A vain cat.&lt;br /&gt;
+Works hard to make sure others think well of her, so she takes great care in her appearance, work, and words.&lt;br /&gt;
+However, in private, she is a complete slacker.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;character theme:
+&lt;a href=&quot;https://www.youtube.com/watch?v=B54Tahr2t9I&quot;&gt;♪ &lt;strong&gt;SHINY WORLD&lt;/strong&gt;&lt;/a&gt; (OutRun2)&lt;/p&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://fukouiro.tumblr.com/post/783920040082915328/completing-the-meowth-trio-a-vain-cat-works-hard&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3lphzi27djs2g&quot;&gt;bluesky&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        <summary type="html">&lt;p&gt;completing the meowth trio!&lt;/p&gt;
+</summary>
+        <published>2025-05-18T17:40:16-04:00</published>
+            <updated>2025-05-18T17:40:16-04:00</updated>
+        <category term="art"/><category term="pkmn"/><category term="oc:estival"/>
+        <link rel="self" href="https://sadcolor.net/art/estival.0000"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/estival.0000.png" length="80656" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:sadcolor.net,2025-05-09:/art/rubic_rose.0001</id>
         <title>[COMM] rose ref</title>
         <content type="html">
             &lt;img src=&quot;/art/rubic_rose.0001.png&quot; alt=&quot;ref sheet of an anthro Chandelure character.&quot; width=1232 height=1172&gt;
@@ -22,8 +49,8 @@
             &lt;/section&gt;
         </content>
         
-        <published>2025-05-08T23:02:58-05:00</published>
-            <updated>2025-05-08T23:02:58-05:00</updated>
+        <published>2025-05-09T00:02:58-04:00</published>
+            <updated>2025-05-09T00:02:58-04:00</updated>
         <category term="art"/><category term="pkmn"/><category term="comm"/><category term="rubic"/>
         <link rel="self" href="https://sadcolor.net/art/rubic_rose.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/rubic_rose.0001.png" length="69751" type="image/png"/>
@@ -40,11 +67,11 @@ they're just fun to doodle!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2025-03-24T00:40:04-05:00</published>
-            <updated>2025-03-24T00:40:04-05:00</updated>
+        <published>2025-03-24T01:40:04-04:00</published>
+            <updated>2025-03-24T01:40:04-04:00</updated>
         <category term="art"/><category term="pkmn"/><category term="oc:estuary"/>
         <link rel="self" href="https://sadcolor.net/art/estuary.0000"/>
-        <link rel="enclosure" href="https://sadcolor.net/art/estuary.0000.png" length="21854" type="image/png"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/estuary.0000.png" length="21778" type="image/png"/>
     </entry>
     <entry>
         <id>tag:sadcolor.net,2025-02-10:/art/talon.0000</id>
@@ -62,8 +89,8 @@ they're just fun to doodle!&lt;/p&gt;
         </content>
         <summary type="html">&lt;p&gt;`•ω•´&lt;/p&gt;
 </summary>
-        <published>2025-02-10T20:48:04-06:00</published>
-            <updated>2025-02-10T20:48:04-06:00</updated>
+        <published>2025-02-10T21:48:04-05:00</published>
+            <updated>2025-02-10T21:48:04-05:00</updated>
         <category term="art"/><category term="pkmn"/><category term="oc:talon"/>
         <link rel="self" href="https://sadcolor.net/art/talon.0000"/>
         <link rel="enclosure" href="https://sadcolor.net/art/talon.0000.png" length="50139" type="image/png"/>
@@ -79,8 +106,8 @@ they're just fun to doodle!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2025-02-06T06:36:06-06:00</published>
-            <updated>2025-02-06T06:36:06-06:00</updated>
+        <published>2025-02-06T07:36:06-05:00</published>
+            <updated>2025-02-06T07:36:06-05:00</updated>
         <category term="art"/><category term="bugstabu"/>
         <link rel="self" href="https://sadcolor.net/art/bugstabu_bravebird.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/bugstabu_bravebird.0001.png" length="68029" type="image/png"/>
@@ -97,8 +124,8 @@ cool character &lt;a href=&quot;/af/2024/atk/09&quot;&gt;i also drew for art fig
             &lt;/section&gt;
         </content>
         
-        <published>2025-02-04T20:32:00-06:00</published>
-            <updated>2025-02-04T20:32:00-06:00</updated>
+        <published>2025-02-04T21:32:00-05:00</published>
+            <updated>2025-02-04T21:32:00-05:00</updated>
         <category term="art"/><category term="mokatypebeat"/>
         <link rel="self" href="https://sadcolor.net/art/mokatypebeat_cadice.0002"/>
         <link rel="enclosure" href="https://sadcolor.net/art/mokatypebeat_cadice.0002.png" length="31823" type="image/png"/>
@@ -117,7 +144,7 @@ She is generally nice, but just prefers being alone. To that end, her brusque be
 &lt;/blockquote&gt;
 
 &lt;p&gt;character theme:
-&lt;a href=&quot;https://www.youtube.com/watch?v=xfiwNeAvnRc&quot;&gt;♪ &lt;strong&gt;COOL JAM (Iori Yagami)&lt;/strong&gt;&lt;/a&gt; (THE KING OF FIGHTERS '97 ARRANGE SOUND TRAX)&lt;/p&gt;
+&lt;a href=&quot;https://www.youtube.com/watch?v=xfiwNeAvnRc&quot;&gt;♪ &lt;strong&gt;GET ON A TRAIN [backing repeat]&lt;/strong&gt;&lt;/a&gt; (STREET FIGHTER III NEW GENERATION ORIGINAL ARRANGE SOUNDTRACK)&lt;/p&gt;
         &lt;section&gt;
                 ─ &lt;a href=&quot;https://fukouiro.tumblr.com/post/773409223012974592/another-pokédesign-a-self-confident-and&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3lgebyqx7i22l&quot;&gt;bluesky&lt;/a&gt; ─
             &lt;/section&gt;
@@ -125,8 +152,8 @@ She is generally nice, but just prefers being alone. To that end, her brusque be
         <summary type="html">&lt;p&gt;another pokédesign.&lt;br /&gt;
 i kinda like galarian meowth even though i don't like purrserker. it happens, i guess&lt;/p&gt;
 </summary>
-        <published>2025-01-22T15:15:15-06:00</published>
-            <updated>2025-01-22T15:15:15-06:00</updated>
+        <published>2025-01-22T16:15:15-05:00</published>
+            <updated>2025-01-22T16:15:15-05:00</updated>
         <category term="art"/><category term="oc:bristle"/>
         <link rel="self" href="https://sadcolor.net/art/bristle.0004"/>
         <link rel="enclosure" href="https://sadcolor.net/art/bristle.0004.png" length="61191" type="image/png"/>
@@ -145,8 +172,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-12-18T00:47:00-06:00</published>
-            <updated>2024-12-18T00:47:00-06:00</updated>
+        <published>2024-12-18T01:47:00-05:00</published>
+            <updated>2024-12-18T01:47:00-05:00</updated>
         <category term="art"/><category term="oc:echo"/>
         <link rel="self" href="https://sadcolor.net/art/echo.0000"/>
         <link rel="enclosure" href="https://sadcolor.net/art/echo.0000.png" length="18192" type="image/png"/><link rel="enclosure" href="https://sadcolor.net/art/echo.0000b.png" length="14322" type="image/png"/>
@@ -163,8 +190,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-12-14T20:58:08-06:00</published>
-            <updated>2024-12-14T20:58:08-06:00</updated>
+        <published>2024-12-14T21:58:08-05:00</published>
+            <updated>2024-12-14T21:58:08-05:00</updated>
         <category term="art"/><category term="oc:verity"/>
         <link rel="self" href="https://sadcolor.net/art/verity.0003"/>
         <link rel="enclosure" href="https://sadcolor.net/art/verity.0003.png" length="69838" type="image/png"/>
@@ -180,8 +207,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-11-22T03:36:06-06:00</published>
-            <updated>2024-11-22T03:36:06-06:00</updated>
+        <published>2024-11-22T04:36:06-05:00</published>
+            <updated>2024-11-22T04:36:06-05:00</updated>
         <category term="art"/><category term="oc:anya"/>
         <link rel="self" href="https://sadcolor.net/art/anya.0009"/>
         <link rel="enclosure" href="https://sadcolor.net/art/anya.0009.png" length="59693" type="image/png"/>
@@ -197,8 +224,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-10-17T19:07:07-05:00</published>
-            <updated>2024-10-17T19:07:07-05:00</updated>
+        <published>2024-10-17T20:07:07-04:00</published>
+            <updated>2024-10-17T20:07:07-04:00</updated>
         <category term="art"/><category term="sonnytherat"/>
         <link rel="self" href="https://sadcolor.net/art/sonny_mouse14.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/sonny_mouse14.0001.png" length="26915" type="image/png"/>
@@ -214,8 +241,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-10-14T08:08:00-05:00</published>
-            <updated>2024-10-14T08:08:00-05:00</updated>
+        <published>2024-10-14T09:08:00-04:00</published>
+            <updated>2024-10-14T09:08:00-04:00</updated>
         <category term="art"/><category term="globglump"/>
         <link rel="self" href="https://sadcolor.net/art/glob_bb2.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/glob_bb2.0001.png" length="23125" type="image/png"/>
@@ -231,8 +258,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-10-13T19:07:07-05:00</published>
-            <updated>2024-10-13T19:07:07-05:00</updated>
+        <published>2024-10-13T20:07:07-04:00</published>
+            <updated>2024-10-13T20:07:07-04:00</updated>
         <category term="art"/><category term="nyagatoari"/>
         <link rel="self" href="https://sadcolor.net/art/ari_possum.0003"/>
         <link rel="enclosure" href="https://sadcolor.net/art/ari_possum.0003.png" length="24602" type="image/png"/>
@@ -248,8 +275,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-10-08T12:50:00-05:00</published>
-            <updated>2024-10-08T12:50:00-05:00</updated>
+        <published>2024-10-08T13:50:00-04:00</published>
+            <updated>2024-10-08T13:50:00-04:00</updated>
         <category term="art"/><category term="doodle"/><category term="oc:vice"/>
         <link rel="self" href="https://sadcolor.net/art/boss.0006b"/>
         <link rel="enclosure" href="https://sadcolor.net/art/boss.0006b.png" length="35067" type="image/png"/>
@@ -265,8 +292,8 @@ gligar is so cool :]&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-10-07T12:24:24-05:00</published>
-            <updated>2024-10-07T12:24:24-05:00</updated>
+        <published>2024-10-07T13:24:24-04:00</published>
+            <updated>2024-10-07T13:24:24-04:00</updated>
         <category term="art"/><category term="doodle"/><category term="oc:vice"/>
         <link rel="self" href="https://sadcolor.net/art/boss.0006a"/>
         <link rel="enclosure" href="https://sadcolor.net/art/boss.0006a.png" length="18121" type="image/png"/>
@@ -290,8 +317,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
         </content>
         <summary type="html">&lt;p&gt;king is asked about his armor&lt;/p&gt;
 </summary>
-        <published>2024-08-05T02:44:00-05:00</published>
-            <updated>2024-08-05T02:44:00-05:00</updated>
+        <published>2024-08-05T03:44:00-04:00</published>
+            <updated>2024-08-05T03:44:00-04:00</updated>
         <category term="art"/><category term="doodle"/><category term="ask"/><category term="oc:king"/>
         <link rel="self" href="https://sadcolor.net/art/ask.0001-king.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/ask.0001-king.0001.png" length="18121" type="image/png"/>
@@ -307,8 +334,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-08-03T12:57:10-05:00</published>
-            <updated>2024-08-03T12:57:10-05:00</updated>
+        <published>2024-08-03T13:57:10-04:00</published>
+            <updated>2024-08-03T13:57:10-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="oc:g"/><category term="someguyiguess"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/19"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/19.png" length="" type="image/png"/>
@@ -324,8 +351,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-08-03T12:51:20-05:00</published>
-            <updated>2024-08-03T12:51:20-05:00</updated>
+        <published>2024-08-03T13:51:20-04:00</published>
+            <updated>2024-08-03T13:51:20-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="oc:vice"/><category term="mokatypebeat"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/18"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/18.png" length="29964" type="image/png"/>
@@ -341,8 +368,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-08-03T00:15:47-05:00</published>
-            <updated>2024-08-03T00:15:47-05:00</updated>
+        <published>2024-08-03T01:15:47-04:00</published>
+            <updated>2024-08-03T01:15:47-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="Trjrkr"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/17"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/17.png" length="74188" type="image/png"/>
@@ -358,8 +385,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-08-02T08:46:16-05:00</published>
-            <updated>2024-08-02T08:46:16-05:00</updated>
+        <published>2024-08-02T09:46:16-04:00</published>
+            <updated>2024-08-02T09:46:16-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="oc:phial"/><category term="disco_fish"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/16"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/16.gif" length="82844" type="image/gif"/>
@@ -375,8 +402,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-31T22:59:45-05:00</published>
-            <updated>2024-07-31T22:59:45-05:00</updated>
+        <published>2024-07-31T23:59:45-04:00</published>
+            <updated>2024-07-31T23:59:45-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="STARP3RIOR"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/15"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/15.png" length="148167" type="image/png"/>
@@ -392,8 +419,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-29T03:53:36-05:00</published>
-            <updated>2024-07-29T03:53:36-05:00</updated>
+        <published>2024-07-29T04:53:36-04:00</published>
+            <updated>2024-07-29T04:53:36-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="mokatypebeat"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/14"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/14.gif" length="" type="image/gif"/>
@@ -409,8 +436,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-28T16:53:12-05:00</published>
-            <updated>2024-07-28T16:53:12-05:00</updated>
+        <published>2024-07-28T17:53:12-04:00</published>
+            <updated>2024-07-28T17:53:12-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="oc:king"/><category term="thesloum"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/13"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/13.png" length="96277" type="image/png"/>
@@ -426,8 +453,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-18T07:35:47-05:00</published>
-            <updated>2024-07-18T07:35:47-05:00</updated>
+        <published>2024-07-18T08:35:47-04:00</published>
+            <updated>2024-07-18T08:35:47-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="skarpetky"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/12"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/12.png" length="27215" type="image/png"/>
@@ -443,8 +470,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-16T07:35:36-05:00</published>
-            <updated>2024-07-16T07:35:36-05:00</updated>
+        <published>2024-07-16T08:35:36-04:00</published>
+            <updated>2024-07-16T08:35:36-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="GoldeKlee"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/11"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/11.png" length="" type="image/png"/>
@@ -460,8 +487,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-15T00:39:44-05:00</published>
-            <updated>2024-07-15T00:39:44-05:00</updated>
+        <published>2024-07-15T01:39:44-04:00</published>
+            <updated>2024-07-15T01:39:44-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="oc:marin"/><category term="martiansnake"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/10"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/10.png" length="104911" type="image/png"/>
@@ -477,14 +504,14 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-12T04:16:46-05:00</published>
-            <updated>2024-07-12T04:16:46-05:00</updated>
+        <published>2024-07-12T05:16:46-04:00</published>
+            <updated>2024-07-12T05:16:46-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="mokatypebeat"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/09"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/09.png" length="31737" type="image/png"/>
     </entry>
     <entry>
-        <id>tag:sadcolor.net,2024-07-10:/af/2024/atk/08</id>
+        <id>tag:sadcolor.net,2024-07-11:/af/2024/atk/08</id>
         <title>[AF2024 • A#08] security breach</title>
         <content type="html">
             &lt;img src=&quot;/af/2024/atk/08.png&quot; alt width=1600 height=1280&gt;
@@ -494,8 +521,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-10T23:41:26-05:00</published>
-            <updated>2024-07-10T23:41:26-05:00</updated>
+        <published>2024-07-11T00:41:26-04:00</published>
+            <updated>2024-07-11T00:41:26-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="zelfie"/><category term="NYANORAMA"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/08"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/08.png" length="139032" type="image/png"/>
@@ -511,8 +538,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-09T22:38:59-05:00</published>
-            <updated>2024-07-09T22:38:59-05:00</updated>
+        <published>2024-07-09T23:38:59-04:00</published>
+            <updated>2024-07-09T23:38:59-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="whee23"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/07"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/07.png" length="44068" type="image/png"/>
@@ -528,8 +555,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-08T01:53:59-05:00</published>
-            <updated>2024-07-08T01:53:59-05:00</updated>
+        <published>2024-07-08T02:53:59-04:00</published>
+            <updated>2024-07-08T02:53:59-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="viggar"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/06"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/06.png" length="49301" type="image/png"/>
@@ -545,8 +572,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-07T18:18:08-05:00</published>
-            <updated>2024-07-07T18:18:08-05:00</updated>
+        <published>2024-07-07T19:18:08-04:00</published>
+            <updated>2024-07-07T19:18:08-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="acenil"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/05"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/05.png" length="33707" type="image/png"/>
@@ -562,8 +589,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-06T21:17:14-05:00</published>
-            <updated>2024-07-06T21:17:14-05:00</updated>
+        <published>2024-07-06T22:17:14-04:00</published>
+            <updated>2024-07-06T22:17:14-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="peerkartosh"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/04"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/04.png" length="132347" type="image/png"/>
@@ -579,8 +606,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-05T03:25:19-05:00</published>
-            <updated>2024-07-05T03:25:19-05:00</updated>
+        <published>2024-07-05T04:25:19-04:00</published>
+            <updated>2024-07-05T04:25:19-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="vampzghost"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/03"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/03.gif" length="99877" type="image/gif"/>
@@ -596,8 +623,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-04T03:32:26-05:00</published>
-            <updated>2024-07-04T03:32:26-05:00</updated>
+        <published>2024-07-04T04:32:26-04:00</published>
+            <updated>2024-07-04T04:32:26-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="himignicest"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/02"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/02.png" length="32643" type="image/png"/>
@@ -613,8 +640,8 @@ Now, such time has passed that I'd nary dream of inhabiting any other!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-07-02T16:53:12-05:00</published>
-            <updated>2024-07-02T16:53:12-05:00</updated>
+        <published>2024-07-02T17:53:12-04:00</published>
+            <updated>2024-07-02T17:53:12-04:00</updated>
         <category term="art fight"/><category term="art fight 2024"/><category term="blabla"/>
         <link rel="self" href="https://sadcolor.net/af/2024/atk/01"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2024/atk/01.png" length="25339" type="image/png"/>
@@ -631,8 +658,8 @@ with this, the RPG party is complete once more&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-06-14T13:59:00-05:00</published>
-            <updated>2024-06-14T13:59:00-05:00</updated>
+        <published>2024-06-14T14:59:00-04:00</published>
+            <updated>2024-06-14T14:59:00-04:00</updated>
         <category term="art"/><category term="oc:soft"/>
         <link rel="self" href="https://sadcolor.net/art/soft.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/soft.0001.png" length="35033" type="image/png"/>
@@ -649,8 +676,8 @@ this time i'm really happy with how her body shape turned out!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-06-11T01:48:00-05:00</published>
-            <updated>2024-06-11T01:48:00-05:00</updated>
+        <published>2024-06-11T02:48:00-04:00</published>
+            <updated>2024-06-11T02:48:00-04:00</updated>
         <category term="art"/><category term="oc:kyra"/>
         <link rel="self" href="https://sadcolor.net/art/kyra.0003"/>
         <link rel="enclosure" href="https://sadcolor.net/art/kyra.0003.png" length="36680" type="image/png"/>
@@ -667,8 +694,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-04-25T16:58:00-05:00</published>
-            <updated>2024-04-25T16:58:00-05:00</updated>
+        <published>2024-04-25T17:58:00-04:00</published>
+            <updated>2024-04-25T17:58:00-04:00</updated>
         <category term="art"/><category term="oc:kit"/>
         <link rel="self" href="https://sadcolor.net/art/kit.0002"/>
         <link rel="enclosure" href="https://sadcolor.net/art/kit.0002.png" length="21519" type="image/png"/>
@@ -684,8 +711,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-04-01T16:28:00-05:00</published>
-            <updated>2024-04-01T16:28:00-05:00</updated>
+        <published>2024-04-01T17:28:00-04:00</published>
+            <updated>2024-04-01T17:28:00-04:00</updated>
         <category term="art"/><category term="doodle"/><category term="oc:vice"/>
         <link rel="self" href="https://sadcolor.net/art/boss.0005"/>
         <link rel="enclosure" href="https://sadcolor.net/art/boss.0005.png" length="9405" type="image/png"/>
@@ -701,8 +728,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-03-26T05:46:00-05:00</published>
-            <updated>2024-03-26T05:46:00-05:00</updated>
+        <published>2024-03-26T06:46:00-04:00</published>
+            <updated>2024-03-26T06:46:00-04:00</updated>
         <category term="art"/><category term="doodle"/><category term="oc:tetrode"/>
         <link rel="self" href="https://sadcolor.net/art/tetrode.0002"/>
         <link rel="enclosure" href="https://sadcolor.net/art/tetrode.0002.png" length="19405" type="image/png"/>
@@ -718,8 +745,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-03-13T12:24:24-05:00</published>
-            <updated>2024-03-13T12:24:24-05:00</updated>
+        <published>2024-03-13T13:24:24-04:00</published>
+            <updated>2024-03-13T13:24:24-04:00</updated>
         <category term="art"/><category term="oc:tetrode"/>
         <link rel="self" href="https://sadcolor.net/art/tetrode.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/tetrode.0001.png" length="24878" type="image/png"/>
@@ -735,8 +762,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-03-11T16:41:00-05:00</published>
-            <updated>2024-03-11T16:41:00-05:00</updated>
+        <published>2024-03-11T17:41:00-04:00</published>
+            <updated>2024-03-11T17:41:00-04:00</updated>
         <category term="art"/><category term="oc:tam"/>
         <link rel="self" href="https://sadcolor.net/art/tam.0011"/>
         <link rel="enclosure" href="https://sadcolor.net/art/tam.0011.png" length="24954" type="image/png"/>
@@ -752,8 +779,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-03-10T16:16:16-05:00</published>
-            <updated>2024-03-10T16:16:16-05:00</updated>
+        <published>2024-03-10T17:16:16-04:00</published>
+            <updated>2024-03-10T17:16:16-04:00</updated>
         <category term="art"/><category term="oc:vice"/>
         <link rel="self" href="https://sadcolor.net/art/boss.0004"/>
         <link rel="enclosure" href="https://sadcolor.net/art/boss.0004.png" length="17389" type="image/png"/>
@@ -769,8 +796,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-02-25T09:11:12-06:00</published>
-            <updated>2024-02-25T09:11:12-06:00</updated>
+        <published>2024-02-25T10:11:12-05:00</published>
+            <updated>2024-02-25T10:11:12-05:00</updated>
         <category term="art"/><category term="oc:kit"/>
         <link rel="self" href="https://sadcolor.net/art/kit.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/kit.0001.png" length="18272" type="image/png"/>
@@ -786,8 +813,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-02-16T11:24:24-06:00</published>
-            <updated>2024-02-16T11:24:24-06:00</updated>
+        <published>2024-02-16T12:24:24-05:00</published>
+            <updated>2024-02-16T12:24:24-05:00</updated>
         <category term="art"/><category term="oc:zephyr"/>
         <link rel="self" href="https://sadcolor.net/art/zephyr.0002"/>
         <link rel="enclosure" href="https://sadcolor.net/art/zephyr.0002.png" length="9703" type="image/png"/>
@@ -805,8 +832,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2024-01-15T07:37:00-06:00</published>
-            <updated>2024-01-15T07:37:00-06:00</updated>
+        <published>2024-01-15T08:37:00-05:00</published>
+            <updated>2024-01-15T08:37:00-05:00</updated>
         <category term="art"/><category term="doodle"/><category term="oc:gyre"/>
         <link rel="self" href="https://sadcolor.net/art/gyre.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/gyre.0001.png" length="8744" type="image/png"/><link rel="enclosure" href="https://sadcolor.net/art/gyre.0002.png" length="15757" type="image/png"/>
@@ -824,8 +851,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2023-11-23T17:00:00-06:00</published>
-            <updated>2023-11-23T17:00:00-06:00</updated>
+        <published>2023-11-23T18:00:00-05:00</published>
+            <updated>2023-11-23T18:00:00-05:00</updated>
         <category term="art"/><category term="nerdyreindeer"/>
         <link rel="self" href="https://sadcolor.net/art/nerdy_hato.0001-nerdy_grovyle.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/nerdy_hato.0001.png" length="26911" type="image/png"/><link rel="enclosure" href="https://sadcolor.net/art/nerdy_grovyle.0001.png" length="24132" type="image/png"/>
@@ -842,8 +869,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2023-11-18T22:33:32-06:00</published>
-            <updated>2023-11-18T22:33:32-06:00</updated>
+        <published>2023-11-18T23:33:32-05:00</published>
+            <updated>2023-11-18T23:33:32-05:00</updated>
         <category term="art"/><category term="creepincrawl"/>
         <link rel="self" href="https://sadcolor.net/art/creeps_blair.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/creeps_blair.0001.png" length="27096" type="image/png"/>
@@ -859,8 +886,8 @@ added a little more detail on his harpoon!&lt;/p&gt;
             &lt;/section&gt;
         </content>
         
-        <published>2023-10-24T01:16:00-05:00</published>
-            <updated>2023-10-24T01:16:00-05:00</updated>
+        <published>2023-10-24T02:16:00-04:00</published>
+            <updated>2023-10-24T02:16:00-04:00</updated>
         <category term="art"/><category term="oc:king"/>
         <link rel="self" href="https://sadcolor.net/art/king.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/king.0001.png" length="39194" type="image/png"/>
@@ -877,14 +904,14 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-10-09T04:49:00-05:00</published>
-            <updated>2023-10-09T04:49:00-05:00</updated>
+        <published>2023-10-09T05:49:00-04:00</published>
+            <updated>2023-10-09T05:49:00-04:00</updated>
         <category term="art"/>
         <link rel="self" href="https://sadcolor.net/art/alice_sona.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/alice_sona.0001.png" length="34971" type="image/png"/>
     </entry>
     <entry>
-        <id>tag:sadcolor.net,2023-10-07:/art/zatsu-vulture</id>
+        <id>tag:sadcolor.net,2023-10-08:/art/zatsu-vulture</id>
         <title>hægh</title>
         <content type="html">
             &lt;img src=&quot;/art/zatsu-vulture.png&quot; alt width=544 height=276&gt;
@@ -894,8 +921,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-10-07T23:05:00-05:00</published>
-            <updated>2023-10-07T23:05:00-05:00</updated>
+        <published>2023-10-08T00:05:00-04:00</published>
+            <updated>2023-10-08T00:05:00-04:00</updated>
         <category term="art"/><category term="doodle"/>
         <link rel="self" href="https://sadcolor.net/art/zatsu-vulture"/>
         <link rel="enclosure" href="https://sadcolor.net/art/zatsu-vulture.png" length="2682" type="image/png"/>
@@ -911,8 +938,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-09-21T12:24:24-05:00</published>
-            <updated>2023-09-21T12:24:24-05:00</updated>
+        <published>2023-09-21T13:24:24-04:00</published>
+            <updated>2023-09-21T13:24:24-04:00</updated>
         <category term="art"/><category term="oc:ceru"/>
         <link rel="self" href="https://sadcolor.net/art/ceru.0003"/>
         <link rel="enclosure" href="https://sadcolor.net/art/ceru.0003.png" length="14464" type="image/png"/>
@@ -928,8 +955,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-09-20T12:24:24-05:00</published>
-            <updated>2023-09-20T12:24:24-05:00</updated>
+        <published>2023-09-20T13:24:24-04:00</published>
+            <updated>2023-09-20T13:24:24-04:00</updated>
         <category term="art"/><category term="oc:io"/>
         <link rel="self" href="https://sadcolor.net/art/io.0013b"/>
         <link rel="enclosure" href="https://sadcolor.net/art/io.0013b.png" length="20321" type="image/png"/>
@@ -945,8 +972,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-09-19T12:56:00-05:00</published>
-            <updated>2023-09-19T12:56:00-05:00</updated>
+        <published>2023-09-19T13:56:00-04:00</published>
+            <updated>2023-09-19T13:56:00-04:00</updated>
         <category term="art"/><category term="oc:io"/>
         <link rel="self" href="https://sadcolor.net/art/io.0013a"/>
         <link rel="enclosure" href="https://sadcolor.net/art/io.0013a.png" length="15951" type="image/png"/>
@@ -962,8 +989,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-09-14T15:58:00-05:00</published>
-            <updated>2023-09-14T15:58:00-05:00</updated>
+        <published>2023-09-14T16:58:00-04:00</published>
+            <updated>2023-09-14T16:58:00-04:00</updated>
         <category term="art"/><category term="oc:zephyr"/>
         <link rel="self" href="https://sadcolor.net/art/zephyr.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/zephyr.0001.png" length="50637" type="image/png"/>
@@ -979,8 +1006,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-08-01T12:24:24-05:00</published>
-            <updated>2023-08-01T12:24:24-05:00</updated>
+        <published>2023-08-01T13:24:24-04:00</published>
+            <updated>2023-08-01T13:24:24-04:00</updated>
         <category term="art"/><category term="oc:dramor"/>
         <link rel="self" href="https://sadcolor.net/art/dramor.0001"/>
         <link rel="enclosure" href="https://sadcolor.net/art/dramor.0001.png" length="39750" type="image/png"/>
@@ -996,8 +1023,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-31T04:55:59-05:00</published>
-            <updated>2023-07-31T04:55:59-05:00</updated>
+        <published>2023-07-31T05:55:59-04:00</published>
+            <updated>2023-07-31T05:55:59-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="cryebral"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/11"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/11.png" length="29753" type="image/png"/>
@@ -1013,8 +1040,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-24T01:19:19-05:00</published>
-            <updated>2023-07-24T01:19:19-05:00</updated>
+        <published>2023-07-24T02:19:19-04:00</published>
+            <updated>2023-07-24T02:19:19-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="Hainfulcupid"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/10"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/10.png" length="38010" type="image/png"/>
@@ -1035,8 +1062,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-17T14:14:16-05:00</published>
-            <updated>2023-07-17T14:14:16-05:00</updated>
+        <published>2023-07-17T15:14:16-04:00</published>
+            <updated>2023-07-17T15:14:16-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="rubic"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/09"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/09.mp4" length="" type="image/mp4"/>
@@ -1052,8 +1079,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-16T17:03:59-05:00</published>
-            <updated>2023-07-16T17:03:59-05:00</updated>
+        <published>2023-07-16T18:03:59-04:00</published>
+            <updated>2023-07-16T18:03:59-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="fizzy-dizz"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/08"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/08.png" length="23988" type="image/png"/>
@@ -1069,8 +1096,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-14T10:42:16-05:00</published>
-            <updated>2023-07-14T10:42:16-05:00</updated>
+        <published>2023-07-14T11:42:16-04:00</published>
+            <updated>2023-07-14T11:42:16-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="Malen10"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/07"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/07.png" length="25610" type="image/png"/>
@@ -1086,8 +1113,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-12T09:25:59-05:00</published>
-            <updated>2023-07-12T09:25:59-05:00</updated>
+        <published>2023-07-12T10:25:59-04:00</published>
+            <updated>2023-07-12T10:25:59-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="RolyPori"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/06"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/06.png" length="56669" type="image/png"/>
@@ -1103,8 +1130,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-10T13:51:43-05:00</published>
-            <updated>2023-07-10T13:51:43-05:00</updated>
+        <published>2023-07-10T14:51:43-04:00</published>
+            <updated>2023-07-10T14:51:43-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="BeebFreeb"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/05"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/05.png" length="22478" type="image/png"/>
@@ -1120,8 +1147,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-08T09:08:06-05:00</published>
-            <updated>2023-07-08T09:08:06-05:00</updated>
+        <published>2023-07-08T10:08:06-04:00</published>
+            <updated>2023-07-08T10:08:06-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="Sonnytherat"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/04"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/04.png" length="16933" type="image/png"/>
@@ -1137,8 +1164,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-07T05:46:36-05:00</published>
-            <updated>2023-07-07T05:46:36-05:00</updated>
+        <published>2023-07-07T06:46:36-04:00</published>
+            <updated>2023-07-07T06:46:36-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="Camelot"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/03"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/03.png" length="33648" type="image/png"/>
@@ -1154,8 +1181,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-05T01:00:36-05:00</published>
-            <updated>2023-07-05T01:00:36-05:00</updated>
+        <published>2023-07-05T02:00:36-04:00</published>
+            <updated>2023-07-05T02:00:36-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="oc:phial"/><category term="dbappio"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/02"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/02.png" length="20477" type="image/png"/>
@@ -1171,8 +1198,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2023-07-02T12:42:11-05:00</published>
-            <updated>2023-07-02T12:42:11-05:00</updated>
+        <published>2023-07-02T13:42:11-04:00</published>
+            <updated>2023-07-02T13:42:11-04:00</updated>
         <category term="art fight"/><category term="art fight 2023"/><category term="oc:king"/><category term="texeoghea"/>
         <link rel="self" href="https://sadcolor.net/af/2023/atk/01"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2023/atk/01.png" length="36222" type="image/png"/>
@@ -1188,8 +1215,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-31T03:13:51-05:00</published>
-            <updated>2022-07-31T03:13:51-05:00</updated>
+        <published>2022-07-31T04:13:51-04:00</published>
+            <updated>2022-07-31T04:13:51-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="TVcity"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/33"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/33.png" length="26579" type="image/png"/>
@@ -1206,8 +1233,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-30T06:48:37-05:00</published>
-            <updated>2022-07-30T06:48:37-05:00</updated>
+        <published>2022-07-30T07:48:37-04:00</published>
+            <updated>2022-07-30T07:48:37-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="oc:verdigris"/><category term="Someguyiguess"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/32"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/32.png" length="27323" type="image/png"/>
@@ -1223,14 +1250,14 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-27T02:18:00-05:00</published>
-            <updated>2022-07-27T02:18:00-05:00</updated>
+        <published>2022-07-27T03:18:00-04:00</published>
+            <updated>2022-07-27T03:18:00-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="BBSARTBOUTIQUE"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/31"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/31.png" length="33733" type="image/png"/>
     </entry>
     <entry>
-        <id>tag:sadcolor.net,2022-07-24:/af/2022/atk/30</id>
+        <id>tag:sadcolor.net,2022-07-25:/af/2022/atk/30</id>
         <title>[AF2022 • A#30] dialtone</title>
         <content type="html">
             &lt;img src=&quot;/af/2022/atk/30.png&quot; alt width=640 height=960&gt;
@@ -1240,8 +1267,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-24T23:00:23-05:00</published>
-            <updated>2022-07-24T23:00:23-05:00</updated>
+        <published>2022-07-25T00:00:23-04:00</published>
+            <updated>2022-07-25T00:00:23-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="TheMemeBoiUwU"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/30"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/30.png" length="15846" type="image/png"/>
@@ -1257,8 +1284,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-24T16:54:19-05:00</published>
-            <updated>2022-07-24T16:54:19-05:00</updated>
+        <published>2022-07-24T17:54:19-04:00</published>
+            <updated>2022-07-24T17:54:19-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Tankakuka"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/29"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/29.gif" length="257444" type="image/gif"/>
@@ -1274,8 +1301,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-23T09:54:46-05:00</published>
-            <updated>2022-07-23T09:54:46-05:00</updated>
+        <published>2022-07-23T10:54:46-04:00</published>
+            <updated>2022-07-23T10:54:46-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="AceNil"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/28"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/28.png" length="20093" type="image/png"/>
@@ -1291,8 +1318,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-22T07:48:49-05:00</published>
-            <updated>2022-07-22T07:48:49-05:00</updated>
+        <published>2022-07-22T08:48:49-04:00</published>
+            <updated>2022-07-22T08:48:49-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="KngKobun"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/27"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/27.png" length="15791" type="image/png"/>
@@ -1308,8 +1335,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-21T17:03:25-05:00</published>
-            <updated>2022-07-21T17:03:25-05:00</updated>
+        <published>2022-07-21T18:03:25-04:00</published>
+            <updated>2022-07-21T18:03:25-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="cosmodotpng"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/26"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/26.png" length="17991" type="image/png"/>
@@ -1325,8 +1352,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-20T11:12:29-05:00</published>
-            <updated>2022-07-20T11:12:29-05:00</updated>
+        <published>2022-07-20T12:12:29-04:00</published>
+            <updated>2022-07-20T12:12:29-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="oc:verdigris"/><category term="kordbot"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/25"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/25.png" length="48794" type="image/png"/>
@@ -1342,8 +1369,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-19T06:29:54-05:00</published>
-            <updated>2022-07-19T06:29:54-05:00</updated>
+        <published>2022-07-19T07:29:54-04:00</published>
+            <updated>2022-07-19T07:29:54-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="GoobyDroog"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/24"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/24.png" length="26100" type="image/png"/>
@@ -1359,8 +1386,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-18T12:14:05-05:00</published>
-            <updated>2022-07-18T12:14:05-05:00</updated>
+        <published>2022-07-18T13:14:05-04:00</published>
+            <updated>2022-07-18T13:14:05-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="HoneyHive"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/23"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/23.png" length="28623" type="image/png"/>
@@ -1376,8 +1403,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-18T10:50:56-05:00</published>
-            <updated>2022-07-18T10:50:56-05:00</updated>
+        <published>2022-07-18T11:50:56-04:00</published>
+            <updated>2022-07-18T11:50:56-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="AnaNini"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/22"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/22.png" length="16383" type="image/png"/>
@@ -1393,8 +1420,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-17T15:47:06-05:00</published>
-            <updated>2022-07-17T15:47:06-05:00</updated>
+        <published>2022-07-17T16:47:06-04:00</published>
+            <updated>2022-07-17T16:47:06-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="HoneyHive"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/21"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/21.png" length="20668" type="image/png"/>
@@ -1410,8 +1437,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-16T17:22:51-05:00</published>
-            <updated>2022-07-16T17:22:51-05:00</updated>
+        <published>2022-07-16T18:22:51-04:00</published>
+            <updated>2022-07-16T18:22:51-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Rockfish"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/20"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/20.png" length="24268" type="image/png"/>
@@ -1427,8 +1454,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-16T14:17:25-05:00</published>
-            <updated>2022-07-16T14:17:25-05:00</updated>
+        <published>2022-07-16T15:17:25-04:00</published>
+            <updated>2022-07-16T15:17:25-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="kad"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/19"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/19.png" length="25403" type="image/png"/>
@@ -1444,8 +1471,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-16T05:28:46-05:00</published>
-            <updated>2022-07-16T05:28:46-05:00</updated>
+        <published>2022-07-16T06:28:46-04:00</published>
+            <updated>2022-07-16T06:28:46-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="ashley600000"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/18"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/18.png" length="21144" type="image/png"/>
@@ -1461,8 +1488,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-15T05:36:08-05:00</published>
-            <updated>2022-07-15T05:36:08-05:00</updated>
+        <published>2022-07-15T06:36:08-04:00</published>
+            <updated>2022-07-15T06:36:08-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="oc:phial"/><category term="oc:marin"/><category term="oc:metasis"/><category term="Ananini"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/17"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/17.png" length="31172" type="image/png"/>
@@ -1478,8 +1505,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-14T16:39:58-05:00</published>
-            <updated>2022-07-14T16:39:58-05:00</updated>
+        <published>2022-07-14T17:39:58-04:00</published>
+            <updated>2022-07-14T17:39:58-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="kad"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/16"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/16.png" length="31125" type="image/png"/>
@@ -1495,8 +1522,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-13T06:46:10-05:00</published>
-            <updated>2022-07-13T06:46:10-05:00</updated>
+        <published>2022-07-13T07:46:10-04:00</published>
+            <updated>2022-07-13T07:46:10-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="creepincrawl"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/15"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/15.png" length="19581" type="image/png"/>
@@ -1512,8 +1539,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-12T06:11:56-05:00</published>
-            <updated>2022-07-12T06:11:56-05:00</updated>
+        <published>2022-07-12T07:11:56-04:00</published>
+            <updated>2022-07-12T07:11:56-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Wild_fire"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/14"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/14.png" length="29267" type="image/png"/>
@@ -1529,8 +1556,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-11T02:30:38-05:00</published>
-            <updated>2022-07-11T02:30:38-05:00</updated>
+        <published>2022-07-11T03:30:38-04:00</published>
+            <updated>2022-07-11T03:30:38-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Huntertallonian"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/13"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/13.png" length="22962" type="image/png"/>
@@ -1546,8 +1573,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-10T02:31:07-05:00</published>
-            <updated>2022-07-10T02:31:07-05:00</updated>
+        <published>2022-07-10T03:31:07-04:00</published>
+            <updated>2022-07-10T03:31:07-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="JamJuce"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/12"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/12.png" length="18425" type="image/png"/>
@@ -1563,8 +1590,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-09T00:10:45-05:00</published>
-            <updated>2022-07-09T00:10:45-05:00</updated>
+        <published>2022-07-09T01:10:45-04:00</published>
+            <updated>2022-07-09T01:10:45-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="ImaKittypet"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/11"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/11.png" length="20671" type="image/png"/>
@@ -1580,8 +1607,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-08T00:10:37-05:00</published>
-            <updated>2022-07-08T00:10:37-05:00</updated>
+        <published>2022-07-08T01:10:37-04:00</published>
+            <updated>2022-07-08T01:10:37-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Bittheidiot"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/10"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/10.png" length="23173" type="image/png"/>
@@ -1597,8 +1624,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-07T08:06:01-05:00</published>
-            <updated>2022-07-07T08:06:01-05:00</updated>
+        <published>2022-07-07T09:06:01-04:00</published>
+            <updated>2022-07-07T09:06:01-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Vizzbgit"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/09"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/09.png" length="16602" type="image/png"/>
@@ -1614,8 +1641,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-07T00:31:51-05:00</published>
-            <updated>2022-07-07T00:31:51-05:00</updated>
+        <published>2022-07-07T01:31:51-04:00</published>
+            <updated>2022-07-07T01:31:51-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="ProfCarrot"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/08"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/08.png" length="13827" type="image/png"/>
@@ -1631,8 +1658,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-06T05:45:18-05:00</published>
-            <updated>2022-07-06T05:45:18-05:00</updated>
+        <published>2022-07-06T06:45:18-04:00</published>
+            <updated>2022-07-06T06:45:18-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Pigsy"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/07"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/07.png" length="23592" type="image/png"/>
@@ -1648,8 +1675,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-05T11:50:06-05:00</published>
-            <updated>2022-07-05T11:50:06-05:00</updated>
+        <published>2022-07-05T12:50:06-04:00</published>
+            <updated>2022-07-05T12:50:06-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Lumiinori"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/06"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/06.png" length="19514" type="image/png"/>
@@ -1665,8 +1692,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-05T00:49:29-05:00</published>
-            <updated>2022-07-05T00:49:29-05:00</updated>
+        <published>2022-07-05T01:49:29-04:00</published>
+            <updated>2022-07-05T01:49:29-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Mslay"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/05"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/05.png" length="40971" type="image/png"/>
@@ -1682,8 +1709,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-03T22:55:09-05:00</published>
-            <updated>2022-07-03T22:55:09-05:00</updated>
+        <published>2022-07-03T23:55:09-04:00</published>
+            <updated>2022-07-03T23:55:09-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="skarpetky"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/04"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/04.png" length="48485" type="image/png"/>
@@ -1699,8 +1726,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-03T05:50:19-05:00</published>
-            <updated>2022-07-03T05:50:19-05:00</updated>
+        <published>2022-07-03T06:50:19-04:00</published>
+            <updated>2022-07-03T06:50:19-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="adorabug"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/03"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/03.png" length="17321" type="image/png"/>
@@ -1716,8 +1743,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-02T21:34:26-05:00</published>
-            <updated>2022-07-02T21:34:26-05:00</updated>
+        <published>2022-07-02T22:34:26-04:00</published>
+            <updated>2022-07-02T22:34:26-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="twinvenus"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/02"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/02.png" length="13937" type="image/png"/>
@@ -1733,8 +1760,8 @@ drawn for @alicemoon812 (&lt;a href=&quot;https://alicemoon812.tumblr.com/&quot;
             &lt;/section&gt;
         </content>
         
-        <published>2022-07-02T06:14:05-05:00</published>
-            <updated>2022-07-02T06:14:05-05:00</updated>
+        <published>2022-07-02T07:14:05-04:00</published>
+            <updated>2022-07-02T07:14:05-04:00</updated>
         <category term="art fight"/><category term="art fight 2022"/><category term="Bittheidiot"/>
         <link rel="self" href="https://sadcolor.net/af/2022/atk/01"/>
         <link rel="enclosure" href="https://sadcolor.net/af/2022/atk/01.png" length="28927" type="image/png"/>
