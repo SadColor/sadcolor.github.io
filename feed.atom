@@ -9,8 +9,42 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2025-07-02T03:51:45-05:00</updated>
+    <updated>2025-07-08T23:16:08-05:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2025-07-07:/af/2025/atk/03</id>
+        <title>[AF2025 • A#03] unfinished business</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2025/atk/03.png&quot; alt=&quot;a demon offering to grab another demon whom a robot is searching for (to kill).&quot; width=1360 height=1360&gt;
+        &lt;p&gt;nooo match she's gonna &lt;span class=&quot;big&quot;&gt;&lt;strong&gt;KILL&lt;/strong&gt;&lt;/span&gt; you…&lt;/p&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/10186931.unfinished-business&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2025-07-07T01:30:27-05:00</published>
+            <updated>2025-07-07T01:30:27-05:00</updated>
+        <category term="art fight"/><category term="art fight 2025"/><category term="trjrkr"/>
+        <link rel="self" href="https://sadcolor.net/af/2025/atk/03"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2025/atk/03.png" length="49182" type="image/png"/>
+    </entry>
+    <entry>
+        <id>tag:sadcolor.net,2025-07-04:/af/2025/atk/02</id>
+        <title>[AF2025 • A#02] turbulent transit</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2025/atk/02.png&quot; alt=&quot;on a bumpy train ride, a character with an espresso-pot for a head accidentally spills coffe all over the anthro cat in front of them.&quot; width=960 height=1440&gt;
+        &lt;p&gt;it's been one of those days…&lt;/p&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/9758588.turbulent-transit&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2025-07-04T22:11:06-05:00</published>
+            <updated>2025-07-04T22:11:06-05:00</updated>
+        <category term="art fight"/><category term="art fight 2025"/><category term="thewizardlywyrm"/>
+        <link rel="self" href="https://sadcolor.net/af/2025/atk/02"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2025/atk/02.png" length="41129" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2025-07-02:/af/2025/atk/01</id>
         <title>[AF2025 • A#01] playlist partners</title>

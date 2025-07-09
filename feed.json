@@ -8,6 +8,38 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250707-A03-trjrkr_thorne#0002",
+			"url": "https://sadcolor.net/af/2025/atk/03",
+            "content_text": "nooo match she's gonna KILL you…",
+            "content_html": "<img src=\"/art/03.png\" alt=\"a demon offering to grab another demon whom a robot is searching for (to kill).\" ><p>nooo match she's gonna <span class=\"big\"><strong>KILL</strong></span> you…</p>\n            <section>─ <a href=\"https://artfight.net/attack/10186931.unfinished-business\">art fight</a> ─</section>",
+            "title": "[AF2025 • A#03] unfinished business",
+		    "date_published": "2025-07-07T01:30:27-05:00",
+            "tags": [ "art fight", "art fight 2025", "trjrkr" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2025/atk/03.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 49182
+                }
+            ]
+            
+        },
+		{"id": "20250704-A02-thewizardlywyrm_pressley#0001",
+			"url": "https://sadcolor.net/af/2025/atk/02",
+            "content_text": "it's been one of those days…",
+            "content_html": "<img src=\"/art/02.png\" alt=\"on a bumpy train ride, a character with an espresso-pot for a head accidentally spills coffe all over the anthro cat in front of them.\" ><p>it's been one of those days…</p>\n            <section>─ <a href=\"https://artfight.net/attack/9758588.turbulent-transit\">art fight</a> ─</section>",
+            "title": "[AF2025 • A#02] turbulent transit",
+		    "date_published": "2025-07-04T22:11:06-05:00",
+            "tags": [ "art fight", "art fight 2025", "thewizardlywyrm" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2025/atk/02.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 41129
+                }
+            ]
+            
+        },
 		{"id": "20250702-A01-blabla_millyn#0001",
 			"url": "https://sadcolor.net/af/2025/atk/01",
             "content_text": "˘ᴗ˘",

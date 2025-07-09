@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Wed, 02 Jul 2025 03:51:45 -0500</pubDate>
+		<pubDate>Tue, 08 Jul 2025 23:16:08 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,24 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/03</guid>
+			<title>[AF2025 • A#03] unfinished business</title>
+			<link>https://sadcolor.net/af/2025/atk/03</link>
+			<description>nooo match she's gonna KILL you…</description>
+			<pubDate>Mon, 07 Jul 2025 01:30:27 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>trjrkr</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/03.png" length="49182" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/02</guid>
+			<title>[AF2025 • A#02] turbulent transit</title>
+			<link>https://sadcolor.net/af/2025/atk/02</link>
+			<description>it's been one of those days…</description>
+			<pubDate>Fri, 04 Jul 2025 22:11:06 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>thewizardlywyrm</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/02.png" length="41129" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/af/2025/atk/01</guid>
 			<title>[AF2025 • A#01] playlist partners</title>
