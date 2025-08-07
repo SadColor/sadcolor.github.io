@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Thu, 10 Jul 2025 02:09:47 -0500</pubDate>
+		<pubDate>Thu, 07 Aug 2025 02:00:48 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,69 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/10</guid>
+			<title>[AF2025 • A#10] goldfish gossip</title>
+			<link>https://sadcolor.net/af/2025/atk/10</link>
+			<description>like any other customer service worker, she's got plenty of stories…</description>
+			<pubDate>Fri, 01 Aug 2025 04:51:47 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>dinggoob</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/10.png" length="56191" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/09</guid>
+			<title>[AF2025 • A#09] care to here how this ends?</title>
+			<link>https://sadcolor.net/af/2025/atk/09</link>
+			<description>in ruin.</description>
+			<pubDate>Fri, 01 Aug 2025 02:20:52 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>buggish</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/09.png" length="49447" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/08</guid>
+			<title>[AF2025 • A#08] before creation comes destruction</title>
+			<link>https://sadcolor.net/af/2025/atk/08</link>
+			<description>photos taken seconds before you are reset to the character creation screen</description>
+			<pubDate>Thu, 31 Jul 2025 02:58:06 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>fumblebaum</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/08.png" length="36557" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/07</guid>
+			<title>[AF2025 • A#07] biker babes</title>
+			<link>https://sadcolor.net/af/2025/atk/07</link>
+			<description></description>
+			<pubDate>Mon, 21 Jul 2025 03:44:20 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>thesloum</category><category>oc:aya</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/07.png" length="65739" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/06</guid>
+			<title>[AF2025 • A#06] monocular matchup</title>
+			<link>https://sadcolor.net/af/2025/atk/06</link>
+			<description>will he kill them for real? vote now on your phones</description>
+			<pubDate>Thu, 17 Jul 2025 23:33:35 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>kingdavid9</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/06.png" length="93908" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/05</guid>
+			<title>[AF2025 • A#05] dungeon diver</title>
+			<link>https://sadcolor.net/af/2025/atk/05</link>
+			<description></description>
+			<pubDate>Tue, 15 Jul 2025 02:38:56 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>acenil</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/05.png" length="33695" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2025/atk/04</guid>
+			<title>[AF2025 • A#04] killing you in my mind</title>
+			<link>https://sadcolor.net/af/2025/atk/04</link>
+			<description>will he kill them for real? vote now on your phones</description>
+			<pubDate>Sun, 13 Jul 2025 18:01:32 -0500</pubDate>
+			<category>art fight</category><category>art fight 2025</category><category>animeshowfan</category><category>pop_cat_calamari</category>
+			<enclosure url="https://sadcolor.net/af/2025/atk/04.png" length="95596" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/af/2025/atk/03</guid>
 			<title>[AF2025 • A#03] unfinished business</title>
