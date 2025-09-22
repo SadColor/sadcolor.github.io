@@ -9,8 +9,26 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2025-08-07T19:11:34-05:00</updated>
+    <updated>2025-09-21T22:41:26-05:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2025-09-21:/art/tara.0001</id>
+        <title>tam &amp; kyra fusion</title>
+        <content type="html">
+            &lt;img src=&quot;/art/tara.0001.png&quot; alt=&quot;a rosy-brown anthro cat posing &amp; playing with their medium-length ponytail.&quot; width=860 height=1536&gt;
+        &lt;p&gt;fusion of two of me cat OCs, &lt;a href=&quot;/art/tam.0011&quot;&gt;tam&lt;/a&gt; &amp;amp; &lt;a href=&quot;/art/kyra.0003&quot;&gt;kyra&lt;/a&gt;.&lt;br /&gt;
+i guess they're &quot;tara&quot;…&lt;/p&gt;
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://fukouiro.tumblr.com/post/795357506108112896/fusion-of-two-of-me-cat-ocs-tam-kyra-i-guess&quot;&gt;tumblr&lt;/a&gt; • &lt;a href=&quot;https://bsky.app/profile/sadcolor.net/post/3lzfhybcpsc23&quot;&gt;bluesky&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2025-09-21T22:33:44-05:00</published>
+            <updated>2025-09-21T22:33:44-05:00</updated>
+        <category term="art"/><category term="pkmn"/><category term="oc:tam"/><category term="oc:kyra"/><category term="ocf:tara"/>
+        <link rel="self" href="https://sadcolor.net/art/tara.0001"/>
+        <link rel="enclosure" href="https://sadcolor.net/art/tara.0001.png" length="30028" type="image/png"/>
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2025-08-01:/af/2025/atk/10</id>
         <title>[AF2025 • A#10] goldfish gossip</title>

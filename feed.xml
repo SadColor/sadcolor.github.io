@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Thu, 07 Aug 2025 19:11:34 -0500</pubDate>
+		<pubDate>Sun, 21 Sep 2025 22:41:26 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,16 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/tara.0001</guid>
+			<title>tam &amp; kyra fusion</title>
+			<link>https://sadcolor.net/art/tara.0001</link>
+			<description>fusion of two of me cat OCs, tam &amp;amp; kyra.
+i guess they're &quot;tara&quot;…</description>
+			<pubDate>Sun, 21 Sep 2025 22:33:44 -0500</pubDate>
+			<category>art</category><category>pkmn</category><category>oc:tam</category><category>oc:kyra</category><category>ocf:tara</category>
+			<enclosure url="https://sadcolor.net/art/tara.0001.png" length="30028" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/af/2025/atk/10</guid>
 			<title>[AF2025 • A#10] goldfish gossip</title>
