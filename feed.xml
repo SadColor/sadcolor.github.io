@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Sun, 21 Sep 2025 22:41:26 -0500</pubDate>
+		<pubDate>Mon, 29 Sep 2025 13:12:33 -0400</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -15,13 +15,28 @@
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
 		<item>
+			<guid>https://sadcolor.net/art/carry.0002</guid>
+			<title>carry</title>
+			<link>https://sadcolor.net/art/carry.0002</link>
+			<description>remember to thank your postal workers. and give them one pillion dollars
+
+“A timid deliverybird.
+When problems arise, she scrambles to resolve them ASAP. Unfortunately, that sometimes leads to further problems.”
+
+character theme:
+♪ Rival Challenge! (Puyo Puyo!! 20th Anniversary)</description>
+			<pubDate>Mon, 29 Sep 2025 13:04:05 -0400</pubDate>
+			<category>art</category><category>pkmn</category><category>oc:carry</category>
+			<enclosure url="https://sadcolor.net/art/carry.0002.png" length="60650" type="image/png"/>
+			</item>
+		<item>
 			<guid>https://sadcolor.net/art/tara.0001</guid>
 			<title>tam &amp; kyra fusion</title>
 			<link>https://sadcolor.net/art/tara.0001</link>
 			<description>fusion of two of me cat OCs, tam &amp;amp; kyra.
 i guess they're &quot;tara&quot;…</description>
-			<pubDate>Sun, 21 Sep 2025 22:33:44 -0500</pubDate>
-			<category>art</category><category>pkmn</category><category>oc:tam</category><category>oc:kyra</category><category>ocf:tara</category>
+			<pubDate>Sun, 21 Sep 2025 23:33:44 -0400</pubDate>
+			<category>art</category><category>oc:tam</category><category>oc:kyra</category><category>ocf:tara</category>
 			<enclosure url="https://sadcolor.net/art/tara.0001.png" length="30028" type="image/png"/>
 			</item>
 		<item>
@@ -29,7 +44,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#10] goldfish gossip</title>
 			<link>https://sadcolor.net/af/2025/atk/10</link>
 			<description>like any other customer service worker, she's got plenty of stories…</description>
-			<pubDate>Fri, 01 Aug 2025 04:51:47 -0500</pubDate>
+			<pubDate>Fri, 01 Aug 2025 05:51:47 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>dinggoob</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/10.png" length="56191" type="image/png"/>
 			</item>
@@ -38,7 +53,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#09] care to here how this ends?</title>
 			<link>https://sadcolor.net/af/2025/atk/09</link>
 			<description>in ruin.</description>
-			<pubDate>Fri, 01 Aug 2025 02:20:52 -0500</pubDate>
+			<pubDate>Fri, 01 Aug 2025 03:20:52 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>buggish</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/09.png" length="49447" type="image/png"/>
 			</item>
@@ -47,7 +62,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#08] before creation comes destruction</title>
 			<link>https://sadcolor.net/af/2025/atk/08</link>
 			<description>photos taken seconds before you are reset to the character creation screen</description>
-			<pubDate>Thu, 31 Jul 2025 02:58:06 -0500</pubDate>
+			<pubDate>Thu, 31 Jul 2025 03:58:06 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>fumblebaum</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/08.png" length="36557" type="image/png"/>
 			</item>
@@ -56,7 +71,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#07] biker babes</title>
 			<link>https://sadcolor.net/af/2025/atk/07</link>
 			<description></description>
-			<pubDate>Mon, 21 Jul 2025 03:44:20 -0500</pubDate>
+			<pubDate>Mon, 21 Jul 2025 04:44:20 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>thesloum</category><category>oc:aya</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/07.png" length="65739" type="image/png"/>
 			</item>
@@ -65,7 +80,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#06] monocular matchup</title>
 			<link>https://sadcolor.net/af/2025/atk/06</link>
 			<description>will he kill them for real? vote now on your phones</description>
-			<pubDate>Thu, 17 Jul 2025 23:33:35 -0500</pubDate>
+			<pubDate>Fri, 18 Jul 2025 00:33:35 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>kingdavid9</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/06.png" length="93908" type="image/png"/>
 			</item>
@@ -74,7 +89,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#05] dungeon diver</title>
 			<link>https://sadcolor.net/af/2025/atk/05</link>
 			<description></description>
-			<pubDate>Tue, 15 Jul 2025 02:38:56 -0500</pubDate>
+			<pubDate>Tue, 15 Jul 2025 03:38:56 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>acenil</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/05.png" length="33695" type="image/png"/>
 			</item>
@@ -83,7 +98,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#04] killing you in my mind</title>
 			<link>https://sadcolor.net/af/2025/atk/04</link>
 			<description>will he kill them for real? vote now on your phones</description>
-			<pubDate>Sun, 13 Jul 2025 18:01:32 -0500</pubDate>
+			<pubDate>Sun, 13 Jul 2025 19:01:32 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>animeshowfan</category><category>pop_cat_calamari</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/04.png" length="95596" type="image/png"/>
 			</item>
@@ -92,7 +107,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#03] unfinished business</title>
 			<link>https://sadcolor.net/af/2025/atk/03</link>
 			<description>nooo match she's gonna KILL you…</description>
-			<pubDate>Mon, 07 Jul 2025 01:30:27 -0500</pubDate>
+			<pubDate>Mon, 07 Jul 2025 02:30:27 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>trjrkr</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/03.png" length="49378" type="image/png"/>
 			</item>
@@ -101,7 +116,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#02] turbulent transit</title>
 			<link>https://sadcolor.net/af/2025/atk/02</link>
 			<description>it's been one of those days…</description>
-			<pubDate>Fri, 04 Jul 2025 22:11:06 -0500</pubDate>
+			<pubDate>Fri, 04 Jul 2025 23:11:06 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>thewizardlywyrm</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/02.png" length="41129" type="image/png"/>
 			</item>
@@ -110,7 +125,7 @@ i guess they're &quot;tara&quot;…</description>
 			<title>[AF2025 • A#01] playlist partners</title>
 			<link>https://sadcolor.net/af/2025/atk/01</link>
 			<description>˘ᴗ˘</description>
-			<pubDate>Wed, 02 Jul 2025 02:47:50 -0500</pubDate>
+			<pubDate>Wed, 02 Jul 2025 03:47:50 -0400</pubDate>
 			<category>art fight</category><category>art fight 2025</category><category>blabla</category>
 			<enclosure url="https://sadcolor.net/af/2025/atk/01.png" length="41788" type="image/png"/>
 			</item>
@@ -126,7 +141,7 @@ However, in private, she is a complete slacker.”
 
 character theme:
 ♪ SHINY WORLD (OutRun2)</description>
-			<pubDate>Sun, 18 May 2025 16:40:16 -0500</pubDate>
+			<pubDate>Sun, 18 May 2025 17:40:16 -0400</pubDate>
 			<category>art</category><category>pkmn</category><category>oc:estival</category>
 			<enclosure url="https://sadcolor.net/art/estival.0000.png" length="80656" type="image/png"/>
 			</item>
@@ -135,7 +150,7 @@ character theme:
 			<title>[COMM] rose ref</title>
 			<link>https://sadcolor.net/art/rubic_rose.0001</link>
 			<description>commission for rubic of their character rose</description>
-			<pubDate>Thu, 08 May 2025 23:02:58 -0500</pubDate>
+			<pubDate>Fri, 09 May 2025 00:02:58 -0400</pubDate>
 			<category>art</category><category>pkmn</category><category>comm</category><category>rubic</category>
 			<enclosure url="https://sadcolor.net/art/rubic_rose.0001.png" length="69751" type="image/png"/>
 			</item>
@@ -145,7 +160,7 @@ character theme:
 			<link>https://sadcolor.net/art/estuary.0000</link>
 			<description>another pokéguy.
 they're just fun to doodle!</description>
-			<pubDate>Mon, 24 Mar 2025 00:40:04 -0500</pubDate>
+			<pubDate>Mon, 24 Mar 2025 01:40:04 -0400</pubDate>
 			<category>art</category><category>pkmn</category><category>oc:estuary</category>
 			<enclosure url="https://sadcolor.net/art/estuary.0000.png" length="21778" type="image/png"/>
 			</item>
@@ -155,8 +170,11 @@ they're just fun to doodle!</description>
 			<link>https://sadcolor.net/art/talon.0000</link>
 			<description>`•ω•´
 
-“a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp;amp; card tricks.”</description>
-			<pubDate>Mon, 10 Feb 2025 20:48:04 -0600</pubDate>
+“a relaxed sneasel. just likes to be around people even if she's not having a conversation or anything. her hobby is sleight-of-hand &amp;amp; card tricks.”
+
+character theme:
+♪ Meine Liebe (Germany Course)] (Neo Turf Masters)</description>
+			<pubDate>Mon, 10 Feb 2025 21:48:04 -0500</pubDate>
 			<category>art</category><category>pkmn</category><category>oc:talon</category>
 			<enclosure url="https://sadcolor.net/art/talon.0000.png" length="50139" type="image/png"/>
 			</item>
@@ -165,7 +183,7 @@ they're just fun to doodle!</description>
 			<title>brave bird</title>
 			<link>https://sadcolor.net/art/bugstabu_bravebird.0001</link>
 			<description>for @bugstabu (tumblr • bluesky)</description>
-			<pubDate>Thu, 06 Feb 2025 06:36:06 -0600</pubDate>
+			<pubDate>Thu, 06 Feb 2025 07:36:06 -0500</pubDate>
 			<category>art</category><category>bugstabu</category>
 			<enclosure url="https://sadcolor.net/art/bugstabu_bravebird.0001.png" length="68029" type="image/png"/>
 			</item>
@@ -175,7 +193,7 @@ they're just fun to doodle!</description>
 			<link>https://sadcolor.net/art/mokatypebeat_cadice.0002</link>
 			<description>for @mokatypebeat on bsky.
 cool character i also drew for art fight!</description>
-			<pubDate>Tue, 04 Feb 2025 20:32:00 -0600</pubDate>
+			<pubDate>Tue, 04 Feb 2025 21:32:00 -0500</pubDate>
 			<category>art</category><category>mokatypebeat</category>
 			<enclosure url="https://sadcolor.net/art/mokatypebeat_cadice.0002.png" length="31823" type="image/png"/>
 			</item>
@@ -191,7 +209,7 @@ She is generally nice, but just prefers being alone. To that end, her brusque be
 
 character theme:
 ♪ GET ON A TRAIN [backing repeat] (STREET FIGHTER III NEW GENERATION ORIGINAL ARRANGE SOUNDTRACK)</description>
-			<pubDate>Wed, 22 Jan 2025 15:15:15 -0600</pubDate>
+			<pubDate>Wed, 22 Jan 2025 16:15:15 -0500</pubDate>
 			<category>art</category><category>oc:bristle</category>
 			<enclosure url="https://sadcolor.net/art/bristle.0004.png" length="61191" type="image/png"/>
 			</item>
@@ -201,7 +219,7 @@ character theme:
 			<link>https://sadcolor.net/art/echo.0000</link>
 			<description>a little different of a body type for me!
 gligar is so cool :]</description>
-			<pubDate>Wed, 18 Dec 2024 00:47:00 -0600</pubDate>
+			<pubDate>Wed, 18 Dec 2024 01:47:00 -0500</pubDate>
 			<category>art</category><category>oc:echo</category>
 			<enclosure url="https://sadcolor.net/art/echo.0000.png" length="18192" type="image/png"/><enclosure url="https://sadcolor.net/art/echo.0000b.png" length="14322" type="image/png"/>
 			</item>
@@ -211,7 +229,7 @@ gligar is so cool :]</description>
 			<link>https://sadcolor.net/art/verity.0003</link>
 			<description>nobody's doing it like him
 (plus a bonus doodle from @videobun [tumblr • bluesky • twitter])</description>
-			<pubDate>Sat, 14 Dec 2024 20:58:08 -0600</pubDate>
+			<pubDate>Sat, 14 Dec 2024 21:58:08 -0500</pubDate>
 			<category>art</category><category>oc:verity</category>
 			<enclosure url="https://sadcolor.net/art/verity.0003.png" length="69838" type="image/png"/>
 			</item>
@@ -220,7 +238,7 @@ gligar is so cool :]</description>
 			<title>anya ref</title>
 			<link>https://sadcolor.net/art/anya.0009</link>
 			<description>meeeowth, dat's right</description>
-			<pubDate>Fri, 22 Nov 2024 03:36:06 -0600</pubDate>
+			<pubDate>Fri, 22 Nov 2024 04:36:06 -0500</pubDate>
 			<category>art</category><category>oc:anya</category>
 			<enclosure url="https://sadcolor.net/art/anya.0009.png" length="59693" type="image/png"/>
 			</item>
@@ -229,7 +247,7 @@ gligar is so cool :]</description>
 			<title>mouse knight</title>
 			<link>https://sadcolor.net/art/sonny_mouse14.0001</link>
 			<description>for @sonnytherat (bluesky • twitter)</description>
-			<pubDate>Thu, 17 Oct 2024 19:07:07 -0500</pubDate>
+			<pubDate>Thu, 17 Oct 2024 20:07:07 -0400</pubDate>
 			<category>art</category><category>sonnytherat</category>
 			<enclosure url="https://sadcolor.net/art/sonny_mouse14.0001.png" length="26915" type="image/png"/>
 			</item>
@@ -238,7 +256,7 @@ gligar is so cool :]</description>
 			<title>BB2 :]</title>
 			<link>https://sadcolor.net/art/glob_bb2.0001</link>
 			<description>for @globglump (tumblr • bluesky)</description>
-			<pubDate>Mon, 14 Oct 2024 08:08:00 -0500</pubDate>
+			<pubDate>Mon, 14 Oct 2024 09:08:00 -0400</pubDate>
 			<category>art</category><category>globglump</category>
 			<enclosure url="https://sadcolor.net/art/glob_bb2.0001.png" length="23125" type="image/png"/>
 			</item>
@@ -247,7 +265,7 @@ gligar is so cool :]</description>
 			<title>ariariariariariari</title>
 			<link>https://sadcolor.net/art/ari_possum.0003</link>
 			<description>for @nyagatoari on twitter</description>
-			<pubDate>Sun, 13 Oct 2024 19:07:07 -0500</pubDate>
+			<pubDate>Sun, 13 Oct 2024 20:07:07 -0400</pubDate>
 			<category>art</category><category>nyagatoari</category>
 			<enclosure url="https://sadcolor.net/art/ari_possum.0003.png" length="24602" type="image/png"/>
 			</item>
@@ -256,7 +274,7 @@ gligar is so cool :]</description>
 			<title>toss the baby</title>
 			<link>https://sadcolor.net/art/boss.0006b</link>
 			<description>and the bathwater too. yeah. no, the baby has to go.</description>
-			<pubDate>Tue, 08 Oct 2024 12:50:00 -0500</pubDate>
+			<pubDate>Tue, 08 Oct 2024 13:50:00 -0400</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
 			<enclosure url="https://sadcolor.net/art/boss.0006b.png" length="35067" type="image/png"/>
 			</item>
@@ -265,7 +283,7 @@ gligar is so cool :]</description>
 			<title>vice</title>
 			<link>https://sadcolor.net/art/boss.0006a</link>
 			<description>cool-looking vice drawing…</description>
-			<pubDate>Mon, 07 Oct 2024 12:24:24 -0500</pubDate>
+			<pubDate>Mon, 07 Oct 2024 13:24:24 -0400</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
 			<enclosure url="https://sadcolor.net/art/boss.0006a.png" length="18121" type="image/png"/>
 			</item>
@@ -279,7 +297,7 @@ transcription without the funny archaic letters:
 “Nay, this fine suit of armor hath been my sole abode since afore mine earliest memories.
 Upon my wake in this new body, it brought me severe dolor.
 Now, such time has passed that I'd nary dream of inhabiting any other!”</description>
-			<pubDate>Mon, 05 Aug 2024 02:44:00 -0500</pubDate>
+			<pubDate>Mon, 05 Aug 2024 03:44:00 -0400</pubDate>
 			<category>art</category><category>doodle</category><category>ask</category><category>oc:king</category>
 			<enclosure url="https://sadcolor.net/art/ask.0001-king.0001.png" length="18121" type="image/png"/>
 			</item>
@@ -288,7 +306,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#19] equipment exchange</title>
 			<link>https://sadcolor.net/af/2024/atk/19</link>
 			<description></description>
-			<pubDate>Sat, 03 Aug 2024 12:57:10 -0500</pubDate>
+			<pubDate>Sat, 03 Aug 2024 13:57:10 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>oc:g</category><category>someguyiguess</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/19.png" length="" type="image/png"/>
 			</item>
@@ -297,7 +315,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#18] worst jump rope partner(s)</title>
 			<link>https://sadcolor.net/af/2024/atk/18</link>
 			<description></description>
-			<pubDate>Sat, 03 Aug 2024 12:51:20 -0500</pubDate>
+			<pubDate>Sat, 03 Aug 2024 13:51:20 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>oc:vice</category><category>mokatypebeat</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/18.png" length="29964" type="image/png"/>
 			</item>
@@ -306,7 +324,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#17] righteous retribution</title>
 			<link>https://sadcolor.net/af/2024/atk/17</link>
 			<description>taste divine fury</description>
-			<pubDate>Sat, 03 Aug 2024 00:15:47 -0500</pubDate>
+			<pubDate>Sat, 03 Aug 2024 01:15:47 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>Trjrkr</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/17.png" length="74188" type="image/png"/>
 			</item>
@@ -315,7 +333,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#16] cold case</title>
 			<link>https://sadcolor.net/af/2024/atk/16</link>
 			<description>i don't think that's quite right</description>
-			<pubDate>Fri, 02 Aug 2024 08:46:16 -0500</pubDate>
+			<pubDate>Fri, 02 Aug 2024 09:46:16 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>oc:phial</category><category>disco_fish</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/16.gif" length="82844" type="image/gif"/>
 			</item>
@@ -324,7 +342,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#15] chemical love</title>
 			<link>https://sadcolor.net/af/2024/atk/15</link>
 			<description>rehearsal's over</description>
-			<pubDate>Wed, 31 Jul 2024 22:59:45 -0500</pubDate>
+			<pubDate>Wed, 31 Jul 2024 23:59:45 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>STARP3RIOR</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/15.png" length="148167" type="image/png"/>
 			</item>
@@ -333,7 +351,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#14] sleighty sleeves</title>
 			<link>https://sadcolor.net/af/2024/atk/14</link>
 			<description>i keep reading the motion trail on his ref as a long claw so i had to do a thing</description>
-			<pubDate>Mon, 29 Jul 2024 03:53:36 -0500</pubDate>
+			<pubDate>Mon, 29 Jul 2024 04:53:36 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>mokatypebeat</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/14.gif" length="" type="image/gif"/>
 			</item>
@@ -342,7 +360,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#13] spirited sparring</title>
 			<link>https://sadcolor.net/af/2024/atk/13</link>
 			<description>folks, is it cheating to let the ambiphysical manifestation of your soul to take a hit for you</description>
-			<pubDate>Sun, 28 Jul 2024 16:53:12 -0500</pubDate>
+			<pubDate>Sun, 28 Jul 2024 17:53:12 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>oc:king</category><category>thesloum</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/13.png" length="96277" type="image/png"/>
 			</item>
@@ -351,7 +369,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#12] la pingüina graciosa</title>
 			<link>https://sadcolor.net/af/2024/atk/12</link>
 			<description>what's in the suitcase…………….</description>
-			<pubDate>Thu, 18 Jul 2024 07:35:47 -0500</pubDate>
+			<pubDate>Thu, 18 Jul 2024 08:35:47 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>skarpetky</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/12.png" length="27215" type="image/png"/>
 			</item>
@@ -360,7 +378,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#11] You've just crossed over into the Grimal Zone</title>
 			<link>https://sadcolor.net/af/2024/atk/11</link>
 			<description></description>
-			<pubDate>Tue, 16 Jul 2024 07:35:36 -0500</pubDate>
+			<pubDate>Tue, 16 Jul 2024 08:35:36 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>GoldeKlee</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/11.png" length="" type="image/png"/>
 			</item>
@@ -369,7 +387,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#10] S.O.S. (snagging odd squid)</title>
 			<link>https://sadcolor.net/af/2024/atk/10</link>
 			<description>i never imagined my love of ramen could get me into such trouble…</description>
-			<pubDate>Mon, 15 Jul 2024 00:39:44 -0500</pubDate>
+			<pubDate>Mon, 15 Jul 2024 01:39:44 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>oc:marin</category><category>martiansnake</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/10.png" length="104911" type="image/png"/>
 			</item>
@@ -378,7 +396,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#09] 3MP: Skull Scoop</title>
 			<link>https://sadcolor.net/af/2024/atk/09</link>
 			<description>block this overhead or your brains are forfeit</description>
-			<pubDate>Fri, 12 Jul 2024 04:16:46 -0500</pubDate>
+			<pubDate>Fri, 12 Jul 2024 05:16:46 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>mokatypebeat</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/09.png" length="31737" type="image/png"/>
 			</item>
@@ -387,7 +405,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#08] security breach</title>
 			<link>https://sadcolor.net/af/2024/atk/08</link>
 			<description>always remember to check your smart ovens for viruses</description>
-			<pubDate>Wed, 10 Jul 2024 23:41:26 -0500</pubDate>
+			<pubDate>Thu, 11 Jul 2024 00:41:26 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>zelfie</category><category>NYANORAMA</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/08.png" length="139032" type="image/png"/>
 			</item>
@@ -396,7 +414,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#07] burst the big bubble</title>
 			<link>https://sadcolor.net/af/2024/atk/07</link>
 			<description></description>
-			<pubDate>Tue, 09 Jul 2024 22:38:59 -0500</pubDate>
+			<pubDate>Tue, 09 Jul 2024 23:38:59 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>whee23</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/07.png" length="44068" type="image/png"/>
 			</item>
@@ -405,7 +423,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#06] regular rapport</title>
 			<link>https://sadcolor.net/af/2024/atk/06</link>
 			<description></description>
-			<pubDate>Mon, 08 Jul 2024 01:53:59 -0500</pubDate>
+			<pubDate>Mon, 08 Jul 2024 02:53:59 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>viggar</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/06.png" length="49301" type="image/png"/>
 			</item>
@@ -414,7 +432,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#05] dungeon crawler</title>
 			<link>https://sadcolor.net/af/2024/atk/05</link>
 			<description>🗡️🐍🗡️</description>
-			<pubDate>Sun, 07 Jul 2024 18:18:08 -0500</pubDate>
+			<pubDate>Sun, 07 Jul 2024 19:18:08 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>acenil</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/05.png" length="33707" type="image/png"/>
 			</item>
@@ -423,7 +441,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#04] buddy bossing</title>
 			<link>https://sadcolor.net/af/2024/atk/04</link>
 			<description></description>
-			<pubDate>Sat, 06 Jul 2024 21:17:14 -0500</pubDate>
+			<pubDate>Sat, 06 Jul 2024 22:17:14 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>peerkartosh</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/04.png" length="132347" type="image/png"/>
 			</item>
@@ -432,7 +450,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#03] rush delivery</title>
 			<link>https://sadcolor.net/af/2024/atk/03</link>
 			<description>no rest for the postal workers…</description>
-			<pubDate>Fri, 05 Jul 2024 03:25:19 -0500</pubDate>
+			<pubDate>Fri, 05 Jul 2024 04:25:19 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>vampzghost</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/03.gif" length="99877" type="image/gif"/>
 			</item>
@@ -441,7 +459,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#02] guardian</title>
 			<link>https://sadcolor.net/af/2024/atk/02</link>
 			<description></description>
-			<pubDate>Thu, 04 Jul 2024 03:32:26 -0500</pubDate>
+			<pubDate>Thu, 04 Jul 2024 04:32:26 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>himignicest</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/02.png" length="32643" type="image/png"/>
 			</item>
@@ -450,7 +468,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<title>[AF2024 • A#01] POP</title>
 			<link>https://sadcolor.net/af/2024/atk/01</link>
 			<description>that's how you start the art fight and finish it quickly</description>
-			<pubDate>Tue, 02 Jul 2024 16:53:12 -0500</pubDate>
+			<pubDate>Tue, 02 Jul 2024 17:53:12 -0400</pubDate>
 			<category>art fight</category><category>art fight 2024</category><category>blabla</category>
 			<enclosure url="https://sadcolor.net/af/2024/atk/01.png" length="25339" type="image/png"/>
 			</item>
@@ -460,7 +478,7 @@ Now, such time has passed that I'd nary dream of inhabiting any other!”</descr
 			<link>https://sadcolor.net/art/soft.0001</link>
 			<description>debut of soft's redesign! fshhhhh…
 with this, the RPG party is complete once more</description>
-			<pubDate>Fri, 14 Jun 2024 13:59:00 -0500</pubDate>
+			<pubDate>Fri, 14 Jun 2024 14:59:00 -0400</pubDate>
 			<category>art</category><category>oc:soft</category>
 			<enclosure url="https://sadcolor.net/art/soft.0001.png" length="35033" type="image/png"/>
 			</item>
@@ -470,7 +488,7 @@ with this, the RPG party is complete once more</description>
 			<link>https://sadcolor.net/art/kyra.0003</link>
 			<description>new kyra art.
 this time i'm really happy with how her body shape turned out!</description>
-			<pubDate>Tue, 11 Jun 2024 01:48:00 -0500</pubDate>
+			<pubDate>Tue, 11 Jun 2024 02:48:00 -0400</pubDate>
 			<category>art</category><category>oc:kyra</category>
 			<enclosure url="https://sadcolor.net/art/kyra.0003.png" length="36680" type="image/png"/>
 			</item>
@@ -480,7 +498,7 @@ this time i'm really happy with how her body shape turned out!</description>
 			<link>https://sadcolor.net/art/kit.0002</link>
 			<description>another kit drawing.
 added a little more detail on his harpoon!</description>
-			<pubDate>Thu, 25 Apr 2024 16:58:00 -0500</pubDate>
+			<pubDate>Thu, 25 Apr 2024 17:58:00 -0400</pubDate>
 			<category>art</category><category>oc:kit</category>
 			<enclosure url="https://sadcolor.net/art/kit.0002.png" length="21519" type="image/png"/>
 			</item>
@@ -489,7 +507,7 @@ added a little more detail on his harpoon!</description>
 			<title>Hey Listen...</title>
 			<link>https://sadcolor.net/art/boss.0005</link>
 			<description>wow!</description>
-			<pubDate>Mon, 01 Apr 2024 16:28:00 -0500</pubDate>
+			<pubDate>Mon, 01 Apr 2024 17:28:00 -0400</pubDate>
 			<category>art</category><category>doodle</category><category>oc:vice</category>
 			<enclosure url="https://sadcolor.net/art/boss.0005.png" length="9405" type="image/png"/>
 			</item>
@@ -498,7 +516,7 @@ added a little more detail on his harpoon!</description>
 			<title>tetrode doodles</title>
 			<link>https://sadcolor.net/art/tetrode.0002</link>
 			<description>yummy dish please</description>
-			<pubDate>Tue, 26 Mar 2024 05:46:00 -0500</pubDate>
+			<pubDate>Tue, 26 Mar 2024 06:46:00 -0400</pubDate>
 			<category>art</category><category>doodle</category><category>oc:tetrode</category>
 			<enclosure url="https://sadcolor.net/art/tetrode.0002.png" length="19405" type="image/png"/>
 			</item>
@@ -507,7 +525,7 @@ added a little more detail on his harpoon!</description>
 			<title>new robutt</title>
 			<link>https://sadcolor.net/art/tetrode.0001</link>
 			<description>been wanting a more mechanical robot design for a while…</description>
-			<pubDate>Wed, 13 Mar 2024 12:24:24 -0500</pubDate>
+			<pubDate>Wed, 13 Mar 2024 13:24:24 -0400</pubDate>
 			<category>art</category><category>oc:tetrode</category>
 			<enclosure url="https://sadcolor.net/art/tetrode.0001.png" length="24878" type="image/png"/>
 			</item>
@@ -516,7 +534,7 @@ added a little more detail on his harpoon!</description>
 			<title>cat</title>
 			<link>https://sadcolor.net/art/tam.0011</link>
 			<description>'tis truly tam!</description>
-			<pubDate>Mon, 11 Mar 2024 16:41:00 -0500</pubDate>
+			<pubDate>Mon, 11 Mar 2024 17:41:00 -0400</pubDate>
 			<category>art</category><category>oc:tam</category>
 			<enclosure url="https://sadcolor.net/art/tam.0011.png" length="24954" type="image/png"/>
 			</item>
@@ -525,7 +543,7 @@ added a little more detail on his harpoon!</description>
 			<title>bom</title>
 			<link>https://sadcolor.net/art/boss.0004</link>
 			<description>vice looking cool as always</description>
-			<pubDate>Sun, 10 Mar 2024 16:16:16 -0500</pubDate>
+			<pubDate>Sun, 10 Mar 2024 17:16:16 -0400</pubDate>
 			<category>art</category><category>oc:vice</category>
 			<enclosure url="https://sadcolor.net/art/boss.0004.png" length="17389" type="image/png"/>
 			</item>
@@ -534,7 +552,7 @@ added a little more detail on his harpoon!</description>
 			<title>redesigned oc, kit</title>
 			<link>https://sadcolor.net/art/kit.0001</link>
 			<description>i've had no clue what to do with kit for a long while but i think he looks great as a stout fish guy…</description>
-			<pubDate>Sun, 25 Feb 2024 09:11:12 -0600</pubDate>
+			<pubDate>Sun, 25 Feb 2024 10:11:12 -0500</pubDate>
 			<category>art</category><category>oc:kit</category>
 			<enclosure url="https://sadcolor.net/art/kit.0001.png" length="18272" type="image/png"/>
 			</item>
@@ -543,7 +561,7 @@ added a little more detail on his harpoon!</description>
 			<title>gato</title>
 			<link>https://sadcolor.net/art/zephyr.0002</link>
 			<description>check out those scars</description>
-			<pubDate>Fri, 16 Feb 2024 11:24:24 -0600</pubDate>
+			<pubDate>Fri, 16 Feb 2024 12:24:24 -0500</pubDate>
 			<category>art</category><category>oc:zephyr</category>
 			<enclosure url="https://sadcolor.net/art/zephyr.0002.png" length="9703" type="image/png"/>
 			</item>
@@ -552,7 +570,7 @@ added a little more detail on his harpoon!</description>
 			<title>moon guy</title>
 			<link>https://sadcolor.net/art/gyre.0001</link>
 			<description>funny guy i should draw more</description>
-			<pubDate>Mon, 15 Jan 2024 07:37:00 -0600</pubDate>
+			<pubDate>Mon, 15 Jan 2024 08:37:00 -0500</pubDate>
 			<category>art</category><category>doodle</category><category>oc:gyre</category>
 			<enclosure url="https://sadcolor.net/art/gyre.0001.png" length="8744" type="image/png"/><enclosure url="https://sadcolor.net/art/gyre.0002.png" length="15757" type="image/png"/>
 			</item>
@@ -561,7 +579,7 @@ added a little more detail on his harpoon!</description>
 			<title>women</title>
 			<link>https://sadcolor.net/art/nerdy_hato.0001-nerdy_grovyle.0001</link>
 			<description>drawn for @bri-wolfer (tumblr) / @nerdyreindeer (twitter)</description>
-			<pubDate>Thu, 23 Nov 2023 17:00:00 -0600</pubDate>
+			<pubDate>Thu, 23 Nov 2023 18:00:00 -0500</pubDate>
 			<category>art</category><category>nerdyreindeer</category>
 			<enclosure url="https://sadcolor.net/art/nerdy_hato.0001.png" length="26911" type="image/png"/><enclosure url="https://sadcolor.net/art/nerdy_grovyle.0001.png" length="24132" type="image/png"/>
 			</item>
@@ -571,7 +589,7 @@ added a little more detail on his harpoon!</description>
 			<link>https://sadcolor.net/art/creeps_blair.0001</link>
 			<description> /) /)
 ( • ༝•)</description>
-			<pubDate>Sat, 18 Nov 2023 22:33:32 -0600</pubDate>
+			<pubDate>Sat, 18 Nov 2023 23:33:32 -0500</pubDate>
 			<category>art</category><category>creepincrawl</category>
 			<enclosure url="https://sadcolor.net/art/creeps_blair.0001.png" length="27096" type="image/png"/>
 			</item>
@@ -580,7 +598,7 @@ added a little more detail on his harpoon!</description>
 			<title>king redesign</title>
 			<link>https://sadcolor.net/art/king.0001</link>
 			<description>'tis thine amicable armored apparition, king! °ω°</description>
-			<pubDate>Tue, 24 Oct 2023 01:16:00 -0500</pubDate>
+			<pubDate>Tue, 24 Oct 2023 02:16:00 -0400</pubDate>
 			<category>art</category><category>oc:king</category>
 			<enclosure url="https://sadcolor.net/art/king.0001.png" length="39194" type="image/png"/>
 			</item>
@@ -590,7 +608,7 @@ added a little more detail on his harpoon!</description>
 			<link>https://sadcolor.net/art/alice_sona.0001</link>
 			<description>•⌵•
 drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
-			<pubDate>Mon, 09 Oct 2023 04:49:00 -0500</pubDate>
+			<pubDate>Mon, 09 Oct 2023 05:49:00 -0400</pubDate>
 			<category>art</category>
 			<enclosure url="https://sadcolor.net/art/alice_sona.0001.png" length="34971" type="image/png"/>
 			</item>
@@ -599,7 +617,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>hægh</title>
 			<link>https://sadcolor.net/art/zatsu-vulture</link>
 			<description>baby king vulture my beloved</description>
-			<pubDate>Sat, 07 Oct 2023 23:05:00 -0500</pubDate>
+			<pubDate>Sun, 08 Oct 2023 00:05:00 -0400</pubDate>
 			<category>art</category><category>doodle</category>
 			<enclosure url="https://sadcolor.net/art/zatsu-vulture.png" length="2682" type="image/png"/>
 			</item>
@@ -608,7 +626,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>hiii</title>
 			<link>https://sadcolor.net/art/ceru.0003</link>
 			<description>what's good, ceru</description>
-			<pubDate>Thu, 21 Sep 2023 12:24:24 -0500</pubDate>
+			<pubDate>Thu, 21 Sep 2023 13:24:24 -0400</pubDate>
 			<category>art</category><category>oc:ceru</category>
 			<enclosure url="https://sadcolor.net/art/ceru.0003.png" length="14464" type="image/png"/>
 			</item>
@@ -617,7 +635,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>paper, paper, toil and labor</title>
 			<link>https://sadcolor.net/art/io.0013b</link>
 			<description>get it done right</description>
-			<pubDate>Wed, 20 Sep 2023 12:24:24 -0500</pubDate>
+			<pubDate>Wed, 20 Sep 2023 13:24:24 -0400</pubDate>
 			<category>art</category><category>oc:io</category>
 			<enclosure url="https://sadcolor.net/art/io.0013b.png" length="20321" type="image/png"/>
 			</item>
@@ -626,7 +644,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>iyo iyo io dayo</title>
 			<link>https://sadcolor.net/art/io.0013a</link>
 			<description>•w&amp;lt;～☆</description>
-			<pubDate>Tue, 19 Sep 2023 12:56:00 -0500</pubDate>
+			<pubDate>Tue, 19 Sep 2023 13:56:00 -0400</pubDate>
 			<category>art</category><category>oc:io</category>
 			<enclosure url="https://sadcolor.net/art/io.0013a.png" length="15951" type="image/png"/>
 			</item>
@@ -635,7 +653,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>zephyrs</title>
 			<link>https://sadcolor.net/art/zephyr.0001</link>
 			<description>meow meow &amp;gt;^•ω•^&amp;lt;</description>
-			<pubDate>Thu, 14 Sep 2023 15:58:00 -0500</pubDate>
+			<pubDate>Thu, 14 Sep 2023 16:58:00 -0400</pubDate>
 			<category>art</category><category>oc:zephyr</category>
 			<enclosure url="https://sadcolor.net/art/zephyr.0001.png" length="50637" type="image/png"/>
 			</item>
@@ -644,7 +662,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>dramors</title>
 			<link>https://sadcolor.net/art/dramor.0001</link>
 			<description>couple o' doodles</description>
-			<pubDate>Tue, 01 Aug 2023 12:24:24 -0500</pubDate>
+			<pubDate>Tue, 01 Aug 2023 13:24:24 -0400</pubDate>
 			<category>art</category><category>oc:dramor</category>
 			<enclosure url="https://sadcolor.net/art/dramor.0001.png" length="39750" type="image/png"/>
 			</item>
@@ -653,7 +671,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#11] shapes for sore eyes</title>
 			<link>https://sadcolor.net/af/2023/atk/11</link>
 			<description></description>
-			<pubDate>Mon, 31 Jul 2023 04:55:59 -0500</pubDate>
+			<pubDate>Mon, 31 Jul 2023 05:55:59 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>cryebral</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/11.png" length="29753" type="image/png"/>
 			</item>
@@ -662,7 +680,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#10] hi-speed tape dubbing</title>
 			<link>https://sadcolor.net/af/2023/atk/10</link>
 			<description>can anybody stop this piracy machine?? (no )</description>
-			<pubDate>Mon, 24 Jul 2023 01:19:19 -0500</pubDate>
+			<pubDate>Mon, 24 Jul 2023 02:19:19 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>Hainfulcupid</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/10.png" length="38010" type="image/png"/>
 			</item>
@@ -676,7 +694,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
   Don't forget to remember this day
   every time MY FRIEND!
 </description>
-			<pubDate>Mon, 17 Jul 2023 14:14:16 -0500</pubDate>
+			<pubDate>Mon, 17 Jul 2023 15:14:16 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>rubic</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/09.mp4" length="" type="image/mp4"/>
 			</item>
@@ -685,7 +703,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#08] look out he's gonna grask ya</title>
 			<link>https://sadcolor.net/af/2023/atk/08</link>
 			<description>ahhhhhh (dats me yellin)</description>
-			<pubDate>Sun, 16 Jul 2023 17:03:59 -0500</pubDate>
+			<pubDate>Sun, 16 Jul 2023 18:03:59 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>fizzy-dizz</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/08.png" length="23988" type="image/png"/>
 			</item>
@@ -694,7 +712,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#07] ≫ NEXT STOP: CLOUD NINE ≫</title>
 			<link>https://sadcolor.net/af/2023/atk/07</link>
 			<description></description>
-			<pubDate>Fri, 14 Jul 2023 10:42:16 -0500</pubDate>
+			<pubDate>Fri, 14 Jul 2023 11:42:16 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>Malen10</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/07.png" length="25610" type="image/png"/>
 			</item>
@@ -703,7 +721,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#06] tritonal trio</title>
 			<link>https://sadcolor.net/af/2023/atk/06</link>
 			<description>twist it</description>
-			<pubDate>Wed, 12 Jul 2023 09:25:59 -0500</pubDate>
+			<pubDate>Wed, 12 Jul 2023 10:25:59 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>RolyPori</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/06.png" length="56669" type="image/png"/>
 			</item>
@@ -712,7 +730,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#05] DOSU☆KOI</title>
 			<link>https://sadcolor.net/af/2023/atk/05</link>
 			<description>i love her funny design.</description>
-			<pubDate>Mon, 10 Jul 2023 13:51:43 -0500</pubDate>
+			<pubDate>Mon, 10 Jul 2023 14:51:43 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>BeebFreeb</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/05.png" length="22478" type="image/png"/>
 			</item>
@@ -721,7 +739,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#04] amphibious amble</title>
 			<link>https://sadcolor.net/af/2023/atk/04</link>
 			<description></description>
-			<pubDate>Sat, 08 Jul 2023 09:08:06 -0500</pubDate>
+			<pubDate>Sat, 08 Jul 2023 10:08:06 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>Sonnytherat</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/04.png" length="16933" type="image/png"/>
 			</item>
@@ -730,7 +748,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#03] a stone's throw away</title>
 			<link>https://sadcolor.net/af/2023/atk/03</link>
 			<description></description>
-			<pubDate>Fri, 07 Jul 2023 05:46:36 -0500</pubDate>
+			<pubDate>Fri, 07 Jul 2023 06:46:36 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>Camelot</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/03.png" length="33648" type="image/png"/>
 			</item>
@@ -739,7 +757,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#02] N₂ express</title>
 			<link>https://sadcolor.net/af/2023/atk/02</link>
 			<description>hold on to your hats</description>
-			<pubDate>Wed, 05 Jul 2023 01:00:36 -0500</pubDate>
+			<pubDate>Wed, 05 Jul 2023 02:00:36 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>oc:phial</category><category>dbappio</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/02.png" length="20477" type="image/png"/>
 			</item>
@@ -748,7 +766,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2023 • A#01] serendipitous souls</title>
 			<link>https://sadcolor.net/af/2023/atk/01</link>
 			<description>old ghost king meets old ghost King</description>
-			<pubDate>Sun, 02 Jul 2023 12:42:11 -0500</pubDate>
+			<pubDate>Sun, 02 Jul 2023 13:42:11 -0400</pubDate>
 			<category>art fight</category><category>art fight 2023</category><category>oc:king</category><category>texeoghea</category>
 			<enclosure url="https://sadcolor.net/af/2023/atk/01.png" length="36222" type="image/png"/>
 			</item>
@@ -757,7 +775,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#33] PEARL BLUE GLOW</title>
 			<link>https://sadcolor.net/af/2022/atk/33</link>
 			<description></description>
-			<pubDate>Sun, 31 Jul 2022 03:13:51 -0500</pubDate>
+			<pubDate>Sun, 31 Jul 2022 04:13:51 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>TVcity</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/33.png" length="26579" type="image/png"/>
 			</item>
@@ -767,7 +785,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<link>https://sadcolor.net/af/2022/atk/32</link>
 			<description>wind + wind = very wind
 (sorry to the two bugs i knocked over)</description>
-			<pubDate>Sat, 30 Jul 2022 06:48:37 -0500</pubDate>
+			<pubDate>Sat, 30 Jul 2022 07:48:37 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>oc:verdigris</category><category>Someguyiguess</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/32.png" length="27323" type="image/png"/>
 			</item>
@@ -776,7 +794,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#31] CORVID-19 vaccine</title>
 			<link>https://sadcolor.net/af/2022/atk/31</link>
 			<description>helps u crow up happy &amp;amp; healthy</description>
-			<pubDate>Wed, 27 Jul 2022 02:18:00 -0500</pubDate>
+			<pubDate>Wed, 27 Jul 2022 03:18:00 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>BBSARTBOUTIQUE</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/31.png" length="33733" type="image/png"/>
 			</item>
@@ -785,7 +803,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#30] dialtone</title>
 			<link>https://sadcolor.net/af/2022/atk/30</link>
 			<description></description>
-			<pubDate>Sun, 24 Jul 2022 23:00:23 -0500</pubDate>
+			<pubDate>Mon, 25 Jul 2022 00:00:23 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>TheMemeBoiUwU</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/30.png" length="15846" type="image/png"/>
 			</item>
@@ -794,7 +812,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#29] 1st CLAUSE -DIVIDE!-</title>
 			<link>https://sadcolor.net/af/2022/atk/29</link>
 			<description>kill each other, but it's good</description>
-			<pubDate>Sun, 24 Jul 2022 16:54:19 -0500</pubDate>
+			<pubDate>Sun, 24 Jul 2022 17:54:19 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Tankakuka</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/29.gif" length="257444" type="image/gif"/>
 			</item>
@@ -803,7 +821,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#28] world shaking</title>
 			<link>https://sadcolor.net/af/2022/atk/28</link>
 			<description>da-don</description>
-			<pubDate>Sat, 23 Jul 2022 09:54:46 -0500</pubDate>
+			<pubDate>Sat, 23 Jul 2022 10:54:46 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>AceNil</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/28.png" length="20093" type="image/png"/>
 			</item>
@@ -812,7 +830,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#27] GRIND</title>
 			<link>https://sadcolor.net/af/2022/atk/27</link>
 			<description>well i guess it's not really grinding more like a wallrun oops</description>
-			<pubDate>Fri, 22 Jul 2022 07:48:49 -0500</pubDate>
+			<pubDate>Fri, 22 Jul 2022 08:48:49 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>KngKobun</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/27.png" length="15791" type="image/png"/>
 			</item>
@@ -821,7 +839,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#26] CYBERDIVE</title>
 			<link>https://sadcolor.net/af/2022/atk/26</link>
 			<description>exploring the 3D pipes screensaver</description>
-			<pubDate>Thu, 21 Jul 2022 17:03:25 -0500</pubDate>
+			<pubDate>Thu, 21 Jul 2022 18:03:25 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>cosmodotpng</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/26.png" length="17991" type="image/png"/>
 			</item>
@@ -830,7 +848,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#25] midnight raider</title>
 			<link>https://sadcolor.net/af/2022/atk/25</link>
 			<description></description>
-			<pubDate>Wed, 20 Jul 2022 11:12:29 -0500</pubDate>
+			<pubDate>Wed, 20 Jul 2022 12:12:29 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>oc:verdigris</category><category>kordbot</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/25.png" length="48794" type="image/png"/>
 			</item>
@@ -839,7 +857,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#24] Binding Beatitude</title>
 			<link>https://sadcolor.net/af/2022/atk/24</link>
 			<description></description>
-			<pubDate>Tue, 19 Jul 2022 06:29:54 -0500</pubDate>
+			<pubDate>Tue, 19 Jul 2022 07:29:54 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>GoobyDroog</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/24.png" length="26100" type="image/png"/>
 			</item>
@@ -848,7 +866,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#23] SPIRIT GUN!!</title>
 			<link>https://sadcolor.net/af/2022/atk/23</link>
 			<description></description>
-			<pubDate>Mon, 18 Jul 2022 12:14:05 -0500</pubDate>
+			<pubDate>Mon, 18 Jul 2022 13:14:05 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>HoneyHive</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/23.png" length="28623" type="image/png"/>
 			</item>
@@ -857,7 +875,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#22] TAke a look, y'all:</title>
 			<link>https://sadcolor.net/af/2022/atk/22</link>
 			<description>IMG_4346.jpeg</description>
-			<pubDate>Mon, 18 Jul 2022 10:50:56 -0500</pubDate>
+			<pubDate>Mon, 18 Jul 2022 11:50:56 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>AnaNini</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/22.png" length="16383" type="image/png"/>
 			</item>
@@ -866,7 +884,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#21] busy bee</title>
 			<link>https://sadcolor.net/af/2022/atk/21</link>
 			<description>gettin ready 2 work</description>
-			<pubDate>Sun, 17 Jul 2022 15:47:06 -0500</pubDate>
+			<pubDate>Sun, 17 Jul 2022 16:47:06 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>HoneyHive</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/21.png" length="20668" type="image/png"/>
 			</item>
@@ -875,7 +893,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#20] loitering moth</title>
 			<link>https://sadcolor.net/af/2022/atk/20</link>
 			<description>don't keep her waiting</description>
-			<pubDate>Sat, 16 Jul 2022 17:22:51 -0500</pubDate>
+			<pubDate>Sat, 16 Jul 2022 18:22:51 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Rockfish</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/20.png" length="24268" type="image/png"/>
 			</item>
@@ -884,7 +902,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#19] Super Quillstlevania IV</title>
 			<link>https://sadcolor.net/af/2022/atk/19</link>
 			<description>dunno why this was the first thing i thought of because of the scarf thingy</description>
-			<pubDate>Sat, 16 Jul 2022 14:17:25 -0500</pubDate>
+			<pubDate>Sat, 16 Jul 2022 15:17:25 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>kad</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/19.png" length="25403" type="image/png"/>
 			</item>
@@ -893,7 +911,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#18] firecracker</title>
 			<link>https://sadcolor.net/af/2022/atk/18</link>
 			<description>ka-pow</description>
-			<pubDate>Sat, 16 Jul 2022 05:28:46 -0500</pubDate>
+			<pubDate>Sat, 16 Jul 2022 06:28:46 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>ashley600000</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/18.png" length="21144" type="image/png"/>
 			</item>
@@ -902,7 +920,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#17] pwah</title>
 			<link>https://sadcolor.net/af/2022/atk/17</link>
 			<description>otamatonal hijinx</description>
-			<pubDate>Fri, 15 Jul 2022 05:36:08 -0500</pubDate>
+			<pubDate>Fri, 15 Jul 2022 06:36:08 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>oc:phial</category><category>oc:marin</category><category>oc:metasis</category><category>Ananini</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/17.png" length="31172" type="image/png"/>
 			</item>
@@ -911,7 +929,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#16] alacritous cactus</title>
 			<link>https://sadcolor.net/af/2022/atk/16</link>
 			<description>✿&amp;gt;ω◉✿ ～☆°. ·</description>
-			<pubDate>Thu, 14 Jul 2022 16:39:58 -0500</pubDate>
+			<pubDate>Thu, 14 Jul 2022 17:39:58 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>kad</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/16.png" length="31125" type="image/png"/>
 			</item>
@@ -920,7 +938,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#15] RED ZONE</title>
 			<link>https://sadcolor.net/af/2022/atk/15</link>
 			<description>`•ω•´</description>
-			<pubDate>Wed, 13 Jul 2022 06:46:10 -0500</pubDate>
+			<pubDate>Wed, 13 Jul 2022 07:46:10 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>creepincrawl</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/15.png" length="19581" type="image/png"/>
 			</item>
@@ -929,7 +947,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#14] flower power shower</title>
 			<link>https://sadcolor.net/af/2022/atk/14</link>
 			<description>☁️ 🌼</description>
-			<pubDate>Tue, 12 Jul 2022 06:11:56 -0500</pubDate>
+			<pubDate>Tue, 12 Jul 2022 07:11:56 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Wild_fire</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/14.png" length="29267" type="image/png"/>
 			</item>
@@ -938,7 +956,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#13] flower field</title>
 			<link>https://sadcolor.net/af/2022/atk/13</link>
 			<description>✿ ( ˘ ˘)</description>
-			<pubDate>Mon, 11 Jul 2022 02:30:38 -0500</pubDate>
+			<pubDate>Mon, 11 Jul 2022 03:30:38 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Huntertallonian</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/13.png" length="22962" type="image/png"/>
 			</item>
@@ -947,7 +965,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#12] lookin for the gf</title>
 			<link>https://sadcolor.net/af/2022/atk/12</link>
 			<description>where's she at lol</description>
-			<pubDate>Sun, 10 Jul 2022 02:31:07 -0500</pubDate>
+			<pubDate>Sun, 10 Jul 2022 03:31:07 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>JamJuce</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/12.png" length="18425" type="image/png"/>
 			</item>
@@ -956,7 +974,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#11] commute chatter</title>
 			<link>https://sadcolor.net/af/2022/atk/11</link>
 			<description>get 2 school on time</description>
-			<pubDate>Sat, 09 Jul 2022 00:10:45 -0500</pubDate>
+			<pubDate>Sat, 09 Jul 2022 01:10:45 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>ImaKittypet</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/11.png" length="20671" type="image/png"/>
 			</item>
@@ -965,7 +983,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#10] FLAME - ON!</title>
 			<link>https://sadcolor.net/af/2022/atk/10</link>
 			<description>🧨🔥🎆🎇✨</description>
-			<pubDate>Fri, 08 Jul 2022 00:10:37 -0500</pubDate>
+			<pubDate>Fri, 08 Jul 2022 01:10:37 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Bittheidiot</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/10.png" length="23173" type="image/png"/>
 			</item>
@@ -974,7 +992,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#09] chain chomp be upon thee</title>
 			<link>https://sadcolor.net/af/2022/atk/09</link>
 			<description>bow-wow</description>
-			<pubDate>Thu, 07 Jul 2022 08:06:01 -0500</pubDate>
+			<pubDate>Thu, 07 Jul 2022 09:06:01 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Vizzbgit</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/09.png" length="16602" type="image/png"/>
 			</item>
@@ -983,7 +1001,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#08] karaoke night</title>
 			<link>https://sadcolor.net/af/2022/atk/08</link>
 			<description>c'mon, let's sing!!</description>
-			<pubDate>Thu, 07 Jul 2022 00:31:51 -0500</pubDate>
+			<pubDate>Thu, 07 Jul 2022 01:31:51 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>ProfCarrot</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/08.png" length="13827" type="image/png"/>
 			</item>
@@ -992,7 +1010,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#07] Clear the Way!</title>
 			<link>https://sadcolor.net/af/2022/atk/07</link>
 			<description>💣🗡️💥</description>
-			<pubDate>Wed, 06 Jul 2022 05:45:18 -0500</pubDate>
+			<pubDate>Wed, 06 Jul 2022 06:45:18 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Pigsy</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/07.png" length="23592" type="image/png"/>
 			</item>
@@ -1001,7 +1019,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#06] night walk</title>
 			<link>https://sadcolor.net/af/2022/atk/06</link>
 			<description>chillin on the weekend like usual</description>
-			<pubDate>Tue, 05 Jul 2022 11:50:06 -0500</pubDate>
+			<pubDate>Tue, 05 Jul 2022 12:50:06 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Lumiinori</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/06.png" length="19514" type="image/png"/>
 			</item>
@@ -1010,7 +1028,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#05] pyro jack</title>
 			<link>https://sadcolor.net/af/2022/atk/05</link>
 			<description>(`•w•´)</description>
-			<pubDate>Tue, 05 Jul 2022 00:49:29 -0500</pubDate>
+			<pubDate>Tue, 05 Jul 2022 01:49:29 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Mslay</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/05.png" length="40971" type="image/png"/>
 			</item>
@@ -1019,7 +1037,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#04] YOU WOULDN'T DOWNLOAD A CAR</title>
 			<link>https://sadcolor.net/af/2022/atk/04</link>
 			<description>sure thing boss</description>
-			<pubDate>Sun, 03 Jul 2022 22:55:09 -0500</pubDate>
+			<pubDate>Sun, 03 Jul 2022 23:55:09 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>skarpetky</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/04.png" length="48485" type="image/png"/>
 			</item>
@@ -1028,7 +1046,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#03] bf (big frog)</title>
 			<link>https://sadcolor.net/af/2022/atk/03</link>
 			<description>just hangin' out</description>
-			<pubDate>Sun, 03 Jul 2022 05:50:19 -0500</pubDate>
+			<pubDate>Sun, 03 Jul 2022 06:50:19 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>adorabug</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/03.png" length="17321" type="image/png"/>
 			</item>
@@ -1037,7 +1055,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#02] windy day</title>
 			<link>https://sadcolor.net/af/2022/atk/02</link>
 			<description>watch out little guy!</description>
-			<pubDate>Sat, 02 Jul 2022 21:34:26 -0500</pubDate>
+			<pubDate>Sat, 02 Jul 2022 22:34:26 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>twinvenus</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/02.png" length="13937" type="image/png"/>
 			</item>
@@ -1046,7 +1064,7 @@ drawn for @alicemoon812 (tumblr, bluesky, twitter)</description>
 			<title>[AF2022 • A#01] ILOVEYOU - Message (Rich Text)</title>
 			<link>https://sadcolor.net/af/2022/atk/01</link>
 			<description>kindly check the attached LOVELETTER coming from me.</description>
-			<pubDate>Sat, 02 Jul 2022 06:14:05 -0500</pubDate>
+			<pubDate>Sat, 02 Jul 2022 07:14:05 -0400</pubDate>
 			<category>art fight</category><category>art fight 2022</category><category>Bittheidiot</category>
 			<enclosure url="https://sadcolor.net/af/2022/atk/01.png" length="28927" type="image/png"/>
 			</item>
