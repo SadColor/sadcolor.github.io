@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Mon, 29 Sep 2025 13:23:02 -0400</pubDate>
+		<pubDate>Tue, 30 Sep 2025 14:04:47 -0400</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,15 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/art/carry.0003</guid>
+			<title>delibird activities</title>
+			<link>https://sadcolor.net/art/carry.0003</link>
+			<description>no comment… well, actually there's at least ten of them</description>
+			<pubDate>Tue, 30 Sep 2025 14:04:04 -0400</pubDate>
+			<category>art</category><category>pkmn</category><category>oc:carry</category>
+			<enclosure url="https://sadcolor.net/art/carry.0003.png" length="8521" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/art/carry.0002</guid>
 			<title>carry</title>

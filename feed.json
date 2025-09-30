@@ -8,6 +8,22 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20250930-carry#0003",
+			"url": "https://sadcolor.net/art/carry.0003",
+            "content_text": "no comment… well, actually there's at least ten of them",
+            "content_html": "<img src=\"/art/carry.0003.png\" alt=\"drawing of an online video presented by an anthro delibird, with a dismissive comment about her being a \"bald bearded white guy content creator\"\" width=720 height=640><p>no comment… well, actually there's at least ten of them</p>\n            <section>─ <a href=\"https://fukouiro.tumblr.com/post/796137042011619328/delibird-activities\">tumblr</a> • <a href=\"https://bsky.app/profile/sadcolor.net/post/3m234e5j7ps2h\">bluesky</a> ─</section>",
+            "title": "delibird activities",
+		    "date_published": "2025-09-30T14:04:04-04:00",
+            "tags": [ "art", "pkmn", "oc:carry" ],
+            "attachments": [
+                {
+                    "url":"https://sadcolor.net/art/carry.0003.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 8521
+                }
+            ]
+            
+        },
 		{"id": "20250929-carry#0002",
 			"url": "https://sadcolor.net/art/carry.0002",
             "content_text": "remember to thank your postal workers. and give them one pillion dollars\n\n“A timid deliverybird.\nWhen problems arise, she scrambles to resolve them ASAP. Unfortunately, that sometimes leads to further problems.”\n\ncharacter theme:\n♪ Rival Challenge! (Puyo Puyo!! 20th Anniversary)",
