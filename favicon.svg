@@ -1,24 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="45" height="45">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
   <defs>
-    <clipPath clipPathUnits="userSpaceOnUse" id="b">
-      <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="22.5" cy="1034.362" rx="22.5" ry="18" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd" stroke-width="1.25"/>
+    <clipPath id="b" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="12" cy="13.6" fill="#10a0bc" fill-rule="evenodd" stroke-width="1.25" color="#000" overflow="visible" rx="12" ry="9.6" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
     </clipPath>
-    <clipPath clipPathUnits="userSpaceOnUse" id="a">
-      <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="22.5" cy="1034.362" rx="22.5" ry="18" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd" stroke-width="1.25"/>
+    <clipPath id="a" clipPathUnits="userSpaceOnUse">
+      <ellipse cx="12" cy="13.6" fill="#10a0bc" fill-rule="evenodd" stroke-width="1.25" color="#000" overflow="visible" rx="12" ry="9.6" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
     </clipPath>
   </defs>
-  <g transform="translate(0 -1008.862)">
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="22.5" cy="1034.362" rx="22.5" ry="18" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd"/>
-    <ellipse ry="18" rx="22.5" cy="1034.362" cx="22.5" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="1" cy="1035.862" rx="6" ry="8" clip-path="url(#a)" color="#000" overflow="visible" fill="#60dec0" fill-rule="evenodd"/>
-    <path d="M5.475 1029.685c4.175 12.072 16.115 2.144 16.913-1.172" fill="none" stroke="#036" stroke-width="1.575" stroke-linecap="round" stroke-linejoin="round"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="44" cy="1035.862" rx="6" ry="8" clip-path="url(#b)" color="#000" overflow="visible" fill="#60dec0" fill-rule="evenodd"/>
-    <path d="M39.952 1029.684c-4.175 12.072-16.616 2.145-17.413-1.172" fill="none" stroke="#036" stroke-width="1.575" stroke-linecap="round" stroke-linejoin="round"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="9.5" cy="1019.362" rx="8.5" ry="9" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="35.507" cy="1019.362" rx="8.5" ry="9" color="#000" overflow="visible" fill="#10a0bc" fill-rule="evenodd"/>
-    <circle style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="33.5" cy="1019.362" r="7" color="#000" overflow="visible" fill="#ffdc80" fill-rule="evenodd"/>
-    <circle style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="11.5" cy="1019.362" r="7" color="#000" overflow="visible" fill="#ffdc80" fill-rule="evenodd"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="13.5" cy="1019.862" rx="5" ry="2" color="#000" overflow="visible" fill="#036" fill-rule="evenodd"/>
-    <ellipse style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1" cx="31.5" cy="1019.862" rx="5" ry="2" color="#000" overflow="visible" fill="#036" fill-rule="evenodd"/>
-  </g>
+  <ellipse cx="12" cy="13.6" fill="#10a0bc" fill-rule="evenodd" color="#000" overflow="visible" rx="12" ry="9.6" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <ellipse cx="12" cy="13.6" fill="#10a0bc" fill-rule="evenodd" color="#000" overflow="visible" rx="12" ry="9.6" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <path fill="#60dec0" fill-rule="evenodd" d="M3.733 14.4c0 1.132-.337 2.217-.937 3.017s-1.414 1.25-2.263 1.25c-1.767 0-3.2-1.91-3.2-4.267 0-1.131.337-2.216.938-3.017.6-.8 1.414-1.25 2.262-1.25s1.663.45 2.263 1.25.937 1.886.937 3.017" clip-path="url(#a)" overflow="visible"/>
+  <path fill="none" stroke="#036" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M2.92 11.106c2.227 6.438 8.595 1.143 9.02-.625"/>
+  <path fill="#60dec0" fill-rule="evenodd" d="M26.667 14.4c0 2.357-1.433 4.267-3.2 4.267-.849 0-1.663-.45-2.263-1.25s-.937-1.885-.937-3.017.337-2.216.937-3.017 1.414-1.25 2.263-1.25c1.767 0 3.2 1.911 3.2 4.267" clip-path="url(#b)" overflow="visible"/>
+  <path fill="none" stroke="#036" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M21.308 11.106c-2.227 6.438-8.862 1.143-9.287-.626"/>
+  <ellipse cx="5.067" cy="5.6" fill="#10a0bc" fill-rule="evenodd" color="#000" overflow="visible" rx="4.533" ry="4.8" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <ellipse cx="18.937" cy="5.6" fill="#10a0bc" fill-rule="evenodd" color="#000" overflow="visible" rx="4.533" ry="4.8" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <circle cx="17.867" cy="5.6" r="3.733" fill="#ffdc80" fill-rule="evenodd" color="#000" overflow="visible" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <circle cx="6.133" cy="5.6" r="3.733" fill="#ffdc80" fill-rule="evenodd" color="#000" overflow="visible" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <ellipse cx="7.2" cy="5.867" fill="#036" fill-rule="evenodd" color="#000" overflow="visible" rx="2.667" ry="1.067" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
+  <ellipse cx="16.8" cy="5.867" fill="#036" fill-rule="evenodd" color="#000" overflow="visible" rx="2.667" ry="1.067" style="isolation:auto;mix-blend-mode:normal;solid-color:#000;solid-opacity:1"/>
 </svg>
