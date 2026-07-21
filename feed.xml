@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Wed, 15 Jul 2026 03:10:14 -0500</pubDate>
+		<pubDate>Tue, 21 Jul 2026 06:51:06 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,29 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/07</guid>
+			<title>[AF2026 • A#07] birds of some feathers</title>
+			<link>https://sadcolor.net/af/2026/atk/07</link>
+			<description>i think berdly might like the poem more if it was about crab yuri
+
+the poem in the drawing is one of two from the woodblock print &quot;Three Crabs at Water's Edge&quot;!
+this website also has transcriptions &amp;amp; translations under the &quot;additional information&quot; section.</description>
+			<pubDate>Mon, 20 Jul 2026 00:05:38 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>oc:verity</category><category>wackyworkbench</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/07.png" length="145099" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/06</guid>
+			<title>[AF2026 • A#06] Overnight Shift</title>
+			<link>https://sadcolor.net/af/2026/atk/06</link>
+			<description>technically, this is more fitting as revenge for Other_Mario, but points are points…
+
+(i just made up the scene loosely based on the Undergound Tavern, i sure hope &quot;Dead-End Bar&quot; isn't an actual location in the game hahaha)</description>
+			<pubDate>Fri, 17 Jul 2026 11:45:45 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>oc:verdigris</category><category>other_mario</category><category>jayjar100</category><category>sappedsoliloquist</category><category>someguyiguess</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/06.png" length="167886" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/af/2026/atk/05</guid>
 			<title>[AF2026 • A#05] rain of terror</title>
