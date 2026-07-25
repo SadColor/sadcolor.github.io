@@ -8,6 +8,70 @@
 	"favicon": "/favicon-192x192.png",
 	"language": "en-us",
 	"items": [
+		{"id": "20260725-A11-alistarcurrybirb~alice#0001",
+			"url": "https://sadcolor.net/af/2026/atk/11",
+            "content_text": "",
+            "content_html": "<img src=\"/af/2026/atk/11.png\" alt width=1760 height=1520>\n            <section>─ <a href=\"https://artfight.net/attack/117660731.showtime\">art fight</a> ─</section>",
+            "title": "[AF2026 • A#11] SHOWTIME!",
+		    "date_published": "2026-07-25T00:16:14-05:00",
+            "tags": [ "art", "art fight", "art fight 2026", "af2026a", "alistarcurrybirb" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2026/atk/11.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 41958
+                }
+            ]
+            
+        },
+		{"id": "20260724-A10-honeyhunter~ducklife#0001",
+			"url": "https://sadcolor.net/af/2026/atk/10",
+            "content_text": "",
+            "content_html": "<img src=\"/af/2026/atk/10.png\" alt width=1280 height=1520>\n            <section>─ <a href=\"https://artfight.net/attack/17568178.odd-duck-out\">art fight</a> ─</section>",
+            "title": "[AF2026 • A#10] odd duck out",
+		    "date_published": "2026-07-24T03:51:14-05:00",
+            "tags": [ "art", "art fight", "art fight 2026", "af2026a", "oc:hiyoco", "honeyhunter" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2026/atk/10.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 49892
+                }
+            ]
+            
+        },
+		{"id": "20260723-A09-muddybloody~fishy#0001-valelanz~pupfish#0001",
+			"url": "https://sadcolor.net/af/2026/atk/09",
+            "content_text": "",
+            "content_html": "<img src=\"/af/2026/atk/09.png\" alt width=1440 height=1920>\n            <section>─ <a href=\"https://artfight.net/attack/17528361.ichthyic-idling\">art fight</a> ─</section>",
+            "title": "[AF2026 • A#09] ichthyic idling",
+		    "date_published": "2026-07-23T18:56:01-05:00",
+            "tags": [ "art", "art fight", "art fight 2026", "af2026a", "muddybloody", "valelanz" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2026/atk/09.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 47885
+                }
+            ]
+            
+        },
+		{"id": "20260722-A08-buggish~bertha#0002",
+			"url": "https://sadcolor.net/af/2026/atk/08",
+            "content_text": "",
+            "content_html": "<img src=\"/af/2026/atk/08.png\" alt width=1920 height=1360>\n            <section>─ <a href=\"https://artfight.net/attack/17344047.boom-buds\">art fight</a> ─</section>",
+            "title": "[AF2026 • A#08] boom buds",
+		    "date_published": "2026-07-22T03:37:20-05:00",
+            "tags": [ "art", "art fight", "art fight 2026", "af2026a", "oc:vice", "buggish" ],
+            "attachments": [
+                {
+                    "url": "https://sadcolor.net/af/2026/atk/08.png",
+                    "mime_type": "image/png",
+                    "size_in_bytes": 71218
+                }
+            ]
+            
+        },
 		{"id": "20260719-A07-wackyworkbench~ember#0001",
 			"url": "https://sadcolor.net/af/2026/atk/07",
             "content_text": "i think berdly might like the poem more if it was about crab yuri\n\nthe poem in the drawing is one of two from the woodblock print \"Three Crabs at Water's Edge\"!\nthis website also has transcriptions &amp; translations under the \"additional information\" section.",

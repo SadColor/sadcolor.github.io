@@ -9,8 +9,80 @@
     </author>
     <link href="https://sadcolor.net"/>
     <link rel="self" type="application/atom+xml" href="https://sadcolor.net/feed.atom"/>
-    <updated>2026-07-21T06:51:06-05:00</updated>
+    <updated>2026-07-25T05:02:27-05:00</updated>
     <icon>/favicon-192x192.png</icon>
+    <entry>
+        <id>tag:sadcolor.net,2026-07-25:/af/2026/atk/11</id>
+        <title>[AF2026 • A#11] SHOWTIME!</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2026/atk/11.png&quot; alt width=1760 height=1520&gt;
+        
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/117660731.showtime&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2026-07-25T00:16:14-05:00</published>
+            <updated>2026-07-25T00:16:14-05:00</updated>
+        <category term="art"/><category term="art fight"/><category term="art fight 2026"/><category term="af2026a"/><category term="alistarcurrybirb"/>
+        <link rel="self" href="https://sadcolor.net/af/2026/atk/11"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2026/atk/11.png" length="41958" type="image/png"/>
+        
+    </entry>
+    <entry>
+        <id>tag:sadcolor.net,2026-07-24:/af/2026/atk/10</id>
+        <title>[AF2026 • A#10] odd duck out</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2026/atk/10.png&quot; alt width=1280 height=1520&gt;
+        
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/17568178.odd-duck-out&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2026-07-24T03:51:14-05:00</published>
+            <updated>2026-07-24T03:51:14-05:00</updated>
+        <category term="art"/><category term="art fight"/><category term="art fight 2026"/><category term="af2026a"/><category term="oc:hiyoco"/><category term="honeyhunter"/>
+        <link rel="self" href="https://sadcolor.net/af/2026/atk/10"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2026/atk/10.png" length="49892" type="image/png"/>
+        
+    </entry>
+    <entry>
+        <id>tag:sadcolor.net,2026-07-23:/af/2026/atk/09</id>
+        <title>[AF2026 • A#09] ichthyic idling</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2026/atk/09.png&quot; alt width=1440 height=1920&gt;
+        
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/17528361.ichthyic-idling&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2026-07-23T18:56:01-05:00</published>
+            <updated>2026-07-23T18:56:01-05:00</updated>
+        <category term="art"/><category term="art fight"/><category term="art fight 2026"/><category term="af2026a"/><category term="muddybloody"/><category term="valelanz"/>
+        <link rel="self" href="https://sadcolor.net/af/2026/atk/09"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2026/atk/09.png" length="47885" type="image/png"/>
+        
+    </entry>
+    <entry>
+        <id>tag:sadcolor.net,2026-07-22:/af/2026/atk/08</id>
+        <title>[AF2026 • A#08] boom buds</title>
+        <content type="html">
+            &lt;img src=&quot;/af/2026/atk/08.png&quot; alt width=1920 height=1360&gt;
+        
+        &lt;section&gt;
+                ─ &lt;a href=&quot;https://artfight.net/attack/17344047.boom-buds&quot;&gt;art fight&lt;/a&gt; ─
+            &lt;/section&gt;
+        </content>
+        
+        <published>2026-07-22T03:37:20-05:00</published>
+            <updated>2026-07-22T03:37:20-05:00</updated>
+        <category term="art"/><category term="art fight"/><category term="art fight 2026"/><category term="af2026a"/><category term="oc:vice"/><category term="buggish"/>
+        <link rel="self" href="https://sadcolor.net/af/2026/atk/08"/>
+        <link rel="enclosure" href="https://sadcolor.net/af/2026/atk/08.png" length="71218" type="image/png"/>
+        
+    </entry>
     <entry>
         <id>tag:sadcolor.net,2026-07-20:/af/2026/atk/07</id>
         <title>[AF2026 • A#07] birds of some feathers</title>

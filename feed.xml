@@ -5,7 +5,7 @@
 		<link>https://sadcolor.net</link>
 		<description>art and other stuff by SadColor</description>
 		<language>en-us</language>
-		<pubDate>Tue, 21 Jul 2026 06:51:06 -0500</pubDate>
+		<pubDate>Sat, 25 Jul 2026 05:02:27 -0500</pubDate>
 		<image>
 			<url>https://sadcolor.net/rss.gif</url>
 			<title>sadcolor's stuff (RSS)</title>
@@ -14,6 +14,42 @@
 			<height>96</height>
 		</image>
 		<atom:link href="https://sadcolor.net/feed.xml" rel="self" type="application/rss+xml" />
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/11</guid>
+			<title>[AF2026 • A#11] SHOWTIME!</title>
+			<link>https://sadcolor.net/af/2026/atk/11</link>
+			<description></description>
+			<pubDate>Sat, 25 Jul 2026 00:16:14 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>alistarcurrybirb</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/11.png" length="41958" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/10</guid>
+			<title>[AF2026 • A#10] odd duck out</title>
+			<link>https://sadcolor.net/af/2026/atk/10</link>
+			<description></description>
+			<pubDate>Fri, 24 Jul 2026 03:51:14 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>oc:hiyoco</category><category>honeyhunter</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/10.png" length="49892" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/09</guid>
+			<title>[AF2026 • A#09] ichthyic idling</title>
+			<link>https://sadcolor.net/af/2026/atk/09</link>
+			<description></description>
+			<pubDate>Thu, 23 Jul 2026 18:56:01 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>muddybloody</category><category>valelanz</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/09.png" length="47885" type="image/png"/>
+			</item>
+		<item>
+			<guid>https://sadcolor.net/af/2026/atk/08</guid>
+			<title>[AF2026 • A#08] boom buds</title>
+			<link>https://sadcolor.net/af/2026/atk/08</link>
+			<description></description>
+			<pubDate>Wed, 22 Jul 2026 03:37:20 -0500</pubDate>
+			<category>art</category><category>art fight</category><category>art fight 2026</category><category>af2026a</category><category>oc:vice</category><category>buggish</category>
+			<enclosure url="https://sadcolor.net/af/2026/atk/08.png" length="71218" type="image/png"/>
+			</item>
 		<item>
 			<guid>https://sadcolor.net/af/2026/atk/07</guid>
 			<title>[AF2026 • A#07] birds of some feathers</title>
